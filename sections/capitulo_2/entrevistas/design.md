@@ -6,7 +6,8 @@
 4. ¿Utilizan alguna forma de registro interno para contabilizar los pedidos que ingresan (por ejemplo tickets de pedidos)?
 5. ¿Utilizan alguna forma de registro interno para contabilizar las ventas que se realizan (notas en cuadernos, boletas de venta)? 
 6. ¿Usted dirige o superviza directamente las operaciones en la cocina? ¿Con qué motivo?
-7. ¿Qué importancia tiene para usted la seguridad y la prevención de accidentes? ¿Qué prácticas recomienda a los cocineros para esa finalidad?
+7. ¿Cómo maneja casos en que un cliente pueda estar enojado o fastidiado por algún error o retraso en la anteción?
+8. ¿Qué importancia tiene para usted la seguridad y la prevención de accidentes? ¿Qué prácticas recomienda a los cocineros para esa finalidad?
 
 **COCINEROS**
 
