@@ -14,6 +14,7 @@
         - title: Antecedentes y problemática
           alias: Antecedentes
         - title: Lean UX Process
+          has_intro: true
           children:
             - title: Lean UX Problem Statements
               alias: problem statements
