@@ -2,9 +2,7 @@
 
 En la actualidad, el Perú enfrenta desafíos estructurales persistentes. Según el Programa de las Naciones Unidas para el Desarrollo (2025), el país registró un Índice de Desarrollo Humano de 0,794, ubicándose en el puesto 79 de 193 países, aún por debajo del umbral de “alto desarrollo humano”. Asimismo, el Banco Mundial (2025) clasifica al Perú como una economía de ingreso mediano-alto; una categoría que, pese al crecimiento sostenido, evidencia brechas significativas respecto a las naciones desarrolladas. Esta condición intermedia exige estrategias que aceleren la inclusión social y económica.
 
-Dentro del amplio abanico de estrategias y enfoques posibles que podrían favorecer este propósito, la transformación digital adquiere un protagonismo destacado. Este concepto no se reduce a la simple adopción de redes sociales o al uso de dispositivos digitales, sino que implica un cambio estructural en la forma de gestionar y crear valor en las organizaciones. Como señalan Bueno y Ferreira (2017, como se cita en Morante, 2020), la transformación digital es:
-
-> “…algo mucho más profundo que estar en las redes sociales, utilizar dispositivos digitales o tener un canal de venta online. Se trata de llevar a cabo una modificación sustancial de toda la cadena de valor del negocio, en todas las áreas y afectando de forma global a todas las personas: clientes, empleados y stakeholders. Se trata en suma de tener digitalizados todos los procesos” (p. 9).
+Dentro del espectro de estrategias necesarias para consolidar esta estabilidad, la gestión de riesgos operativos y la seguridad preventiva a través de controles internos emerge como una estrategia destacada. De acuerdo con Hardvard Business School (2023), los controles internos son políticas y procesos que permiten a los gerentes limitar las oportunidades en que los empleados exponen sus negocios a riesgos. 
 
 **ENFOQUE DE LA STARTUP**
 

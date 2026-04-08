@@ -1,5 +1,5 @@
-- Creemos que lograremos una reducción del impacto capital de accidentes en un 30% si Roberto logra evitar sanciones legales y riesgos operativos mediante el monitorear temperatura y humo y la activación automática de alarmas.
+- Creemos que el cumplimiento de las obligaciones de Defensa Civil se logrará si Roberto (Emprendedor) logra prevenir multas y sanciones mediante el registro de la fecha de ejecución de mantenimientos en los equipos.
 
-- Creemos que lograremos un aumento de satisfacción del cliente en un 15% si Lucy logra recibir un mejor servicio gracias a que el personal utiliza el sistema para gestionar pedidos de clientes.
+- Creemos que una reducción del impacto capital de accidentes en un 30% se logrará si Jose (Cocinero) puede responder ante accidentes y prevenir incidentes en la cocina a través del monitoreo de temperatura y humo, junto con la activación automática de alarmas.
 
-- Creemos que lograremos el cumplimiento de obligaciones de Defensa Civil si Roberto logra evitar sanciones legales manteniendo el local bajo norma mediante el registrar la fecha de mantenimientos y la activación de turbinas.
+- Creemos que una reducción del impacto capital de accidentes se logrará si Roberto (Emprendedor) obtiene una visión del estado de los equipos mediante la llamada automática a los bomberos y la activación automática y manual de turbinas ante emergencias detectadas.

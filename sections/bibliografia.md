@@ -1,7 +1,7 @@
+- Gibson, K. (2023, 24 de octubre). What is risk management & why is it important? Harvard Business School Online. https://online.hbs.edu/blog/post/risk-management
 - Gothelf, J., & Seiden, J. (2021). Lean UX: Designing Great Products with Agile Teams (3rd ed.). O'Reilly Media.
 - Instituto Nacional de Estadística e Informática. (2026). Perú: Comportamiento de los indicadores del mercado laboral a nivel nacional y en 27 ciudades: Enero-Diciembre 2025 | Cuarto trimestre 2025 (Informe Técnico). https://cdn.www.gob.pe/uploads/document/file/9450232/7739601-peru-comportamiento-de-los-indicadores-del-mercado-laboral-a-nivel-nacional-y-27-ciudades-cuarto-trimestre-2025.pdf
 - Ministerio de la Producción. (2025). Análisis sectorial: Desempeño e importancia del sector restaurantes y afines en la economía nacional (2019-2024). Oficina General de Evaluación de Impacto y Estudios Económicos.
-- Morante, L. (2020). Transformación digital: conceptos claves y casos de éxito en el Perú. [Tesis de licenciatura, Pontificia Universidad Católica del Perú]. Repositorio institucional PUCP. https://tesis.pucp.edu.pe/items/705e57e8-20c3-4941-a43e-1c1260501811
 - Movistar Empresas. (2025). 65% de pymes planea integrar Inteligencia Artificial para fortalecer sus operaciones. https://www.movistar.com.pe/65-de-pymes-planea-integrar-inteligencia-artificial-para-fortalecer-sus-operaciones
 - Programa de las Naciones Unidas para el Desarrollo. (2025). Perú: Datos sobre desarrollo humano. Human Development Report Data Center. https://hdr.undp.org/data-center/specific-country-data#/countries/PER
 - World Bank. (2025). World Development Indicators: Interactive data portal. World Bank Open Data. https://datos.bancomundial.org/
