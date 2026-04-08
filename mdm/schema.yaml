@@ -12,7 +12,7 @@
       alias: solution
       children:
         - title: Antecedentes y problemática
-          alias: 
+          alias: Antecedentes
         - title: Lean UX Process
           children:
             - title: Lean UX Problem Statements
