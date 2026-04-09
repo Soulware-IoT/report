@@ -1,5 +1,8 @@
+- COPEME. (2023). ¿Cuál es el perfil actual del emprendedor peruano joven? [Entrada de blog]. https://copeme.org.pe/Blog/cual-es-el-perfil-actual-del-emprendedor-peruano-joven/
 - Gibson, K. (2023, 24 de octubre). What is risk management & why is it important? Harvard Business School Online. https://online.hbs.edu/blog/post/risk-management
 - Gothelf, J., & Seiden, J. (2021). Lean UX: Designing Great Products with Agile Teams (3rd ed.). O'Reilly Media.
+- Instituto Nacional de Estadística e Informática. (2024). Perú: Estructura Empresarial, 2024. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib2045/libro.pdf
+- Ministerio de la Producción. (2025). Análisis sectorial: Desempeño e importancia del sector restaurantes y afines en la economía nacional 2019 - 2024. Producempresarial. https://www.producempresarial.pe/wp-content/uploads/2025/02/234-Sector-restaurantes-y-afines-2024.pdf
 - Instituto Nacional de Estadística e Informática. (2026). Perú: Comportamiento de los indicadores del mercado laboral a nivel nacional y en 27 ciudades: Enero-Diciembre 2025 | Cuarto trimestre 2025 (Informe Técnico). https://cdn.www.gob.pe/uploads/document/file/9450232/7739601-peru-comportamiento-de-los-indicadores-del-mercado-laboral-a-nivel-nacional-y-27-ciudades-cuarto-trimestre-2025.pdf
 - Ministerio de la Producción. (2025). Análisis sectorial: Desempeño e importancia del sector restaurantes y afines en la economía nacional (2019-2024). Oficina General de Evaluación de Impacto y Estudios Económicos.
 - Movistar Empresas. (2025). 65% de pymes planea integrar Inteligencia Artificial para fortalecer sus operaciones. https://www.movistar.com.pe/65-de-pymes-planea-integrar-inteligencia-artificial-para-fortalecer-sus-operaciones
