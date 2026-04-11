@@ -30,9 +30,9 @@ Se presenta en formato de tabla una breve descripción de cada uno de los integr
             <td>202222745</td>
             <td>Ingeniería de Software</td>
             <td>
-                SKILL 1</br>
-                SKILL 2</br>
-                SKILL 3</br>
+                Arquitectura de software</br>
+                Desarrollo en flutter</br>
+                Patrones de software</br>
             </td>
         </tr>
         <!--Integrante 3-->
