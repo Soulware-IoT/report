@@ -1,3 +1,9 @@
+**RESUMEN**
+
+A través de datos estadísticos y cifras principalmente del INEI, y en visión de la criticidad de impulsar el desarrollo económico del país, se identifica la problemática de la gestión y prevención de riesgos para MyPEs en el sector de restaurantes con el fin de proteger las inversiones y emprendimientos, siendo su principal causa la ausencia de alternativas diseñadas hacia este sector.
+
+<img src="../../../img/capitulo_1/solution/5w2h.png">
+
 **VISIÓN ECONÓMICA NACIONAL**
 
 En la actualidad, el Perú enfrenta desafíos estructurales persistentes. Según el Programa de las Naciones Unidas para el Desarrollo (2025), el país registró un Índice de Desarrollo Humano de 0,794, ubicándose en el puesto 79 de 193 países, aún por debajo del umbral de “alto desarrollo humano”. Asimismo, el Banco Mundial (2025) clasifica al Perú como una economía de ingreso mediano-alto; una categoría que, pese al crecimiento sostenido, evidencia brechas significativas respecto a las naciones desarrolladas. Esta condición intermedia exige estrategias que aceleren la inclusión social y económica.
