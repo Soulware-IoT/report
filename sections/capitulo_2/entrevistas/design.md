@@ -20,7 +20,6 @@
         1. ¿Algunas de ellas están orientadas a la prevención de riesgos? (Saneamiento, detección de desperfectos en los equipos e instalaciones etc.)
     2. **(SI RESPONDE QUE NO)**
         1. ¿Hay otra persona encargada de labores orientadas a prevención de riesgos como las mencionadas?
-- ¿Crees que tu establecimiento de trabajo se beneficiaría de implementar ese tipo de procesos?
-- ¿Qué efectos positivos o negativos crees que tendrían esos procesos para ti? (Ver si tiene una actitud positiva o negativa)
+- ¿Qué opinión te merece esa clase de procesos y tareas? ¿Crees que tienen un impacto positivo, que son muy cansados o tal vez innecesarios?
 - ¿Cree que si estos procesos de control fueran automáticos y/o digitalizados tendría un impacto positivo en su trabajo o en el negocio?
 
