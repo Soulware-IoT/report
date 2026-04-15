@@ -25,5 +25,15 @@
             - title: Lean UX Canvas
               alias: canvas
     - title: Segmentos Objetivo
+- title: "Capítulo II: Requirements Elicitation & Analysis"
+  alias: "capitulo 2"
+  children:
+    - title: Competidores
+      alias: competitors
+      children:
+        - title: Análisis competitivo
+          alias: analysis
+        - title: Estrategias y tácticas frente a competidores
+          alias: strategy
 - title: Referencias Bibliográficas
   alias: bibliografia
