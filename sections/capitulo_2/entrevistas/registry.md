@@ -115,7 +115,8 @@
                 El entrevistado comentó haber trabajado antiguamente como lavaplatos y posteriormente cocinero en un sushi bar.<br>
                 Explicó que en el sushi bar se llevan a cabo una serie de procesos de control internos, principalmente en cuanto a la gestión de alérgenos y la contaminación cruzada.<br>
                 Comentó que estos procesos los supervisaba él mismo, ya que era el encargado.<br>
-                Por último, expresa que personalmente cree que estos procesos son muy positivos, comentando brevemente la experiencia donde estos controles ayudaron a prevenir entregar un plato que podía haber desatado una reacción alérgica en una cliente.
+                Además, expresa que personalmente cree que estos procesos son muy positivos, comentando brevemente la experiencia donde estos controles ayudaron a prevenir entregar un plato que podía haber desatado una reacción alérgica en una cliente.<br>
+                Por último, cree que la digitalización sería una buena forma de mantener presente de forma constante una serie de procesos de control, mejorando la transparencia sobre su cumplimiento.
             </td>
             <td>
                 <img src="../../../img/capitulo_2/entrevistas/registry/jesus_uribe.jpg" alt="Video Frame"><br>
