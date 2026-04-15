@@ -1,3 +1,30 @@
+- title: "Capitulo I: Introducción"
+  alias: capitulo 1
+  children:
+    - title: Startup Profile
+      alias: startup
+      children:
+        - title: Descripción de la Startup
+          alias: description
+        - title: Perfiles de integrantes del equipo
+          alias: team members
+    - title: Solution Profile
+      alias: solution
+      children:
+        - title: Antecedentes y problemática
+          alias: Antecedentes
+        - title: Lean UX Process
+          has_intro: true
+          children:
+            - title: Lean UX Problem Statements
+              alias: problem statements
+            - title: Lean UX Assumptions
+              alias: assumptions
+            - title: Lean UX Hypothesis Statements
+              alias: hypothesis statements
+            - title: Lean UX Canvas
+              alias: canvas
+    - title: Segmentos Objetivo
 - title: "Capítulo II: Requirements Elicitation & Analysis"
   alias: "capitulo 2"
   children:
@@ -9,3 +36,5 @@
           alias: registry
         - title: Análisis de entrevistas
           alias: analysis
+- title: Referencias Bibliográficas
+  alias: bibliografia
