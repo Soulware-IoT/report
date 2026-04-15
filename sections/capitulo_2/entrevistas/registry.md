@@ -11,7 +11,7 @@
     <!--Segmento A -->
     <tbody>
         <tr>
-            <th rowspan="6" scope="rowgroup">Dueños de restaurantes</th>
+            <th rowspan="8" scope="rowgroup">Dueños de restaurantes</th>
             <td rowspan="2">
                 <strong>José Augusto Castillo Aguilar (52 años)</strong><br>
                 Distrito: Santiago de Surco<br>
@@ -50,14 +50,33 @@
         </tr>
         <tr>
             <td rowspan="2">
-                <strong>NOMBRE (EDAD)</strong><br>
-                Distrito: DISTRITO<br>
+                <strong>Enrique Shimabuko (57 años)</strong><br>
+                Distrito: Santiago de Surco<br>
                 <strong>RESUMEN</strong><br>
-                The participant expressed significant frustration with the navigation...<br>
-                The participant expressed significant frustration with the navigation...
+                El entrevistado cuenta que tiene aproximadamente 20 años de experiencia trabajando en el sector de restaurantes, teniendo su emprendimiento desde hace unos cuantos años.<br>
+                Explica que actualmente en su negocio tiene implementadas algunas medidas de seguridad y supervisa ciertos procesos personalmente, pues como dueño también participa de la cocina, entre otras actividades como el control de calidad de los ingredientes.<br>
+                Por último, expresa que no ve personalmente mucho potencial de usar sistemas automatizados en su negocio, pues cree que se da bastante a basto con la forma en que realiza las cosas y que su escala de inversión no amerita tanto gasto en prevención de riesgos.
             </td>
             <td>
-                <img src="../../../img/capitulo_2/entrevistas/" alt="Video Frame"><br>
+                <img src="../../../img/capitulo_2/entrevistas/registry/enrique_shimabuko.jpg" alt="Video Frame"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Start: 00:00 | Duration: Xm</a>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <strong>Luis Miguel Coello Medrano (60 años)</strong><br>
+                Distrito: San Juan de Miraflores<br>
+                <strong>RESUMEN</strong><br>
+                El entrevistado explica que su negocio es una pizzería familiar, llevada en conjunto con esposa, hijas y su suegra.<br>
+                Describe alegremente que implementa procesos de control de seguridad y control de calidad, cuya supervisión basados en la confianza, dada la cercanía y confianza con los miembros de su familia quienes trabajan en su negocio. Señala que estos procesos de control le han ayudado a prevenir un accidente con una fuga de gas.<br>
+                Explica que considera que digitalizar el registro del cumplimiento de los procesos de control que implementa con su familia como una medida de seguridad y de transparencia adicional a su propia responsabilidad, cuidado y disciplina personal.
+            </td>
+            <td>
+                <img src="../../../img/capitulo_2/entrevistas/registry/luis_coello.jpg" alt="Video Frame"><br>
             </td>
         </tr>
         <tr>
@@ -109,14 +128,16 @@
         </tr>
         <tr>
             <td rowspan="2">
-                <strong>NOMBRE (EDAD)</strong><br>
-                Distrito: DISTRITO<br>
+                <strong>MIlenio Huamán Hinostroza (24 años)</strong><br>
+                Distrito: La Molina<br>
                 <strong>RESUMEN</strong><br>
-                The participant expressed significant frustration with the navigation...<br>
-                The participant expressed significant frustration with the navigation...
+                Relata que comenzó a trabajar en una pizzería tras terminar el colegio, dada la facilidad de cumplir con las expectativas laborales.<br>
+                Señala que considera que no tiene "otras responsabilidades" además de cocinar, sino que percibe que actividades de control de calidad y de seguridad como la limpieza son parte del trabajo de cocinero en sí mismo. Eso sí, destaca que había una supervisión constante por parte del dueño del local con actividades complementarias como simulacros o capacitaciones.<br>
+                Razona que a pesar de que nunca ha experimentado algún siniestro en su tiempo laborando para la pizzería, sí considera que estos procesos de control son importantes, pues justamente son estos los que previenen que estos siniestros terminen ocurriendo.<br>
+                Considera que la digitalización ayudaría a mantener la transparencia y serviría como una capa adicional de protección y cumplimiento adicionales a la responsabilidad suya y de otros trabajadores.
             </td>
             <td>
-                <img src="../../../img/capitulo_2/entrevistas/" alt="Video Frame"><br>
+                <img src="../../../img/capitulo_2/entrevistas/registry/milenio_huaman.jpg" alt="Video Frame"><br>
             </td>
         </tr>
         <tr>
