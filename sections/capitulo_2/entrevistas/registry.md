@@ -27,7 +27,7 @@
         </tr>
         <tr>
             <td>
-                <a href="#">Start: 00:00 | Duration: Xm</a>
+                <a href="https://upcedupe-my.sharepoint.com/personal/u202313655_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313655_upc_edu_pe%2FDocuments%2Fupc-pre-202610-1asi0572-6776-soulware-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E60f4becb-1e8d-4d2a-a717-2d47baa1a405">Start: 00:00 | Duration: 6:40</a>
             </td>
         </tr>
         <tr>
@@ -45,7 +45,7 @@
         </tr>
         <tr>
             <td>
-                <a href="#">Start: 00:00 | Duration: Xm</a>
+                <a href="https://upcedupe-my.sharepoint.com/personal/u202313655_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313655_upc_edu_pe%2FDocuments%2Fupc-pre-202610-1asi0572-6776-soulware-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E60f4becb-1e8d-4d2a-a717-2d47baa1a405">Start: 06:41 | Duration: 3:37</a>
             </td>
         </tr>
         <tr>
@@ -63,7 +63,7 @@
         </tr>
         <tr>
             <td>
-                <a href="#">Start: 00:00 | Duration: Xm</a>
+                <a href="https://upcedupe-my.sharepoint.com/personal/u202313655_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313655_upc_edu_pe%2FDocuments%2Fupc-pre-202610-1asi0572-6776-soulware-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E60f4becb-1e8d-4d2a-a717-2d47baa1a405">Start: 10:19 | Duration: 4:01</a>
             </td>
         </tr>
         <tr>
@@ -81,7 +81,7 @@
         </tr>
         <tr>
             <td>
-                <a href="#">Start: 00:00 | Duration: Xm</a>
+                <a href="https://upcedupe-my.sharepoint.com/personal/u202313655_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313655_upc_edu_pe%2FDocuments%2Fupc-pre-202610-1asi0572-6776-soulware-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E60f4becb-1e8d-4d2a-a717-2d47baa1a405">Start: 14:21 | Duration: 6:53</a>
             </td>
         </tr>
     </tbody>
@@ -104,7 +104,7 @@
         </tr>
         <tr>
             <td>
-                <a href="#">Start: 00:00 | Duration: Xm</a>
+                <a href="https://upcedupe-my.sharepoint.com/personal/u202313655_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313655_upc_edu_pe%2FDocuments%2Fupc-pre-202610-1asi0572-6776-soulware-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E60f4becb-1e8d-4d2a-a717-2d47baa1a405">Start: 21:15 | Duration: 6:30</a>
             </td>
         </tr>
         <tr>
@@ -124,7 +124,7 @@
         </tr>
         <tr>
             <td>
-                <a href="#">Start: 00:00 | Duration: Xm</a>
+                <a href="https://upcedupe-my.sharepoint.com/personal/u202313655_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313655_upc_edu_pe%2FDocuments%2Fupc-pre-202610-1asi0572-6776-soulware-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E60f4becb-1e8d-4d2a-a717-2d47baa1a405">Start: 27:46 | Duration: 5:38</a>
             </td>
         </tr>
         <tr>
@@ -143,7 +143,7 @@
         </tr>
         <tr>
             <td>
-                <a href="#">Start: 00:00 | Duration: Xm</a>
+                <a href="https://upcedupe-my.sharepoint.com/personal/u202313655_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313655_upc_edu_pe%2FDocuments%2Fupc-pre-202610-1asi0572-6776-soulware-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E60f4becb-1e8d-4d2a-a717-2d47baa1a405">Start: 34:25 | Duration: 4:22</a>
             </td>
         </tr>
     </tbody>
