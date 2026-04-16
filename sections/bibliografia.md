@@ -1,4 +1,5 @@
 - COPEME. (2023). ¿Cuál es el perfil actual del emprendedor peruano joven? [Entrada de blog]. https://copeme.org.pe/Blog/cual-es-el-perfil-actual-del-emprendedor-peruano-joven/
+- Fitflow. (s. f.). Nosotros. Recuperado el 16 de abril de 2026, de https://fitflow.com/nosotros/
 - Gibson, K. (2023, 24 de octubre). What is risk management & why is it important? Harvard Business School Online. https://online.hbs.edu/blog/post/risk-management
 - Gothelf, J., & Seiden, J. (2021). Lean UX: Designing Great Products with Agile Teams (3rd ed.). O'Reilly Media.
 - Instituto Nacional de Estadística e Informática. (2024). Perú: Estructura Empresarial, 2024. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib2045/libro.pdf
