@@ -25,5 +25,16 @@
             - title: Lean UX Canvas
               alias: canvas
     - title: Segmentos Objetivo
+- title: "Capítulo II: Requirements Elicitation & Analysis"
+  alias: "capitulo 2"
+  children:
+    - title: "Entrevistas"
+      children:
+        - title: Diseño de entrevistas
+          alias: design
+        - title: Registro de entrevistas
+          alias: registry
+        - title: Análisis de entrevistas
+          alias: analysis
 - title: Referencias Bibliográficas
   alias: bibliografia
