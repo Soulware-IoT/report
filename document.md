@@ -198,6 +198,214 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 
 # Capítulo II: Requirements Elicitation & Analysis
 
+## Competidores
+
+### Análisis competitivo
+
+<table>
+    <thead>
+        <tr>
+            <th scope="col"><strong>Competitive Analysis Landscape<strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Introduction header -->
+        <tr>
+            <th scope="row" colspan="2">¿Por qué llevar a cabo este análisis?</th>
+            <td colspan="4">Este análisis se realiza principalmente para identificar el estado del mercado y los segmentos objetivo que son atendidos actualmente, a fin de refinar la propuesta de valor central de la startup.</td>
+        </tr>
+        <!-- Companies header -->
+        <tr>
+            <th scope="row" colspan="2"></th>
+            <td style="width: 25%; vertical-align: top;">Soulware<br><img src="./img/capitulo_2/competitors/analysis/soulware.jpg"></td>
+            <td style="width: 25%; vertical-align: top;">Fitflow<br><img src="./img/capitulo_2/competitors/analysis/fitflow.jpg"></td>
+            <td style="width: 25%; vertical-align: top;">Johnson Controls<br><img src="./img/capitulo_2/competitors/analysis/johnson_controls.jpg"></td>
+            <td style="width: 25%; vertical-align: top;">Grupo 3S<br><img src="./img/capitulo_2/competitors/analysis/grupo_3s.jpg"></td>
+        </tr>
+        <!-- Profile -->
+        <!-- Profile: Overview -->
+        <tr>
+            <th scope="row" rowspan="2">Perfil</th>
+            <th scope="row">Overview</th>
+            <td>Proveedor de seguridad tecnológica y automatización especializado en el soporte técnico y educativo para el ecosistema emprendedor y la pequeña empresa.</td>
+            <td>Empresa regional líder en soluciones de protección contra incendios y bombeo de agua con presencia en 6 países.</td>
+            <td>Líder global con más de 150 años de experiencia en soluciones inteligentes de detección y seguridad proteger personas y activos en diversos entornos.</td>
+            <td>Empresa peruana con más de 20 años de trayectoria, especializada en soluciones integrales de diseño, suministro e instalación de sistemas de seguridad y protección contra incendios.</td>
+        </tr>
+        <!-- Profile: Ventaja competitiva -->
+        <tr>
+            <th scope="row">Ventaja competitiva ¿Qué valor ofrece a los clientes?</th>
+            <td>Extrema facilidad de uso en sistemas automatizados y acompañamiento experto en la educación sobre procesos de control.</td>
+            <td>Soporte de ingeniería y su propia escuela técnica (Fire School).</td>
+            <td>Capacidad de autoevaluación revolucionaria (self-testing), supervisión electrónica 24/7 y la integración con la plataforma digital OpenBlue para mantenimiento conectado.</td>
+            <td>Soporte de ingeniería, con asesoría legal y técnica para la implementación de protección contra incendios con múltiples estrategias y enfoques dada su alta gama y variedad de productos.</td>
+        </tr>
+        <!-- Perfil de Marketing -->
+        <!-- Perfil de Marketing: Mercado Objetivo -->
+        <tr>
+            <th scope="row" rowspan="2">Perfil de Marketing</th>
+            <th scope="row">Mercado objetivo</th>
+            <td>Startups, nuevos emprendimientos, negocios locales y sectores comerciales con requerimientos de seguridad ágiles.</td>
+            <td>Sectores industriales, mineros, energía, construcción y almacenes logísticos de gran envergadura.</td>
+            <td>Centros de datos, hospitales, educación, gobierno federal, sector industrial, manufactura, transporte y grandes infraestructuras comerciales.</td>
+            <td>Edificaciones residenciales (multifamiliares), sector comercial, industrial, almacenes y restaurantes/cocinas industriales.</td>
+        </tr>
+        <!-- Perfil de Marketing: Estrategias de marketing -->
+        <tr>
+            <th scope="row">Estrategias de marketing</th>
+            <td>Posicionamiento como aliado educativo, marketing centrado en la usabilidad tecnológica y presencia en redes de emprendimiento.</td>
+            <td>Enfoque en la educación técnica del sector, certificaciones de calidad (Trinorma ISO) y una red de distribución regional consolidada.</td>
+            <td>Enfoque en "Smart Buildings", liderazgo en innovación digital (SaaS, AI), y posicionamiento como socio estratégico de ciclo de vida completo (desde el diseño hasta el mantenimiento).</td>
+            <td>Liderazgo técnico a través de su "Biblioteca Técnica", posicionamiento basado en el cumplimiento estricto de normas locales de la regulación peruana y optimización económica de proyectos desde la fase inicial.</td>
+        </tr>
+        <!-- Perfil de Producto -->
+        <!-- Perfil de Producto: Productos & Servicios -->
+        <tr>
+            <th scope="row" rowspan="3">Perfil de Producto</th>
+            <th scope="row">Productos & Servicios</th>
+            <td>
+                * Paneles de control intuitivos<br>
+                * Alarmas inteligentes<br>
+                * Sensores plug-and-play<br>
+                * Aplicaciones de gestión móvil<br>
+                * Asesoría técnica normativa
+            </td>
+            <td>
+                * Redes de agua<br>
+                * Sistemas de espuma<br>
+                * Bombas contra incendio<br>
+                * Sistemas de detección y alarma varios<br>
+                * Servicios de mantenimiento
+            </td>
+            <td>
+                * Unidades de Control: Simplex, Autocall, FireClass<br>
+                * Detección: Sensores de humo, CO, dispositivos de iniciación<br>
+                * Notificación: Sirenas, luces estroboscópicas, altavoces direccionables<br>
+                * Redes: Soluciones de red y estaciones de trabajo para grandes complejos
+            </td>
+            <td>
+                * Sistemas de bombeo y redes de agua contra incendios<br>
+                * Sistemas de rociadores automáticos y espumas<br>
+                * Detección y alarma de incendios, y extracción de monóxido<br>
+                * Sistemas de extinción por gases limpios (halocarbonados e inertes)<br>
+                * Diseño, asesoría y simulaciones computacionales de incendio/evacuación
+            </td>
+        </tr>
+        <!-- Perfil de Producto: Precios y Costos -->
+        <tr>
+            <th scope="row">Precios & Costos</th>
+            <td>Estructura de costos escalable y accesible, orientada a minimizar la inversión inicial en infraestructura tecnológica pesada.</td>
+            <td>Variable, según producto y cotización caso por caso</td>
+            <td>Segmento corporativo y empresarial. Precios basados en el valor tecnológico, ROI (hasta 155% con OpenBlue) y ahorro a largo plazo por eficiencia operativa.</td>
+            <td>Dependientes de la cotización, dado su esquema de consultoría + diseño e instalación, aunque altamente competitivos en el mercado local debido a la importación directa y la eliminación de subcontratistas en la etapa de instalación.</td>
+        </tr>
+        <!-- Perfil de Producto: Canales de distribución -->
+        <tr>
+            <th scope="row">Canales de distribución (Web y/o Móvil)</th>
+            <td>Venta técnica directa, plataformas digitales y servicios de soporte especializado remoto o presencial.</td>
+            <td>Venta directa técnica, sucursales regionales y canales digitales para soporte y repuestos.</td>
+            <td>Fuerza de ventas corporativa directa, directiva global de expertos y red de socios/especialistas certificados.</td>
+            <td>Venta directa mediante ingeniería de proyectos, servicios de consultoría técnica y contratos de instalación/mantenimiento.</td>
+        </tr>
+        <!-- Análisis SWOT -->
+        <tr>
+            <th scope="row" rowspan="4">Análisis SWOT</th>
+            <th scope="row">Fortalezas</th>
+            <td>
+                * Curva de aprendizaje mínima para el usuario final<br>
+                * Alta agilidad en la implementación<br>
+                * Fuerte componente de valor agregado educativo
+            </td>
+            <td>
+                * Capacidad logística regional<br>
+                * Personal certificado<br>
+                * Respaldo de fabricantes internacionales de primer nivel
+            </td>
+            <td>
+                * Portafolio de clientes con marcas líderes<br>
+                * I+D de vanguardia
+            </td>
+            <td>
+                * Más de 20 años de experiencia en el mercado peruano<br>
+                * Uso de herramientas avanzadas de cálculo y simulación (Cálculo hidráulico, FDS)<br>
+                * Control total del ciclo de vida del proyecto (Diseño-Suministro-Instalación)
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">Debilidades</th>
+            <td>
+                * Menor especialización en sistemas de protección contra incendios industriales de gran envergadura o complejidad pesada
+            </td>
+            <td>
+                * Soluciones basadas en química y física pura, con poco espacio a digitalización<br>
+                * Alta barrera de costos
+            </td>
+            <td>
+                * Complejidad organizativa debido a su escala
+            </td>
+            <td>
+                * Limitada presencia de marca fuera del territorio nacional frente a competidores regionales<br>
+                * Dependencia directa de los ciclos de inversión del sector inmobiliario y construcción local
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">Oportunidades</th>
+            <td>
+                * Creciente digitalización del sector minorista<br>
+                * Aumento de la formalización de nuevos negocios que requieren cumplimiento normativo
+            </td>
+            <td>
+                * Implementar tecnologías de monitoreo remoto<br>
+                * Crecimiento por nuevas normativas de seguridad en la región
+            </td>
+            <td>
+                * Tendencia a la digitalización<br>
+                * Desarrollo de productos SaaS
+            </td>
+            <td>
+                * Renovación de sistemas en edificaciones antiguas para cumplir con nuevas regulaciones<br>
+                * Expansión en el nicho de edificios residenciales inteligentes y eficientes
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">Amenazas</th>
+            <td>
+                * Competencia de soluciones de seguridad de consumo masivo (DIY) que carecen de soporte técnico y validación normativa comercial
+            </td>
+            <td>
+                * Cambios constantes en la regulación internacional<br>
+                * Alta competitividad en la cartera de clientes con negocios de alto nivel
+            </td>
+            <td>
+                * Creciente demanda de edificios Net Zero<br>
+                * Actualización de infraestructuras críticas post-pandemia
+            </td>
+            <td>
+                * Ambigüedad en las normativas nacionales que permite la competencia de soluciones informales o de baja calidad<br>
+                * Volatilidad en los precios de equipos importados por factores macroeconómicos
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+### Estrategias y tácticas frente a competidores
+
+**Estrategia 1: Concentración en negocios de pequeña escala**
+
+- Táctica 1.1: Diseño de protocolos de seguridad simplificados que atiendan las preocupaciones específicas de locales comerciales pequeños y oficinas de dimensiones reducidas.
+- Táctica 1.2: Implementación de auditorías de riesgo focalizadas en activos críticos para microempresas, optimizando el presupuesto de seguridad.
+
+**Estrategia 2: Educación sobre procesos de control para nuevos emprendimientos**
+
+- Táctica 2.1: Desarrollo de programas de capacitación en normativas locales y estándares de seguridad para dueños de negocios en fase de apertura.
+- Táctica 2.2: Provisión de guías instructivas sobre gestión de riesgos y procesos de control interno para facilitar la autogestión del cliente.
+
+**Estrategia 3: Automatización con herramientas intuitivas y accesibles**
+
+- Táctica 3.1: Despliegue de paneles de control táctiles con interfaces gráficas simplificadas, eliminando la necesidad de personal técnico especializado para la operación diaria.
+- Táctica 3.2: Integración de herramientas de monitoreo automatizado con acceso multiplataforma, diseñadas para una supervisión remota fácil y eficiente.
+- Táctica 3.3: Inclusión de elementos de utilidad práctica que sirvan de hook principal en el posicionamiento del producto.
+
 ## Entrevistas
 
 ### Diseño de entrevistas
@@ -534,9 +742,12 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 # Referencias Bibliográficas
 
 - COPEME. (2023). ¿Cuál es el perfil actual del emprendedor peruano joven? [Entrada de blog]. https://copeme.org.pe/Blog/cual-es-el-perfil-actual-del-emprendedor-peruano-joven/
+- Fitflow. (s. f.). Nosotros. Recuperado el 16 de abril de 2026, de https://fitflow.com/nosotros/
 - Gibson, K. (2023, 24 de octubre). What is risk management & why is it important? Harvard Business School Online. https://online.hbs.edu/blog/post/risk-management
 - Gothelf, J., & Seiden, J. (2021). Lean UX: Designing Great Products with Agile Teams (3rd ed.). O'Reilly Media.
+- Grupo 3S. (s. f.). GRUPO 3S PERU - Asesoría y Servicios Protección contra Incendios. Recuperado el 16 de abril de 2026, de https://grupo3s.pe/
 - Instituto Nacional de Estadística e Informática. (2024). Perú: Estructura Empresarial, 2024. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib2045/libro.pdf
+- Johnson Controls. (s. f.). Fire detection. Recuperado el 16 de abril de 2026, de https://www.johnsoncontrols.com/fire-detection
 - Ministerio de la Producción. (2025). Análisis sectorial: Desempeño e importancia del sector restaurantes y afines en la economía nacional 2019 - 2024. Producempresarial. https://www.producempresarial.pe/wp-content/uploads/2025/02/234-Sector-restaurantes-y-afines-2024.pdf
 - Instituto Nacional de Estadística e Informática. (2026). Perú: Comportamiento de los indicadores del mercado laboral a nivel nacional y en 27 ciudades: Enero-Diciembre 2025 | Cuarto trimestre 2025 (Informe Técnico). https://cdn.www.gob.pe/uploads/document/file/9450232/7739601-peru-comportamiento-de-los-indicadores-del-mercado-laboral-a-nivel-nacional-y-27-ciudades-cuarto-trimestre-2025.pdf
 - Ministerio de la Producción. (2025). Análisis sectorial: Desempeño e importancia del sector restaurantes y afines en la economía nacional (2019-2024). Oficina General de Evaluación de Impacto y Estudios Económicos.
