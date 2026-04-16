@@ -2,6 +2,7 @@
 - Fitflow. (s. f.). Nosotros. Recuperado el 16 de abril de 2026, de https://fitflow.com/nosotros/
 - Gibson, K. (2023, 24 de octubre). What is risk management & why is it important? Harvard Business School Online. https://online.hbs.edu/blog/post/risk-management
 - Gothelf, J., & Seiden, J. (2021). Lean UX: Designing Great Products with Agile Teams (3rd ed.). O'Reilly Media.
+- Grupo 3S. (s. f.). GRUPO 3S PERU - Asesoría y Servicios Protección contra Incendios. Recuperado el 16 de abril de 2026, de https://grupo3s.pe/
 - Instituto Nacional de Estadística e Informática. (2024). Perú: Estructura Empresarial, 2024. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib2045/libro.pdf
 - Johnson Controls. (s. f.). Fire detection. Recuperado el 16 de abril de 2026, de https://www.johnsoncontrols.com/fire-detection
 - Ministerio de la Producción. (2025). Análisis sectorial: Desempeño e importancia del sector restaurantes y afines en la economía nacional 2019 - 2024. Producempresarial. https://www.producempresarial.pe/wp-content/uploads/2025/02/234-Sector-restaurantes-y-afines-2024.pdf
