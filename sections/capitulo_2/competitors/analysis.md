@@ -60,40 +60,31 @@
             <th scope="row" rowspan="3">Perfil de Producto</th>
             <th scope="row">Productos & Servicios</th>
             <td>
-                <ul>
-                    <li>Paneles de control intuitivos</li>
-                    <li>Alarmas inteligentes</li>
-                    <li>Sensores plug-and-play</li>
-                    <li>Aplicaciones de gestión móvil</li>
-                    <li>Asesoría técnica normativa</li>
-                </ul>
+                * Paneles de control intuitivos<br>
+                * Alarmas inteligentes<br>
+                * Sensores plug-and-play<br>
+                * Aplicaciones de gestión móvil<br>
+                * Asesoría técnica normativa
             </td>
             <td>
-                <ul>
-                    <li>Redes de agua</li>
-                    <li>Sistemas de espuma</li>
-                    <li>Bombas contra incendio</li>
-                    <li>Sistemas de detección y alarma varios</li>
-                    <li>Servicios de mantenimiento</li>
-                </ul>
+                * Redes de agua<br>
+                * Sistemas de espuma<br>
+                * Bombas contra incendio<br>
+                * Sistemas de detección y alarma varios<br>
+                * Servicios de mantenimiento
             </td>
             <td>
-                <ul>
-                    <li>Unidades de Control: Simplex, Autocall, FireClass</li>
-                    <li>Detección: Sensores de humo, CO, dispositivos de iniciación</li>
-                    <li>Notificación: Sirenas, luces estroboscópicas, altavoces direccionables</li>
-                    <li>Redes: Soluciones de red y estaciones de trabajo para grandes complejos</li>
-                    <li>Servicios: Inspección, prueba, mantenimiento, gestión de proyectos y formación técnica</li>
-                </ul>
+                * Unidades de Control: Simplex, Autocall, FireClass<br>
+                * Detección: Sensores de humo, CO, dispositivos de iniciación<br>
+                * Notificación: Sirenas, luces estroboscópicas, altavoces direccionables<br>
+                * Redes: Soluciones de red y estaciones de trabajo para grandes complejos
             </td>
             <td>
-                <ul>
-                    <li>Sistemas de bombeo y redes de agua contra incendios</li>
-                    <li>Sistemas de rociadores automáticos y espumas</li>
-                    <li>Detección y alarma de incendios, y extracción de monóxido</li>
-                    <li>Sistemas de extinción por gases limpios (halocarbonados e inertes)</li>
-                    <li>Diseño, asesoría y simulaciones computacionales de incendio/evacuación</li>
-                </ul>
+                * Sistemas de bombeo y redes de agua contra incendios<br>
+                * Sistemas de rociadores automáticos y espumas<br>
+                * Detección y alarma de incendios, y extracción de monóxido<br>
+                * Sistemas de extinción por gases limpios (halocarbonados e inertes)<br>
+                * Diseño, asesoría y simulaciones computacionales de incendio/evacuación
             </td>
         </tr>
         <!-- Perfil de Producto: Precios y Costos -->
@@ -117,109 +108,77 @@
             <th scope="row" rowspan="4">Análisis SWOT</th>
             <th scope="row">Fortalezas</th>
             <td>
-                <ul>
-                    <li>Curva de aprendizaje mínima para el usuario final</li>
-                    <li>Alta agilidad en la implementación</li>
-                    <li>Fuerte componente de valor agregado educativo</li>
-                </ul>
+                * Curva de aprendizaje mínima para el usuario final<br>
+                * Alta agilidad en la implementación<br>
+                * Fuerte componente de valor agregado educativo
             </td>
             <td>
-                <ul>
-                    <li>Capacidad logística regional</li>
-                    <li>Personal certificado</li>
-                    <li>Respaldo de fabricantes internacionales de primer nivel</li>
-                </ul>
+                * Capacidad logística regional<br>
+                * Personal certificado<br>
+                * Respaldo de fabricantes internacionales de primer nivel
             </td>
             <td>
-                <ul>
-                    <li>Portafolio de clientes con marcas líderes</li>
-                    <li>I+D de vanguardia</li>
-                </ul>
+                * Portafolio de clientes con marcas líderes<br>
+                * I+D de vanguardia
             </td>
             <td>
-                <ul>
-                    <li>Más de 20 años de experiencia en el mercado peruano</li>
-                    <li>Uso de herramientas avanzadas de cálculo y simulación (Cálculo hidráulico, FDS)</li>
-                    <li>Control total del ciclo de vida del proyecto (Diseño-Suministro-Instalación)</li>
-                </ul>
+                * Más de 20 años de experiencia en el mercado peruano<br>
+                * Uso de herramientas avanzadas de cálculo y simulación (Cálculo hidráulico, FDS)<br>
+                * Control total del ciclo de vida del proyecto (Diseño-Suministro-Instalación)
             </td>
         </tr>
         <tr>
             <th scope="row">Debilidades</th>
             <td>
-                <ul>
-                    <li>Menor especialización en sistemas de protección contra incendios industriales de gran envergadura o complejidad pesada</li>
-                </ul>
+                * Menor especialización en sistemas de protección contra incendios industriales de gran envergadura o complejidad pesada
             </td>
             <td>
-                <ul>
-                    <li>Soluciones basadas en química y física pura, con poco espacio a digitalización</li>
-                    <li>Alta barrera de costos</li>
-                </ul>
+                * Soluciones basadas en química y física pura, con poco espacio a digitalización<br>
+                * Alta barrera de costos
             </td>
             <td>
-                <ul>
-                    <li>Complejidad organizativa debido a su escala</li>
-                </ul>
+                * Complejidad organizativa debido a su escala
             </td>
             <td>
-                <ul>
-                    <li>Limitada presencia de marca fuera del territorio nacional frente a competidores regionales</li>
-                    <li>Dependencia directa de los ciclos de inversión del sector inmobiliario y construcción local</li>
-                </ul>
+                * Limitada presencia de marca fuera del territorio nacional frente a competidores regionales<br>
+                * Dependencia directa de los ciclos de inversión del sector inmobiliario y construcción local
             </td>
         </tr>
         <tr>
             <th scope="row">Oportunidades</th>
             <td>
-                <ul>
-                    <li>Creciente digitalización del sector minorista</li>
-                    <li>Aumento de la formalización de nuevos negocios que requieren cumplimiento normativo</li>
-                </ul>
+                * Creciente digitalización del sector minorista<br>
+                * Aumento de la formalización de nuevos negocios que requieren cumplimiento normativo
             </td>
             <td>
-                <ul>
-                    <li>Implementación de tecnologías de monitoreo remoto</li>
-                    <li>Crecimiento por nuevas normativas de seguridad en la región</li>
-                </ul>
+                * Implementar tecnologías de monitoreo remoto<br>
+                * Crecimiento por nuevas normativas de seguridad en la región
             </td>
             <td>
-                <ul>
-                    <li>Implementación de tecnologías de monitoreo remoto</li>
-                    <li>Crecimiento por nuevas normativas de seguridad en la región</li>
-                </ul>
+                * Tendencia a la digitalización<br>
+                * Desarrollo de productos SaaS
             </td>
             <td>
-                <ul>
-                    <li>Renovación de sistemas en edificaciones antiguas para cumplir con nuevas regulaciones</li>
-                    <li>Expansión en el nicho de edificios residenciales inteligentes y eficientes</li>
-                </ul>
+                * Renovación de sistemas en edificaciones antiguas para cumplir con nuevas regulaciones<br>
+                * Expansión en el nicho de edificios residenciales inteligentes y eficientes
             </td>
         </tr>
         <tr>
             <th scope="row">Amenazas</th>
             <td>
-                <ul>
-                    <li>Competencia de soluciones de seguridad de consumo masivo (DIY) que carecen de soporte técnico y validación normativa comercial</li>
-                </ul>
+                * Competencia de soluciones de seguridad de consumo masivo (DIY) que carecen de soporte técnico y validación normativa comercial
             </td>
             <td>
-                <ul>
-                    <li>Cambios constantes en la regulación internacional</li>
-                    <li>Alta competitividad en la cartera de clientes con negocios de alto nivel</li>
-                </ul>
+                * Cambios constantes en la regulación internacional<br>
+                * Alta competitividad en la cartera de clientes con negocios de alto nivel
             </td>
             <td>
-                <ul>
-                    <li>Creciente demanda de edificios Net Zero</li>
-                    <li>Actualización de infraestructuras críticas post-pandemia/li>
-                </ul>
+                * Creciente demanda de edificios Net Zero<br>
+                * Actualización de infraestructuras críticas post-pandemia
             </td>
             <td>
-                <ul>
-                    <li>Ambigüedad en las normativas nacionales que permite la competencia de soluciones informales o de baja calidad</li>
-                    <li>Volatilidad en los precios de equipos importados por factores macroeconómicos</li>
-                </ul>
+                * Ambigüedad en las normativas nacionales que permite la competencia de soluciones informales o de baja calidad<br>
+                * Volatilidad en los precios de equipos importados por factores macroeconómicos
             </td>
         </tr>
     </tbody>
