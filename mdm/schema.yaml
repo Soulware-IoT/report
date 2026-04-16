@@ -35,5 +35,13 @@
           alias: analysis
         - title: Estrategias y tácticas frente a competidores
           alias: strategy
+    - title: "Entrevistas"
+      children:
+        - title: Diseño de entrevistas
+          alias: design
+        - title: Registro de entrevistas
+          alias: registry
+        - title: Análisis de entrevistas
+          alias: analysis
 - title: Referencias Bibliográficas
   alias: bibliografia
