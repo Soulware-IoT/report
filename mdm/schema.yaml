@@ -46,5 +46,20 @@
           alias: registry
         - title: "2.2.3. Análisis de entrevistas"
           alias: analysis
+    - title: "2.3. Needfinding"
+      alias: needfinding
+      children:
+        - title: "2.3.1. User Personas"
+          alias: personas
+        - title: "2.3.2. User Task Matrix"
+          alias: task matrix
+        - title: "2.3.3. User Journey Mapping"
+          alias: journey mapping
+        - title: "2.3.4. Empathy Mapping"
+          alias: empathy mapping
+    - title: "2.4. Big Picture EventStorming"
+      alias: eventstorming
+    - title: "2.5. Ubiquitous Language"
+      alias: ubiquitous language
 - title: Referencias Bibliográficas
   alias: bibliografia
