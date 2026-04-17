@@ -61,5 +61,14 @@
       alias: eventstorming
     - title: "2.5. Ubiquitous Language"
       alias: ubiquitous language
+- title: "Capítulo III: Requirements Specification"
+  alias: capitulo 3
+  children:
+    - title: "3.1. User Stories"
+      alias: user stories
+    - title: "3.2. Impact Mapping"
+      alias: impact mapping
+    - title: "3.3. Product Backlog"
+      alias: product backlog
 - title: Referencias Bibliográficas
   alias: bibliografia
