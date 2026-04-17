@@ -28,6 +28,16 @@
 - title: "Capítulo II: Requirements Elicitation & Analysis"
   alias: "capitulo 2"
   children:
+<<<<<<< feature/competitors
+    - title: Competidores
+      alias: competitors
+      children:
+        - title: Análisis competitivo
+          alias: analysis
+        - title: Estrategias y tácticas frente a competidores
+          alias: strategy
+=======
+>>>>>>> develop
     - title: "Entrevistas"
       children:
         - title: Diseño de entrevistas
