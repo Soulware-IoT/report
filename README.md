@@ -1,8 +1,8 @@
 # Capitulo I: Introducción
 
-## Startup Profile
+## 1.1. Startup Profile
 
-### Descripción de la Startup
+### 1.1.1. Descripción de la Startup
 
 Soulware es una startup peruana fundada por jóvenes innovadores, estudiantes de la carrera de ingeniería de software profundamente comprometidos con la creación de tecnología que contribuya con el bienestar social y el desarrollo económico del país.
 
@@ -15,7 +15,7 @@ Desarrollar soluciones tecnológicas innovadoras y de alta calidad que impulsen 
 Convertirnos en la startup referente de ingeniería de software en el Perú para el año 2030, reconocida por liderar la transformación digital con impacto social mediante soluciones tecnológicas que se adaptan a la cultura local y la llevan a su máximo potencial.
 
 
-### Perfiles de integrantes del equipo
+### 1.1.2. Perfiles de integrantes del equipo
 
 Se presenta en formato de tabla una breve descripción de cada uno de los integrantes del equipo.
 
@@ -93,9 +93,9 @@ Se presenta en formato de tabla una breve descripción de cada uno de los integr
     </tbody>
 </table>
 
-## Solution Profile
+## 1.2. Solution Profile
 
-### Antecedentes y problemática
+### 1.2.1. Antecedentes y problemática
 
 **RESUMEN**
 
@@ -124,11 +124,11 @@ En sentido de lo expuesto, se evaluaron diversas unidades económicas consideran
 Se seleccionó el sector de restaurantes y servicios afines debido a su representatividad. De acuerdo con el INEI (2025), esta actividad aporta el 2.5% al PBI nacional, creció un 3.5% en 2024 y genera un millón de empleos directos. La muestra se concentra en Lima, región que agrupa el 34% de los establecimientos y el 41.6% del gasto total anual del sector a nivel nacional.
 
 
-### Lean UX Process
+### 1.2.2. Lean UX Process
 
 A continuación, se desarrolla el Lean UX Process, utilizando las plantillas para nuevas iniciativas y usando protopersonas, de acuerdo a como especifican Gothelf y Seiden (2021).
 
-#### Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statements
 
 Al estado actual de ***soluciones de seguridad y prevención de riesgos para restaurantes*** se han centrado principalmente en el mercado de las grandes cadenas de restaurantes.
 
@@ -140,7 +140,7 @@ Nuestro foco inicial va a centrar en ***los negocios más pequeños, restaurante
 
 Sabremos que hemos tenido éxito al observar ***adopción y retención del servicio a largo plazo***
 
-#### Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions
 
 **BUSINESS OUTCOMES**
 
@@ -167,7 +167,7 @@ Sabremos que hemos tenido éxito al observar ***adopción y retención del servi
 - Llamada automática a los bomberos
 
 
-#### Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
 - Creemos que el cumplimiento de las obligaciones de Defensa Civil se logrará si Roberto (Emprendedor) logra prevenir multas y sanciones mediante el registro de la fecha de ejecución de mantenimientos en los equipos.
 
@@ -175,13 +175,13 @@ Sabremos que hemos tenido éxito al observar ***adopción y retención del servi
 
 - Creemos que una reducción del impacto capital de accidentes se logrará si Roberto (Emprendedor) obtiene una visión del estado de los equipos mediante la llamada automática a los bomberos y la activación automática y manual de turbinas ante emergencias detectadas.
 
-#### Lean UX Canvas
+#### 1.2.2.4 Lean UX Canvas
 
 Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomendaciones y formatos recomendados por la plantilla.
 
 <img src="./img/capitulo_1/solution/canvas.jpg">
 
-## Segmentos Objetivo
+## 1.3. Segmentos Objetivo
 
 **DUEÑOS DE RESTAURANTES**
 
@@ -198,9 +198,9 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 
 # Capítulo II: Requirements Elicitation & Analysis
 
-## Competidores
+## 2.1. Competidores
 
-### Análisis competitivo
+### 2.1.1. Análisis competitivo
 
 <table>
     <thead>
@@ -388,7 +388,7 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
     </tbody>
 </table>
 
-### Estrategias y tácticas frente a competidores
+### 2.1.2. Estrategias y tácticas frente a competidores
 
 **Estrategia 1: Concentración en negocios de pequeña escala**
 
@@ -406,9 +406,9 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 - Táctica 3.2: Integración de herramientas de monitoreo automatizado con acceso multiplataforma, diseñadas para una supervisión remota fácil y eficiente.
 - Táctica 3.3: Inclusión de elementos de utilidad práctica que sirvan de hook principal en el posicionamiento del producto.
 
-## Entrevistas
+## 2.2. Entrevistas
 
-### Diseño de entrevistas
+### 2.2.1. Diseño de entrevistas
 
 **DUEÑOS**
 
@@ -437,7 +437,7 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 
 
 
-### Registro de entrevistas
+### 2.2.2. Registro de entrevistas
 
 **DUEÑOS DE RESTAURANTES**
 
@@ -590,7 +590,7 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
     </tbody>
 </table>
 
-### Análisis de entrevistas
+### 2.2.3. Análisis de entrevistas
 
 **DUEÑOS DE RESTAURANTES**
 
