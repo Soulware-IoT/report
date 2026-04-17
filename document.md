@@ -198,7 +198,6 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 
 # Capítulo II: Requirements Elicitation & Analysis
 
-<<<<<<< feature/competitors
 ## Competidores
 
 ### Análisis competitivo
@@ -407,8 +406,6 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 - Táctica 3.2: Integración de herramientas de monitoreo automatizado con acceso multiplataforma, diseñadas para una supervisión remota fácil y eficiente.
 - Táctica 3.3: Inclusión de elementos de utilidad práctica que sirvan de hook principal en el posicionamiento del producto.
 
-=======
->>>>>>> develop
 ## Entrevistas
 
 ### Diseño de entrevistas
