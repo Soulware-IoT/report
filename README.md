@@ -739,3 +739,99 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 | Milenio Huamán Hinostroza | Chrome |
 | **Moda** | **Chrome** |
 
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+
+
+### 2.3.2. User Task Matrix
+
+
+
+### 2.3.3. User Journey Mapping
+
+
+
+### 2.3.4. Empathy Mapping
+
+
+
+## 2.4. Big Picture EventStorming
+
+
+
+## 2.5. Ubiquitous Language
+
+
+
+# Capítulo III: Requirements Specification
+
+## 3.1. User Stories
+
+
+
+## 3.2. Impact Mapping
+
+
+
+## 3.3. Product Backlog
+
+
+
+# Capítulo IV: Solution Software Design
+
+## 4.1. Strategic-Level Domain-Driven Design
+
+### 4.1.1. Design-Level EventStorming
+
+#### 4.1.1.1 Candidate Context Discovery
+
+
+
+#### 4.1.1.2 Domain Message Flows Modeling
+
+
+
+#### 4.1.1.3 Bounded Context Canvases
+
+
+
+### 4.1.2. Context Mapping
+
+
+
+### 4.1.3. Software Architecture
+
+#### 4.1.3.1. Software Architecture System Landscape Diagram
+
+
+
+#### 4.1.3.2. Software Architecture Context Level Diagrams
+
+
+
+#### 4.1.3.2. Software Architecture Container Level Diagrams
+
+
+
+#### 4.1.3.3. Software Architecture Deployment Diagrams
+
+
+
+# Referencias Bibliográficas
+
+- COPEME. (2023). ¿Cuál es el perfil actual del emprendedor peruano joven? [Entrada de blog]. https://copeme.org.pe/Blog/cual-es-el-perfil-actual-del-emprendedor-peruano-joven/
+- Fitflow. (s. f.). Nosotros. Recuperado el 16 de abril de 2026, de https://fitflow.com/nosotros/
+- Gibson, K. (2023, 24 de octubre). What is risk management & why is it important? Harvard Business School Online. https://online.hbs.edu/blog/post/risk-management
+- Gothelf, J., & Seiden, J. (2021). Lean UX: Designing Great Products with Agile Teams (3rd ed.). O'Reilly Media.
+- Grupo 3S. (s. f.). GRUPO 3S PERU - Asesoría y Servicios Protección contra Incendios. Recuperado el 16 de abril de 2026, de https://grupo3s.pe/
+- Instituto Nacional de Estadística e Informática. (2024). Perú: Estructura Empresarial, 2024. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib2045/libro.pdf
+- Johnson Controls. (s. f.). Fire detection. Recuperado el 16 de abril de 2026, de https://www.johnsoncontrols.com/fire-detection
+- Ministerio de la Producción. (2025). Análisis sectorial: Desempeño e importancia del sector restaurantes y afines en la economía nacional 2019 - 2024. Producempresarial. https://www.producempresarial.pe/wp-content/uploads/2025/02/234-Sector-restaurantes-y-afines-2024.pdf
+- Instituto Nacional de Estadística e Informática. (2026). Perú: Comportamiento de los indicadores del mercado laboral a nivel nacional y en 27 ciudades: Enero-Diciembre 2025 | Cuarto trimestre 2025 (Informe Técnico). https://cdn.www.gob.pe/uploads/document/file/9450232/7739601-peru-comportamiento-de-los-indicadores-del-mercado-laboral-a-nivel-nacional-y-27-ciudades-cuarto-trimestre-2025.pdf
+- Ministerio de la Producción. (2025). Análisis sectorial: Desempeño e importancia del sector restaurantes y afines en la economía nacional (2019-2024). Oficina General de Evaluación de Impacto y Estudios Económicos.
+- Movistar Empresas. (2025). 65% de pymes planea integrar Inteligencia Artificial para fortalecer sus operaciones. https://www.movistar.com.pe/65-de-pymes-planea-integrar-inteligencia-artificial-para-fortalecer-sus-operaciones
+- Programa de las Naciones Unidas para el Desarrollo. (2025). Perú: Datos sobre desarrollo humano. Human Development Report Data Center. https://hdr.undp.org/data-center/specific-country-data#/countries/PER
+- World Bank. (2025). World Development Indicators: Interactive data portal. World Bank Open Data. https://datos.bancomundial.org/
+
