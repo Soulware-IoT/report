@@ -70,5 +70,57 @@
       alias: impact mapping
     - title: "3.3. Product Backlog"
       alias: product backlog
+- title: "Capítulo IV: Solution Software Design"
+  alias: capitulo 4
+  children:
+    - title: "4.1. Strategic-Level Domain-Driven Design"
+      alias: strategic ddd
+      children:
+        - title: "4.1.1. Design-Level EventStorming"
+          alias: design eventstorming
+          children:
+            - title: "4.1.1.1 Candidate Context Discovery"
+              alias: context discovery
+            - title: "4.1.1.2 Domain Message Flows Modeling"
+              alias: message flows
+            - title: "4.1.1.3 Bounded Context Canvases"
+              alias: context canvases
+        - title: "4.1.2. Context Mapping"
+          alias: context mapping
+        - title: "4.1.3. Software Architecture"
+          alias: architecture
+          children:
+            - title: "4.1.3.1. Software Architecture System Landscape Diagram"
+              alias: landscape diagram
+            - title: "4.1.3.2. Software Architecture Context Level Diagrams"
+              alias: context diagrams
+            - title: "4.1.3.2. Software Architecture Container Level Diagrams"
+              alias: container diagrams
+            - title: "4.1.3.3. Software Architecture Deployment Diagrams"
+              alias: deployment diagrams
+# Remove # replacing them by spaces when creating contexts
+#   - title: "4.2. Tactical-Level Domain-Driven Design"
+#     alias: tactical ddd
+#     children:
+#       - title: "4.2.X. Bounded Context: [Insert Context Name]"
+#         alias: [insert alias]
+#         children:
+#           - title: "4.2.X.1. Domain Layer"
+#             alias: domain layer
+#           - title: "4.2.X.2. Interface Layer"
+#             alias: interface layer
+#           - title: "4.2.X.3. Application Layer"
+#             alias: application layer
+#           - title: "4.2.X.4. Infrastructure Layer"
+#             alias: infrastructure layer
+#           - title: "4.2.X.5. Bounded Context Software Architecture Component Level Diagrams"
+#             alias: component diagrams
+#           - title: "4.2.X.6. Bounded Context Software Architecture Code Level Diagrams"
+#             alias: code diagrams
+#             children:
+#               - title: "4.2.X.6.1. Bounded Context Domain Layer Class Diagrams"
+#                 alias: domain class diagrams
+#               - title: "4.2.X.6.2. Bounded Context Database Design Diagram"
+#                 alias: database diagram
 - title: Referencias Bibliográficas
   alias: bibliografia
