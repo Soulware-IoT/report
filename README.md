@@ -763,8 +763,6 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 
 ## 2.5. Ubiquitous Language
 
-# Ubiquitous Language
-
 - **Restaurante (Restaurant):** Negocio gastronómico que opera una cocina y ocupa realizar procesos de control y gestión de riesgos
 
 - **Organización (Organization):** Unidad administrativa digital que representa al restaurante dentro del sistema y agrupa usuarios, procesos, registros y dispositivos IoT.
