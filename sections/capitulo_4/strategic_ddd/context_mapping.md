@@ -1,0 +1,5 @@
+Para formalizar la interacción entre los contextos identificados, se ha diseñado un Context Mapping que define los límites de consistencia y los contratos de comunicación del sistema. La arquitectura adopta un patrón de Upstream/Downstream, donde el Restaurant Context actúa como un Open Host Service (OHS), estableciendo un Lenguaje Publicado (PL) que centraliza la autoridad sobre la identidad y la estructura organizacional.
+
+<img src="../../../img/capitulo_4/context_mapping/diagram.jpg">
+
+Bajo este esquema, tanto el Intern Control como el Security Context se sitúan en una posición de Downstream, lo que garantiza una alta cohesión al consumir una fuente de verdad unificada para la gestión de permisos. Esta disposición estratégica, complementada con un API Gateway como punto de entrada único, asegura que el sistema sea resiliente ante cambios internos y altamente escalable, permitiendo que la lógica de procesos y la seguridad evolucionen de forma independiente sin comprometer la integridad global del ecosistema.
