@@ -1,0 +1,88 @@
+@startuml
+skinparam packageStyle rectangle
+
+title Restaurant - Interface Layer Structure
+
+package "Restaurant" {
+    package "Interfaces.Rest" {
+        package "Controllers" {
+            class OrganizationController <<Controller>> {
+                +createOrganization(resource)
+                +getOrganizationById(id)
+            }
+            class UserController <<Controller>> {
+                +createUser(resource)
+                +configurePermissions(id, resource)
+                +getUserById(id)
+            }
+        }
+        package "Transform" {
+            class OrganizationResourceAssembler <<Assembler>> {
+                +toResource(aggregate)
+                +toEntity(resource)
+            }
+            class UserResourceAssembler <<Assembler>> {
+                +toResource(aggregate)
+                +toEntity(resource)
+            }
+        }
+        package "Resources" {
+            class CreateOrganizationResource <<Resource>> {
+                +organizationName: string
+                +coordinates: string
+            }
+            class OrganizationResource <<Resource>> {
+                +id: number
+                +organizationName: string
+            }
+            class CreateUserResource <<Resource>> {
+                +fullName: string
+                +email: string
+            }
+            class ConfigureUserPermissionsResource <<Resource>> {
+                +permissions: list
+            }
+            class UserResource <<Resource>> {
+                +id: number
+                +fullName: string
+                +userType: string
+            }
+            class PagedResponseResource <<Resource>> {
+                +items: list
+                +total: number
+            }
+        }
+    }
+
+    package "Application.Internal" {
+        package "CommandServices" {}
+        package "QueryServices" {}
+    }
+
+    package "Domain" {
+        package "Model" {
+            package "Commands" {}
+            package "Queries" {}
+            package "Aggregates" {}
+        }
+    }
+}
+
+' === RELACIONES DE INTERFACE: Restaurant ===
+Restaurant.Interfaces.Rest.Controllers.OrganizationController ..> Restaurant.Interfaces.Rest.Resources
+Restaurant.Interfaces.Rest.Controllers.OrganizationController ..> Restaurant.Interfaces.Rest.Transform
+Restaurant.Interfaces.Rest.Controllers.OrganizationController ..> Restaurant.Application.Internal.CommandServices
+Restaurant.Interfaces.Rest.Controllers.OrganizationController ..> Restaurant.Application.Internal.QueryServices
+Restaurant.Interfaces.Rest.Controllers.OrganizationController ..> Restaurant.Domain.Model.Commands
+Restaurant.Interfaces.Rest.Controllers.OrganizationController ..> Restaurant.Domain.Model.Queries
+
+Restaurant.Interfaces.Rest.Controllers.UserController ..> Restaurant.Interfaces.Rest.Resources
+Restaurant.Interfaces.Rest.Controllers.UserController ..> Restaurant.Interfaces.Rest.Transform
+Restaurant.Interfaces.Rest.Controllers.UserController ..> Restaurant.Application.Internal.CommandServices
+Restaurant.Interfaces.Rest.Controllers.UserController ..> Restaurant.Application.Internal.QueryServices
+Restaurant.Interfaces.Rest.Controllers.UserController ..> Restaurant.Domain.Model.Commands
+Restaurant.Interfaces.Rest.Controllers.UserController ..> Restaurant.Domain.Model.Queries
+
+Restaurant.Interfaces.Rest.Transform.OrganizationResourceAssembler ..> Restaurant.Domain.Model.Aggregates
+Restaurant.Interfaces.Rest.Transform.UserResourceAssembler ..> Restaurant.Domain.Model.Aggregates
+@enduml

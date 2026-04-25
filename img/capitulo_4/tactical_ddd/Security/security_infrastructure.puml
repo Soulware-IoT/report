@@ -1,0 +1,95 @@
+@startuml
+skinparam packageStyle rectangle
+
+title RestaurantSecurity - Infrastructure Layer Structure
+
+package "RestaurantSecurity" {
+    package "Infrastructure.Persistence" {
+        package "JPA" {
+            package "Entities" {
+                class DeviceEntity <<JpaEntity>> {
+                    +id: long
+                    +name: string
+                }
+                class SensorReadingEntity <<JpaEntity>> {
+                    +id: long
+                    +value: decimal
+                }
+                class ActuatorEntity <<JpaEntity>> {
+                    +id: long
+                    +state: string
+                }
+                class RiskPolicyEntity <<JpaEntity>> {
+                    +id: long
+                    +name: string
+                }
+                class MeasureThresholdEntity <<JpaEntity>> {
+                    +id: long
+                    +threshold: decimal
+                }
+            }
+            package "Mappers" {
+                class DeviceMapper <<Mapper>> {
+                    +toDomain(entity)
+                    +toEntity(aggregate)
+                }
+                class ActuatorMapper <<Mapper>> {
+                    +toDomain(entity)
+                    +toEntity(aggregate)
+                }
+                class RiskPolicyMapper <<Mapper>> {
+                    +toDomain(entity)
+                    +toEntity(aggregate)
+                }
+            }
+            package "Repositories" {
+                class JpaDeviceRepository <<JpaRepository>> {
+                    +save(entity): void
+                    +findById(id)
+                }
+                class JpaActuatorRepository <<JpaRepository>> {
+                    +save(entity): void
+                    +findById(id)
+                }
+                class JpaRiskPolicyRepository <<JpaRepository>> {
+                    +save(entity): void
+                    +findById(id)
+                }
+                class JpaMeasureThresholdRepository <<JpaRepository>> {
+                    +save(entity): void
+                    +findByRiskPolicyId(id)
+                }
+            }
+        }
+    }
+
+    package "Domain" {
+        package "Model" {
+            package "Aggregates" {}
+            package "ValueObjects" {}
+        }
+    }
+
+    package "Application.Internal" {
+        package "CommandServices" {}
+        package "QueryServices" {}
+    }
+}
+
+' === RELACIONES DE INFRASTRUCTURE: Security ===
+RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories.JpaDeviceRepository ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Entities.DeviceEntity
+RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories.JpaDeviceRepository ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Entities.SensorReadingEntity
+RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories.JpaActuatorRepository ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Entities.ActuatorEntity
+RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories.JpaRiskPolicyRepository ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Entities.RiskPolicyEntity
+RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories.JpaMeasureThresholdRepository ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Entities.MeasureThresholdEntity
+
+RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.DeviceMapper ..> RestaurantSecurity.Domain.Model.Aggregates
+RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.ActuatorMapper ..> RestaurantSecurity.Domain.Model.Aggregates
+RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.RiskPolicyMapper ..> RestaurantSecurity.Domain.Model.Aggregates
+RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.DeviceMapper ..> RestaurantSecurity.Domain.Model.ValueObjects
+RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.ActuatorMapper ..> RestaurantSecurity.Domain.Model.ValueObjects
+RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.RiskPolicyMapper ..> RestaurantSecurity.Domain.Model.ValueObjects
+
+RestaurantSecurity.Application.Internal.CommandServices ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories
+RestaurantSecurity.Application.Internal.QueryServices ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories
+@enduml

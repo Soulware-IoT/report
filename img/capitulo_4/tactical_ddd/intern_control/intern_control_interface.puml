@@ -1,0 +1,115 @@
+@startuml
+skinparam packageStyle rectangle
+
+title InternControl - Interface Layer Structure
+
+package "InternControl" {
+    package "Interfaces.Rest" {
+        package "Controllers" {
+            class ControlProcessController <<Controller>> {
+                +createControlProcess(resource)
+                +changeProcessStatus(id, resource)
+            }
+            class RecordTemplateController <<Controller>> {
+                +createTemplate(resource)
+                +publishTemplateVersion(id, resource)
+            }
+            class RecordController <<Controller>> {
+                +registerRecord(resource)
+                +changeRecordStatus(id, resource)
+                +getRecordById(id)
+            }
+        }
+        package "Transform" {
+            class ControlProcessResourceAssembler <<Assembler>> {
+                +toResource(aggregate)
+                +toEntity(resource)
+            }
+            class RecordTemplateResourceAssembler <<Assembler>> {
+                +toResource(aggregate)
+                +toEntity(resource)
+            }
+            class RecordResourceAssembler <<Assembler>> {
+                +toResource(aggregate)
+                +toEntity(resource)
+            }
+        }
+        package "Resources" {
+            class CreateControlProcessResource <<Resource>> {
+                +name: string
+                +status: string
+            }
+            class CreateRecordTemplateResource <<Resource>> {
+                +templateName: string
+                +fields: list
+            }
+            class PublishTemplateVersionResource <<Resource>> {
+                +version: number
+                +fields: list
+            }
+            class RegisterRecordResource <<Resource>> {
+                +templateVersionId: number
+                +values: list
+            }
+            class ChangeRecordStatusResource <<Resource>> {
+                +status: string
+            }
+            class ControlProcessResource <<Resource>> {
+                +id: number
+                +name: string
+            }
+            class RecordTemplateResource <<Resource>> {
+                +id: number
+                +templateName: string
+            }
+            class RecordResource <<Resource>> {
+                +id: number
+                +registeredAt: datetime
+            }
+            class PagedResponseResource <<Resource>> {
+                +items: list
+                +total: number
+            }
+        }
+    }
+
+    package "Application.Internal" {
+        package "CommandServices" {}
+        package "QueryServices" {}
+    }
+
+    package "Domain" {
+        package "Model" {
+            package "Commands" {}
+            package "Queries" {}
+            package "Aggregates" {}
+        }
+    }
+}
+
+' === RELACIONES DE INTERFACE: InternControl ===
+InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Interfaces.Rest.Resources
+InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Interfaces.Rest.Transform
+InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Application.Internal.CommandServices
+InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Application.Internal.QueryServices
+InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Domain.Model.Commands
+InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Domain.Model.Queries
+
+InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Interfaces.Rest.Resources
+InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Interfaces.Rest.Transform
+InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Application.Internal.CommandServices
+InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Application.Internal.QueryServices
+InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Domain.Model.Commands
+InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Domain.Model.Queries
+
+InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Interfaces.Rest.Resources
+InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Interfaces.Rest.Transform
+InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Application.Internal.CommandServices
+InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Application.Internal.QueryServices
+InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Domain.Model.Commands
+InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Domain.Model.Queries
+
+InternControl.Interfaces.Rest.Transform.ControlProcessResourceAssembler ..> InternControl.Domain.Model.Aggregates
+InternControl.Interfaces.Rest.Transform.RecordTemplateResourceAssembler ..> InternControl.Domain.Model.Aggregates
+InternControl.Interfaces.Rest.Transform.RecordResourceAssembler ..> InternControl.Domain.Model.Aggregates
+@enduml

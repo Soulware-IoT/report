@@ -1,0 +1,134 @@
+@startuml
+skinparam packageStyle rectangle
+
+title RestaurantSecurity - Domain Structure
+
+package "RestaurantSecurity" {
+    package "Domain" {
+        package "Model" {
+            package "Aggregates" {
+                class Sensor <<AggregateRoot>> {
+                    -DeviceId id
+                    -DeviceData deviceData
+                    -ReadingValue readingValue
+                }
+                class Actuator <<AggregateRoot>> {
+                    -DeviceId id
+                    -DeviceData deviceData
+                    -ActuatorType actuatorType
+                    -ActionState state
+                }
+                class RiskPolicy <<AggregateRoot>> {
+                    -RiskPolicyId id
+                    -List<MeasureThreshold> thresholds
+                }
+            }
+            package "Entities" {
+                class DeviceData <<Entity>> {
+                    -DeviceId id
+                    -DeviceName name
+                    -MacAddress macAddress
+                    -DeviceStatus status
+                }
+                class MeasureThreshold <<Entity>> {
+                    -MeasurementType measurementType
+                    -Threshold threshold
+                    -DeviceId targetActuatorId
+                    -ThresholdTrigger trigger
+                }
+            }
+            package "ValueObjects" {
+                class DeviceId <<ValueObject>> {
+                    -Int id
+                }
+                class DeviceName <<ValueObject>> {
+                    -String value
+                }
+                class MacAddress <<ValueObject>> {
+                    -String value
+                }
+                enum DeviceStatus <<ValueObject>> {
+                    ONLINE
+                    OFFLINE
+                }
+                class ActuatorType <<ValueObject>> {
+                    -String value
+                }
+                class MeasurementType <<ValueObject>> {
+                    -String value
+                }
+                class RiskPolicyId <<ValueObject>> {
+                    -Int id
+                }
+                class Threshold <<ValueObject>> {
+                    -Decimal value
+                }
+                enum ThresholdTrigger <<ValueObject>> {
+                    ABOVE_THRESHOLD
+                    BELOW_THRESHOLD
+                }
+                class ReadingId <<ValueObject>> {
+                    -Int id
+                }
+                class ReadingValue <<ValueObject>> {
+                    -Decimal value
+                }
+                enum ActionState <<ValueObject>> {
+                    STANDBY
+                    ACTION
+                }
+            }
+        }
+        package "Services" {
+            package "Builders" {
+                class RiskPolicyBuilder <<Builder>> {
+                    +withThresholdRule(measurementType: MeasurementType, threshold: Threshold, targetActuatorId: DeviceId, trigger: ThresholdTrigger): RiskPolicyBuilder
+                    +build(): RiskPolicy
+                }
+            }
+            package "CommandServices" {
+                class DeviceCommandService <<DomainService>>
+                class RiskPolicyCommandService <<DomainService>>
+                class ActuatorCommandService <<DomainService>>
+            }
+            package "QueryServices" {
+                class DeviceQueryService <<DomainService>>
+                class RiskPolicyQueryService <<DomainService>>
+            }
+        }
+    }
+}
+
+' === RELACIONES DE DOMINIO: RestaurantSecurity ===
+RestaurantSecurity.Domain.Model.Aggregates.Sensor *-- RestaurantSecurity.Domain.Model.Entities.DeviceData
+RestaurantSecurity.Domain.Model.Aggregates.Actuator *-- RestaurantSecurity.Domain.Model.Entities.DeviceData
+RestaurantSecurity.Domain.Model.Aggregates.RiskPolicy *-- RestaurantSecurity.Domain.Model.Entities.MeasureThreshold
+
+RestaurantSecurity.Domain.Model.Aggregates.Sensor ..> RestaurantSecurity.Domain.Model.ValueObjects.DeviceId
+RestaurantSecurity.Domain.Model.Aggregates.Sensor ..> RestaurantSecurity.Domain.Model.ValueObjects.ReadingValue
+RestaurantSecurity.Domain.Model.Aggregates.Actuator ..> RestaurantSecurity.Domain.Model.ValueObjects.DeviceId
+RestaurantSecurity.Domain.Model.Aggregates.Actuator ..> RestaurantSecurity.Domain.Model.ValueObjects.ActuatorType
+RestaurantSecurity.Domain.Model.Aggregates.Actuator ..> RestaurantSecurity.Domain.Model.ValueObjects.ActionState
+RestaurantSecurity.Domain.Model.Aggregates.RiskPolicy ..> RestaurantSecurity.Domain.Model.ValueObjects.RiskPolicyId
+
+RestaurantSecurity.Domain.Model.Entities.DeviceData ..> RestaurantSecurity.Domain.Model.ValueObjects.DeviceId
+RestaurantSecurity.Domain.Model.Entities.DeviceData ..> RestaurantSecurity.Domain.Model.ValueObjects.DeviceName
+RestaurantSecurity.Domain.Model.Entities.DeviceData ..> RestaurantSecurity.Domain.Model.ValueObjects.MacAddress
+RestaurantSecurity.Domain.Model.Entities.DeviceData ..> RestaurantSecurity.Domain.Model.ValueObjects.DeviceStatus
+
+RestaurantSecurity.Domain.Model.Entities.MeasureThreshold ..> RestaurantSecurity.Domain.Model.ValueObjects.MeasurementType
+RestaurantSecurity.Domain.Model.Entities.MeasureThreshold ..> RestaurantSecurity.Domain.Model.ValueObjects.Threshold
+RestaurantSecurity.Domain.Model.Entities.MeasureThreshold ..> RestaurantSecurity.Domain.Model.ValueObjects.DeviceId
+RestaurantSecurity.Domain.Model.Entities.MeasureThreshold ..> RestaurantSecurity.Domain.Model.ValueObjects.ThresholdTrigger
+
+RestaurantSecurity.Domain.Services.Builders.RiskPolicyBuilder ..> RestaurantSecurity.Domain.Model.Aggregates.RiskPolicy
+RestaurantSecurity.Domain.Services.CommandServices.DeviceCommandService ..> RestaurantSecurity.Domain.Model.Aggregates.Sensor
+RestaurantSecurity.Domain.Services.CommandServices.DeviceCommandService ..> RestaurantSecurity.Domain.Model.Aggregates.Actuator
+RestaurantSecurity.Domain.Services.CommandServices.RiskPolicyCommandService ..> RestaurantSecurity.Domain.Model.Aggregates.RiskPolicy
+RestaurantSecurity.Domain.Services.CommandServices.RiskPolicyCommandService ..> RestaurantSecurity.Domain.Model.Aggregates.Sensor
+RestaurantSecurity.Domain.Services.CommandServices.ActuatorCommandService ..> RestaurantSecurity.Domain.Model.Aggregates.Actuator
+RestaurantSecurity.Domain.Services.QueryServices.DeviceQueryService ..> RestaurantSecurity.Domain.Model.Aggregates.Sensor
+RestaurantSecurity.Domain.Services.QueryServices.DeviceQueryService ..> RestaurantSecurity.Domain.Model.Aggregates.Actuator
+RestaurantSecurity.Domain.Services.QueryServices.RiskPolicyQueryService ..> RestaurantSecurity.Domain.Model.Aggregates.RiskPolicy
+RestaurantSecurity.Domain.Services.CommandServices.RiskPolicyCommandService ..> RestaurantSecurity.Domain.Services.CommandServices.ActuatorCommandService
+@enduml

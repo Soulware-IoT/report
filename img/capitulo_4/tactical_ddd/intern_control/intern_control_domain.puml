@@ -1,0 +1,301 @@
+@startuml
+
+skinparam packageStyle rectangle
+
+
+
+title InternControl - Domain Structure (Versioned Templates)
+
+
+
+package "InternControl" {
+
+  package "Domain" {
+
+    package "Model" {
+
+
+
+      package "Aggregates" {
+
+
+
+        class ControlProcess <<AggregateRoot>> {
+
+          -ControlProcessId id
+
+          -ControlProcessName name
+
+          -ProcessStatus status
+
+          -List<RecordTemplate> templates
+
+        }
+
+
+
+        class RecordTemplate <<AggregateRoot>> {
+
+          -RecordTemplateId id
+
+          -TemplateName name
+
+          -List<RecordTemplateVersion> versions
+
+        }
+
+
+
+        class Record <<AggregateRoot>> {
+
+          -RecordId id
+
+          -RecordTemplateVersionId templateVersionId
+
+          -RegisteredAt registeredAt
+
+          -RecordStatus status
+
+          -List<RecordValue> values
+
+        }
+
+      }
+
+
+
+      package "Entities" {
+
+
+
+        class RecordTemplateVersion <<Entity>> {
+
+          -VersionNumber version
+
+          -CreatedAt createdAt
+
+          -List<TemplateField> fields
+
+        }
+
+
+
+        class TemplateField <<Entity>> {
+
+          -FieldId id
+
+          -FieldName name
+
+          -FieldType type
+
+          -Boolean required
+
+        }
+
+
+
+        class RecordValue <<Entity>> {
+
+          -FieldId fieldId
+
+          -FieldValue value
+
+        }
+
+      }
+
+
+
+      package "ValueObjects" {
+
+
+
+        class ControlProcessId <<ValueObject>> {
+
+          -Int value
+
+        }
+
+
+
+        class RecordId <<ValueObject>> {
+
+          -Int value
+
+        }
+
+
+
+        class RecordTemplateId <<ValueObject>> {
+
+          -Int value
+
+        }
+
+
+
+        class RecordTemplateVersionId <<ValueObject>> {
+
+          -Int value
+
+        }
+
+
+
+        class FieldId <<ValueObject>> {
+
+          -Int value
+
+        }
+
+
+
+        class ControlProcessName <<ValueObject>> {
+
+          -String value
+
+        }
+
+
+
+        class TemplateName <<ValueObject>> {
+
+          -String value
+
+        }
+
+
+
+        class FieldValue <<ValueObject>> {
+
+          -String value
+
+        }
+
+
+
+        class FieldName <<ValueObject>> {
+
+          -String value
+
+        }
+
+
+
+        class FieldType <<ValueObject>> {
+
+          -String value
+
+        }
+
+
+
+        class RegisteredAt <<ValueObject>> {
+
+          -DateTime value
+
+        }
+
+
+
+        class CreatedAt <<ValueObject>> {
+
+          -DateTime value
+
+        }
+
+
+
+        class ProcessStatus <<ValueObject>> {
+
+          -String value
+
+        }
+
+
+
+        class RecordStatus <<ValueObject>> {
+
+          -String value
+
+        }
+
+
+
+        class VersionNumber <<ValueObject>> {
+
+          -Int value
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+
+
+' === RELACIONES ===
+
+
+
+ControlProcess *-- RecordTemplate
+
+RecordTemplate *-- RecordTemplateVersion
+
+RecordTemplateVersion *-- TemplateField
+
+
+
+Record *-- RecordValue
+
+Record --> RecordTemplateVersion
+
+
+
+TemplateField --> FieldId
+
+TemplateField --> FieldName
+
+TemplateField --> FieldType
+
+
+
+RecordValue --> FieldId
+
+RecordValue --> FieldValue
+
+
+
+Record --> RecordId
+
+Record --> RecordTemplateVersionId
+
+Record --> RecordStatus
+
+
+
+RecordTemplate --> RecordTemplateId
+
+RecordTemplate --> TemplateName
+
+
+
+RecordTemplateVersion --> VersionNumber
+
+RecordTemplateVersion --> CreatedAt
+
+
+
+ControlProcess --> ControlProcessId
+
+ControlProcess --> ControlProcessName
+
+ControlProcess --> ProcessStatus
+
+
+
+@enduml

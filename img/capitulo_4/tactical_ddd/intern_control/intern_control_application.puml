@@ -1,0 +1,92 @@
+@startuml
+skinparam packageStyle rectangle
+
+title InternControl - Application Layer Structure
+
+package "InternControl" {
+    package "Domain" {
+        package "Model" {
+            package "Aggregates" {}
+            package "Commands" {}
+            package "Queries" {}
+        }
+        package "Services" {}
+    }
+
+    package "Application.Internal" {
+        package "CommandServices" {
+            class ControlProcessCommandApplicationService <<ApplicationService>> {
+                +handleCreateControlProcess(command): void
+                +handleChangeProcessStatus(command): void
+            }
+            class RecordTemplateCommandApplicationService <<ApplicationService>> {
+                +handleCreateTemplate(command): void
+                +handlePublishTemplateVersion(command): void
+            }
+            class RecordCommandApplicationService <<ApplicationService>> {
+                +handleRegisterRecord(command): void
+                +handleChangeRecordStatus(command): void
+            }
+        }
+        package "QueryServices" {
+            class ControlProcessQueryApplicationService <<ApplicationService>> {
+                +handleGetControlProcessById(query)
+                +handleListControlProcesses(query)
+            }
+            class RecordTemplateQueryApplicationService <<ApplicationService>> {
+                +handleGetTemplateById(query)
+                +handleListTemplates(query)
+            }
+            class RecordQueryApplicationService <<ApplicationService>> {
+                +handleGetRecordById(query)
+                +handleListRecords(query)
+            }
+        }
+    }
+
+    package "Infrastructure.Persistence" {
+        package "JPA" {
+            class ControlProcessRepository <<Repository>> {
+                +save(controlProcess): void
+                +findById(id)
+            }
+            class RecordTemplateRepository <<Repository>> {
+                +save(template): void
+                +findById(id)
+            }
+            class RecordRepository <<Repository>> {
+                +save(record): void
+                +findById(id)
+            }
+        }
+    }
+}
+
+' === RELACIONES DE APPLICATION: InternControl ===
+InternControl.Application.Internal.CommandServices.ControlProcessCommandApplicationService ..> InternControl.Domain.Services
+InternControl.Application.Internal.CommandServices.ControlProcessCommandApplicationService ..> InternControl.Domain.Model.Commands
+InternControl.Application.Internal.CommandServices.ControlProcessCommandApplicationService ..> InternControl.Domain.Model.Aggregates
+InternControl.Application.Internal.CommandServices.ControlProcessCommandApplicationService ..> InternControl.Infrastructure.Persistence.JPA.ControlProcessRepository
+
+InternControl.Application.Internal.CommandServices.RecordTemplateCommandApplicationService ..> InternControl.Domain.Services
+InternControl.Application.Internal.CommandServices.RecordTemplateCommandApplicationService ..> InternControl.Domain.Model.Commands
+InternControl.Application.Internal.CommandServices.RecordTemplateCommandApplicationService ..> InternControl.Domain.Model.Aggregates
+InternControl.Application.Internal.CommandServices.RecordTemplateCommandApplicationService ..> InternControl.Infrastructure.Persistence.JPA.RecordTemplateRepository
+
+InternControl.Application.Internal.CommandServices.RecordCommandApplicationService ..> InternControl.Domain.Services
+InternControl.Application.Internal.CommandServices.RecordCommandApplicationService ..> InternControl.Domain.Model.Commands
+InternControl.Application.Internal.CommandServices.RecordCommandApplicationService ..> InternControl.Domain.Model.Aggregates
+InternControl.Application.Internal.CommandServices.RecordCommandApplicationService ..> InternControl.Infrastructure.Persistence.JPA.RecordRepository
+
+InternControl.Application.Internal.QueryServices.ControlProcessQueryApplicationService ..> InternControl.Domain.Services
+InternControl.Application.Internal.QueryServices.ControlProcessQueryApplicationService ..> InternControl.Domain.Model.Queries
+InternControl.Application.Internal.QueryServices.ControlProcessQueryApplicationService ..> InternControl.Infrastructure.Persistence.JPA.ControlProcessRepository
+
+InternControl.Application.Internal.QueryServices.RecordTemplateQueryApplicationService ..> InternControl.Domain.Services
+InternControl.Application.Internal.QueryServices.RecordTemplateQueryApplicationService ..> InternControl.Domain.Model.Queries
+InternControl.Application.Internal.QueryServices.RecordTemplateQueryApplicationService ..> InternControl.Infrastructure.Persistence.JPA.RecordTemplateRepository
+
+InternControl.Application.Internal.QueryServices.RecordQueryApplicationService ..> InternControl.Domain.Services
+InternControl.Application.Internal.QueryServices.RecordQueryApplicationService ..> InternControl.Domain.Model.Queries
+InternControl.Application.Internal.QueryServices.RecordQueryApplicationService ..> InternControl.Infrastructure.Persistence.JPA.RecordRepository
+@enduml

@@ -1,0 +1,88 @@
+@startuml
+skinparam packageStyle rectangle
+
+title RestaurantSecurity - Application Layer Structure
+
+package "RestaurantSecurity" {
+    package "Domain" {
+        package "Model" {
+            package "Aggregates" {}
+            package "Commands" {}
+            package "Queries" {}
+        }
+        package "Services" {
+            package "Builders" {}
+        }
+    }
+
+    package "Application.Internal" {
+        package "CommandServices" {
+            class DeviceCommandApplicationService <<ApplicationService>> {
+                +handleRegisterSensor(command): void
+                +handleUpdateDeviceStatus(command): void
+            }
+            class RiskPolicyCommandApplicationService <<ApplicationService>> {
+                +handleCreateRiskPolicy(command): void
+                +handleUpdateThreshold(command): void
+            }
+            class ActuatorCommandApplicationService <<ApplicationService>> {
+                +handleRegisterActuator(command): void
+                +handleTriggerAction(command): void
+            }
+        }
+        package "QueryServices" {
+            class DeviceQueryApplicationService <<ApplicationService>> {
+                +handleGetDeviceById(query)
+                +handleListDevices(query)
+            }
+            class RiskPolicyQueryApplicationService <<ApplicationService>> {
+                +handleGetRiskPolicyById(query)
+                +handleListRiskPolicies(query)
+            }
+        }
+    }
+
+    package "Infrastructure.Persistence" {
+        package "JPA" {
+            class DeviceRepository <<Repository>> {
+                +save(device): void
+                +findById(id)
+            }
+            class RiskPolicyRepository <<Repository>> {
+                +save(policy): void
+                +findById(id)
+            }
+            class MeasureThresholdRepository <<Repository>> {
+                +save(threshold): void
+                +findByRiskPolicyId(id)
+            }
+        }
+    }
+}
+
+' === RELACIONES DE APPLICATION: Security ===
+RestaurantSecurity.Application.Internal.CommandServices.DeviceCommandApplicationService ..> RestaurantSecurity.Domain.Services
+RestaurantSecurity.Application.Internal.CommandServices.DeviceCommandApplicationService ..> RestaurantSecurity.Domain.Model.Commands
+RestaurantSecurity.Application.Internal.CommandServices.DeviceCommandApplicationService ..> RestaurantSecurity.Domain.Model.Aggregates
+RestaurantSecurity.Application.Internal.CommandServices.DeviceCommandApplicationService ..> RestaurantSecurity.Infrastructure.Persistence.JPA.DeviceRepository
+
+RestaurantSecurity.Application.Internal.CommandServices.RiskPolicyCommandApplicationService ..> RestaurantSecurity.Domain.Services
+RestaurantSecurity.Application.Internal.CommandServices.RiskPolicyCommandApplicationService ..> RestaurantSecurity.Domain.Model.Commands
+RestaurantSecurity.Application.Internal.CommandServices.RiskPolicyCommandApplicationService ..> RestaurantSecurity.Domain.Model.Aggregates
+RestaurantSecurity.Application.Internal.CommandServices.RiskPolicyCommandApplicationService ..> RestaurantSecurity.Domain.Services.Builders
+RestaurantSecurity.Application.Internal.CommandServices.RiskPolicyCommandApplicationService ..> RestaurantSecurity.Infrastructure.Persistence.JPA.RiskPolicyRepository
+RestaurantSecurity.Application.Internal.CommandServices.RiskPolicyCommandApplicationService ..> RestaurantSecurity.Infrastructure.Persistence.JPA.MeasureThresholdRepository
+
+RestaurantSecurity.Application.Internal.CommandServices.ActuatorCommandApplicationService ..> RestaurantSecurity.Domain.Services
+RestaurantSecurity.Application.Internal.CommandServices.ActuatorCommandApplicationService ..> RestaurantSecurity.Domain.Model.Commands
+RestaurantSecurity.Application.Internal.CommandServices.ActuatorCommandApplicationService ..> RestaurantSecurity.Domain.Model.Aggregates
+RestaurantSecurity.Application.Internal.CommandServices.ActuatorCommandApplicationService ..> RestaurantSecurity.Infrastructure.Persistence.JPA.DeviceRepository
+
+RestaurantSecurity.Application.Internal.QueryServices.DeviceQueryApplicationService ..> RestaurantSecurity.Domain.Services
+RestaurantSecurity.Application.Internal.QueryServices.DeviceQueryApplicationService ..> RestaurantSecurity.Domain.Model.Queries
+RestaurantSecurity.Application.Internal.QueryServices.DeviceQueryApplicationService ..> RestaurantSecurity.Infrastructure.Persistence.JPA.DeviceRepository
+
+RestaurantSecurity.Application.Internal.QueryServices.RiskPolicyQueryApplicationService ..> RestaurantSecurity.Domain.Services
+RestaurantSecurity.Application.Internal.QueryServices.RiskPolicyQueryApplicationService ..> RestaurantSecurity.Domain.Model.Queries
+RestaurantSecurity.Application.Internal.QueryServices.RiskPolicyQueryApplicationService ..> RestaurantSecurity.Infrastructure.Persistence.JPA.RiskPolicyRepository
+@enduml

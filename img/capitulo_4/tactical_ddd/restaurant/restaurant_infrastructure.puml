@@ -1,0 +1,71 @@
+@startuml
+skinparam packageStyle rectangle
+
+title Restaurant - Infrastructure Layer Structure
+
+package "Restaurant" {
+    package "Infrastructure.Persistence" {
+        package "JPA" {
+            package "Entities" {
+                class OrganizationEntity <<JpaEntity>> {
+                    +id: long
+                    +name: string
+                }
+                class UserEntity <<JpaEntity>> {
+                    +id: long
+                    +email: string
+                }
+                class PermissionEntity <<JpaEntity>> {
+                    +id: long
+                    +permissionName: string
+                }
+            }
+            package "Mappers" {
+                class OrganizationMapper <<Mapper>> {
+                    +toDomain(entity)
+                    +toEntity(aggregate)
+                }
+                class UserMapper <<Mapper>> {
+                    +toDomain(entity)
+                    +toEntity(aggregate)
+                }
+            }
+            package "Repositories" {
+                class JpaOrganizationRepository <<JpaRepository>> {
+                    +save(entity): void
+                    +findById(id)
+                }
+                class JpaUserRepository <<JpaRepository>> {
+                    +save(entity): void
+                    +findById(id)
+                }
+            }
+        }
+    }
+
+    package "Domain" {
+        package "Model" {
+            package "Aggregates" {}
+            package "ValueObjects" {}
+        }
+    }
+
+    package "Application.Internal" {
+        package "CommandServices" {}
+        package "QueryServices" {}
+    }
+}
+
+' === RELACIONES DE INFRASTRUCTURE: Restaurant ===
+Restaurant.Infrastructure.Persistence.JPA.Repositories.JpaOrganizationRepository ..> Restaurant.Infrastructure.Persistence.JPA.Entities.OrganizationEntity
+Restaurant.Infrastructure.Persistence.JPA.Repositories.JpaUserRepository ..> Restaurant.Infrastructure.Persistence.JPA.Entities.UserEntity
+Restaurant.Infrastructure.Persistence.JPA.Repositories.JpaUserRepository ..> Restaurant.Infrastructure.Persistence.JPA.Entities.PermissionEntity
+
+Restaurant.Infrastructure.Persistence.JPA.Mappers.OrganizationMapper ..> Restaurant.Domain.Model.Aggregates
+Restaurant.Infrastructure.Persistence.JPA.Mappers.UserMapper ..> Restaurant.Domain.Model.Aggregates
+Restaurant.Infrastructure.Persistence.JPA.Mappers.OrganizationMapper ..> Restaurant.Domain.Model.ValueObjects
+Restaurant.Infrastructure.Persistence.JPA.Mappers.UserMapper ..> Restaurant.Domain.Model.ValueObjects
+
+Restaurant.Application.Internal.CommandServices ..> Restaurant.Infrastructure.Persistence.JPA.Repositories
+Restaurant.Application.Internal.QueryServices ..> Restaurant.Infrastructure.Persistence.JPA.Repositories
+@enduml

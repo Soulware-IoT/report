@@ -1,0 +1,71 @@
+@startuml
+skinparam packageStyle rectangle
+
+title Restaurant - Application Layer Structure
+
+package "Restaurant" {
+    package "Domain" {
+        package "Model" {
+            package "Aggregates" {}
+            package "Commands" {}
+            package "Queries" {}
+        }
+        package "Services" {}
+    }
+
+    package "Application.Internal" {
+        package "CommandServices" {
+            class OrganizationCommandApplicationService <<ApplicationService>> {
+                +handleCreateOrganization(command): void
+                +handleUpdateOrganization(command): void
+            }
+            class UserCommandApplicationService <<ApplicationService>> {
+                +handleCreateUser(command): void
+                +handleConfigurePermissions(command): void
+            }
+        }
+        package "QueryServices" {
+            class OrganizationQueryApplicationService <<ApplicationService>> {
+                +handleGetOrganizationById(query)
+                +handleListOrganizations(query)
+            }
+            class UserQueryApplicationService <<ApplicationService>> {
+                +handleGetUserById(query)
+                +handleListUsersByOrganization(query)
+            }
+        }
+    }
+
+    package "Infrastructure.Persistence" {
+        package "JPA" {
+            class OrganizationRepository <<Repository>> {
+                +save(organization): void
+                +findById(id)
+            }
+            class UserRepository <<Repository>> {
+                +save(user): void
+                +findById(id)
+            }
+        }
+    }
+}
+
+' === RELACIONES DE APPLICATION: Restaurant ===
+Restaurant.Application.Internal.CommandServices.OrganizationCommandApplicationService ..> Restaurant.Domain.Services
+Restaurant.Application.Internal.CommandServices.OrganizationCommandApplicationService ..> Restaurant.Domain.Model.Commands
+Restaurant.Application.Internal.CommandServices.OrganizationCommandApplicationService ..> Restaurant.Domain.Model.Aggregates
+Restaurant.Application.Internal.CommandServices.OrganizationCommandApplicationService ..> Restaurant.Infrastructure.Persistence.JPA.OrganizationRepository
+
+Restaurant.Application.Internal.CommandServices.UserCommandApplicationService ..> Restaurant.Domain.Services
+Restaurant.Application.Internal.CommandServices.UserCommandApplicationService ..> Restaurant.Domain.Model.Commands
+Restaurant.Application.Internal.CommandServices.UserCommandApplicationService ..> Restaurant.Domain.Model.Aggregates
+Restaurant.Application.Internal.CommandServices.UserCommandApplicationService ..> Restaurant.Infrastructure.Persistence.JPA.UserRepository
+
+Restaurant.Application.Internal.QueryServices.OrganizationQueryApplicationService ..> Restaurant.Domain.Services
+Restaurant.Application.Internal.QueryServices.OrganizationQueryApplicationService ..> Restaurant.Domain.Model.Queries
+Restaurant.Application.Internal.QueryServices.OrganizationQueryApplicationService ..> Restaurant.Infrastructure.Persistence.JPA.OrganizationRepository
+
+Restaurant.Application.Internal.QueryServices.UserQueryApplicationService ..> Restaurant.Domain.Services
+Restaurant.Application.Internal.QueryServices.UserQueryApplicationService ..> Restaurant.Domain.Model.Queries
+Restaurant.Application.Internal.QueryServices.UserQueryApplicationService ..> Restaurant.Infrastructure.Persistence.JPA.UserRepository
+@enduml

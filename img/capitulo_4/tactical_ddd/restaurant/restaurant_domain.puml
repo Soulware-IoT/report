@@ -1,0 +1,120 @@
+@startuml
+skinparam packageStyle rectangle
+
+title Restaurant - Domain Structure
+
+package "Restaurant" {
+    package "Domain" {
+        package "Model" {
+            package "Aggregates" {
+                class Organization <<AggregateRoot>> {
+                    -OrganizationId id
+                    -Organization organization
+                }
+                class User <<AggregateRoot>> {
+                    -UserId id
+                    -Identity identity
+                    -List<Permission> permissions
+                }
+            }
+            package "Entities" {
+                class Organization <<Entity>> {
+                    -OrganizationId id
+                    -OrganizationName name
+                    -UserId organizationOwner
+                    -RestaurantCoordinates coordinates
+                    -LocationReferences references
+                }
+                class Identity <<Entity>> {
+                    -UserId id
+                    -FullName fullName
+                    -Email email
+                    -UserType type
+                    -OrganizationId organizationId
+                }
+            }
+            package "Commands" {
+                class CreateOrganizationCommand
+                class CreateUserCommand
+                class ConfigureUserPermissionsCommand
+            }
+            package "Queries" {
+                class GetOrganizationByIdQuery
+                class GetUserByIdQuery
+                class ListUsersByOrganizationQuery
+            }
+            package "ValueObjects" {
+                class OrganizationId <<ValueObject>> {
+                    -Int id
+                }
+                class UserId <<ValueObject>> {
+                    -Int id
+                }
+                class Email <<ValueObject>> {
+                    -String value
+                }
+                class FullName <<ValueObject>> {
+                    -String value
+                }
+                class OrganizationName <<ValueObject>> {
+                    -String value
+                }
+                class RestaurantCoordinates <<ValueObject>> {
+                    -Decimal latitude
+                    -Decimal longitude
+                }
+                class LocationReferences <<ValueObject>> {
+                    -List<String> values
+                }
+                enum UserType <<ValueObject>> {
+                    TENIENTE
+                    ENCARGADO
+                }
+                class Permission <<ValueObject>> {
+                    -Int id
+                    -String permissionName
+                }
+            }
+        }
+        package "Services" {
+            package "CommandServices" {
+                class OrganizationCommandService <<DomainService>>
+                class UserCommandService <<DomainService>> {
+                    +createUser(type: UserType, permissions: List<Permission>): User
+                    +configurePermissions(userId: UserId, permissions: List<Permission>)
+                }
+            }
+            package "QueryServices" {
+                class OrganizationQueryService <<DomainService>>
+                class UserQueryService <<DomainService>>
+            }
+        }
+    }
+}
+
+' === RELACIONES DE DOMINIO: Restaurant ===
+Restaurant.Domain.Model.Aggregates.Organization *-- Restaurant.Domain.Model.Entities.Organization
+Restaurant.Domain.Model.Aggregates.User *-- Restaurant.Domain.Model.Entities.Identity
+Restaurant.Domain.Model.Aggregates.User o-- Restaurant.Domain.Model.ValueObjects.Permission
+Restaurant.Domain.Model.Entities.Organization ..> Restaurant.Domain.Model.ValueObjects.OrganizationId
+Restaurant.Domain.Model.Entities.Organization ..> Restaurant.Domain.Model.ValueObjects.OrganizationName
+Restaurant.Domain.Model.Entities.Organization ..> Restaurant.Domain.Model.ValueObjects.UserId
+Restaurant.Domain.Model.Entities.Organization ..> Restaurant.Domain.Model.ValueObjects.RestaurantCoordinates
+Restaurant.Domain.Model.Entities.Organization ..> Restaurant.Domain.Model.ValueObjects.LocationReferences
+Restaurant.Domain.Model.Entities.Identity ..> Restaurant.Domain.Model.ValueObjects.UserId
+Restaurant.Domain.Model.Entities.Identity ..> Restaurant.Domain.Model.ValueObjects.FullName
+Restaurant.Domain.Model.Entities.Identity ..> Restaurant.Domain.Model.ValueObjects.Email
+Restaurant.Domain.Model.Entities.Identity ..> Restaurant.Domain.Model.ValueObjects.UserType
+Restaurant.Domain.Model.Entities.Identity ..> Restaurant.Domain.Model.ValueObjects.OrganizationId
+Restaurant.Domain.Services.CommandServices.OrganizationCommandService ..> Restaurant.Domain.Model.Aggregates.Organization
+Restaurant.Domain.Services.CommandServices.UserCommandService ..> Restaurant.Domain.Model.Aggregates.User
+Restaurant.Domain.Services.QueryServices.OrganizationQueryService ..> Restaurant.Domain.Model.Aggregates.Organization
+Restaurant.Domain.Services.QueryServices.UserQueryService ..> Restaurant.Domain.Model.Aggregates.User
+Restaurant.Domain.Services.CommandServices.OrganizationCommandService ..> Restaurant.Domain.Model.Commands.CreateOrganizationCommand
+Restaurant.Domain.Services.CommandServices.UserCommandService ..> Restaurant.Domain.Model.Commands.CreateUserCommand
+Restaurant.Domain.Services.CommandServices.UserCommandService ..> Restaurant.Domain.Model.Commands.ConfigureUserPermissionsCommand
+Restaurant.Domain.Services.QueryServices.OrganizationQueryService ..> Restaurant.Domain.Model.Queries.GetOrganizationByIdQuery
+Restaurant.Domain.Services.QueryServices.UserQueryService ..> Restaurant.Domain.Model.Queries.GetUserByIdQuery
+Restaurant.Domain.Services.QueryServices.UserQueryService ..> Restaurant.Domain.Model.Queries.ListUsersByOrganizationQuery
+
+@enduml
