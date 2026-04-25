@@ -18,9 +18,13 @@
 
 - **Politica de permisos (Permission policy):** Configuracion que determina como se delegan capacidades administrativas, de supervision y de registro entre usuarios de la organizacion.
 
-- **Proceso (Process):** Estructura tipo tabla asociada a un proceso, usada para capturar datos de control como checklist o formulario.
+- **Proceso de control (Control process):** Conjunto de formatos de registro.
 
-- **Registro (Record):** Evidencia capturada en un formato de registro para documentar la ejecucion de un proceso en fecha y hora determinadas.
+- **Formato de registro (Record template):** Formato tipo tabla de que sirve de plantilla a llenar para los realizar procesos de control
+
+- **Campo (field):** Campo de los cuales esta conformado el formato de registro o plantilla
+
+- **Registro (record):** Entradas que se llenan en la plantilla del formato de registro
 
 - **Dispositivo IoT (IoT device):** Equipo conectado al sistema que reporta eventos o estado de seguridad del restaurante (sensor, camara o actuador).
 
