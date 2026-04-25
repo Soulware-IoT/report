@@ -8,16 +8,23 @@ package "Restaurant" {
         package "JPA" {
             package "Entities" {
                 class OrganizationEntity <<JpaEntity>> {
-                    +id: long
-                    +name: string
+                    -OrganizationId id
+                    -OrganizationName name
+                    -UserId organizationOwner
+                    -RestaurantCoordinates coordinates
+                    -LocationReferences references
                 }
                 class UserEntity <<JpaEntity>> {
-                    +id: long
-                    +email: string
+                    -UserId id
+                    -FullName fullName
+                    -Email email
+                    -UserType type
+                    -OrganizationId organizationId
+                    -List<Permission> permissions
                 }
                 class PermissionEntity <<JpaEntity>> {
-                    +id: long
-                    +permissionName: string
+                    -Int id
+                    -String permissionName
                 }
             }
             package "Mappers" {
@@ -42,18 +49,6 @@ package "Restaurant" {
             }
         }
     }
-
-    package "Domain" {
-        package "Model" {
-            package "Aggregates" {}
-            package "ValueObjects" {}
-        }
-    }
-
-    package "Application.Internal" {
-        package "CommandServices" {}
-        package "QueryServices" {}
-    }
 }
 
 ' === RELACIONES DE INFRASTRUCTURE: Restaurant ===
@@ -61,11 +56,8 @@ Restaurant.Infrastructure.Persistence.JPA.Repositories.JpaOrganizationRepository
 Restaurant.Infrastructure.Persistence.JPA.Repositories.JpaUserRepository ..> Restaurant.Infrastructure.Persistence.JPA.Entities.UserEntity
 Restaurant.Infrastructure.Persistence.JPA.Repositories.JpaUserRepository ..> Restaurant.Infrastructure.Persistence.JPA.Entities.PermissionEntity
 
-Restaurant.Infrastructure.Persistence.JPA.Mappers.OrganizationMapper ..> Restaurant.Domain.Model.Aggregates
-Restaurant.Infrastructure.Persistence.JPA.Mappers.UserMapper ..> Restaurant.Domain.Model.Aggregates
-Restaurant.Infrastructure.Persistence.JPA.Mappers.OrganizationMapper ..> Restaurant.Domain.Model.ValueObjects
-Restaurant.Infrastructure.Persistence.JPA.Mappers.UserMapper ..> Restaurant.Domain.Model.ValueObjects
-
-Restaurant.Application.Internal.CommandServices ..> Restaurant.Infrastructure.Persistence.JPA.Repositories
-Restaurant.Application.Internal.QueryServices ..> Restaurant.Infrastructure.Persistence.JPA.Repositories
+Restaurant.Infrastructure.Persistence.JPA.Mappers.OrganizationMapper ..> Restaurant.Infrastructure.Persistence.JPA.Entities.OrganizationEntity
+Restaurant.Infrastructure.Persistence.JPA.Mappers.UserMapper ..> Restaurant.Infrastructure.Persistence.JPA.Entities.UserEntity
+Restaurant.Infrastructure.Persistence.JPA.Repositories.JpaOrganizationRepository ..> Restaurant.Infrastructure.Persistence.JPA.Mappers.OrganizationMapper
+Restaurant.Infrastructure.Persistence.JPA.Repositories.JpaUserRepository ..> Restaurant.Infrastructure.Persistence.JPA.Mappers.UserMapper
 @enduml

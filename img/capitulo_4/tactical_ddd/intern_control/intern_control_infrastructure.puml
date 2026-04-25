@@ -8,28 +8,37 @@ package "InternControl" {
         package "JPA" {
             package "Entities" {
                 class ControlProcessEntity <<JpaEntity>> {
-                    +id: long
-                    +name: string
+                    -ControlProcessId id
+                    -ControlProcessName name
+                    -ProcessStatus status
+                    -List<RecordTemplate> templates
                 }
                 class RecordTemplateEntity <<JpaEntity>> {
-                    +id: long
-                    +templateName: string
+                    -RecordTemplateId id
+                    -TemplateName name
+                    -List<RecordTemplateVersion> versions
                 }
                 class RecordTemplateVersionEntity <<JpaEntity>> {
-                    +id: long
-                    +version: number
+                    -VersionNumber version
+                    -CreatedAt createdAt
+                    -List<TemplateField> fields
                 }
                 class TemplateFieldEntity <<JpaEntity>> {
-                    +id: long
-                    +fieldName: string
+                    -FieldId id
+                    -FieldName name
+                    -FieldType type
+                    -Boolean required
                 }
                 class RecordEntity <<JpaEntity>> {
-                    +id: long
-                    +status: string
+                    -RecordId id
+                    -RecordTemplateVersionId templateVersionId
+                    -RegisteredAt registeredAt
+                    -RecordStatus status
+                    -List<RecordValue> values
                 }
                 class RecordValueEntity <<JpaEntity>> {
-                    +id: long
-                    +value: string
+                    -FieldId fieldId
+                    -FieldValue value
                 }
             }
             package "Mappers" {
@@ -62,19 +71,6 @@ package "InternControl" {
             }
         }
     }
-
-    package "Domain" {
-        package "Model" {
-            package "Aggregates" {}
-            package "Entities" {}
-            package "ValueObjects" {}
-        }
-    }
-
-    package "Application.Internal" {
-        package "CommandServices" {}
-        package "QueryServices" {}
-    }
 }
 
 ' === RELACIONES DE INFRASTRUCTURE: InternControl ===
@@ -85,14 +81,10 @@ InternControl.Infrastructure.Persistence.JPA.Repositories.JpaRecordTemplateRepos
 InternControl.Infrastructure.Persistence.JPA.Repositories.JpaRecordRepository ..> InternControl.Infrastructure.Persistence.JPA.Entities.RecordEntity
 InternControl.Infrastructure.Persistence.JPA.Repositories.JpaRecordRepository ..> InternControl.Infrastructure.Persistence.JPA.Entities.RecordValueEntity
 
-InternControl.Infrastructure.Persistence.JPA.Mappers.ControlProcessMapper ..> InternControl.Domain.Model.Aggregates
-InternControl.Infrastructure.Persistence.JPA.Mappers.RecordTemplateMapper ..> InternControl.Domain.Model.Aggregates
-InternControl.Infrastructure.Persistence.JPA.Mappers.RecordMapper ..> InternControl.Domain.Model.Aggregates
-InternControl.Infrastructure.Persistence.JPA.Mappers.RecordTemplateMapper ..> InternControl.Domain.Model.Entities
-InternControl.Infrastructure.Persistence.JPA.Mappers.ControlProcessMapper ..> InternControl.Domain.Model.ValueObjects
-InternControl.Infrastructure.Persistence.JPA.Mappers.RecordTemplateMapper ..> InternControl.Domain.Model.ValueObjects
-InternControl.Infrastructure.Persistence.JPA.Mappers.RecordMapper ..> InternControl.Domain.Model.ValueObjects
-
-InternControl.Application.Internal.CommandServices ..> InternControl.Infrastructure.Persistence.JPA.Repositories
-InternControl.Application.Internal.QueryServices ..> InternControl.Infrastructure.Persistence.JPA.Repositories
+InternControl.Infrastructure.Persistence.JPA.Mappers.ControlProcessMapper ..> InternControl.Infrastructure.Persistence.JPA.Entities.ControlProcessEntity
+InternControl.Infrastructure.Persistence.JPA.Mappers.RecordTemplateMapper ..> InternControl.Infrastructure.Persistence.JPA.Entities.RecordTemplateEntity
+InternControl.Infrastructure.Persistence.JPA.Mappers.RecordMapper ..> InternControl.Infrastructure.Persistence.JPA.Entities.RecordEntity
+InternControl.Infrastructure.Persistence.JPA.Repositories.JpaControlProcessRepository ..> InternControl.Infrastructure.Persistence.JPA.Mappers.ControlProcessMapper
+InternControl.Infrastructure.Persistence.JPA.Repositories.JpaRecordTemplateRepository ..> InternControl.Infrastructure.Persistence.JPA.Mappers.RecordTemplateMapper
+InternControl.Infrastructure.Persistence.JPA.Repositories.JpaRecordRepository ..> InternControl.Infrastructure.Persistence.JPA.Mappers.RecordMapper
 @enduml

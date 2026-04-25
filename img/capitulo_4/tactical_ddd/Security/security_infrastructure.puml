@@ -8,24 +8,30 @@ package "RestaurantSecurity" {
         package "JPA" {
             package "Entities" {
                 class DeviceEntity <<JpaEntity>> {
-                    +id: long
-                    +name: string
+                    -DeviceId id
+                    -DeviceName name
+                    -MacAddress macAddress
+                    -DeviceStatus status
                 }
                 class SensorReadingEntity <<JpaEntity>> {
-                    +id: long
-                    +value: decimal
+                    -ReadingId id
+                    -ReadingValue value
                 }
                 class ActuatorEntity <<JpaEntity>> {
-                    +id: long
-                    +state: string
+                    -DeviceId id
+                    -DeviceData deviceData
+                    -ActuatorType actuatorType
+                    -ActionState state
                 }
                 class RiskPolicyEntity <<JpaEntity>> {
-                    +id: long
-                    +name: string
+                    -RiskPolicyId id
+                    -List<MeasureThreshold> thresholds
                 }
                 class MeasureThresholdEntity <<JpaEntity>> {
-                    +id: long
-                    +threshold: decimal
+                    -MeasurementType measurementType
+                    -Threshold threshold
+                    -DeviceId targetActuatorId
+                    -ThresholdTrigger trigger
                 }
             }
             package "Mappers" {
@@ -62,18 +68,6 @@ package "RestaurantSecurity" {
             }
         }
     }
-
-    package "Domain" {
-        package "Model" {
-            package "Aggregates" {}
-            package "ValueObjects" {}
-        }
-    }
-
-    package "Application.Internal" {
-        package "CommandServices" {}
-        package "QueryServices" {}
-    }
 }
 
 ' === RELACIONES DE INFRASTRUCTURE: Security ===
@@ -83,13 +77,10 @@ RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories.JpaActuatorReposi
 RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories.JpaRiskPolicyRepository ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Entities.RiskPolicyEntity
 RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories.JpaMeasureThresholdRepository ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Entities.MeasureThresholdEntity
 
-RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.DeviceMapper ..> RestaurantSecurity.Domain.Model.Aggregates
-RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.ActuatorMapper ..> RestaurantSecurity.Domain.Model.Aggregates
-RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.RiskPolicyMapper ..> RestaurantSecurity.Domain.Model.Aggregates
-RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.DeviceMapper ..> RestaurantSecurity.Domain.Model.ValueObjects
-RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.ActuatorMapper ..> RestaurantSecurity.Domain.Model.ValueObjects
-RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.RiskPolicyMapper ..> RestaurantSecurity.Domain.Model.ValueObjects
-
-RestaurantSecurity.Application.Internal.CommandServices ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories
-RestaurantSecurity.Application.Internal.QueryServices ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories
+RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.DeviceMapper ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Entities.DeviceEntity
+RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.ActuatorMapper ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Entities.ActuatorEntity
+RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.RiskPolicyMapper ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Entities.RiskPolicyEntity
+RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories.JpaDeviceRepository ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.DeviceMapper
+RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories.JpaActuatorRepository ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.ActuatorMapper
+RestaurantSecurity.Infrastructure.Persistence.JPA.Repositories.JpaRiskPolicyRepository ..> RestaurantSecurity.Infrastructure.Persistence.JPA.Mappers.RiskPolicyMapper
 @enduml

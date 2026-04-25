@@ -35,77 +35,67 @@ package "RestaurantSecurity" {
         }
         package "Resources" {
             class RegisterSensorResource <<Resource>> {
-                +deviceName: string
-                +macAddress: string
+                -DeviceId id
+                -DeviceName name
+                -MacAddress macAddress
+                -DeviceStatus status
+                -ReadingValue readingValue
             }
             class RegisterActuatorResource <<Resource>> {
-                +deviceName: string
-                +actuatorType: string
+                -DeviceId id
+                -DeviceName name
+                -MacAddress macAddress
+                -DeviceStatus status
+                -ActuatorType actuatorType
+                -ActionState state
             }
             class CreateRiskPolicyResource <<Resource>> {
-                +policyName: string
-                +thresholds: list
+                -RiskPolicyId id
+                -List<MeasureThreshold> thresholds
             }
             class UpdateRiskThresholdResource <<Resource>> {
-                +measurementType: string
-                +threshold: decimal
+                -MeasurementType measurementType
+                -Threshold threshold
+                -DeviceId targetActuatorId
+                -ThresholdTrigger trigger
             }
             class SensorResource <<Resource>> {
-                +id: number
-                +status: string
+                -DeviceId id
+                -DeviceData deviceData
+                -ReadingValue readingValue
             }
             class ActuatorResource <<Resource>> {
-                +id: number
-                +state: string
+                -DeviceId id
+                -DeviceData deviceData
+                -ActuatorType actuatorType
+                -ActionState state
             }
             class RiskPolicyResource <<Resource>> {
-                +id: number
-                +thresholdCount: number
+                -RiskPolicyId id
+                -List<MeasureThreshold> thresholds
             }
-            class PagedResponseResource <<Resource>> {
-                +items: list
-                +total: number
-            }
-        }
-    }
-
-    package "Application.Internal" {
-        package "CommandServices" {}
-        package "QueryServices" {}
-    }
-
-    package "Domain" {
-        package "Model" {
-            package "Commands" {}
-            package "Queries" {}
-            package "Aggregates" {}
         }
     }
 }
 
 ' === RELACIONES DE INTERFACE: Security ===
-RestaurantSecurity.Interfaces.Rest.Controllers.SensorController ..> RestaurantSecurity.Interfaces.Rest.Resources
-RestaurantSecurity.Interfaces.Rest.Controllers.SensorController ..> RestaurantSecurity.Interfaces.Rest.Transform
-RestaurantSecurity.Interfaces.Rest.Controllers.SensorController ..> RestaurantSecurity.Application.Internal.CommandServices
-RestaurantSecurity.Interfaces.Rest.Controllers.SensorController ..> RestaurantSecurity.Application.Internal.QueryServices
-RestaurantSecurity.Interfaces.Rest.Controllers.SensorController ..> RestaurantSecurity.Domain.Model.Commands
-RestaurantSecurity.Interfaces.Rest.Controllers.SensorController ..> RestaurantSecurity.Domain.Model.Queries
+RestaurantSecurity.Interfaces.Rest.Controllers.SensorController ..> RestaurantSecurity.Interfaces.Rest.Resources.RegisterSensorResource
+RestaurantSecurity.Interfaces.Rest.Controllers.SensorController ..> RestaurantSecurity.Interfaces.Rest.Resources.SensorResource
+RestaurantSecurity.Interfaces.Rest.Controllers.SensorController ..> RestaurantSecurity.Interfaces.Rest.Transform.SensorResourceAssembler
 
-RestaurantSecurity.Interfaces.Rest.Controllers.ActuatorController ..> RestaurantSecurity.Interfaces.Rest.Resources
-RestaurantSecurity.Interfaces.Rest.Controllers.ActuatorController ..> RestaurantSecurity.Interfaces.Rest.Transform
-RestaurantSecurity.Interfaces.Rest.Controllers.ActuatorController ..> RestaurantSecurity.Application.Internal.CommandServices
-RestaurantSecurity.Interfaces.Rest.Controllers.ActuatorController ..> RestaurantSecurity.Application.Internal.QueryServices
-RestaurantSecurity.Interfaces.Rest.Controllers.ActuatorController ..> RestaurantSecurity.Domain.Model.Commands
-RestaurantSecurity.Interfaces.Rest.Controllers.ActuatorController ..> RestaurantSecurity.Domain.Model.Queries
+RestaurantSecurity.Interfaces.Rest.Controllers.ActuatorController ..> RestaurantSecurity.Interfaces.Rest.Resources.RegisterActuatorResource
+RestaurantSecurity.Interfaces.Rest.Controllers.ActuatorController ..> RestaurantSecurity.Interfaces.Rest.Resources.ActuatorResource
+RestaurantSecurity.Interfaces.Rest.Controllers.ActuatorController ..> RestaurantSecurity.Interfaces.Rest.Transform.ActuatorResourceAssembler
 
-RestaurantSecurity.Interfaces.Rest.Controllers.RiskPolicyController ..> RestaurantSecurity.Interfaces.Rest.Resources
-RestaurantSecurity.Interfaces.Rest.Controllers.RiskPolicyController ..> RestaurantSecurity.Interfaces.Rest.Transform
-RestaurantSecurity.Interfaces.Rest.Controllers.RiskPolicyController ..> RestaurantSecurity.Application.Internal.CommandServices
-RestaurantSecurity.Interfaces.Rest.Controllers.RiskPolicyController ..> RestaurantSecurity.Application.Internal.QueryServices
-RestaurantSecurity.Interfaces.Rest.Controllers.RiskPolicyController ..> RestaurantSecurity.Domain.Model.Commands
-RestaurantSecurity.Interfaces.Rest.Controllers.RiskPolicyController ..> RestaurantSecurity.Domain.Model.Queries
+RestaurantSecurity.Interfaces.Rest.Controllers.RiskPolicyController ..> RestaurantSecurity.Interfaces.Rest.Resources.CreateRiskPolicyResource
+RestaurantSecurity.Interfaces.Rest.Controllers.RiskPolicyController ..> RestaurantSecurity.Interfaces.Rest.Resources.UpdateRiskThresholdResource
+RestaurantSecurity.Interfaces.Rest.Controllers.RiskPolicyController ..> RestaurantSecurity.Interfaces.Rest.Resources.RiskPolicyResource
+RestaurantSecurity.Interfaces.Rest.Controllers.RiskPolicyController ..> RestaurantSecurity.Interfaces.Rest.Transform.RiskPolicyResourceAssembler
 
-RestaurantSecurity.Interfaces.Rest.Transform.SensorResourceAssembler ..> RestaurantSecurity.Domain.Model.Aggregates
-RestaurantSecurity.Interfaces.Rest.Transform.ActuatorResourceAssembler ..> RestaurantSecurity.Domain.Model.Aggregates
-RestaurantSecurity.Interfaces.Rest.Transform.RiskPolicyResourceAssembler ..> RestaurantSecurity.Domain.Model.Aggregates
+RestaurantSecurity.Interfaces.Rest.Transform.SensorResourceAssembler ..> RestaurantSecurity.Interfaces.Rest.Resources.RegisterSensorResource
+RestaurantSecurity.Interfaces.Rest.Transform.SensorResourceAssembler ..> RestaurantSecurity.Interfaces.Rest.Resources.SensorResource
+RestaurantSecurity.Interfaces.Rest.Transform.ActuatorResourceAssembler ..> RestaurantSecurity.Interfaces.Rest.Resources.RegisterActuatorResource
+RestaurantSecurity.Interfaces.Rest.Transform.ActuatorResourceAssembler ..> RestaurantSecurity.Interfaces.Rest.Resources.ActuatorResource
+RestaurantSecurity.Interfaces.Rest.Transform.RiskPolicyResourceAssembler ..> RestaurantSecurity.Interfaces.Rest.Resources.CreateRiskPolicyResource
+RestaurantSecurity.Interfaces.Rest.Transform.RiskPolicyResourceAssembler ..> RestaurantSecurity.Interfaces.Rest.Resources.RiskPolicyResource
 @enduml

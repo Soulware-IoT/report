@@ -36,80 +36,73 @@ package "InternControl" {
         }
         package "Resources" {
             class CreateControlProcessResource <<Resource>> {
-                +name: string
-                +status: string
+                -ControlProcessName name
+                -ProcessStatus status
+                -List<RecordTemplate> templates
+            }
+            class ChangeControlProcessStatusResource <<Resource>> {
+                -ProcessStatus status
             }
             class CreateRecordTemplateResource <<Resource>> {
-                +templateName: string
-                +fields: list
+                -TemplateName name
+                -List<RecordTemplateVersion> versions
             }
             class PublishTemplateVersionResource <<Resource>> {
-                +version: number
-                +fields: list
+                -VersionNumber version
+                -CreatedAt createdAt
+                -List<TemplateField> fields
             }
             class RegisterRecordResource <<Resource>> {
-                +templateVersionId: number
-                +values: list
+                -RecordTemplateVersionId templateVersionId
+                -RegisteredAt registeredAt
+                -RecordStatus status
+                -List<RecordValue> values
             }
             class ChangeRecordStatusResource <<Resource>> {
-                +status: string
+                -RecordStatus status
             }
             class ControlProcessResource <<Resource>> {
-                +id: number
-                +name: string
+                -ControlProcessId id
+                -ControlProcessName name
+                -ProcessStatus status
+                -List<RecordTemplate> templates
             }
             class RecordTemplateResource <<Resource>> {
-                +id: number
-                +templateName: string
+                -RecordTemplateId id
+                -TemplateName name
+                -List<RecordTemplateVersion> versions
             }
             class RecordResource <<Resource>> {
-                +id: number
-                +registeredAt: datetime
+                -RecordId id
+                -RecordTemplateVersionId templateVersionId
+                -RegisteredAt registeredAt
+                -RecordStatus status
+                -List<RecordValue> values
             }
-            class PagedResponseResource <<Resource>> {
-                +items: list
-                +total: number
-            }
-        }
-    }
-
-    package "Application.Internal" {
-        package "CommandServices" {}
-        package "QueryServices" {}
-    }
-
-    package "Domain" {
-        package "Model" {
-            package "Commands" {}
-            package "Queries" {}
-            package "Aggregates" {}
         }
     }
 }
 
 ' === RELACIONES DE INTERFACE: InternControl ===
-InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Interfaces.Rest.Resources
-InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Interfaces.Rest.Transform
-InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Application.Internal.CommandServices
-InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Application.Internal.QueryServices
-InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Domain.Model.Commands
-InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Domain.Model.Queries
+InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Interfaces.Rest.Resources.CreateControlProcessResource
+InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Interfaces.Rest.Resources.ChangeControlProcessStatusResource
+InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Interfaces.Rest.Resources.ControlProcessResource
+InternControl.Interfaces.Rest.Controllers.ControlProcessController ..> InternControl.Interfaces.Rest.Transform.ControlProcessResourceAssembler
 
-InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Interfaces.Rest.Resources
-InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Interfaces.Rest.Transform
-InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Application.Internal.CommandServices
-InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Application.Internal.QueryServices
-InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Domain.Model.Commands
-InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Domain.Model.Queries
+InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Interfaces.Rest.Resources.CreateRecordTemplateResource
+InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Interfaces.Rest.Resources.PublishTemplateVersionResource
+InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Interfaces.Rest.Resources.RecordTemplateResource
+InternControl.Interfaces.Rest.Controllers.RecordTemplateController ..> InternControl.Interfaces.Rest.Transform.RecordTemplateResourceAssembler
 
-InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Interfaces.Rest.Resources
-InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Interfaces.Rest.Transform
-InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Application.Internal.CommandServices
-InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Application.Internal.QueryServices
-InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Domain.Model.Commands
-InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Domain.Model.Queries
+InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Interfaces.Rest.Resources.RegisterRecordResource
+InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Interfaces.Rest.Resources.ChangeRecordStatusResource
+InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Interfaces.Rest.Resources.RecordResource
+InternControl.Interfaces.Rest.Controllers.RecordController ..> InternControl.Interfaces.Rest.Transform.RecordResourceAssembler
 
-InternControl.Interfaces.Rest.Transform.ControlProcessResourceAssembler ..> InternControl.Domain.Model.Aggregates
-InternControl.Interfaces.Rest.Transform.RecordTemplateResourceAssembler ..> InternControl.Domain.Model.Aggregates
-InternControl.Interfaces.Rest.Transform.RecordResourceAssembler ..> InternControl.Domain.Model.Aggregates
+InternControl.Interfaces.Rest.Transform.ControlProcessResourceAssembler ..> InternControl.Interfaces.Rest.Resources.CreateControlProcessResource
+InternControl.Interfaces.Rest.Transform.ControlProcessResourceAssembler ..> InternControl.Interfaces.Rest.Resources.ControlProcessResource
+InternControl.Interfaces.Rest.Transform.RecordTemplateResourceAssembler ..> InternControl.Interfaces.Rest.Resources.CreateRecordTemplateResource
+InternControl.Interfaces.Rest.Transform.RecordTemplateResourceAssembler ..> InternControl.Interfaces.Rest.Resources.RecordTemplateResource
+InternControl.Interfaces.Rest.Transform.RecordResourceAssembler ..> InternControl.Interfaces.Rest.Resources.RegisterRecordResource
+InternControl.Interfaces.Rest.Transform.RecordResourceAssembler ..> InternControl.Interfaces.Rest.Resources.RecordResource
 @enduml
