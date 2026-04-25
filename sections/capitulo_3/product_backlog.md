@@ -1,5 +1,9 @@
 Se presenta el Product Backlog, priorizando las historias de usuario en función al valor que aportan al negocio.
 
+Se presenta a continuación una captura del Product Backlog en YouTrack, al cual se puede acceder mediante el siguiente enlace: [https://soulware.youtrack.cloud/projects/C360](https://soulware.youtrack.cloud/projects/C360)
+
+<img src="../../img/capitulo_3/youtrack_backlog.png">
+
 <table>
     <thead>
         <tr>
