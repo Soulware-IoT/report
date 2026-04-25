@@ -743,18 +743,53 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 
 ### 2.3.1. User Personas
 
+A continuación, presentamos los arquetipos de usuario (perfiles ficticios) creados a partir de los segmentos que investigamos y entrevistamos. Cada perfil detalla aspectos clave como demografía, personalidad, motivaciones, metas, obstáculos y hábitos, así como su experiencia con productos afines. Toda esta información fue extraída de entrevistas reales y estructurada mediante la plataforma UXPressia.
+
+**DUEÑO DE RESTAURANTE / ROBERTO CORNEJO**
+
+<img src="./img/capitulo_2/needfinding/personas/roberto_personas.png">
+
+**COCINERO / JOSÉ SANCHEZ**
+
+<img src="./img/capitulo_2/needfinding/personas/jose_personas.png">
 
 
 ### 2.3.2. User Task Matrix
 
+La User Task Matrix es una herramienta clave para desglosar las acciones específicas que las personas realizan dentro de nuestra plataforma. Al evaluar la recurrencia y el impacto de cada tarea, obtenemos la claridad necesaria para enfocar de manera eficiente nuestros esfuerzos de diseño y desarrollo, garantizando así una mejora continua en la experiencia del usuario.
+
+<img src="./img/capitulo_2/needfinding/task_matrix/task_matrix.png">
+
+La User Task Matrix revela una clara división en los modelos de interacción de ambos arquetipos, lo que dictará la arquitectura de la información de la solución. Por un lado, Roberto (el Dueño) tiene un perfil de usuario supervisor; sus interacciones son de baja frecuencia pero de altísima importancia, centradas en la configuración, la mitigación de riesgos financieros (cancelar falsas alarmas, recibir alertas críticas) y el cumplimiento normativo (reportes para Defensa Civil). Por otro lado, José (el Cocinero) es un usuario operativo con tareas de alta frecuencia, interactuando constantemente con el sistema en el día a día para monitorear el entorno, encender turbinas y registrar mantenimientos.
 
 
 ### 2.3.3. User Journey Mapping
 
+Se desarrolla el User Journey Mapping en base al As_is del flujo de trabajo de los User Persona anteriormente elaborados
 
+**DUEÑO DE RESTAURANTE / ROBERTO CORNEJO**
+
+Roberto enfrenta un ciclo reactivo cada vez que se aproxima una inspección de Defensa Civil. Sin registros organizados ni herramientas digitales, depende de su memoria, papeles dispersos y gestiones apresuradas para preparar su local. La falta de un sistema de acompañamiento continuo hace que repita el mismo proceso desorganizado en cada inspección.
+
+<img src="./img/capitulo_2/needfinding/journey_mapping/roberto_user_journey_mapping.png">
+
+**COCINERO / JOSÉ SANCHEZ**
+
+José depende completamente de sus sentidos y criterio personal para detectar, evaluar y responder ante riesgos en la cocina. Sin sensores, protocolos claros ni mecanismos de registro, enfrenta cada incidente de forma improvisada. Sus propuestas de mejora quedan en conversaciones informales sin garantía de implementación.
+
+<img src="./img/capitulo_2/needfinding/journey_mapping/jose_user_journey_mapping.png">
 
 ### 2.3.4. Empathy Mapping
 
+**DUEÑO DE RESTAURANTE / ROBERTO CORNEJO**
+Se representan las necesidades, frustraciones y oportunidades del dueño del restaurante, así como las percepciones de su entorno y sus propias observaciones. Su principal dolor es no tener visibilidad continua del estado de su local, y su mayor aspiración es contar con una herramienta accesible que le permita gestionar la prevención de forma constante sin comprometer su presupuesto limitado.
+
+<img src="./img/capitulo_2/needfinding/empathy_mapping/roberto_empathy_mapping.png">
+
+**COCINERO / JOSÉ SANCHEZ**
+Se representan las necesidades, frustraciones y oportunidades del cocinero, así como las percepciones de su entorno y sus propias observaciones. José es un trabajador joven que enfrenta riesgos operativos diarios dependiendo únicamente de sus sentidos y criterio personal. Su principal dolor es cargar con la responsabilidad de detectar y responder ante emergencias sin herramientas ni protocolos claros, y su mayor aspiración es trabajar en un entorno donde la tecnología lo respalde y sus observaciones sobre seguridad sean consideradas.
+
+<img src="./img/capitulo_2/needfinding/empathy_mapping/jose_empathy_mapping.png">
 
 
 ## 2.4. Big Picture EventStorming
