@@ -919,6 +919,146 @@ Finalmente, agrupamos los agregados y sus eventos relacionados en fronteras ling
 
 
 
+## 4.2. Tactical-Level Domain-Driven Design
+
+### 4.2.1. Bounded Context: Restaurant
+
+#### 4.2.1.1. Domain Layer
+
+En esta seccion se presenta la imagen de domain layer del contexto restaurant.
+<img src="./img/capitulo_4/tactical_ddd/restaurant/Domain_restaurant.png" alt="Domain layer restaurant">
+
+
+#### 4.2.1.2. Interface Layer
+
+En esta seccion se presenta la imagen de interface layer del contexto restaurant.
+<img src="./img/capitulo_4/tactical_ddd/restaurant/Interface_restaurant.png" alt="Interface layer restaurant">
+
+
+#### 4.2.1.3. Application Layer
+
+En esta seccion se presenta la imagen de application layer del contexto restaurant.
+<img src="./img/capitulo_4/tactical_ddd/restaurant/Application_restaurant.png" alt="Application layer restaurant">
+
+
+#### 4.2.1.4. Infrastructure Layer
+
+En esta seccion se presenta la imagen de infrastructure layer del contexto restaurant.
+<img src="./img/capitulo_4/tactical_ddd/restaurant/Infrastructure_restaurant.png" alt="Infrastructure layer restaurant">
+
+
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+En esta seccion se presenta la imagen de component diagrams del contexto restaurant.
+<img src="./img/capitulo_4/tactical_ddd/restaurant/c3_restaurant.png" alt="C3 restaurant">
+
+
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+En esta seccion se presenta la imagen de domain class diagrams del contexto restaurant.
+<img src="img/capitulo_4/tactical_ddd/restaurant/code_diagrams/domain_class_diagrams.png" alt="Imagen">
+
+
+##### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+En esta seccion se presenta la imagen de database diagram del contexto restaurant.
+<img src="img/capitulo_4/tactical_ddd/restaurant/code_diagrams/database_diagram.png" alt="Imagen">
+
+
+### 4.2.2. Bounded Context: Security
+
+#### 4.2.2.1. Domain Layer
+
+En esta seccion se presenta la imagen de domain layer del contexto security.
+<img src="./img/capitulo_4/tactical_ddd/Security/Domain_security.png" alt="Domain layer security">
+
+
+#### 4.2.2.2. Interface Layer
+
+En esta seccion se presenta la imagen de interface layer del contexto security.
+<img src="./img/capitulo_4/tactical_ddd/Security/Interface_security.png" alt="Interface layer security">
+
+
+#### 4.2.2.3. Application Layer
+
+En esta seccion se presenta la imagen de application layer del contexto security.
+<img src="./img/capitulo_4/tactical_ddd/Security/Application_security.png" alt="Application layer security">
+
+
+#### 4.2.2.4. Infrastructure Layer
+
+En esta seccion se presenta la imagen de infrastructure layer del contexto security.
+<img src="./img/capitulo_4/tactical_ddd/Security/Infrastructure_security.png" alt="Infrastructure layer security">
+
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+En esta seccion se presenta la imagen de component diagrams del contexto security.
+<img src="./img/capitulo_4/tactical_ddd/Security/c3_security.png" alt="C3 security">
+
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+En esta seccion se presenta la imagen de domain class diagrams del contexto security.
+<img src="img/capitulo_4/tactical_ddd/security/code_diagrams/domain_class_diagrams.png" alt="Imagen">
+
+
+##### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+En esta seccion se presenta la imagen de database diagram del contexto security.
+<img src="img/capitulo_4/tactical_ddd/security/code_diagrams/database_diagram.png" alt="Imagen">
+
+
+### 4.2.3. Bounded Context: Intern Control
+
+#### 4.2.3.1. Domain Layer
+
+En esta seccion se presenta la imagen de domain layer del contexto intern_control.
+<img src="./img/capitulo_4/tactical_ddd/intern_control/Domain_intern_control.png" alt="Domain layer intern control">
+
+
+#### 4.2.3.2. Interface Layer
+
+En esta seccion se presenta la imagen de interface layer del contexto intern_control.
+<img src="./img/capitulo_4/tactical_ddd/intern_control/Interface_intern_control.png" alt="Interface layer intern control">
+
+
+#### 4.2.3.3. Application Layer
+
+En esta seccion se presenta la imagen de application layer del contexto intern_control.
+<img src="./img/capitulo_4/tactical_ddd/intern_control/Application_intern_control.png" alt="Application layer intern control">
+
+
+#### 4.2.3.4. Infrastructure Layer
+
+En esta seccion se presenta la imagen de infrastructure layer del contexto intern_control.
+<img src="./img/capitulo_4/tactical_ddd/intern_control/Infrastructure_intern_control.png" alt="Infrastructure layer intern control">
+
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+En esta seccion se presenta la imagen de component diagrams del contexto intern_control.
+<img src="./img/capitulo_4/tactical_ddd/intern_control/c3_intern_control.png" alt="C3 intern control">
+
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+En esta seccion se presenta la imagen de domain class diagrams del contexto intern_control.
+<img src="img/capitulo_4/tactical_ddd/intern_control/code_diagrams/domain_class_diagrams.png" alt="Imagen">
+
+
+##### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+En esta seccion se presenta la imagen de database diagram del contexto intern_control.
+<img src="img/capitulo_4/tactical_ddd/intern_control/code_diagrams/database_diagram.png" alt="Imagen">
+
+
 # Referencias Bibliográficas
 
 - COPEME. (2023). ¿Cuál es el perfil actual del emprendedor peruano joven? [Entrada de blog]. https://copeme.org.pe/Blog/cual-es-el-perfil-actual-del-emprendedor-peruano-joven/
