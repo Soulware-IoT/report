@@ -922,37 +922,69 @@ Finalmente, agrupamos los agregados y sus eventos relacionados en fronteras ling
 
 #### 4.1.1.1 Candidate Context Discovery
 
+En base al conocimiento actual del equipo sobre el dominio se ha realizado la técnica Eventstorming. A través de la cual se ha podido identificar los contextos del dominio:
 
+<img src="./img/capitulo_2/eventstorming/eventstorming-9.jpg">
+
+Para mayor documentación observar la sección 2.4. Big Picture EventStorming.
 
 #### 4.1.1.2 Domain Message Flows Modeling
 
+Para detallar el funcionamiento y conexión de los bounded context se ha determinado 2 escenarios que permitan comprender los procesos del negocio.
 
+Se ha reflejado el escenario de un encargado de cocina completando un registro de un proceso propio. 
+<img src="./img/capitulo_4/design_eventstorming/proceso.png">
+
+Además, se ha representado el escenario de un administrador observando los indicadores recopilados por los sensores IoT en su cocina.
+<img src="./img/capitulo_4/design_eventstorming/proceso.png">
 
 #### 4.1.1.3 Bounded Context Canvases
 
+El Intern Control Context constituye el núcleo operativo de l sistema, diseñado para cerrar la brecha entre la gestión informal y la auditoría profesional en los emprendimientos gastronómicos. Su propósito fundamental es la digitalización de la "confianza verbal", transformándola en un flujo de datos auditable que protege la inversión del dueño mediante la estandarización de procesos.
 
+<img src="./img/capitulo_4/context_canvases/intern-control.jpg">
+
+El Security Context representa la capa de defensa proactiva del sistema, integrando hardware IoT y computación en el borde para mitigar riesgos críticos. Se delega la vigilancia constante de integridad física (humo y calor) a un sistema autónomo capaz de reaccionar ante desastres inminentes.
+
+<img src="./img/capitulo_4/context_canvases/security.jpg">
+
+El Restaurant Context actúa como el sistema de soporte administrativo y de identidad de la plataforma. Su función primordial es establecer las fronteras organizacionales, gestionando la jerarquía de usuarios y la estructura de permisos necesaria para que los demás contextos operen de manera segura y ordenada dentro de una entidad legal específica.
+
+<img src="./img/capitulo_4/context_canvases/restaurant.jpg">
 
 ### 4.1.2. Context Mapping
 
+Para formalizar la interacción entre los contextos identificados, se ha diseñado un Context Mapping que define los límites de consistencia y los contratos de comunicación del sistema. La arquitectura adopta un patrón de Upstream/Downstream, donde el Restaurant Context se comunica con los otros contextos a través de un ACL, que centraliza la autoridad sobre la identidad y la estructura organizacional.
 
+<img src="./img/capitulo_4/context_mapping/diagram.jpg">
+
+Bajo este esquema, tanto el Intern Control como el Security Context se sitúan en una posición de Downstream, lo que garantiza una alta cohesión al consumir una fuente de verdad unificada para la gestión de permisos. Esto asegura que el sistema sea resiliente ante cambios internos y altamente escalable, permitiendo que la lógica de procesos y la seguridad evolucionen de forma independiente sin comprometer la integridad global del ecosistema.
 
 ### 4.1.3. Software Architecture
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
+Representa el panorama global de la solución. En esta vista se identifican todas las personas y sistemas que existen en el ecosistema, independientemente de si forman parte o no del sistema principal.
 
+<img src="./img/capitulo_4/architecture/landscape.png">
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
+Este nivel se centra exclusivamente en Cocina360 y su interacción con el exterior. Aquí se muestran las personas que utilizan el sistema, los sistemas externos con los que se integra y las relaciones entre ellos. No se entra en detalles internos del sistema; sólo se muestra cómo se vincula con su entorno. Esta vista define claramente los límites de la solución y establece el alcance general del modelo.
 
+<img src="./img/capitulo_4/architecture/context.png">
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams
 
+Este nivel descompone Cocina360 en sus principales contenedores, es decir, en los bloques tecnológicos que lo conforman: aplicaciones, servicios, bases de datos y ejecutables.
 
+<img src="./img/capitulo_4/architecture/container.png">
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 
+Se representa el diagrama de despliegue relacionado con los servicios en la nube correspondientes.
 
+<img src="./img/capitulo_4/architecture/deploy.png">
 
 # Referencias Bibliográficas
 
