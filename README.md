@@ -316,6 +316,7 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
 - [Referencias Bibliográficas](#referencias-bibliográficas)
 - [Anexos](#anexos)
   - [Videos de Exposiciones](#videos-de-exposiciones)
+  - [Otros videos](#otros-videos)
 
 
 <div style="page-break-after: always;"></div>
@@ -2880,6 +2881,12 @@ Se establecen, para este primer entregable, las siguientes conclusiones:
 ## Videos de Exposiciones
 
 - Video de exposición AV1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei)
+
+<div style="page-break-after: always;"></div>
+
+## Otros videos
+
+- Vídeo de entrevistas de elicitación: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ)
 
 <div style="page-break-after: always;"></div>
 
