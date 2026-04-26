@@ -760,8 +760,6 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
     </tbody>
 </table>
 
-<div style="page-break-after: always;"></div>
-
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 **Estrategia 1: Concentración en negocios de pequeña escala**
@@ -1149,8 +1147,6 @@ La User Task Matrix es una herramienta clave para desglosar las acciones especí
 La User Task Matrix revela una clara división en los modelos de interacción de ambos arquetipos, lo que dictará la arquitectura de la información de la solución. Por un lado, Roberto (el Dueño) tiene un perfil de usuario supervisor; sus interacciones son de baja frecuencia pero de altísima importancia, centradas en la configuración, la mitigación de riesgos financieros (cancelar falsas alarmas, recibir alertas críticas) y el cumplimiento normativo (reportes para Defensa Civil). Por otro lado, José (el Cocinero) es un usuario operativo con tareas de alta frecuencia, interactuando constantemente con el sistema en el día a día para monitorear el entorno, encender turbinas y registrar mantenimientos.
 
 
-<div style="page-break-after: always;"></div>
-
 ### 2.3.3. User Journey Mapping
 
 Se desarrolla el User Journey Mapping en base al As_is del flujo de trabajo de los User Persona anteriormente elaborados
@@ -1160,6 +1156,8 @@ Se desarrolla el User Journey Mapping en base al As_is del flujo de trabajo de l
 Roberto enfrenta un ciclo reactivo cada vez que se aproxima una inspección de Defensa Civil. Sin registros organizados ni herramientas digitales, depende de su memoria, papeles dispersos y gestiones apresuradas para preparar su local. La falta de un sistema de acompañamiento continuo hace que repita el mismo proceso desorganizado en cada inspección.
 
 <img src="./img/capitulo_2/needfinding/journey_mapping/roberto_user_journey_mapping.png">
+
+<div style="page-break-after: always;"></div>
 
 **COCINERO / JOSÉ SANCHEZ**
 

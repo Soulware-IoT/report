@@ -52,6 +52,7 @@
       children:
         - title: "2.1.1. Análisis competitivo"
           alias: analysis
+          skip_after: false
         - title: "2.1.2. Estrategias y tácticas frente a competidores"
           alias: strategy
     - title: "2.2. Entrevistas"
@@ -70,6 +71,7 @@
           alias: personas
         - title: "2.3.2. User Task Matrix"
           alias: task matrix
+          skip_after: false
         - title: "2.3.3. User Journey Mapping"
           alias: journey mapping
         - title: "2.3.4. Empathy Mapping"
