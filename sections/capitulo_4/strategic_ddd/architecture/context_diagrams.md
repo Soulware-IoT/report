@@ -1,0 +1,3 @@
+Este nivel se centra exclusivamente en Cocina360 y su interacción con el exterior. Aquí se muestran las personas que utilizan el sistema, los sistemas externos con los que se integra y las relaciones entre ellos. No se entra en detalles internos del sistema; sólo se muestra cómo se vincula con su entorno. Esta vista define claramente los límites de la solución y establece el alcance general del modelo.
+
+<img src="../../../../img/capitulo_4/architecture/context.png">

@@ -1,0 +1,78 @@
+@startuml
+skinparam packageStyle rectangle
+
+title Restaurant - Interface Layer Structure
+
+package "Restaurant" {
+    package "Interfaces.Rest" {
+        package "Controllers" {
+            class OrganizationController <<Controller>> {
+                +createOrganization(resource)
+                +getOrganizationById(id)
+            }
+            class UserController <<Controller>> {
+                +createUser(resource)
+                +configurePermissions(id, resource)
+                +getUserById(id)
+            }
+        }
+        package "Transform" {
+            class OrganizationResourceAssembler <<Assembler>> {
+                +toResource(aggregate)
+                +toEntity(resource)
+            }
+            class UserResourceAssembler <<Assembler>> {
+                +toResource(aggregate)
+                +toEntity(resource)
+            }
+        }
+        package "Resources" {
+            class CreateOrganizationResource <<Resource>> {
+                -OrganizationName name
+                -UserId organizationOwner
+                -RestaurantCoordinates coordinates
+                -LocationReferences references
+            }
+            class OrganizationResource <<Resource>> {
+                -OrganizationId id
+                -OrganizationName name
+                -UserId organizationOwner
+                -RestaurantCoordinates coordinates
+                -LocationReferences references
+            }
+            class CreateUserResource <<Resource>> {
+                -FullName fullName
+                -Email email
+                -UserType type
+                -OrganizationId organizationId
+            }
+            class ConfigureUserPermissionsResource <<Resource>> {
+                -List<Permission> permissions
+            }
+            class UserResource <<Resource>> {
+                -UserId id
+                -FullName fullName
+                -Email email
+                -UserType type
+                -OrganizationId organizationId
+                -List<Permission> permissions
+            }
+        }
+    }
+}
+
+' === RELACIONES DE INTERFACE: Restaurant ===
+Restaurant.Interfaces.Rest.Controllers.OrganizationController ..> Restaurant.Interfaces.Rest.Resources.CreateOrganizationResource
+Restaurant.Interfaces.Rest.Controllers.OrganizationController ..> Restaurant.Interfaces.Rest.Resources.OrganizationResource
+Restaurant.Interfaces.Rest.Controllers.OrganizationController ..> Restaurant.Interfaces.Rest.Transform.OrganizationResourceAssembler
+
+Restaurant.Interfaces.Rest.Controllers.UserController ..> Restaurant.Interfaces.Rest.Resources.CreateUserResource
+Restaurant.Interfaces.Rest.Controllers.UserController ..> Restaurant.Interfaces.Rest.Resources.ConfigureUserPermissionsResource
+Restaurant.Interfaces.Rest.Controllers.UserController ..> Restaurant.Interfaces.Rest.Resources.UserResource
+Restaurant.Interfaces.Rest.Controllers.UserController ..> Restaurant.Interfaces.Rest.Transform.UserResourceAssembler
+
+Restaurant.Interfaces.Rest.Transform.OrganizationResourceAssembler ..> Restaurant.Interfaces.Rest.Resources.CreateOrganizationResource
+Restaurant.Interfaces.Rest.Transform.OrganizationResourceAssembler ..> Restaurant.Interfaces.Rest.Resources.OrganizationResource
+Restaurant.Interfaces.Rest.Transform.UserResourceAssembler ..> Restaurant.Interfaces.Rest.Resources.CreateUserResource
+Restaurant.Interfaces.Rest.Transform.UserResourceAssembler ..> Restaurant.Interfaces.Rest.Resources.UserResource
+@enduml
