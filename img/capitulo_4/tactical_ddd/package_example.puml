@@ -1,0 +1,45 @@
+@startuml
+skinparam packageStyle rectangle
+
+' === PROFILES ===
+package "Profiles" {
+    package "Domain" {
+        package "Model" {
+            package "Aggregates" {}
+            package "Commands" {}
+            package "Queries" {}
+            package "ValueObjects" {}
+        }
+        package "Services" {}
+    }
+    package "Application.Internal" {
+        package "CommandServices" {}
+        package "QueryServices" {}
+    }
+    package "Infrastructure.Persistence" {
+        package "JPA" {}
+    }
+    package "Interfaces.Rest" {
+        package "Controllers" {}
+        package "Transform" {}
+        package "Resources" {}
+    }
+}
+
+' === RELACIONES DE PROFILES ===
+Profiles.Domain.Model.Aggregates ..> Profiles.Domain.Model.ValueObjects
+Profiles.Application.Internal.CommandServices ..> Profiles.Domain.Services
+Profiles.Application.Internal.CommandServices ..> Profiles.Infrastructure.Persistence.JPA
+Profiles.Application.Internal.CommandServices ..> Profiles.Domain.Model.Commands
+Profiles.Application.Internal.CommandServices ..> Profiles.Domain.Model.Aggregates
+Profiles.Application.Internal.QueryServices ..> Profiles.Domain.Services
+Profiles.Application.Internal.QueryServices ..> Profiles.Infrastructure.Persistence.JPA
+Profiles.Application.Internal.QueryServices ..> Profiles.Domain.Model.Queries
+Profiles.Interfaces.Rest.Controllers ..> Profiles.Interfaces.Rest.Resources
+Profiles.Interfaces.Rest.Controllers ..> Profiles.Interfaces.Rest.Transform
+Profiles.Interfaces.Rest.Controllers ..> Profiles.Domain.Model.Aggregates
+Profiles.Interfaces.Rest.Controllers ..> Profiles.Domain.Model.Commands
+Profiles.Interfaces.Rest.Controllers ..> Profiles.Domain.Model.Queries
+Profiles.Interfaces.Rest.Controllers ..> Profiles.Application.Internal.CommandServices
+Profiles.Interfaces.Rest.Controllers ..> Profiles.Application.Internal.QueryServices
+@enduml

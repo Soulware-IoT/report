@@ -1,0 +1,180 @@
+hide circle
+skinparam linetype ortho
+
+' Unified physical database for all bounded contexts
+
+title Soulware IoT - Unified Database ER Diagram
+
+' =========================
+' Restaurant bounded context
+' =========================
+entity "organizations" as organizations {
+  *organization_id : bigint <<PK>>
+  --
+  name : varchar(150)
+  owner_account_id : bigint <<FK>>
+  latitude : decimal(10,7)
+  longitude : decimal(10,7)
+  created_at : timestamp
+}
+
+entity "organization_location_references" as org_location_refs {
+  *location_reference_id : bigint <<PK>>
+  --
+  organization_id : bigint <<FK>>
+  reference_value : varchar(255)
+}
+
+entity "iam_accounts" as iam_accounts {
+  *account_id : bigint <<PK>>
+  --
+  email : varchar(255) <<UNIQUE>>
+  password_hash : varchar(255)
+  account_status : varchar(30)
+  last_login_at : timestamp
+  created_at : timestamp
+}
+
+entity "user_profiles" as user_profiles {
+  *profile_id : bigint <<PK>>
+  --
+  account_id : bigint <<FK,UNIQUE>>
+  full_name : varchar(150)
+  user_type : varchar(30)
+}
+
+entity "organization_memberships" as org_memberships {
+  *organization_id : bigint <<PK,FK>>
+  *account_id : bigint <<PK,FK>>
+  --
+  membership_role : varchar(50)
+  joined_at : timestamp
+}
+
+entity "permissions" as permissions {
+  *permission_id : bigint <<PK>>
+  --
+  permission_name : varchar(100) <<UNIQUE>>
+}
+
+entity "account_permissions" as account_permissions {
+  *account_id : bigint <<PK,FK>>
+  *permission_id : bigint <<PK,FK>>
+  --
+  granted_at : timestamp
+}
+
+iam_accounts ||--|| user_profiles : has_profile
+organizations ||--o{ org_location_refs : has
+organizations ||--o{ org_memberships : has
+iam_accounts ||--o{ org_memberships : member
+iam_accounts ||--o{ account_permissions : has
+permissions ||--o{ account_permissions : assigned
+iam_accounts ||--o{ organizations : owns
+
+' ======================
+' Security bounded context
+' ======================
+entity "security_devices" as sec_devices {
+  *device_id : bigint <<PK>>
+  --
+  organization_id : bigint <<FK>>
+  device_name : varchar(120)
+  mac_address : varchar(32) <<UNIQUE>>
+  device_type : varchar(20)
+  status : varchar(20)
+  actuator_type : varchar(50)
+  action_state : varchar(20)
+  created_at : timestamp
+}
+
+entity "security_sensor_readings" as sec_sensor_readings {
+  *reading_id : bigint <<PK>>
+  --
+  sensor_device_id : bigint <<FK>>
+  reading_value : decimal(12,4)
+  measured_at : timestamp
+}
+
+entity "security_risk_policies" as sec_risk_policies {
+  *risk_policy_id : bigint <<PK>>
+  --
+  policy_name : varchar(120)
+  created_at : timestamp
+}
+
+entity "security_risk_policy_thresholds" as sec_thresholds {
+  *threshold_id : bigint <<PK>>
+  --
+  risk_policy_id : bigint <<FK>>
+  measurement_type : varchar(50)
+  threshold_value : decimal(12,4)
+  trigger_type : varchar(30)
+  target_actuator_id : bigint <<FK>>
+}
+
+sec_devices ||--o{ sec_sensor_readings : produces
+sec_devices ||--o{ sec_thresholds : acts_on
+sec_risk_policies ||--o{ sec_thresholds : defines
+organizations ||--o{ sec_devices : contains
+
+' ==========================
+' InternControl bounded context
+' ==========================
+entity "ic_control_processes" as ic_control_processes {
+  *control_process_id : bigint <<PK>>
+  --
+  organization_id : bigint <<FK>>
+  process_name : varchar(150)
+  process_status : varchar(30)
+  created_at : timestamp
+}
+
+entity "ic_record_templates" as ic_record_templates {
+  *record_template_id : bigint <<PK>>
+  --
+  control_process_id : bigint <<FK>>
+  template_name : varchar(150)
+  active_version_number : int
+}
+
+entity "ic_record_template_versions" as ic_template_versions {
+  *record_template_version_id : bigint <<PK>>
+  --
+  record_template_id : bigint <<FK>>
+  version_number : int
+  created_at : timestamp
+}
+
+entity "ic_template_fields" as ic_template_fields {
+  *field_id : bigint <<PK>>
+  --
+  record_template_version_id : bigint <<FK>>
+  field_name : varchar(120)
+  field_type : varchar(40)
+  is_required : boolean
+}
+
+entity "ic_records" as ic_records {
+  *record_id : bigint <<PK>>
+  --
+  record_template_version_id : bigint <<FK>>
+  registered_at : timestamp
+  record_status : varchar(30)
+}
+
+entity "ic_record_values" as ic_record_values {
+  *record_value_id : bigint <<PK>>
+  --
+  record_id : bigint <<FK>>
+  field_id : bigint <<FK>>
+  value_text : text
+}
+
+ic_control_processes ||--o{ ic_record_templates : owns
+ic_record_templates ||--o{ ic_template_versions : versions
+ic_template_versions ||--o{ ic_template_fields : defines
+ic_template_versions ||--o{ ic_records : used_by
+ic_records ||--o{ ic_record_values : contains
+ic_template_fields ||--o{ ic_record_values : maps
+organizations ||--o{ ic_control_processes : contains

@@ -1,0 +1,44 @@
+@startuml
+skinparam packageStyle rectangle
+
+title InternControl - Application Layer Structure
+
+package "InternControl" {
+    package "Application.Internal" {
+        package "CommandServices" {
+            class ControlProcessCommandApplicationService <<ApplicationService>> {
+                +handleCreateControlProcess(command): void
+                +handleChangeProcessStatus(command): void
+            }
+            class RecordTemplateCommandApplicationService <<ApplicationService>> {
+                +handleCreateTemplate(command): void
+                +handlePublishTemplateVersion(command): void
+            }
+            class RecordCommandApplicationService <<ApplicationService>> {
+                +handleRegisterRecord(command): void
+                +handleChangeRecordStatus(command): void
+            }
+        }
+        package "QueryServices" {
+            class ControlProcessQueryApplicationService <<ApplicationService>> {
+                +handleGetControlProcessById(query)
+                +handleListControlProcesses(query)
+            }
+            class RecordTemplateQueryApplicationService <<ApplicationService>> {
+                +handleGetTemplateById(query)
+                +handleListTemplates(query)
+            }
+            class RecordQueryApplicationService <<ApplicationService>> {
+                +handleGetRecordById(query)
+                +handleListRecords(query)
+            }
+        }
+    }
+}
+
+' === RELACIONES DE APPLICATION: InternControl ===
+InternControl.Application.Internal.CommandServices.ControlProcessCommandApplicationService ..> InternControl.Application.Internal.QueryServices.ControlProcessQueryApplicationService
+InternControl.Application.Internal.CommandServices.RecordTemplateCommandApplicationService ..> InternControl.Application.Internal.QueryServices.RecordTemplateQueryApplicationService
+InternControl.Application.Internal.CommandServices.RecordCommandApplicationService ..> InternControl.Application.Internal.QueryServices.RecordQueryApplicationService
+InternControl.Application.Internal.QueryServices.ControlProcessQueryApplicationService ..> InternControl.Application.Internal.QueryServices.RecordTemplateQueryApplicationService
+@enduml

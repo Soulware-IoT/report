@@ -1,0 +1,40 @@
+@startuml
+skinparam packageStyle rectangle
+
+title RestaurantSecurity - Application Layer Structure
+
+package "RestaurantSecurity" {
+    package "Application.Internal" {
+        package "CommandServices" {
+            class DeviceCommandApplicationService <<ApplicationService>> {
+                +handleRegisterSensor(command): void
+                +handleUpdateDeviceStatus(command): void
+            }
+            class RiskPolicyCommandApplicationService <<ApplicationService>> {
+                +handleCreateRiskPolicy(command): void
+                +handleUpdateThreshold(command): void
+            }
+            class ActuatorCommandApplicationService <<ApplicationService>> {
+                +handleRegisterActuator(command): void
+                +handleTriggerAction(command): void
+            }
+        }
+        package "QueryServices" {
+            class DeviceQueryApplicationService <<ApplicationService>> {
+                +handleGetDeviceById(query)
+                +handleListDevices(query)
+            }
+            class RiskPolicyQueryApplicationService <<ApplicationService>> {
+                +handleGetRiskPolicyById(query)
+                +handleListRiskPolicies(query)
+            }
+        }
+    }
+}
+
+' === RELACIONES DE APPLICATION: Security ===
+RestaurantSecurity.Application.Internal.CommandServices.DeviceCommandApplicationService ..> RestaurantSecurity.Application.Internal.QueryServices.DeviceQueryApplicationService
+RestaurantSecurity.Application.Internal.CommandServices.RiskPolicyCommandApplicationService ..> RestaurantSecurity.Application.Internal.QueryServices.RiskPolicyQueryApplicationService
+RestaurantSecurity.Application.Internal.CommandServices.ActuatorCommandApplicationService ..> RestaurantSecurity.Application.Internal.QueryServices.DeviceQueryApplicationService
+RestaurantSecurity.Application.Internal.QueryServices.DeviceQueryApplicationService ..> RestaurantSecurity.Application.Internal.QueryServices.RiskPolicyQueryApplicationService
+@enduml
