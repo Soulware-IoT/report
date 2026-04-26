@@ -1129,11 +1129,13 @@ A continuación, presentamos los arquetipos de usuario (perfiles ficticios) crea
 
 **DUEÑO DE RESTAURANTE / ROBERTO CORNEJO**
 
-<img src="./img/capitulo_2/needfinding/personas/roberto_personas.png">
+<img style="width: 70%;" src="./img/capitulo_2/needfinding/personas/roberto_personas.png">
+
+<div style="page-break-after: always;"></div>
 
 **COCINERO / JOSÉ SANCHEZ**
 
-<img src="./img/capitulo_2/needfinding/personas/jose_personas.png">
+<img style="width: 80%;" src="./img/capitulo_2/needfinding/personas/jose_personas.png">
 
 
 <div style="page-break-after: always;"></div>
