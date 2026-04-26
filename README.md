@@ -1217,6 +1217,8 @@ Establecimos las reglas de "Siempre que ocurra X, haz Y". Una política clave en
 
 <img src="./img/capitulo_2/eventstorming/eventstorming-5.jpg">
 
+<div style="page-break-after: always;"></div>
+
 **Paso 6: Vistas y lecturas**
 Diseñamos lo que los usuarios necesitan ver para tomar decisiones.
 
@@ -1226,6 +1228,8 @@ Diseñamos lo que los usuarios necesitan ver para tomar decisiones.
 Asignamos responsabilidades. Identificamos claramente que el Dueño interactúa mayormente con la configuración, el Encargado con la ejecución de procesos, y el Sistema con la detección de riesgos de seguridad.
 
 <img src="./img/capitulo_2/eventstorming/eventstorming-7.jpg">
+
+<div style="page-break-after: always;"></div>
 
 **Paso 8: Identificar de Agregados**
 Este fue el punto de debate técnico más rico en dominio. Decidimos romper la idea de un "Agregado Restaurante" gigante para evitar cuellos de botella. Definimos tres raíces de agregados claras:
@@ -1237,6 +1241,8 @@ Device: El dueño de la telemetría y el estado de los sensores.
 Restaurant (Organization): El gestor de la jerarquía de usuarios y permisos.
 
 <img src="./img/capitulo_2/eventstorming/eventstorming-8.jpg">
+
+<div style="page-break-after: always;"></div>
 
 **Paso 9: Definir Contextos**
 Finalmente, agrupamos los agregados y sus eventos relacionados en fronteras lingüísticas y funcionales claras:
