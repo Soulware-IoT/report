@@ -6,7 +6,7 @@
     <h2 style="font-size: 18px; margin: 5px 0;">Facultad de Ingeniería</h2>
     <hr style="margin: 20px 0; border: 0; border-top: 1px solid #000;">
     <div style="text-align: left; margin-bottom: 30px;">
-        <p><strong>Curso:</strong> 1ASI0572 - Arquitectura de Computadoras</p>
+        <p><strong>Curso:</strong> 1ASI0572 - Desarrollo de Soluciones IoT</p>
         <p><strong>NRC:</strong> 6776</p>
         <p><strong>Nombre del profesor:</strong> Marco Antonio León Baca</p>
     </div>
