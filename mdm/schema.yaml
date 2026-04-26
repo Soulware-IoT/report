@@ -173,3 +173,7 @@
       alias: recomendaciones
 - title: Referencias Bibliográficas
   alias: bibliografia
+- title: Anexos
+  children:
+    - title: Videos de Exposiciones
+      alias: expos
