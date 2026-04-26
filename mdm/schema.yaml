@@ -122,5 +122,9 @@
 #                 alias: domain class diagrams
 #               - title: "4.2.X.6.2. Bounded Context Database Design Diagram"
 #                 alias: database diagram
+- title: Conclusiones
+  children:
+    - title: Conclusiones y recomendaciones
+      alias: recomendaciones
 - title: Referencias Bibliográficas
   alias: bibliografia
