@@ -4,6 +4,10 @@
   alias: versions
 - title: Project Report Collaboration Insights
   alias: Insights
+- title: Contenido
+  children:
+    - title: Tabla de contenidos
+      alias: index
 - title: Student Outcome
   alias: outcome
 - title: "Capitulo I: Introducción"
