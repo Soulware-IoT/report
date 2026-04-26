@@ -11,7 +11,7 @@
       alias: index
 - title: Student Outcome
   alias: outcome
-- title: "Capitulo I: Introducción"
+- title: "Capítulo I: Introducción"
   alias: capitulo 1
   children:
     - title: "1.1. Startup Profile"
