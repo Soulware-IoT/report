@@ -1,5 +1,7 @@
 - title: "Delete this"  # MDM Needs a skip title function
   alias: cover
+- title: Student Outcome
+  alias: outcome
 - title: "Capitulo I: Introducción"
   alias: capitulo 1
   children:
