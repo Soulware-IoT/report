@@ -2638,15 +2638,15 @@ Este nivel se centra exclusivamente en Cocina360 y su interacción con el exteri
 
 <div style="page-break-after: always;"></div>
 
-#### 4.1.3.2. Software Architecture Container Level Diagrams
+#### 4.1.3.3. Software Architecture Container Level Diagrams
 
 Este nivel descompone Cocina360 en sus principales contenedores, es decir, en los bloques tecnológicos que lo conforman: aplicaciones, servicios, bases de datos y ejecutables.
 
-<img src="./img/capitulo_4/architecture/container.png">
+<img style="width: 80%;" src="./img/capitulo_4/architecture/container.png">
 
 <div style="page-break-after: always;"></div>
 
-#### 4.1.3.3. Software Architecture Deployment Diagrams
+#### 4.1.3.4. Software Architecture Deployment Diagrams
 
 Se representa el diagrama de despliegue relacionado con los servicios en la nube correspondientes.
 
