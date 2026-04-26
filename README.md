@@ -2658,3 +2658,9 @@ Se establecen, para este primer entregable, las siguientes conclusiones:
 - Programa de las Naciones Unidas para el Desarrollo. (2025). Perú: Datos sobre desarrollo humano. Human Development Report Data Center. https://hdr.undp.org/data-center/specific-country-data#/countries/PER
 - World Bank. (2025). World Development Indicators: Interactive data portal. World Bank Open Data. https://datos.bancomundial.org/
 
+# Anexos
+
+## Videos de Exposiciones
+
+- Video de exposición AV1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei)
+
