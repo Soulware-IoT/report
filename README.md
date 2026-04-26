@@ -1,5 +1,3 @@
-# Delete this
-
 <div style="font-family: Arial, sans-serif; padding: 40px; width: 600px; margin: auto; text-align: center;">
     <div style="margin-bottom: 20px;">
         <img src="./img/cover/upc_logo.png" alt="UPC Logo" style="width: 150px;">
@@ -8,7 +6,7 @@
     <h2 style="font-size: 18px; margin: 5px 0;">Facultad de Ingeniería</h2>
     <hr style="margin: 20px 0; border: 0; border-top: 1px solid #000;">
     <div style="text-align: left; margin-bottom: 30px;">
-        <p><strong>Curso:</strong> 1ASI0572 - Arquitectura de Computadoras</p>
+        <p><strong>Curso:</strong> 1ASI0572 - Desarrollo de Soluciones IoT</p>
         <p><strong>NRC:</strong> 6776</p>
         <p><strong>Nombre del profesor:</strong> Marco Antonio León Baca</p>
     </div>
@@ -52,6 +50,8 @@
         <p>Lima - abril 2026</p>
     </div>
 </div>
+
+<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 
@@ -145,8 +145,8 @@
                                         <ul>
                                             <li>4.1.3.1. Software Architecture System Landscape Diagram</li>
                                             <li>4.1.3.2. Software Architecture Context Level Diagrams</li>
-                                            <li>4.1.3.2. Software Architecture Container Level Diagrams</li>
-                                            <li>4.1.3.3. Software Architecture Deployment Diagrams</li>
+                                            <li>4.1.3.3. Software Architecture Container Level Diagrams</li>
+                                            <li>4.1.3.4. Software Architecture Deployment Diagrams</li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -213,6 +213,113 @@
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
+# Project Report Collaboration Insights
+
+Enlace de acceso al repositorio del informe del proyecto: [https://github.com/Soulware-IoT/report](https://github.com/Soulware-IoT/report)
+
+**AV1**
+
+Para esta entrega del AV1, la división fue principalmente en torno a los grandes bloques de contenido en los capítulos. El capítulo II estuvo a cargo de Nelson y Fabrizio, el capítulo IV a cargo de Henry y Kevin y el resto a cargo de Álvaro.
+
+**COLABORACIÓN**
+
+<img style="width: 90%;" src="./img/insights/av1/collaboration.png">
+
+**COMMITS**
+
+<img src="./img/insights/av1/commits.png">
+
+<div style="page-break-after: always;"></div>
+
+# Contenido
+
+## Tabla de contenidos
+
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+    - [4.1.1. Design-Level EventStorming](#411-design-level-eventstorming)
+      - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
+      - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+      - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
+    - [4.1.2. Context Mapping](#412-context-mapping)
+    - [4.1.3. Software Architecture](#413-software-architecture)
+      - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+      - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+      - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
+      - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
+  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+    - [4.2.1. Bounded Context: Restaurant](#421-bounded-context-restaurant)
+      - [4.2.1.1. Domain Layer](#4211-domain-layer)
+      - [4.2.1.2. Interface Layer](#4212-interface-layer)
+      - [4.2.1.3. Application Layer](#4213-application-layer)
+      - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+      - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
+        - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
+    - [4.2.2. Bounded Context: Security](#422-bounded-context-security)
+      - [4.2.2.1. Domain Layer](#4221-domain-layer)
+      - [4.2.2.2. Interface Layer](#4222-interface-layer)
+      - [4.2.2.3. Application Layer](#4223-application-layer)
+      - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+      - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
+        - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
+    - [4.2.3. Bounded Context: Intern Control](#423-bounded-context-intern-control)
+      - [4.2.3.1. Domain Layer](#4231-domain-layer)
+      - [4.2.3.2. Interface Layer](#4232-interface-layer)
+      - [4.2.3.3. Application Layer](#4233-application-layer)
+      - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+      - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
+        - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Referencias Bibliográficas](#referencias-bibliográficas)
+- [Anexos](#anexos)
+  - [Videos de Exposiciones](#videos-de-exposiciones)
+
+
+<div style="page-break-after: always;"></div>
+
 # Student Outcome
 
 <table style="width: 100%; font-family: Arial, sans-serif; border: none;">
@@ -261,7 +368,9 @@
     </tbody>
 </table>
 
-# Capitulo I: Introducción
+<div style="page-break-after: always;"></div>
+
+# Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 
@@ -277,6 +386,8 @@ Desarrollar soluciones tecnológicas innovadoras y de alta calidad que impulsen 
 
 Convertirnos en la startup referente de ingeniería de software en el Perú para el año 2030, reconocida por liderar la transformación digital con impacto social mediante soluciones tecnológicas que se adaptan a la cultura local y la llevan a su máximo potencial.
 
+
+<div style="page-break-after: always;"></div>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -319,7 +430,7 @@ Se presenta en formato de tabla una breve descripción de cada uno de los integr
         </tr>
         <!--Integrante 3-->
         <tr>
-            <td><img src="./img/capitulo_1/startup/team_members/fabrizio.jpg"></td>
+            <td><img style="width: 100%;" src="./img/capitulo_1/startup/team_members/fabrizio.jpg"></td>
             <td>Fabrizio Amir León Vivas</td>
             <td>20211b994</td>
             <td>Ingeniería de Software</td>
@@ -356,6 +467,8 @@ Se presenta en formato de tabla una breve descripción de cada uno de los integr
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
@@ -386,6 +499,8 @@ En sentido de lo expuesto, se evaluaron diversas unidades económicas consideran
 
 Se seleccionó el sector de restaurantes y servicios afines debido a su representatividad. De acuerdo con el INEI (2025), esta actividad aporta el 2.5% al PBI nacional, creció un 3.5% en 2024 y genera un millón de empleos directos. La muestra se concentra en Lima, región que agrupa el 34% de los establecimientos y el 41.6% del gasto total anual del sector a nivel nacional.
 
+
+<div style="page-break-after: always;"></div>
 
 ### 1.2.2. Lean UX Process
 
@@ -444,6 +559,8 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 
 <img src="./img/capitulo_1/solution/canvas.jpg">
 
+<div style="page-break-after: always;"></div>
+
 ## 1.3. Segmentos Objetivo
 
 **DUEÑOS DE RESTAURANTES**
@@ -458,6 +575,8 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 - Edad: Según el INEI (2026), el mercado laboral se compone principalmente de trabajadores de 24 a 44 años (46.9%), seguido del grupo de 45 a más años de edad (38.5%).
 - Género: De acuerdo con el INEI (2025), el 72.7% de los trabajadores del sector restaurantes son mujeres.
 
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -669,6 +788,8 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 - Táctica 3.2: Integración de herramientas de monitoreo automatizado con acceso multiplataforma, diseñadas para una supervisión remota fácil y eficiente.
 - Táctica 3.3: Inclusión de elementos de utilidad práctica que sirvan de hook principal en el posicionamiento del producto.
 
+<div style="page-break-after: always;"></div>
+
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
@@ -699,6 +820,8 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 - ¿Cree que si estos procesos de control fueran automáticos y/o digitalizados tendría un impacto positivo en su trabajo o en el negocio?
 
 
+
+<div style="page-break-after: always;"></div>
 
 ### 2.2.2. Registro de entrevistas
 
@@ -853,6 +976,8 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ### 2.2.3. Análisis de entrevistas
 
 **DUEÑOS DE RESTAURANTES**
@@ -1002,6 +1127,8 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 | Milenio Huamán Hinostroza | Chrome |
 | **Moda** | **Chrome** |
 
+<div style="page-break-after: always;"></div>
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
@@ -1010,12 +1137,16 @@ A continuación, presentamos los arquetipos de usuario (perfiles ficticios) crea
 
 **DUEÑO DE RESTAURANTE / ROBERTO CORNEJO**
 
-<img src="./img/capitulo_2/needfinding/personas/roberto_personas.png">
+<img style="width: 70%;" src="./img/capitulo_2/needfinding/personas/roberto_personas.png">
+
+<div style="page-break-after: always;"></div>
 
 **COCINERO / JOSÉ SANCHEZ**
 
-<img src="./img/capitulo_2/needfinding/personas/jose_personas.png">
+<img style="width: 80%;" src="./img/capitulo_2/needfinding/personas/jose_personas.png">
 
+
+<div style="page-break-after: always;"></div>
 
 ### 2.3.2. User Task Matrix
 
@@ -1036,24 +1167,32 @@ Roberto enfrenta un ciclo reactivo cada vez que se aproxima una inspección de D
 
 <img src="./img/capitulo_2/needfinding/journey_mapping/roberto_user_journey_mapping.png">
 
+<div style="page-break-after: always;"></div>
+
 **COCINERO / JOSÉ SANCHEZ**
 
 José depende completamente de sus sentidos y criterio personal para detectar, evaluar y responder ante riesgos en la cocina. Sin sensores, protocolos claros ni mecanismos de registro, enfrenta cada incidente de forma improvisada. Sus propuestas de mejora quedan en conversaciones informales sin garantía de implementación.
 
 <img src="./img/capitulo_2/needfinding/journey_mapping/jose_user_journey_mapping.png">
 
+<div style="page-break-after: always;"></div>
+
 ### 2.3.4. Empathy Mapping
 
 **DUEÑO DE RESTAURANTE / ROBERTO CORNEJO**
 Se representan las necesidades, frustraciones y oportunidades del dueño del restaurante, así como las percepciones de su entorno y sus propias observaciones. Su principal dolor es no tener visibilidad continua del estado de su local, y su mayor aspiración es contar con una herramienta accesible que le permita gestionar la prevención de forma constante sin comprometer su presupuesto limitado.
 
-<img src="./img/capitulo_2/needfinding/empathy_mapping/roberto_empathy_mapping.png">
+<img style="width: 90%;" src="./img/capitulo_2/needfinding/empathy_mapping/roberto_empathy_mapping.png">
+
+<div style="page-break-after: always;"></div>
 
 **COCINERO / JOSÉ SANCHEZ**
 Se representan las necesidades, frustraciones y oportunidades del cocinero, así como las percepciones de su entorno y sus propias observaciones. José es un trabajador joven que enfrenta riesgos operativos diarios dependiendo únicamente de sus sentidos y criterio personal. Su principal dolor es cargar con la responsabilidad de detectar y responder ante emergencias sin herramientas ni protocolos claros, y su mayor aspiración es trabajar en un entorno donde la tecnología lo respalde y sus observaciones sobre seguridad sean consideradas.
 
-<img src="./img/capitulo_2/needfinding/empathy_mapping/jose_empathy_mapping.png">
+<img style="width: 90%;" src="./img/capitulo_2/needfinding/empathy_mapping/jose_empathy_mapping.png">
 
+
+<div style="page-break-after: always;"></div>
 
 ## 2.4. Big Picture EventStorming
 
@@ -1086,6 +1225,8 @@ Establecimos las reglas de "Siempre que ocurra X, haz Y". Una política clave en
 
 <img src="./img/capitulo_2/eventstorming/eventstorming-5.jpg">
 
+<div style="page-break-after: always;"></div>
+
 **Paso 6: Vistas y lecturas**
 Diseñamos lo que los usuarios necesitan ver para tomar decisiones.
 
@@ -1095,6 +1236,8 @@ Diseñamos lo que los usuarios necesitan ver para tomar decisiones.
 Asignamos responsabilidades. Identificamos claramente que el Dueño interactúa mayormente con la configuración, el Encargado con la ejecución de procesos, y el Sistema con la detección de riesgos de seguridad.
 
 <img src="./img/capitulo_2/eventstorming/eventstorming-7.jpg">
+
+<div style="page-break-after: always;"></div>
 
 **Paso 8: Identificar de Agregados**
 Este fue el punto de debate técnico más rico en dominio. Decidimos romper la idea de un "Agregado Restaurante" gigante para evitar cuellos de botella. Definimos tres raíces de agregados claras:
@@ -1107,10 +1250,14 @@ Restaurant (Organization): El gestor de la jerarquía de usuarios y permisos.
 
 <img src="./img/capitulo_2/eventstorming/eventstorming-8.jpg">
 
+<div style="page-break-after: always;"></div>
+
 **Paso 9: Definir Contextos**
 Finalmente, agrupamos los agregados y sus eventos relacionados en fronteras lingüísticas y funcionales claras:
 
 <img src="./img/capitulo_2/eventstorming/eventstorming-9.jpg">
+
+<div style="page-break-after: always;"></div>
 
 ## 2.5. Ubiquitous Language
 
@@ -1162,6 +1309,8 @@ Finalmente, agrupamos los agregados y sus eventos relacionados en fronteras ling
 
 - **Incidente (Incident):** Evento confirmado o sospechoso de riesgo que requiere seguimiento operativo, posible activacion de actuadores y registro de evidencia.
 
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification
 
@@ -2078,11 +2227,15 @@ Se presenta a continuación el conjunto de User Stories planificadas para el alc
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ## 3.2. Impact Mapping
 
 Se presenta a continuación el Impact Mapping del producto que relaciona los objetivos de negocio con el valor de los usuarios, traducidos a Epics y User Stories del Product Backlog.
 
-<img src="./img/capitulo_3/impact_mapping.png">
+<img style="width: 70%;" src="./img/capitulo_3/impact_mapping.png">
+
+<div style="page-break-after: always;"></div>
 
 ## 3.3. Product Backlog
 
@@ -2421,6 +2574,8 @@ Se presenta a continuación una captura del Product Backlog en YouTrack, al cual
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
@@ -2435,6 +2590,8 @@ En base al conocimiento actual del equipo sobre el dominio se ha realizado la t�
 
 Para mayor documentación observar la sección 2.4. Big Picture EventStorming.
 
+<div style="page-break-after: always;"></div>
+
 #### 4.1.1.2 Domain Message Flows Modeling
 
 Para detallar el funcionamiento y conexión de los bounded context se ha determinado 2 escenarios que permitan comprender los procesos del negocio.
@@ -2444,6 +2601,8 @@ Se ha reflejado el escenario de un encargado de cocina completando un registro d
 
 Además, se ha representado el escenario de un administrador observando los indicadores recopilados por los sensores IoT en su cocina.
 <img src="./img/capitulo_4/design_eventstorming/proceso.png">
+
+<div style="page-break-after: always;"></div>
 
 #### 4.1.1.3 Bounded Context Canvases
 
@@ -2459,6 +2618,8 @@ El Restaurant Context actúa como el sistema de soporte administrativo y de iden
 
 <img src="./img/capitulo_4/context_canvases/restaurant.jpg">
 
+<div style="page-break-after: always;"></div>
+
 ### 4.1.2. Context Mapping
 
 Para formalizar la interacción entre los contextos identificados, se ha diseñado un Context Mapping que define los límites de consistencia y los contratos de comunicación del sistema. La arquitectura adopta un patrón de Upstream/Downstream, donde el Restaurant Context se comunica con los otros contextos a través de un ACL, que centraliza la autoridad sobre la identidad y la estructura organizacional.
@@ -2466,6 +2627,8 @@ Para formalizar la interacción entre los contextos identificados, se ha diseña
 <img src="./img/capitulo_4/context_mapping/diagram.jpg">
 
 Bajo este esquema, tanto el Intern Control como el Security Context se sitúan en una posición de Downstream, lo que garantiza una alta cohesión al consumir una fuente de verdad unificada para la gestión de permisos. Esto asegura que el sistema sea resiliente ante cambios internos y altamente escalable, permitiendo que la lógica de procesos y la seguridad evolucionen de forma independiente sin comprometer la integridad global del ecosistema.
+
+<div style="page-break-after: always;"></div>
 
 ### 4.1.3. Software Architecture
 
@@ -2475,23 +2638,31 @@ Representa el panorama global de la solución. En esta vista se identifican toda
 
 <img src="./img/capitulo_4/architecture/landscape.png">
 
+<div style="page-break-after: always;"></div>
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
 Este nivel se centra exclusivamente en Cocina360 y su interacción con el exterior. Aquí se muestran las personas que utilizan el sistema, los sistemas externos con los que se integra y las relaciones entre ellos. No se entra en detalles internos del sistema; sólo se muestra cómo se vincula con su entorno. Esta vista define claramente los límites de la solución y establece el alcance general del modelo.
 
 <img src="./img/capitulo_4/architecture/context.png">
 
-#### 4.1.3.2. Software Architecture Container Level Diagrams
+<div style="page-break-after: always;"></div>
+
+#### 4.1.3.3. Software Architecture Container Level Diagrams
 
 Este nivel descompone Cocina360 en sus principales contenedores, es decir, en los bloques tecnológicos que lo conforman: aplicaciones, servicios, bases de datos y ejecutables.
 
-<img src="./img/capitulo_4/architecture/container.png">
+<img style="width: 80%;" src="./img/capitulo_4/architecture/container.png">
 
-#### 4.1.3.3. Software Architecture Deployment Diagrams
+<div style="page-break-after: always;"></div>
+
+#### 4.1.3.4. Software Architecture Deployment Diagrams
 
 Se representa el diagrama de despliegue relacionado con los servicios en la nube correspondientes.
 
 <img src="./img/capitulo_4/architecture/deploy.png">
+
+<div style="page-break-after: always;"></div>
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
@@ -2503,11 +2674,15 @@ En esta seccion se presenta la imagen de domain layer del contexto restaurant.
 <img src="./img/capitulo_4/tactical_ddd/restaurant/Domain_restaurant.png" alt="Domain layer restaurant">
 
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.1.2. Interface Layer
 
 En esta seccion se presenta la imagen de interface layer del contexto restaurant.
 <img src="./img/capitulo_4/tactical_ddd/restaurant/Interface_restaurant.png" alt="Interface layer restaurant">
 
+
+<div style="page-break-after: always;"></div>
 
 #### 4.2.1.3. Application Layer
 
@@ -2515,17 +2690,23 @@ En esta seccion se presenta la imagen de application layer del contexto restaura
 <img src="./img/capitulo_4/tactical_ddd/restaurant/Application_restaurant.png" alt="Application layer restaurant">
 
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.1.4. Infrastructure Layer
 
 En esta seccion se presenta la imagen de infrastructure layer del contexto restaurant.
 <img src="./img/capitulo_4/tactical_ddd/restaurant/Infrastructure_restaurant.png" alt="Infrastructure layer restaurant">
 
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 En esta seccion se presenta la imagen de component diagrams del contexto restaurant.
-<img src="./img/capitulo_4/tactical_ddd/restaurant/c3_restaurant.png" alt="C3 restaurant">
+<img style="width: 70%;" src="./img/capitulo_4/tactical_ddd/restaurant/c3_restaurant.png" alt="C3 restaurant">
 
+
+<div style="page-break-after: always;"></div>
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2535,11 +2716,15 @@ En esta seccion se presenta la imagen de domain layer del contexto restaurant.
 <img src="./img/capitulo_4/tactical_ddd/restaurant/Domain_restaurant.png" alt="Domain layer intern control">
 
 
+<div style="page-break-after: always;"></div>
+
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 
 En esta seccion se presenta la imagen de database diagram del contexto restaurant.
 <img src="./img/capitulo_4/tactical_ddd/restaurant/code_diagrams/database_diagram.png" alt="Database">
 
+
+<div style="page-break-after: always;"></div>
 
 ### 4.2.2. Bounded Context: Security
 
@@ -2549,11 +2734,15 @@ En esta seccion se presenta la imagen de domain layer del contexto security.
 <img src="./img/capitulo_4/tactical_ddd/Security/Domain_security.png" alt="Domain layer security">
 
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.2.2. Interface Layer
 
 En esta seccion se presenta la imagen de interface layer del contexto security.
 <img src="./img/capitulo_4/tactical_ddd/Security/Interface_security.png" alt="Interface layer security">
 
+
+<div style="page-break-after: always;"></div>
 
 #### 4.2.2.3. Application Layer
 
@@ -2561,17 +2750,23 @@ En esta seccion se presenta la imagen de application layer del contexto security
 <img src="./img/capitulo_4/tactical_ddd/Security/Application_security.png" alt="Application layer security">
 
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.2.4. Infrastructure Layer
 
 En esta seccion se presenta la imagen de infrastructure layer del contexto security.
 <img src="./img/capitulo_4/tactical_ddd/Security/Infrastructure_security.png" alt="Infrastructure layer security">
 
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
 En esta seccion se presenta la imagen de component diagrams del contexto security.
-<img src="./img/capitulo_4/tactical_ddd/Security/c3_security.png" alt="C3 security">
+<img style="width: 70%;" src="./img/capitulo_4/tactical_ddd/Security/c3_security.png" alt="C3 security">
 
+
+<div style="page-break-after: always;"></div>
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2580,11 +2775,15 @@ En esta seccion se presenta la imagen de component diagrams del contexto securit
 En esta seccion se presenta la imagen de domain class diagrams del contexto security.
 <img src="./img/capitulo_4/tactical_ddd/Security/Domain_security.png" alt="Domain layer intern control">
 
+<div style="page-break-after: always;"></div>
+
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
 
 En esta seccion se presenta la imagen de database diagram del contexto security.
 <img src="./img/capitulo_4/tactical_ddd/Security/code_diagrams/database_diagram.png" alt="Database">
 
+
+<div style="page-break-after: always;"></div>
 
 ### 4.2.3. Bounded Context: Intern Control
 
@@ -2594,11 +2793,15 @@ En esta seccion se presenta la imagen de domain layer del contexto intern_contro
 <img src="./img/capitulo_4/tactical_ddd/intern_control/Domain_intern_control.png" alt="Domain layer intern control">
 
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.3.2. Interface Layer
 
 En esta seccion se presenta la imagen de interface layer del contexto intern_control.
 <img src="./img/capitulo_4/tactical_ddd/intern_control/Interface_intern_control.png" alt="Interface layer intern control">
 
+
+<div style="page-break-after: always;"></div>
 
 #### 4.2.3.3. Application Layer
 
@@ -2606,17 +2809,23 @@ En esta seccion se presenta la imagen de application layer del contexto intern_c
 <img src="./img/capitulo_4/tactical_ddd/intern_control/Domain_intern_control.png" alt="Application layer intern control">
 
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.3.4. Infrastructure Layer
 
 En esta seccion se presenta la imagen de infrastructure layer del contexto intern_control.
 <img src="./img/capitulo_4/tactical_ddd/intern_control/Infrastructure_intern_control.png" alt="Infrastructure layer intern control">
 
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 En esta seccion se presenta la imagen de component diagrams del contexto intern_control.
-<img src="./img/capitulo_4/tactical_ddd/intern_control/c3_intern_control.png" alt="C3 intern control">
+<img style="width: 70%;"  src="./img/capitulo_4/tactical_ddd/intern_control/c3_intern_control.png" alt="C3 intern control">
 
+
+<div style="page-break-after: always;"></div>
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2626,11 +2835,15 @@ En esta seccion se presenta la imagen de domain layer del contexto intern_contro
 <img src="./img/capitulo_4/tactical_ddd/intern_control/Domain_intern_control.png" alt="Domain layer intern control">
 
 
+<div style="page-break-after: always;"></div>
+
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
 
 En esta seccion se presenta la imagen de database diagram del contexto restaurant.
 <img src="./img/capitulo_4/tactical_ddd/intern_control/database_diagram.png" alt="Database">
 
+
+<div style="page-break-after: always;"></div>
 
 # Conclusiones
 
@@ -2641,6 +2854,8 @@ Se establecen, para este primer entregable, las siguientes conclusiones:
 - Se han planteado las características del producto que resuelven la problemática a través de las historias de usuario y product backlog.
 - Se ha realizado una primera iteración del diseño de la arquitectura de la solución, consistiendo en una arquitectura SoA RESTful, incluyendo las cuatro capas de C4.
 
+
+<div style="page-break-after: always;"></div>
 
 # Referencias Bibliográficas
 
@@ -2658,9 +2873,13 @@ Se establecen, para este primer entregable, las siguientes conclusiones:
 - Programa de las Naciones Unidas para el Desarrollo. (2025). Perú: Datos sobre desarrollo humano. Human Development Report Data Center. https://hdr.undp.org/data-center/specific-country-data#/countries/PER
 - World Bank. (2025). World Development Indicators: Interactive data portal. World Bank Open Data. https://datos.bancomundial.org/
 
+<div style="page-break-after: always;"></div>
+
 # Anexos
 
 ## Videos de Exposiciones
 
 - Video de exposición AV1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei)
+
+<div style="page-break-after: always;"></div>
 

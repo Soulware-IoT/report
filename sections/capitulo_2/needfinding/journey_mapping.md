@@ -6,6 +6,8 @@ Roberto enfrenta un ciclo reactivo cada vez que se aproxima una inspección de D
 
 <img src="../../../img/capitulo_2/needfinding/journey_mapping/roberto_user_journey_mapping.png">
 
+<div style="page-break-after: always;"></div>
+
 **COCINERO / JOSÉ SANCHEZ**
 
 José depende completamente de sus sentidos y criterio personal para detectar, evaluar y responder ante riesgos en la cocina. Sin sensores, protocolos claros ni mecanismos de registro, enfrenta cada incidente de forma improvisada. Sus propuestas de mejora quedan en conversaciones informales sin garantía de implementación.

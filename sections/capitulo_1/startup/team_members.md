@@ -37,7 +37,7 @@ Se presenta en formato de tabla una breve descripción de cada uno de los integr
         </tr>
         <!--Integrante 3-->
         <tr>
-            <td><img src="../../../img/capitulo_1/startup/team_members/fabrizio.jpg"></td>
+            <td><img style="width: 100%;" src="../../../img/capitulo_1/startup/team_members/fabrizio.jpg"></td>
             <td>Fabrizio Amir León Vivas</td>
             <td>20211b994</td>
             <td>Ingeniería de Software</td>
