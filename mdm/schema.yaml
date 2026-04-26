@@ -1,5 +1,6 @@
-- title: "Delete this"  # MDM Needs a skip title function
+- title: "Delete this"
   alias: cover
+  skip_title: true # I added it lol
 - title: Registro de Versiones del Informe
   alias: versions
 - title: Project Report Collaboration Insights
