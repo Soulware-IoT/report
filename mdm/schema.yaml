@@ -190,3 +190,5 @@
   children:
     - title: Videos de Exposiciones
       alias: expos
+    - title: Otros videos
+      alias: otros
