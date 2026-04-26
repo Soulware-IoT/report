@@ -2,6 +2,8 @@
   alias: cover
 - title: Registro de Versiones del Informe
   alias: versions
+- title: Project Report Collaboration Insights
+  alias: Insights
 - title: Student Outcome
   alias: outcome
 - title: "Capitulo I: Introducción"
