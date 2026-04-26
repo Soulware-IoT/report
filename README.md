@@ -871,9 +871,9 @@ Finalmente, agrupamos los agregados y sus eventos relacionados en fronteras ling
 
 - **Politica de permisos (Permission policy):** Configuracion que determina como se delegan capacidades administrativas, de supervision y de registro entre usuarios de la organizacion.
 
-- **Proceso (Process):** Estructura tipo tabla asociada a un proceso, usada para capturar datos de control como checklist o formulario.
+- **Proceso de control (Control process):** Estrategias empresariales que involucran una secuencia de actividades con la finalidad de mitigar riesgos empresariales. Puede incluir uno o varios formatos de registro.
 
-- **Registro (Record):** Evidencia capturada en un formato de registro para documentar la ejecucion de un proceso en fecha y hora determinadas.
+- **Formato de registro (Record template):** Formato estandarizado para registrar datos o hechos relativos a recursos o procesos empresariales
 
 - **Dispositivo IoT (IoT device):** Equipo conectado al sistema que reporta eventos o estado de seguridad del restaurante (sensor, camara o actuador).
 
