@@ -1,5 +1,7 @@
 - title: "Delete this"  # MDM Needs a skip title function
   alias: cover
+- title: "Registro de Versiones del Informe"
+  alias: registro de versiones
 - title: "Capitulo I: Introducción"
   alias: capitulo 1
   children:
