@@ -957,14 +957,14 @@ En esta seccion se presenta la imagen de component diagrams del contexto restaur
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-En esta seccion se presenta la imagen de domain class diagrams del contexto restaurant.
-<img src="img/capitulo_4/tactical_ddd/restaurant/code_diagrams/domain_class_diagrams.png" alt="Imagen">
+En esta seccion se presenta la imagen de domain layer del contexto restaurant.
+<img src="./img/capitulo_4/tactical_ddd/restaurant/Domain_restaurant.png" alt="Domain layer intern control">
 
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 
 En esta seccion se presenta la imagen de database diagram del contexto restaurant.
-<img src="img/capitulo_4/tactical_ddd/restaurant/code_diagrams/database_diagram.png" alt="Imagen">
+<img src="./img/capitulo_4/tactical_ddd/restaurant/code_diagrams/database_diagram.png" alt="Database">
 
 
 ### 4.2.2. Bounded Context: Security
@@ -1004,13 +1004,12 @@ En esta seccion se presenta la imagen de component diagrams del contexto securit
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
 En esta seccion se presenta la imagen de domain class diagrams del contexto security.
-<img src="img/capitulo_4/tactical_ddd/security/code_diagrams/domain_class_diagrams.png" alt="Imagen">
-
+<img src="./img/capitulo_4/tactical_ddd/Security/Domain_security.png" alt="Domain layer intern control">
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
 
 En esta seccion se presenta la imagen de database diagram del contexto security.
-<img src="img/capitulo_4/tactical_ddd/security/code_diagrams/database_diagram.png" alt="Imagen">
+<img src="./img/capitulo_4/tactical_ddd/Security/code_diagrams/database_diagram.png" alt="Database">
 
 
 ### 4.2.3. Bounded Context: Intern Control
@@ -1030,7 +1029,7 @@ En esta seccion se presenta la imagen de interface layer del contexto intern_con
 #### 4.2.3.3. Application Layer
 
 En esta seccion se presenta la imagen de application layer del contexto intern_control.
-<img src="./img/capitulo_4/tactical_ddd/intern_control/Application_intern_control.png" alt="Application layer intern control">
+<img src="./img/capitulo_4/tactical_ddd/intern_control/Domain_intern_control.png" alt="Application layer intern control">
 
 
 #### 4.2.3.4. Infrastructure Layer
@@ -1049,14 +1048,14 @@ En esta seccion se presenta la imagen de component diagrams del contexto intern_
 
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 
-En esta seccion se presenta la imagen de domain class diagrams del contexto intern_control.
-<img src="img/capitulo_4/tactical_ddd/intern_control/code_diagrams/domain_class_diagrams.png" alt="Imagen">
+En esta seccion se presenta la imagen de domain layer del contexto intern_control.
+<img src="./img/capitulo_4/tactical_ddd/intern_control/Domain_intern_control.png" alt="Domain layer intern control">
 
 
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
 
-En esta seccion se presenta la imagen de database diagram del contexto intern_control.
-<img src="img/capitulo_4/tactical_ddd/intern_control/code_diagrams/database_diagram.png" alt="Imagen">
+En esta seccion se presenta la imagen de database diagram del contexto restaurant.
+<img src="./img/capitulo_4/tactical_ddd/intern_control/database_diagram.png" alt="Database">
 
 
 # Referencias Bibliográficas

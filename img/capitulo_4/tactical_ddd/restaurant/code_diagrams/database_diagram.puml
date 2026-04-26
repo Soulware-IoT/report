@@ -1,0 +1,4 @@
+@startuml
+' Unified database diagram source
+!include ../../code_diagrams/database_diagram_unified.puml
+@enduml
