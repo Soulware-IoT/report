@@ -2223,7 +2223,7 @@ Se presenta a continuación el conjunto de User Stories planificadas para el alc
 
 Se presenta a continuación el Impact Mapping del producto que relaciona los objetivos de negocio con el valor de los usuarios, traducidos a Epics y User Stories del Product Backlog.
 
-<img src="./img/capitulo_3/impact_mapping.png">
+<img style="width: 70%;" src="./img/capitulo_3/impact_mapping.png">
 
 <div style="page-break-after: always;"></div>
 
