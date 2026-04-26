@@ -2693,7 +2693,7 @@ En esta seccion se presenta la imagen de infrastructure layer del contexto resta
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 En esta seccion se presenta la imagen de component diagrams del contexto restaurant.
-<img src="./img/capitulo_4/tactical_ddd/restaurant/c3_restaurant.png" alt="C3 restaurant">
+<img style="width: 70%;" src="./img/capitulo_4/tactical_ddd/restaurant/c3_restaurant.png" alt="C3 restaurant">
 
 
 <div style="page-break-after: always;"></div>
@@ -2753,7 +2753,7 @@ En esta seccion se presenta la imagen de infrastructure layer del contexto secur
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
 En esta seccion se presenta la imagen de component diagrams del contexto security.
-<img src="./img/capitulo_4/tactical_ddd/Security/c3_security.png" alt="C3 security">
+<img style="width: 70%;" src="./img/capitulo_4/tactical_ddd/Security/c3_security.png" alt="C3 security">
 
 
 <div style="page-break-after: always;"></div>
@@ -2812,7 +2812,7 @@ En esta seccion se presenta la imagen de infrastructure layer del contexto inter
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 En esta seccion se presenta la imagen de component diagrams del contexto intern_control.
-<img src="./img/capitulo_4/tactical_ddd/intern_control/c3_intern_control.png" alt="C3 intern control">
+<img style="width: 70%;"  src="./img/capitulo_4/tactical_ddd/intern_control/c3_intern_control.png" alt="C3 intern control">
 
 
 <div style="page-break-after: always;"></div>
