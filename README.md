@@ -496,8 +496,6 @@ Se seleccionó el sector de restaurantes y servicios afines debido a su represen
 
 A continuación, se desarrolla el Lean UX Process, utilizando las plantillas para nuevas iniciativas y usando protopersonas, de acuerdo a como especifican Gothelf y Seiden (2021).
 
-<div style="page-break-after: always;"></div>
-
 #### 1.2.2.1. Lean UX Problem Statements
 
 Al estado actual de ***soluciones de seguridad y prevención de riesgos para restaurantes*** se han centrado principalmente en el mercado de las grandes cadenas de restaurantes.
@@ -509,8 +507,6 @@ Nuestro producto va a superar esta brecha a través de ***ser una propuesta orie
 Nuestro foco inicial va a centrar en ***los negocios más pequeños, restaurantes locales***.
 
 Sabremos que hemos tenido éxito al observar ***adopción y retención del servicio a largo plazo***
-
-<div style="page-break-after: always;"></div>
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -539,8 +535,6 @@ Sabremos que hemos tenido éxito al observar ***adopción y retención del servi
 - Llamada automática a los bomberos
 
 
-<div style="page-break-after: always;"></div>
-
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 - Creemos que el cumplimiento de las obligaciones de Defensa Civil se logrará si Roberto (Emprendedor) logra prevenir multas y sanciones mediante el registro de la fecha de ejecución de mantenimientos en los equipos.
@@ -548,8 +542,6 @@ Sabremos que hemos tenido éxito al observar ***adopción y retención del servi
 - Creemos que una reducción del impacto capital de accidentes en un 30% se logrará si Jose (Cocinero) puede responder ante accidentes y prevenir incidentes en la cocina a través del monitoreo de temperatura y humo, junto con la activación automática de alarmas.
 
 - Creemos que una reducción del impacto capital de accidentes se logrará si Roberto (Emprendedor) obtiene una visión del estado de los equipos mediante la llamada automática a los bomberos y la activación automática y manual de turbinas ante emergencias detectadas.
-
-<div style="page-break-after: always;"></div>
 
 #### 1.2.2.4 Lean UX Canvas
 

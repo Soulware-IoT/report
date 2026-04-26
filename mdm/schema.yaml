@@ -29,13 +29,17 @@
         - title: "1.2.2. Lean UX Process"
           alias: lean ux process
           has_intro: true
+          skip_after: false
           children:
             - title: "1.2.2.1. Lean UX Problem Statements"
               alias: problem statements
+              skip_after: false
             - title: "1.2.2.2. Lean UX Assumptions"
               alias: assumptions
+              skip_after: false
             - title: "1.2.2.3. Lean UX Hypothesis Statements"
               alias: hypothesis statements
+              skip_after: false
             - title: "1.2.2.4 Lean UX Canvas"
               alias: canvas
     - title: "1.3. Segmentos Objetivo"
