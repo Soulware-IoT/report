@@ -1,0 +1,1 @@
+A continuación, se desarrolla el Lean UX Process, utilizando las plantillas para nuevas iniciativas y usando protopersonas, de acuerdo a como especifican Gothelf y Seiden (2021).

@@ -28,7 +28,7 @@
         <tbody>
             <tr>
                 <td style="border: 1px solid #000; padding: 8px;">202313665</td>
-                <td style="border: 1px solid #000; padding: 8px;">Orozco Torres, Alvaro Joaquin</td>
+                <td style="border: 1px solid #000; padding: 8px;">Chi Cruzatt, Kevin Jorge</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #000; padding: 8px;">202222745</td>
@@ -206,7 +206,7 @@ Se seleccionó el sector de restaurantes y servicios afines debido a su represen
 
 ### 1.2.2. Lean UX Process
 
-
+A continuación, se desarrolla el Lean UX Process, utilizando las plantillas para nuevas iniciativas y usando protopersonas, de acuerdo a como especifican Gothelf y Seiden (2021).
 
 #### 1.2.2.1. Lean UX Problem Statements
 
