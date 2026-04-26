@@ -1,3 +1,5 @@
+- title: "."
+  alias: cover
 - title: "Capitulo I: Introducción"
   alias: capitulo 1
   children:
