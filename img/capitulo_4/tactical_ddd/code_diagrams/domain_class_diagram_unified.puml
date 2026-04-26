@@ -1,0 +1,364 @@
+@startuml
+skinparam packageStyle rectangle
+
+title Unified Domain Class Diagram - Restaurant + Security + InternControl
+
+' =========================
+' Restaurant bounded context
+' =========================
+package "Restaurant" {
+    package "Domain" {
+        package "Model" {
+            package "Aggregates" {
+                class Organization <<AggregateRoot>> {
+                    -OrganizationId id
+                    -Organization organization
+                }
+                class User <<AggregateRoot>> {
+                    -UserId id
+                    -Identity identity
+                    -List<Permission> permissions
+                }
+            }
+            package "Entities" {
+                class Organization <<Entity>> {
+                    -OrganizationId id
+                    -OrganizationName name
+                    -UserId organizationOwner
+                    -RestaurantCoordinates coordinates
+                    -LocationReferences references
+                }
+                class Identity <<Entity>> {
+                    -UserId id
+                    -FullName fullName
+                    -Email email
+                    -UserType type
+                    -OrganizationId organizationId
+                }
+            }
+            package "Commands" {
+                class CreateOrganizationCommand
+                class CreateUserCommand
+                class ConfigureUserPermissionsCommand
+            }
+            package "Queries" {
+                class GetOrganizationByIdQuery
+                class GetUserByIdQuery
+                class ListUsersByOrganizationQuery
+            }
+            package "ValueObjects" {
+                class OrganizationId <<ValueObject>> {
+                    -Int id
+                }
+                class UserId <<ValueObject>> {
+                    -Int id
+                }
+                class Email <<ValueObject>> {
+                    -String value
+                }
+                class FullName <<ValueObject>> {
+                    -String value
+                }
+                class OrganizationName <<ValueObject>> {
+                    -String value
+                }
+                class RestaurantCoordinates <<ValueObject>> {
+                    -Decimal latitude
+                    -Decimal longitude
+                }
+                class LocationReferences <<ValueObject>> {
+                    -List<String> values
+                }
+                enum UserType <<ValueObject>> {
+                    TENIENTE
+                    ENCARGADO
+                }
+                class Permission <<ValueObject>> {
+                    -Int id
+                    -String permissionName
+                }
+            }
+        }
+        package "Services" {
+            package "CommandServices" {
+                class OrganizationCommandService <<DomainService>>
+                class UserCommandService <<DomainService>> {
+                    +createUser(type: UserType, permissions: List<Permission>): User
+                    +configurePermissions(userId: UserId, permissions: List<Permission>)
+                }
+            }
+            package "QueryServices" {
+                class OrganizationQueryService <<DomainService>>
+                class UserQueryService <<DomainService>>
+            }
+        }
+    }
+}
+
+Restaurant.Domain.Model.Aggregates.Organization *-- Restaurant.Domain.Model.Entities.Organization
+Restaurant.Domain.Model.Aggregates.User *-- Restaurant.Domain.Model.Entities.Identity
+Restaurant.Domain.Model.Aggregates.User o-- Restaurant.Domain.Model.ValueObjects.Permission
+Restaurant.Domain.Model.Entities.Organization ..> Restaurant.Domain.Model.ValueObjects.OrganizationId
+Restaurant.Domain.Model.Entities.Organization ..> Restaurant.Domain.Model.ValueObjects.OrganizationName
+Restaurant.Domain.Model.Entities.Organization ..> Restaurant.Domain.Model.ValueObjects.UserId
+Restaurant.Domain.Model.Entities.Organization ..> Restaurant.Domain.Model.ValueObjects.RestaurantCoordinates
+Restaurant.Domain.Model.Entities.Organization ..> Restaurant.Domain.Model.ValueObjects.LocationReferences
+Restaurant.Domain.Model.Entities.Identity ..> Restaurant.Domain.Model.ValueObjects.UserId
+Restaurant.Domain.Model.Entities.Identity ..> Restaurant.Domain.Model.ValueObjects.FullName
+Restaurant.Domain.Model.Entities.Identity ..> Restaurant.Domain.Model.ValueObjects.Email
+Restaurant.Domain.Model.Entities.Identity ..> Restaurant.Domain.Model.ValueObjects.UserType
+Restaurant.Domain.Model.Entities.Identity ..> Restaurant.Domain.Model.ValueObjects.OrganizationId
+Restaurant.Domain.Services.CommandServices.OrganizationCommandService ..> Restaurant.Domain.Model.Aggregates.Organization
+Restaurant.Domain.Services.CommandServices.UserCommandService ..> Restaurant.Domain.Model.Aggregates.User
+Restaurant.Domain.Services.QueryServices.OrganizationQueryService ..> Restaurant.Domain.Model.Aggregates.Organization
+Restaurant.Domain.Services.QueryServices.UserQueryService ..> Restaurant.Domain.Model.Aggregates.User
+Restaurant.Domain.Services.CommandServices.OrganizationCommandService ..> Restaurant.Domain.Model.Commands.CreateOrganizationCommand
+Restaurant.Domain.Services.CommandServices.UserCommandService ..> Restaurant.Domain.Model.Commands.CreateUserCommand
+Restaurant.Domain.Services.CommandServices.UserCommandService ..> Restaurant.Domain.Model.Commands.ConfigureUserPermissionsCommand
+Restaurant.Domain.Services.QueryServices.OrganizationQueryService ..> Restaurant.Domain.Model.Queries.GetOrganizationByIdQuery
+Restaurant.Domain.Services.QueryServices.UserQueryService ..> Restaurant.Domain.Model.Queries.GetUserByIdQuery
+Restaurant.Domain.Services.QueryServices.UserQueryService ..> Restaurant.Domain.Model.Queries.ListUsersByOrganizationQuery
+
+' ======================
+' Security bounded context
+' ======================
+package "RestaurantSecurity" {
+    package "Domain" {
+        package "Model" {
+            package "Aggregates" {
+                class Sensor <<AggregateRoot>> {
+                    -DeviceId id
+                    -DeviceData deviceData
+                    -ReadingValue readingValue
+                }
+                class Actuator <<AggregateRoot>> {
+                    -DeviceId id
+                    -DeviceData deviceData
+                    -ActuatorType actuatorType
+                    -ActionState state
+                }
+                class RiskPolicy <<AggregateRoot>> {
+                    -RiskPolicyId id
+                    -List<MeasureThreshold> thresholds
+                }
+            }
+            package "Entities" {
+                class DeviceData <<Entity>> {
+                    -DeviceId id
+                    -DeviceName name
+                    -MacAddress macAddress
+                    -DeviceStatus status
+                }
+                class MeasureThreshold <<Entity>> {
+                    -MeasurementType measurementType
+                    -Threshold threshold
+                    -DeviceId targetActuatorId
+                    -ThresholdTrigger trigger
+                }
+            }
+            package "ValueObjects" {
+                class DeviceId <<ValueObject>> {
+                    -Int id
+                }
+                class DeviceName <<ValueObject>> {
+                    -String value
+                }
+                class MacAddress <<ValueObject>> {
+                    -String value
+                }
+                enum DeviceStatus <<ValueObject>> {
+                    ONLINE
+                    OFFLINE
+                }
+                class ActuatorType <<ValueObject>> {
+                    -String value
+                }
+                class MeasurementType <<ValueObject>> {
+                    -String value
+                }
+                class RiskPolicyId <<ValueObject>> {
+                    -Int id
+                }
+                class Threshold <<ValueObject>> {
+                    -Decimal value
+                }
+                enum ThresholdTrigger <<ValueObject>> {
+                    ABOVE_THRESHOLD
+                    BELOW_THRESHOLD
+                }
+                class ReadingId <<ValueObject>> {
+                    -Int id
+                }
+                class ReadingValue <<ValueObject>> {
+                    -Decimal value
+                }
+                enum ActionState <<ValueObject>> {
+                    STANDBY
+                    ACTION
+                }
+            }
+        }
+        package "Services" {
+            package "Builders" {
+                class RiskPolicyBuilder <<Builder>> {
+                    +withThresholdRule(measurementType: MeasurementType, threshold: Threshold, targetActuatorId: DeviceId, trigger: ThresholdTrigger): RiskPolicyBuilder
+                    +build(): RiskPolicy
+                }
+            }
+            package "CommandServices" {
+                class DeviceCommandService <<DomainService>>
+                class RiskPolicyCommandService <<DomainService>>
+                class ActuatorCommandService <<DomainService>>
+            }
+            package "QueryServices" {
+                class DeviceQueryService <<DomainService>>
+                class RiskPolicyQueryService <<DomainService>>
+            }
+        }
+    }
+}
+
+RestaurantSecurity.Domain.Model.Aggregates.Sensor *-- RestaurantSecurity.Domain.Model.Entities.DeviceData
+RestaurantSecurity.Domain.Model.Aggregates.Actuator *-- RestaurantSecurity.Domain.Model.Entities.DeviceData
+RestaurantSecurity.Domain.Model.Aggregates.RiskPolicy *-- RestaurantSecurity.Domain.Model.Entities.MeasureThreshold
+RestaurantSecurity.Domain.Model.Aggregates.Sensor ..> RestaurantSecurity.Domain.Model.ValueObjects.DeviceId
+RestaurantSecurity.Domain.Model.Aggregates.Sensor ..> RestaurantSecurity.Domain.Model.ValueObjects.ReadingValue
+RestaurantSecurity.Domain.Model.Aggregates.Actuator ..> RestaurantSecurity.Domain.Model.ValueObjects.DeviceId
+RestaurantSecurity.Domain.Model.Aggregates.Actuator ..> RestaurantSecurity.Domain.Model.ValueObjects.ActuatorType
+RestaurantSecurity.Domain.Model.Aggregates.Actuator ..> RestaurantSecurity.Domain.Model.ValueObjects.ActionState
+RestaurantSecurity.Domain.Model.Aggregates.RiskPolicy ..> RestaurantSecurity.Domain.Model.ValueObjects.RiskPolicyId
+RestaurantSecurity.Domain.Model.Entities.DeviceData ..> RestaurantSecurity.Domain.Model.ValueObjects.DeviceId
+RestaurantSecurity.Domain.Model.Entities.DeviceData ..> RestaurantSecurity.Domain.Model.ValueObjects.DeviceName
+RestaurantSecurity.Domain.Model.Entities.DeviceData ..> RestaurantSecurity.Domain.Model.ValueObjects.MacAddress
+RestaurantSecurity.Domain.Model.Entities.DeviceData ..> RestaurantSecurity.Domain.Model.ValueObjects.DeviceStatus
+RestaurantSecurity.Domain.Model.Entities.MeasureThreshold ..> RestaurantSecurity.Domain.Model.ValueObjects.MeasurementType
+RestaurantSecurity.Domain.Model.Entities.MeasureThreshold ..> RestaurantSecurity.Domain.Model.ValueObjects.Threshold
+RestaurantSecurity.Domain.Model.Entities.MeasureThreshold ..> RestaurantSecurity.Domain.Model.ValueObjects.DeviceId
+RestaurantSecurity.Domain.Model.Entities.MeasureThreshold ..> RestaurantSecurity.Domain.Model.ValueObjects.ThresholdTrigger
+RestaurantSecurity.Domain.Services.Builders.RiskPolicyBuilder ..> RestaurantSecurity.Domain.Model.Aggregates.RiskPolicy
+RestaurantSecurity.Domain.Services.CommandServices.DeviceCommandService ..> RestaurantSecurity.Domain.Model.Aggregates.Sensor
+RestaurantSecurity.Domain.Services.CommandServices.DeviceCommandService ..> RestaurantSecurity.Domain.Model.Aggregates.Actuator
+RestaurantSecurity.Domain.Services.CommandServices.RiskPolicyCommandService ..> RestaurantSecurity.Domain.Model.Aggregates.RiskPolicy
+RestaurantSecurity.Domain.Services.CommandServices.RiskPolicyCommandService ..> RestaurantSecurity.Domain.Model.Aggregates.Sensor
+RestaurantSecurity.Domain.Services.CommandServices.ActuatorCommandService ..> RestaurantSecurity.Domain.Model.Aggregates.Actuator
+RestaurantSecurity.Domain.Services.QueryServices.DeviceQueryService ..> RestaurantSecurity.Domain.Model.Aggregates.Sensor
+RestaurantSecurity.Domain.Services.QueryServices.DeviceQueryService ..> RestaurantSecurity.Domain.Model.Aggregates.Actuator
+RestaurantSecurity.Domain.Services.QueryServices.RiskPolicyQueryService ..> RestaurantSecurity.Domain.Model.Aggregates.RiskPolicy
+RestaurantSecurity.Domain.Services.CommandServices.RiskPolicyCommandService ..> RestaurantSecurity.Domain.Services.CommandServices.ActuatorCommandService
+
+' ==========================
+' InternControl bounded context
+' ==========================
+package "InternControl" {
+    package "Domain" {
+        package "Model" {
+            package "Aggregates" {
+                class ControlProcess <<AggregateRoot>> {
+                    -ControlProcessId id
+                    -ControlProcessName name
+                    -ProcessStatus status
+                    -List<RecordTemplate> templates
+                }
+                class RecordTemplate <<AggregateRoot>> {
+                    -RecordTemplateId id
+                    -TemplateName name
+                    -List<RecordTemplateVersion> versions
+                }
+                class Record <<AggregateRoot>> {
+                    -RecordId id
+                    -RecordTemplateVersionId templateVersionId
+                    -RegisteredAt registeredAt
+                    -RecordStatus status
+                    -List<RecordValue> values
+                }
+            }
+            package "Entities" {
+                class RecordTemplateVersion <<Entity>> {
+                    -VersionNumber version
+                    -CreatedAt createdAt
+                    -List<TemplateField> fields
+                }
+                class TemplateField <<Entity>> {
+                    -FieldId id
+                    -FieldName name
+                    -FieldType type
+                    -Boolean required
+                }
+                class RecordValue <<Entity>> {
+                    -FieldId fieldId
+                    -FieldValue value
+                }
+            }
+            package "ValueObjects" {
+                class ControlProcessId <<ValueObject>> {
+                    -Int value
+                }
+                class RecordId <<ValueObject>> {
+                    -Int value
+                }
+                class RecordTemplateId <<ValueObject>> {
+                    -Int value
+                }
+                class RecordTemplateVersionId <<ValueObject>> {
+                    -Int value
+                }
+                class FieldId <<ValueObject>> {
+                    -Int value
+                }
+                class ControlProcessName <<ValueObject>> {
+                    -String value
+                }
+                class TemplateName <<ValueObject>> {
+                    -String value
+                }
+                class FieldValue <<ValueObject>> {
+                    -String value
+                }
+                class FieldName <<ValueObject>> {
+                    -String value
+                }
+                class FieldType <<ValueObject>> {
+                    -String value
+                }
+                class RegisteredAt <<ValueObject>> {
+                    -DateTime value
+                }
+                class CreatedAt <<ValueObject>> {
+                    -DateTime value
+                }
+                class ProcessStatus <<ValueObject>> {
+                    -String value
+                }
+                class RecordStatus <<ValueObject>> {
+                    -String value
+                }
+                class VersionNumber <<ValueObject>> {
+                    -Int value
+                }
+            }
+        }
+    }
+}
+
+ControlProcess *-- RecordTemplate
+RecordTemplate *-- RecordTemplateVersion
+RecordTemplateVersion *-- TemplateField
+Record *-- RecordValue
+Record --> RecordTemplateVersion
+TemplateField --> FieldId
+TemplateField --> FieldName
+TemplateField --> FieldType
+RecordValue --> FieldId
+RecordValue --> FieldValue
+Record --> RecordId
+Record --> RecordTemplateVersionId
+Record --> RecordStatus
+RecordTemplate --> RecordTemplateId
+RecordTemplate --> TemplateName
+RecordTemplateVersion --> VersionNumber
+RecordTemplateVersion --> CreatedAt
+ControlProcess --> ControlProcessId
+ControlProcess --> ControlProcessName
+ControlProcess --> ProcessStatus
+
+@enduml

@@ -1,0 +1,35 @@
+@startuml
+skinparam packageStyle rectangle
+
+title Restaurant - Application Layer Structure
+
+package "Restaurant" {
+    package "Application.Internal" {
+        package "CommandServices" {
+            class OrganizationCommandApplicationService <<ApplicationService>> {
+                +handleCreateOrganization(command): void
+                +handleUpdateOrganization(command): void
+            }
+            class UserCommandApplicationService <<ApplicationService>> {
+                +handleCreateUser(command): void
+                +handleConfigurePermissions(command): void
+            }
+        }
+        package "QueryServices" {
+            class OrganizationQueryApplicationService <<ApplicationService>> {
+                +handleGetOrganizationById(query)
+                +handleListOrganizations(query)
+            }
+            class UserQueryApplicationService <<ApplicationService>> {
+                +handleGetUserById(query)
+                +handleListUsersByOrganization(query)
+            }
+        }
+    }
+}
+
+' === RELACIONES DE APPLICATION: Restaurant ===
+Restaurant.Application.Internal.CommandServices.OrganizationCommandApplicationService ..> Restaurant.Application.Internal.QueryServices.OrganizationQueryApplicationService
+Restaurant.Application.Internal.CommandServices.UserCommandApplicationService ..> Restaurant.Application.Internal.QueryServices.UserQueryApplicationService
+Restaurant.Application.Internal.QueryServices.OrganizationQueryApplicationService ..> Restaurant.Application.Internal.QueryServices.UserQueryApplicationService
+@enduml
