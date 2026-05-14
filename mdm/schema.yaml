@@ -180,6 +180,51 @@
                   alias: domain class diagrams
                 - title: "4.2.3.6.2. Bounded Context Database Design Diagram"
                   alias: database diagram
+- title: "Capítulo V: Solution UI/UX Design"
+  alias: capitulo 5
+  children:
+    - title: "5.1. Style Guidelines"
+      alias: style guidelines
+      children:
+        - title: "5.1.1. General Style Guidelines"
+          alias: general style
+        - title: "5.1.2. Web, Mobile and IoT Style Guidelines"
+          alias: web mobile style
+    - title: "5.2. Information Architecture"
+      alias: info architecture
+      children:
+        - title: "5.2.1. Organization Systems"
+          alias: organization
+        - title: "5.2.2. Labeling Systems"
+          alias: labeling
+        - title: "5.2.3. SEO Tags and Meta Tags"
+          alias: seo tags
+        - title: "5.2.4. Searching Systems"
+          alias: searching
+        - title: "5.2.5. Navigation Systems"
+          alias: navigation
+    - title: "5.3. Landing Page UI Design"
+      alias: landing page
+      children:
+        - title: "5.3.1. Landing Page Wireframe"
+          alias: landing wireframe
+        - title: "5.3.2. Landing Page Mock-up"
+          alias: landing mockup
+    - title: "5.4. Applications UX/UI Design"
+      alias: apps design
+      children:
+        - title: "5.4.1. Applications Wireframes"
+          alias: apps wireframes
+        - title: "5.4.2. Applications Wireflow Diagrams"
+          alias: apps wireflow
+        - title: "5.4.3. Applications Mock-ups"
+          alias: apps mockups
+        - title: "5.4.4. Applications User Flow Diagrams"
+          alias: apps user flow
+    - title: "5.5. Applications Prototyping"
+      alias: prototyping
+    - title: "5.6. IoT Device Design"
+      alias: iot design
 - title: Conclusiones
   children:
     - title: Conclusiones y recomendaciones
