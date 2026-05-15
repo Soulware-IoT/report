@@ -2889,12 +2889,62 @@ En esta seccion se presenta la imagen de database diagram del contexto restauran
 
 ### 5.1.1. General Style Guidelines
 
+Para el desarrollo de Cocina360 se ha definido un sistema de diseño minimalista y de alta legibilidad, orientado a la eficiencia operativa en entornos de alta presión. Las decisiones visuales se sustentan en los principios de **claridad, respuesta rápida y jerarquía de datos**.
+
+**BRANDING Y CONCEPTO VISUAL**
+
+La marca Cocina360 utiliza una identidad monocromática de base (Blanco y Negro) para proyectar máxima seriedad y profesionalismo. El logotipo, integrado por un isotipo de una cacerola con ondas de sensor, simboliza la fusión entre lo tradicional (la cocina) y la vanguardia tecnológica (IoT). Esta simplicidad permite que los colores de alerta (rojo, verde) resalten sin competir visualmente con la marca.
+
+**TYPOGRAPHY**
+
+Se ha seleccionado la familia tipográfica **Inter** como fuente única para todo el ecosistema. Se eligió por su diseño optimizado para interfaces digitales, con una altura de x elevada que facilita la lectura de variables numéricas (como temperaturas y ppm). 
+
+- **Headings:** Se utiliza un peso **Bold** o **SemiBold** con un interletrado (letter-spacing) ligeramente reducido para transmitir solidez.
+- **Body:** Se utiliza un peso **Regular** con un color gris oscuro para reducir la fatiga visual.
+
+**COLORS**
+
+La paleta es sobria, dejando el uso del color exclusivamente para la comunicación de estados:
+- **Primary:** Negro puro (#000000) para acciones principales (Get Started) y títulos de alto impacto.
+- **Surface/Background:** Un gris ultra claro (#F9FAFB) para el fondo general y blanco puro (#FFFFFF) para contenedores (cards), creando una separación sutil pero clara.
+- **Semantic (Status):** 
+    - **Success (Optimal):** Verde esmeralda suave de fondo con texto en verde oscuro.
+    - **Danger (Review/Anomaly):** Rojo suave de fondo con texto en rojo intenso.
+
+**SPACING AND GRID**
+
+Se aplica un sistema de espaciado basado en **8px** para mantener la armonía. Los contenedores utilizan radios de esquina (border-radius) de **12px**, lo que suaviza la interfaz y la hace sentir accesible y moderna, alejándose de la rigidez de los sistemas industriales antiguos.
+
+**TONO DE COMUNICACIÓN**
+
+El lenguaje de Cocina360 se define bajo las siguientes dimensiones:
+- **Serio:** No utiliza lenguaje lúdico, ya que la seguridad es una prioridad crítica.
+- **Formal:** Trata al usuario como un profesional responsable de su negocio.
+- **Respetuoso:** Mantiene una comunicación clara y directa.
+- **Sereno:** Evita el alarmismo innecesario; informa con precisión y calma.
 
 
 <div style="page-break-after: always;"></div>
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
+En esta sección se detallan los estándares de interacción que aseguran una experiencia coherente entre el hardware y las múltiples interfaces de software del ecosistema Cocina360.
+
+**ESTÁNDARES PARA RESPONSIVE WEB INTERFACES**
+
+La interfaz web utiliza un diseño de "tarjetas de estado" (Status Cards). Cada tarjeta agrupa un icono lineal, una etiqueta descriptiva y el valor en tiempo real. En pantallas de escritorio, se utiliza un espaciado amplio para permitir una supervisión pasiva desde una distancia considerable, mientras que en versiones móviles, estas tarjetas se apilan verticalmente, priorizando siempre la variable con estado de "Review".
+
+**ESTÁNDARES PARA MOBILE APPLICATION INTERFACES**
+
+La aplicación móvil hereda la estética de la landing page pero optimiza los elementos de control para entornos táctiles. Los botones de acción principal ocupan el ancho total de la pantalla y utilizan el color negro sólido para asegurar un contraste del 100%. Las micro-interacciones, como el parpadeo suave del icono de señal en vivo, confirman al usuario que el sistema está monitorizando activamente sin ser intrusivas.
+
+**ESTÁNDARES PARA IOT PHYSICAL INTERFACES**
+
+El dispositivo físico Cocina360 está diseñado para ser un objeto "silencioso" que solo demanda atención cuando es estrictamente necesario, operando bajo un estándar de mínima carga cognitiva.
+
+- **Interfaz Visual (LEDs):** El dispositivo cuenta con un indicador luminoso que espeja los colores semánticos definidos. Un tono verde constante indica estado óptimo, mientras que un rojo parpadeante señala una anomalía crítica.
+- **Interfaz Física:** Los botones físicos tienen una respuesta táctil clara (clic perceptible) para que el operario pueda interactuar con el dispositivo sin necesidad de contacto visual directo, permitiéndole mantener la atención en su tarea principal en la cocina.
+- **Feedback Auditivo:** Se establecen frecuencias de sonido no estridentes para confirmaciones de sistema (como el encendido o emparejamiento), reservando los tonos de alta frecuencia y repetición rápida solo para situaciones de peligro inminente.
 
 
 <div style="page-break-after: always;"></div>
