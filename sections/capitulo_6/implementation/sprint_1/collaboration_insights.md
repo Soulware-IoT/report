@@ -1,24 +1,24 @@
 En esta sección se presentan los insights de colaboración y trabajo del equipo durante el Sprint 1, extraídos de las métricas de contribución en los diferentes repositorios de la organización Soulware-IoT.
 
 **API Gateway**
-<img style="width: 90%;" src="insights/apigw.png">
+<img style="width: 90%;" src="../../../../img/capitulo_6/insights/apigw.png">
 
 <div style="page-break-after: always;"></div>
 
 **Front-end (SPA)**
-<img style="width: 90%;" src="insights/front.png">
+<img style="width: 90%;" src="../../../../img/capitulo_6/insights/front.png">
 
 <div style="page-break-after: always;"></div>
 
 **Internal Control**
-<img style="width: 90%;" src="insights/internal-control.png">
+<img style="width: 90%;" src="../../../../img/capitulo_6/insights/internal-control.png">
 
 <div style="page-break-after: always;"></div>
 
 **Landing Page**
-<img style="width: 90%;" src="insights/landing.png">
+<img style="width: 90%;" src="../../../../img/capitulo_6/insights/landing.png">
 
 <div style="page-break-after: always;"></div>
 
 **Restaurant**
-<img style="width: 90%;" src="insights/restaurant.png">
+<img style="width: 90%;" src="../../../../img/capitulo_6/insights/restaurant.png">

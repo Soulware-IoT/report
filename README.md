@@ -307,7 +307,7 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
 
 **TB1**
 
-Para esta entrega del TB1, la división fue principalmente según disponibilidad. Los compañeros ocupados con tasks de programción no documentaron en el informe.
+Para esta entrega del TB1, la división fue principalmente según disponibilidad. Los compañeros ocupados con tasks de programación no documentaron en el informe.
 
 **COLABORACIÓN**
 
@@ -971,7 +971,7 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 
 **DUEÑOS DE RESTAURANTES**
 
-Enlace de entrevistas: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ)
+Enlace de vídeo de elicitación: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ"> https://upcedupe-my.sharepoint.com/:<span>v</span>:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ</a>
 
 <table>
     <thead>
@@ -4475,17 +4475,6 @@ Se desarrollaron los primeros endpoints de la API REST de Cocina360. Se implemen
 + **Link de despliegue** [https://cocina360-api.azurewebsites.net](https://cocina360-api.azurewebsites.net)
 
 
-**SPA (Single Page Application)**
-
-Se desarrollaron las primeras vistas funcionales de la aplicación web. Se implementaron las pantallas de autenticación con Google, el flujo de creación de organización y el módulo de procesos de control interno con sus operaciones de listado, creación, renombrado y suspensión. Asimismo, se integró la vista de suscripciones activas del usuario.
-
-+ **Link de despliegue** [https://cocina360-spa.azurestaticapps.net](https://cocina360-spa.azurestaticapps.net)
-
-
-**Azure**
-
-Para el despliegue de los servicios desarrollados en este sprint se utilizó Microsoft Azure como plataforma cloud. El Backend fue alojado mediante Azure App Service, mientras que la SPA fue publicada a través de Azure Static Web Apps. Ambos servicios se benefician de la infraestructura gestionada de Azure, garantizando disponibilidad, escalabilidad y un entorno seguro para las pruebas del sprint.
-
 <div style="page-break-after: always;"></div>
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
@@ -4542,27 +4531,27 @@ Base URL: `http://localhost:8080/restaurant`
 En esta sección se presentan los insights de colaboración y trabajo del equipo durante el Sprint 1, extraídos de las métricas de contribución en los diferentes repositorios de la organización Soulware-IoT.
 
 **API Gateway**
-<img style="width: 90%;" src="insights/apigw.png">
+<img style="width: 90%;" src="./img/capitulo_6/insights/apigw.png">
 
 <div style="page-break-after: always;"></div>
 
 **Front-end (SPA)**
-<img style="width: 90%;" src="insights/front.png">
+<img style="width: 90%;" src="./img/capitulo_6/insights/front.png">
 
 <div style="page-break-after: always;"></div>
 
 **Internal Control**
-<img style="width: 90%;" src="insights/internal-control.png">
+<img style="width: 90%;" src="./img/capitulo_6/insights/internal-control.png">
 
 <div style="page-break-after: always;"></div>
 
 **Landing Page**
-<img style="width: 90%;" src="insights/landing.png">
+<img style="width: 90%;" src="./img/capitulo_6/insights/landing.png">
 
 <div style="page-break-after: always;"></div>
 
 **Restaurant**
-<img style="width: 90%;" src="insights/restaurant.png">
+<img style="width: 90%;" src="./img/capitulo_6/insights/restaurant.png">
 
 
 <div style="page-break-after: always;"></div>
@@ -4609,15 +4598,16 @@ Se establecen, para el cierre de esta etapa de Trabajo Parcial, las siguientes c
 
 ## Videos de Exposiciones
 
-- Video de exposición AV1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei)
-- Video de exposición TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQDltWxRNpLlTpO8BwCbVBzJAYWVtVDo190SYdud3-ifSEs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LkzEk5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQDltWxRNpLlTpO8BwCbVBzJAYWVtVDo190SYdud3-ifSEs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LkzEk5)
+- Video de exposición AV1: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei"> https://upcedupe-my.sharepoint.com/:<span>v</span>:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei</a>
+
+- Video de exposición TB1:  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQDltWxRNpLlTpO8BwCbVBzJAYWVtVDo190SYdud3-ifSEs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LkzEk5"> https://upcedupe-my.sharepoint.com/:<span>v</span>:/g/personal/u202220783_upc_edu_pe/IQDltWxRNpLlTpO8BwCbVBzJAYWVtVDo190SYdud3-ifSEs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LkzEk5</a>
 
 
 <div style="page-break-after: always;"></div>
 
 ## Otros videos
 
-- Vídeo de entrevistas de elicitación: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ)
+- Vídeo de entrevistas de elicitación: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ"> https://upcedupe-my.sharepoint.com/:<span>v</span>:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ</a>
 
 <div style="page-break-after: always;"></div>
 

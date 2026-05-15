@@ -16,7 +16,7 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
 
 **TB1**
 
-Para esta entrega del TB1, la división fue principalmente según disponibilidad. Los compañeros ocupados con tasks de programción no documentaron en el informe.
+Para esta entrega del TB1, la división fue principalmente según disponibilidad. Los compañeros ocupados con tasks de programación no documentaron en el informe.
 
 **COLABORACIÓN**
 
