@@ -1277,7 +1277,7 @@ Finalmente, agrupamos los agregados y sus eventos relacionados en fronteras ling
 
 - **Teniente (Lieutenant):** Usuario supervisor que puede tener permiso de administracion de usuarios o solo supervision de procesos, segun configuracion del dueño.
 
-- **Encargado / Chef (Manager / Chef):** Usuario responsable de ejecutar y registrar procesos y sus politicas.
+- **Encargado / Chef (Assignee / Chef):** Usuario responsable de ejecutar y registrar procesos y sus politicas.
 
 - **Rol (Role):** Categoria funcional asignada a un usuario que define los permisos que.
 
@@ -1312,7 +1312,6 @@ Finalmente, agrupamos los agregados y sus eventos relacionados en fronteras ling
 - **Llamada de emergencia (Emergency call):** Flujo guiado de la aplicacion movil que inicia contacto con emergencias mostrando datos de ubicacion para reducir errores humanos.
 
 - **Incidente (Incident):** Evento confirmado o sospechoso de riesgo que requiere seguimiento operativo, posible activacion de actuadores y registro de evidencia.
-
 
 # Capítulo III: Requirements Specification
 
@@ -2789,48 +2788,346 @@ En esta seccion se presenta la imagen de database diagram del contexto restauran
 
 ### 5.1.1. General Style Guidelines
 
+Para el desarrollo de Cocina360 se ha definido un sistema de diseño minimalista y de alta legibilidad, orientado a la eficiencia operativa en entornos de alta presión. Las decisiones visuales se sustentan en los principios de **claridad, respuesta rápida y jerarquía de datos**.
+
+**BRANDING Y CONCEPTO VISUAL**
+
+La marca Cocina360 utiliza una identidad monocromática de base (Blanco y Negro) para proyectar máxima seriedad y profesionalismo. El logotipo, integrado por un isotipo de una cacerola con ondas de sensor, simboliza la fusión entre lo tradicional (la cocina) y la vanguardia tecnológica (IoT). Esta simplicidad permite que los colores de alerta (rojo, verde) resalten sin competir visualmente con la marca.
+
+**TYPOGRAPHY**
+
+Se ha seleccionado la familia tipográfica **Inter** como fuente única para todo el ecosistema. Se eligió por su diseño optimizado para interfaces digitales, con una altura de x elevada que facilita la lectura de variables numéricas (como temperaturas y ppm). 
+
+- **Headings:** Se utiliza un peso **Bold** o **SemiBold** con un interletrado (letter-spacing) ligeramente reducido para transmitir solidez.
+- **Body:** Se utiliza un peso **Regular** con un color gris oscuro para reducir la fatiga visual.
+
+**COLORS**
+
+La paleta es sobria, dejando el uso del color exclusivamente para la comunicación de estados:
+- **Primary:** Negro puro (#000000) para acciones principales (Get Started) y títulos de alto impacto.
+- **Surface/Background:** Un gris ultra claro (#F9FAFB) para el fondo general y blanco puro (#FFFFFF) para contenedores (cards), creando una separación sutil pero clara.
+- **Semantic (Status):** 
+    - **Success (Optimal):** Verde esmeralda suave de fondo con texto en verde oscuro.
+    - **Danger (Review/Anomaly):** Rojo suave de fondo con texto en rojo intenso.
+
+**SPACING AND GRID**
+
+Se aplica un sistema de espaciado basado en **8px** para mantener la armonía. Los contenedores utilizan radios de esquina (border-radius) de **12px**, lo que suaviza la interfaz y la hace sentir accesible y moderna, alejándose de la rigidez de los sistemas industriales antiguos.
+
+**TONO DE COMUNICACIÓN**
+
+El lenguaje de Cocina360 se define bajo las siguientes dimensiones:
+- **Serio:** No utiliza lenguaje lúdico, ya que la seguridad es una prioridad crítica.
+- **Formal:** Trata al usuario como un profesional responsable de su negocio.
+- **Respetuoso:** Mantiene una comunicación clara y directa.
+- **Sereno:** Evita el alarmismo innecesario; informa con precisión y calma.
 
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
+En esta sección se detallan los estándares de interacción que aseguran una experiencia coherente entre el hardware y las múltiples interfaces de software del ecosistema Cocina360.
+
+**ESTÁNDARES PARA RESPONSIVE WEB INTERFACES**
+
+La interfaz web utiliza un diseño de "tarjetas de estado" (Status Cards). Cada tarjeta agrupa un icono lineal, una etiqueta descriptiva y el valor en tiempo real. En pantallas de escritorio, se utiliza un espaciado amplio para permitir una supervisión pasiva desde una distancia considerable, mientras que en versiones móviles, estas tarjetas se apilan verticalmente, priorizando siempre la variable con estado de "Review".
+
+**ESTÁNDARES PARA MOBILE APPLICATION INTERFACES**
+
+La aplicación móvil hereda la estética de la landing page pero optimiza los elementos de control para entornos táctiles. Los botones de acción principal ocupan el ancho total de la pantalla y utilizan el color negro sólido para asegurar un contraste del 100%. Las micro-interacciones, como el parpadeo suave del icono de señal en vivo, confirman al usuario que el sistema está monitorizando activamente sin ser intrusivas.
+
+**ESTÁNDARES PARA IOT PHYSICAL INTERFACES**
+
+El dispositivo físico Cocina360 está diseñado para ser un objeto "silencioso" que solo demanda atención cuando es estrictamente necesario, operando bajo un estándar de mínima carga cognitiva.
+
+- **Interfaz Visual (LEDs):** El dispositivo cuenta con un indicador luminoso que espeja los colores semánticos definidos. Un tono verde constante indica estado óptimo, mientras que un rojo parpadeante señala una anomalía crítica.
+- **Interfaz Física:** Los botones físicos tienen una respuesta táctil clara (clic perceptible) para que el operario pueda interactuar con el dispositivo sin necesidad de contacto visual directo, permitiéndole mantener la atención en su tarea principal en la cocina.
+- **Feedback Auditivo:** Se establecen frecuencias de sonido no estridentes para confirmaciones de sistema (como el encendido o emparejamiento), reservando los tonos de alta frecuencia y repetición rápida solo para situaciones de peligro inminente.
 
 
 ## 5.2. Information Architecture
 
 ### 5.2.1. Organization Systems
 
+La organización de la información en Cocina360 se ha estructurado para facilitar la gestión independiente de los flujos de datos a través de una arquitectura predominantemente **jerárquica**. Este enfoque asegura que el usuario pueda saltar entre los pilares del negocio manteniendo siempre la claridad sobre el contexto operativo.
+
+**JERARQUÍA VISUAL Y NAVEGACIÓN LATERAL**
+
+Se adopta un modelo de navegación basado en una **barra lateral (Sidenav)** persistente, inspirada en la interfaz de Jira. Este sistema garantiza que las tres áreas principales de la solución sean accesibles de forma directa, permitiendo una navegación fluida sin importar la profundidad de la vista actual.
+
+La estructura de la navegación lateral refleja la división fundamental del sistema:
+- **IoT Devices:** Gestión directa de hardware, sensores y actuadores.
+- **Control Processes:** Administración de reglas de negocio y formatos de registro.
+- **Organization:** Configuración de la identidad del restaurante, ubicación y personal.
+
+**SISTEMAS DE ORGANIZACIÓN POR TEMAS**
+
+El contenido se agrupa bajo un esquema de categorización por **temas (Topics)**, lo que permite separar las preocupaciones técnicas de las administrativas de forma tajante:
+- **IoT:** Agrupación dedicada a la telemetría, estados de conexión y alertas de hardware.
+- **Control Processes:** Agrupación orientada a la disciplina operativa y los logs históricos de cumplimiento.
+- **Organization:** Agrupación centrada en la gestión de la startup y la administración de roles (*Lieutenant*, *Assignee*).
+
+**ORGANIZACIÓN VISUAL MEDIANTE TARJETAS (CARDS)**
+
+Dentro de cada bloque operativo, la información se organiza mediante **listas verticales de tarjetas (Cards)**. Esta elección de diseño responde a la necesidad de mantener una interfaz adaptable y eficiente:
+- Las tarjetas actúan como unidades de información que presentan datos de forma jerárquica interna (Estado -> Identificador -> Valor).
+- Este modelo permite realizar una supervisión pasiva rápida de las listas, permitiendo identificar anomalías de un solo vistazo.
+
+**ORGANIZACIÓN SECUENCIAL**
+
+Para procesos críticos que requieren una captura de datos precisa, como la vinculación de dispositivos o la creación de políticas, se utiliza una **organización secuencial**. Este modelo guía al usuario a través de pasos lógicos, reduciendo la posibilidad de errores durante la configuración inicial.
 
 
 ### 5.2.2. Labeling Systems
 
+El sistema de etiquetado (Labeling System) de Cocina360 ha sido diseñado priorizando la claridad operativa y evitando la sobrecarga cognitiva en un entorno de alto estrés, como lo es una cocina comercial. Las etiquetas se basan directamente en el lenguaje ubicuo (Ubiquitous Language) definido para el negocio, asegurando que todos los usuarios comprendan inmediatamente la funcionalidad de cada elemento. 
+
+Dado que el producto está concebido con una arquitectura moderna, el sistema utiliza el idioma **inglés** como estándar por defecto a nivel estructural (para escalabilidad internacional), el cual es traducido y presentado al usuario final en **español** a través de la interfaz visual.
+
+**ETIQUETAS DE ROLES Y PERMISOS**
+
+Para mantener una jerarquía clara, análoga a la disciplina de una cocina profesional, se utilizan términos precisos y con carácter para definir los niveles de acceso:
+- **Owner (Dueño):** El administrador absoluto de la organización.
+- **Lieutenant (Teniente):** Una etiqueta distintiva que refleja autoridad de mando medio, utilizada para supervisores que vigilan procesos pero que no poseen control administrativo total del sistema.
+- **Assignee / Chef (Encargado / Chef):** El responsable de piso o de área, encargado de ejecutar y documentar la operación diaria en la cocina.
+
+**ETIQUETAS DE MÓDULOS PRINCIPALES Y DATOS**
+
+Se emplean sustantivos concisos, con un máximo de dos a tres palabras, para los paneles de navegación, evitando frases largas:
+- **IoT Devices (Dispositivos IoT):** Agrupa elementos físicos como *Smoke sensor* (Sensor de humo) y *Heat sensor* (Sensor de calor).
+- **Control Processes (Procesos de Control):** Módulo central de gestión de reglas de negocio.
+- **Record Templates (Formatos de Registro):** Formularios o documentos estandarizados para la evaluación y control.
+- **Risk Alerts (Alertas de Riesgo):** Notificaciones sobre anomalías.
+- **Organization (Organización):** Espacio de configuración general del restaurante.
+
+**ETIQUETAS DE ACCIÓN Y ESTADOS**
+
+Para los llamados a la acción (botones) se utilizan verbos directos, y para los indicadores de sistema se emplean participios inconfundibles:
+- **Acciones:** *Add Device* (Añadir dispositivo), *Emergency Call* (Llamada de emergencia), *Suspend* (Suspender proceso).
+- **Estados de Sistema:** *Active / Inactive* (Activo / Inactivo), *Optimal* (Óptimo), *Review* (Revisar / En revisión).
+
+El objetivo fundamental de estas decisiones de etiquetado es que los arquetipos de usuario no requieran capacitación extensa para entender qué hace cada botón o qué significa cada sección, minimizando la curva de aprendizaje al utilizar el vocabulario natural de su propio entorno laboral.
 
 
 ### 5.2.3. SEO Tags and Meta Tags
 
+Basándose en la estrategia de Soulware de enfocarse en negocios de pequeña escala y la automatización intuitiva, los sistemas de etiquetado para motores de búsqueda (SEO) y tiendas de aplicaciones (ASO) de Cocina360 están diseñados para resaltar la **seguridad operativa, la simplicidad y el cumplimiento normativo**.
+
+**SEO TAGS PARA LA LANDING PAGE (WEB)**
+
+- **Title Tag:** Cocina360 | Seguridad IoT y Control de Riesgos para Restaurantes en Perú
+- **Meta Description:** Protege tu restaurante con Cocina360. Monitoreo IoT en tiempo real, prevención de incendios y automatización de procesos de control para locales pequeños y medianos. Solución tecnológica de Soulware.
+- **Meta Keywords:** seguridad restaurantes perú, monitoreo iot cocina, prevención de incendios restaurante, control de riesgos gastronómicos, soulware iot, procesos de control interno cocina, automatización restaurante.
+- **Author:** Soulware IoT Team
+
+**METADATOS PARA REDES SOCIALES (OPEN GRAPH)**
+
+Para asegurar una presentación profesional al compartir el enlace de la solución en entornos de negocios:
+- **og:title:** Cocina360: La evolución de la seguridad en tu cocina.
+- **og:description:** Automatiza la vigilancia de tu negocio con sensores inteligentes y procesos de control simplificados diseñados para emprendedores.
+- **og:image:** [URL_de_imagen_de_producto]
+- **og:type:** website
+
+**ASO TAGS PARA MOBILE APPLICATION (APP STORE OPTIMIZATION)**
+
+El enfoque ASO prioriza la utilidad práctica y la respuesta rápida, pilares de la táctica de Soulware para la retención de usuarios operativos:
+- **App Title:** Cocina360 - Monitoreo de Seguridad IoT
+- **App Subtitle:** Prevención y Control para tu Restaurante
+- **App Keywords:** seguridad, iot, restaurante, incendios, control, cocina, monitoreo, sensores, soulware, prevención, perú, alertas.
+- **App Description:** Cocina360 transforma la seguridad de tu establecimiento. Recibe alertas críticas de humo y calor en tiempo real, gestiona tus procesos de control interno y asegura el cumplimiento de estándares operativos desde cualquier lugar. Una herramienta intuitiva diseñada para dueños de negocios que no pueden permitirse fallos de seguridad.
+
+Esta configuración de etiquetas garantiza que la solución sea fácilmente localizable por los segmentos objetivo identificados: dueños de nuevos emprendimientos y administradores de locales comerciales pequeños que buscan optimizar sus auditorías de riesgo.
 
 
 ### 5.2.4. Searching Systems
 
+El sistema de búsqueda de Cocina360 se define bajo un enfoque de **conveniencia y simplicidad**, priorizando soluciones técnicas de fácil implementación que aporten un valor inmediato al usuario. El objetivo principal es evitar que el personal se sienta abrumado ante el crecimiento del número de dispositivos o registros históricos.
+
+**SISTEMA DE BÚSQUEDA DINÁMICA**
+
+Cada uno de los módulos operativos (IoT Devices y Control Processes) integra una **barra de búsqueda local** situada en la cabecera de la lista de tarjetas.
+- **Búsqueda por Atributos:** El usuario puede localizar elementos escribiendo términos clave como el alias del dispositivo (ej: "Parrilla 1"), el tipo de sensor (ej: "Gas") o el identificador del proceso.
+- **Respuesta en Tiempo Real:** Para asegurar la conveniencia, el sistema realiza un filtrado dinámico que actualiza la lista de tarjetas conforme se ingresan caracteres, eliminando la necesidad de recargar la página o presionar botones adicionales de "Buscar".
+
+**SISTEMA DE FILTRADO POR ESTADOS**
+
+Se implementan **filtros rápidos de conveniencia** basados en la paleta semántica del sistema, diseñados para ser accionados con un solo clic:
+- **Filtro de Urgencia:** Un control tipo "Toggle" que permite visualizar exclusivamente los elementos en estado de **Review** (Anomalías). Esta es la herramienta de búsqueda más importante para el cumplimiento de los objetivos de seguridad del restaurante.
+- **Filtro de Responsabilidad:** En la sección de procesos, se permite filtrar las tarjetas por el nombre del encargado (**Assignee**), facilitando la supervisión de las tareas realizadas por cada miembro del equipo.
+
+**VISUALIZACIÓN DE RESULTADOS Y RETORNO**
+
+Para mantener la consistencia en la arquitectura de información, los resultados se visualizan utilizando el mismo formato de **lista vertical de tarjetas**:
+- **Estado de Vacío:** En caso de no encontrar coincidencias, el sistema muestra un mensaje informativo claro acompañado de un botón de "Limpiar filtros", garantizando que el usuario pueda retornar a la vista completa de forma inmediata.
+- **Persistencia Mínima:** Los filtros se mantienen activos mientras el usuario navega dentro del módulo, pero se reinician al cambiar de área en la Sidenav para evitar confusiones sobre la disponibilidad de los datos.
+
+Este diseño evita la complejidad de motores de búsqueda avanzados, optando por filtrados lógicos sobre la data en memoria, lo que asegura un rendimiento fluido incluso en aplicaciones móviles y una curva de implementación muy reducida para el equipo de desarrollo.
 
 
 ### 5.2.5. Navigation Systems
 
+El sistema de navegación de Cocina360 ha sido diseñado para minimizar la carga cognitiva del usuario, garantizando que el acceso a la información crítica de seguridad sea inmediato. Se basa en una estructura que combina una navegación global persistente con sistemas de guiado contextual.
+
+**NAVEGACIÓN GLOBAL (SIDENAV)**
+
+Para la plataforma de gestión (Web App), se implementa una **barra de navegación lateral (Sidenav)** persistente, inspirada en la arquitectura de Jira. Esta elección técnica permite al usuario mantener el contexto de su organización mientras navega entre los tres núcleos principales:
+- **IoT Devices:** Acceso a la monitorización y control de hardware.
+- **Control Processes:** Acceso a la gestión de disciplina operativa.
+- **Organization:** Acceso a la administración del restaurante y personal.
+
+Esta barra lateral permite un salto directo entre módulos, eliminando la necesidad de múltiples niveles de menús desplegables y asegurando que las funciones críticas estén a un solo clic de distancia.
+
+**NAVEGACIÓN LOCAL Y CONTEXTUAL**
+
+Dentro de cada módulo operativo, la navegación se especializa para facilitar la gestión de detalles:
+- **Navegación por Tarjetas (Cards):** El usuario interactúa directamente con las listas verticales de tarjetas para profundizar en la información de un sensor o proceso específico. Cada tarjeta actúa como un disparador de navegación hacia la vista de detalle.
+- **Breadcrumbs (Migas de pan):** En las vistas de configuración profunda, se utilizan rutas de navegación jerárquica para que el usuario pueda retornar al nivel anterior sin ambigüedad (ej. Organization > RRHH > Employee Detail).
+- **CTAs de Acción Rápida:** Botones de alto contraste (Negro sólido) se posicionan de forma predecible para guiar al usuario hacia flujos de creación (Add, Create) o acciones de emergencia (Emergency Call).
+
+**NAVEGACIÓN EN LA LANDING PAGE**
+
+A diferencia de la aplicación, la Landing Page utiliza una **barra de navegación superior (Navbar)**. Este sistema está orientado a la conversión y la información, dirigiendo al visitante a través de los beneficios del producto y culminando en el botón de acceso "Get Started", que actúa como el puente principal hacia la aplicación de gestión.
+
+**TÉCNICAS DE GUIADO Y RECORRIDO**
+
+Para asegurar que los usuarios (como el *Assignee* o el *Lieutenant*) recorran el contenido de forma satisfactoria, se aplican las siguientes técnicas:
+- **Guiado por Estados:** Se utiliza la paleta semántica (Verde/Rojo) en los elementos de navegación para atraer la atención hacia áreas que requieren revisión.
+- **Navegación Lineal:** Los flujos de configuración siguen un orden lógico secuencial, impidiendo que el usuario se pierda en procesos de múltiples pasos.
+- **Confirmación Visual:** Micro-interacciones de estado (como iconos de pulso en tiempo real) confirman al usuario que la navegación ha sido exitosa y que el sistema está respondiendo correctamente.
 
 
 ## 5.3. Landing Page UI Design
 
 ### 5.3.1. Landing Page Wireframe
 
+El Wireframe de Cocina360 establece la arquitectura fundamental de la interfaz, priorizando la disposición lógica de los componentes informativos y los puntos de interacción crítica antes de la aplicación de la identidad visual.
+
+**ESTRUCTURA Y MAQUETACIÓN MODULAR**
+
+El diseño se organiza mediante una secuencia de módulos de ancho completo que guían al usuario a través de la propuesta de valor de forma lineal y coherente:
+- **Navegación:** Un sistema híbrido que utiliza una barra horizontal en escritorio y un menú lateral colapsable (hamburguesa) en dispositivos móviles, garantizando acceso constante a las secciones de la página.
+- **Zona de Impacto (Hero):** Espacio dedicado al titular principal y a la demostración visual de la "System Status Card", el componente núcleo del ecosistema.
+- **Bloques de Características:** Se emplea un sistema de tarjetas estructurales para categorizar las capacidades de monitorización, respuesta automática y gestión de procesos.
+
+**DISEÑO INCLUSIVO Y JERARQUÍA**
+
+Desde esta etapa se ha definido una jerarquía de información clara, utilizando tamaños de tipografía diferenciados para asegurar que el mensaje de seguridad sea legible. Los elementos de interacción (botones) se ubican en posiciones predecibles y cuentan con un área de contacto optimizada para dispositivos táctiles.
+
+**ESQUEMA RESPONSIVE**
+
+Se han definido dos variantes para asegurar una experiencia satisfactoria en cualquier dispositivo:
+- **Variante Desktop:** Aprovecha el espacio horizontal para presentar comparativas y datos técnicos lado a lado.
+- **Variante Mobile:** Prioriza la lectura vertical, apilando los componentes de forma que el usuario pueda navegar mediante scroll simple, manteniendo los llamados a la acción (CTAs) siempre accesibles.
+
+<img src="./img/capitulo_5/landing/wireframe/desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/landing/wireframe/mobile.png">
 
 
 ### 5.3.2. Landing Page Mock-up
 
+El Mock-up de alta fidelidad de Cocina360 materializa los principios de **minimalismo industrial y eficiencia operativa**. Se utiliza un lienzo limpio con predominancia de blancos y grises claros, permitiendo que los elementos de estado y los indicadores de alerta capturen la atención del usuario sin distracciones innecesarias.
+
+**ESTRATEGIA VISUAL DEL HERO Y "SYSTEM STATUS"**
+
+El elemento central del diseño es la **System Status Card**, ubicada estratégicamente en la sección principal para demostrar la propuesta de valor de forma inmediata.
+- **Tipografía:** Se aplica la familia **Inter** en todo el diseño, utilizando pesos *SemiBold* para etiquetas y *Bold* para valores críticos (temperatura, ppm), garantizando legibilidad en entornos de alta presión.
+- **Estados Semánticos:** Se observa la implementación real de la paleta de colores: el estado "OPTIMAL" utiliza un badge verde, mientras que las anomalías (ej: "Grill Station 2") activan el estado "REVIEW" con un color rojo intenso, comunicando urgencia de forma profesional.
+- **Feedback en Tiempo Real:** El diseño incluye un icono de señal activa con una micro-animación de pulso, proporcionando una confirmación visual constante de que el monitoreo IoT está funcionando.
+
+**SECCIONES DE HARDWARE Y AUTOMATIZACIÓN**
+
+La descripción visual de los sensores y actuadores se apoya en una estructura de **rejilla armónica (Grid System)** y el uso de iconografía lineal coherente:
+- **Sensors:** Se utiliza una composición de secciones divididas (*Half-sections*) que combinan imágenes contextuales de cocinas reales con tarjetas de características técnicas.
+- **Actuators:** Los dispositivos de respuesta automática se representan con iconos de alto contraste, reforzando la idea de una "primera línea de defensa" que opera sin intervención humana.
+
+**VISUALIZACIÓN DE PROCESOS DIGITALES**
+
+La sección de procesos traduce la arquitectura de información jerárquica en una **guía secuencial visual**. Mediante el uso de pasos numerados e iconos descriptivos, se ilustra la facilidad con la que el usuario puede crear formatos, asignar responsabilidades y supervisar el cumplimiento.
+
+**DISEÑO RESPONSIVE Y ADAPTABILIDAD**
+
+El Mock-up detalla la transición del sistema entre diferentes contextos de uso:
+- **Versión Desktop:** Prioriza la visualización de datos agregados y la navegación lateral para una supervisión administrativa profunda.
+- **Versión Mobile:** Los componentes se reorganizan en listas verticales de tarjetas (Cards) y los llamados a la acción (CTAs) se optimizan para la interacción táctil, asegurando que el personal de cocina pueda registrar datos o recibir alertas de forma rápida mientras opera.
+
+
+<img src="./img/capitulo_5/landing/mockup/desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/landing/mockup/mobile.png">
 
 
 ## 5.4. Applications UX/UI Design
 
 ### 5.4.1. Applications Wireframes
 
+Los wireframes de las aplicaciones de Cocina360 definen la disposición estructural y el flujo de datos de los tres pilares operativos del sistema, asegurando que la jerarquía de información sea clara tanto en plataformas de escritorio como en dispositivos móviles.
+
+**GESTIÓN DE DISPOSITIVOS IOT**
+
+El diseño se centra en la visualización de telemetría y el estado de salud de la red de sensores.
+
+- **Dashboard de Dispositivos:** Presenta una vista agregada de todos los sensores vinculados, utilizando tarjetas estructurales para facilitar el escaneo rápido de estados.
+- **Detalle de Dispositivo:** Permite profundizar en los datos históricos y la configuración específica de un sensor o actuador.
+
+<img src="./img/capitulo_5/applications/wireframe/iot_devices_dashboard_desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_1.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_2.png">
+
+**PROCESOS DE CONTROL INTERNO**
+
+Esta sección define la estructura para la creación y ejecución de formatos de registro, priorizando la entrada de datos sin errores.
+
+- **Panel de Procesos:** Lista las tareas y auditorías pendientes.
+- **Formularios de Registro:** Optimizados para una navegación secuencial.
+
+<img src="./img/capitulo_5/applications/wireframe/control_processes_desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/wireframe/control_processes_mobile.png">
+
+**GESTIÓN ORGANIZACIONAL Y RRHH**
+
+Estructura para la administración de la identidad del restaurante y el control de acceso de los miembros del equipo.
+
+- **Administración de Miembros:** Gestión de roles y permisos.
+- **Configuración de Organización:** Edición de datos maestros y ubicación.
+
+<img src="./img/capitulo_5/applications/wireframe/organization_management_desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/wireframe/organization_management_mobile.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/wireframe/member_details_desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/wireframe/member_details_mobile.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/wireframe/edit_organization_desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/wireframe/edit_organization_mobile.png">
 
 
 ### 5.4.2. Applications Wireflow Diagrams
@@ -2839,6 +3136,64 @@ En esta seccion se presenta la imagen de database diagram del contexto restauran
 
 ### 5.4.3. Applications Mock-ups
 
+Los mockups de alta fidelidad de Cocina360 materializan el sistema de diseño definido, aplicando la paleta de colores semántica y la tipografía Inter para crear una interfaz profesional, seria y altamente legible.
+
+**VISUALIZACIÓN DE DISPOSITIVOS IOT**
+
+Se aplica el concepto de "Status Cards" dinámicas, donde el color verde y rojo comunican de forma instantánea el estado de seguridad de la cocina.
+
+- **Dashboard IoT:** Los indicadores de pulso y las sombras suaves proporcionan una sensación de sistema vivo y reactivo.
+- **Vistas de Detalle:** Los gráficos de telemetría y los controles de actuadores se presentan con un contraste del 100% para evitar fatiga visual.
+
+<img src="./img/capitulo_5/applications/mockup/iot_devices_dashboard_desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/mockup/iot_devices_dashboard_mobile.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/mockup/iot_device_detail_desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/mockup/iot_device_detail_mobile.png">
+
+**SISTEMA DE PROCESOS Y CUMPLIMIENTO**
+
+La interfaz de procesos utiliza una estética limpia que facilita la concentración del personal durante el llenado de registros críticos.
+
+<img src="./img/capitulo_5/applications/mockup/control_processes_desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/mockup/control_processes_mobile.png">
+
+**ADMINISTRACIÓN Y CONFIGURACIÓN**
+
+Los paneles de organización y gestión de miembros reflejan la solidez de la marca, utilizando una estructura de navegación lateral (Sidenav) para mantener el control administrativo centralizado.
+
+<img src="./img/capitulo_5/applications/mockup/organization_management_desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/mockup/organization_management_mobile.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/mockup/member_details_desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/mockup/member_details_mobile.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/mockup/edit_organization_desktop.png">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/mockup/edit_organization_mobile.png">
 
 
 ### 5.4.4. Applications User Flow Diagrams
@@ -2847,10 +3202,36 @@ En esta seccion se presenta la imagen de database diagram del contexto restauran
 
 ## 5.5. Applications Prototyping
 
-
+No se han desarrollado prototipos para este avance.
 
 ## 5.6. IoT Device Design
 
+El diseño del dispositivo IoT de Cocina360 ha sido concebido como una solución de ingeniería robusta que integra monitorización de precisión y respuesta inmediata en un factor de forma optimizado para entornos industriales.
+
+**DISEÑO FÍSICO Y ESTÉTICA INDUSTRIAL**
+
+El hardware presenta una estética minimalista y funcional, diseñada para ser instalada en techos o paredes de cocinas comerciales sin obstruir el flujo de trabajo.
+- **Interfaz Luminosa:** Se implementa un indicador LED perimetral que espeja la paleta semántica del sistema (Verde: Óptimo / Rojo: Alerta), permitiendo una supervisión visual rápida a distancia.
+- **Resistencia Térmica:** El chasis está fabricado en materiales ignífugos de alta durabilidad, capaces de soportar las temperaturas y la humedad características de una cocina profesional.
+
+<img src="./img/capitulo_5/iot/fire_detector/device.png">
+
+<div style="page-break-after: always;"></div>
+
+**DISEÑO ELECTRÓNICO Y ESQUEMÁTICO**
+
+La arquitectura interna del dispositivo se basa en un microcontrolador de bajo consumo con conectividad inalámbrica, diseñado para una telemetría constante y confiable.
+- **Subsistema de Sensores:** Integra transductores especializados para la detección de partículas de humo y cambios bruscos de temperatura ambiental.
+- **Control de Actuadores:** El circuito incluye salidas de potencia para la activación automática de alarmas locales y sistemas de ventilación (turbinas), garantizando una mitigación inmediata del riesgo incluso en caso de pérdida de conexión externa.
+
+<img src="./img/capitulo_5/iot/fire_detector/circuit.png">
+
+**FLUJO DE OPERACIÓN Y CONEXIÓN**
+
+El dispositivo opera como un nodo inteligente dentro del ecosistema Cocina360:
+1.  **Vigilancia Continua:** Los sensores capturan datos de telemetría cada segundo y los envían a la plataforma de gestión.
+2.  **Detección Local:** En caso de superar los umbrales de seguridad, el dispositivo procesa la alerta localmente para una respuesta de milisegundos.
+3.  **Sincronización:** El estado se actualiza en tiempo real en los Dashboards de las aplicaciones móviles y web, permitiendo al *Assignee* supervisar la situación desde su dispositivo personal.
 
 
 # Capítulo VI: Product Implementation, Validation & Deployment
