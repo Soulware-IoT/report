@@ -153,5 +153,77 @@
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td>2.0</td>
+            <td>15/05/2026</td>
+            <td>Soulware IoT Team</td>
+            <td>
+                <ul>
+                    <li><b>Capítulo V: UX/UI Design</b>
+                        <ul>
+                            <li>5.1. Estilo y Guía de Estilo
+                                <ul>
+                                    <li>5.1.1. General Style Guidelines</li>
+                                    <li>5.1.2. Web, Mobile and IoT Style Guide</li>
+                                </ul>
+                            </li>
+                            <li>5.2. Information Architecture
+                                <ul>
+                                    <li>5.2.1. Organization Systems</li>
+                                    <li>5.2.2. Labeling Systems</li>
+                                    <li>5.2.3. SEO Tags and Meta Tags</li>
+                                    <li>5.2.4. Searching Systems</li>
+                                    <li>5.2.5. Navigation Systems</li>
+                                </ul>
+                            </li>
+                            <li>5.3. Landing Page UI Design
+                                <ul>
+                                    <li>5.3.1. Landing Page Wireframe</li>
+                                    <li>5.3.2. Landing Page Mock-up</li>
+                                </ul>
+                            </li>
+                            <li>5.4. Applications UX/UI Design
+                                <ul>
+                                    <li>5.4.1. Applications Wireframes</li>
+                                    <li>5.4.2. Applications Wireflow Diagrams</li>
+                                    <li>5.4.3. Applications Mock-ups</li>
+                                </ul>
+                            </li>
+                            <li>5.5. Applications User Flow Diagrams</li>
+                            <li>5.6. IoT Device Design</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo VI: Product Implementation, Validation & Deployment</b>
+                        <ul>
+                            <li>6.1. Software Configuration Management
+                                <ul>
+                                    <li>6.1.1. Software Source Code Management</li>
+                                    <li>6.1.2. Software Configuration Environment Management</li>
+                                    <li>6.1.3. Software Deployment Configuration Management</li>
+                                    <li>6.1.4. Software Documentation Style Guide</li>
+                                </ul>
+                            </li>
+                            <li>6.2. Software Solution Implementation
+                                <ul>
+                                    <li>6.2.1. Sprint 1
+                                        <ul>
+                                            <li>6.2.1.1. Sprint Planning 1</li>
+                                            <li>6.2.1.2. Sprint Backlog 1</li>
+                                            <li>6.2.1.3. Development Evidence for Sprint 1</li>
+                                            <li>6.2.1.4. Testing Evidence for Sprint 1</li>
+                                            <li>6.2.1.5. Deployment Evidence for Sprint 1</li>
+                                            <li>6.2.1.6. Documentation Evidence for Sprint 1</li>
+                                            <li>6.2.1.7. Execution Evidence for Sprint 1</li>
+                                            <li>6.2.1.8. Leaders and Collaborators for Sprint 1</li>
+                                            <li>6.2.1.9. Collaboration Insights for Sprint 1</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
