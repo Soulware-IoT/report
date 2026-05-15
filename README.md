@@ -1,3 +1,5 @@
+# Delete this
+
 <div style="font-family: Arial, sans-serif; padding: 40px; width: 600px; margin: auto; text-align: center;">
     <div style="margin-bottom: 20px;">
         <img src="./img/cover/upc_logo.png" alt="UPC Logo" style="width: 150px;">
@@ -50,8 +52,6 @@
         <p>Lima - abril 2026</p>
     </div>
 </div>
-
-<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 
@@ -213,8 +213,6 @@
     </tbody>
 </table>
 
-<div style="page-break-after: always;"></div>
-
 # Project Report Collaboration Insights
 
 Enlace de acceso al repositorio del informe del proyecto: [https://github.com/Soulware-IoT/report](https://github.com/Soulware-IoT/report)
@@ -230,8 +228,6 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
 **COMMITS**
 
 <img src="./img/insights/av1/commits.png">
-
-<div style="page-break-after: always;"></div>
 
 # Contenido
 
@@ -356,8 +352,6 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
   - [Otros videos](#otros-videos)
 
 
-<div style="page-break-after: always;"></div>
-
 # Student Outcome
 
 <table style="width: 100%; font-family: Arial, sans-serif; border: none;">
@@ -406,8 +400,6 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
     </tbody>
 </table>
 
-<div style="page-break-after: always;"></div>
-
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
@@ -424,8 +416,6 @@ Desarrollar soluciones tecnológicas innovadoras y de alta calidad que impulsen 
 
 Convertirnos en la startup referente de ingeniería de software en el Perú para el año 2030, reconocida por liderar la transformación digital con impacto social mediante soluciones tecnológicas que se adaptan a la cultura local y la llevan a su máximo potencial.
 
-
-<div style="page-break-after: always;"></div>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -505,8 +495,6 @@ Se presenta en formato de tabla una breve descripción de cada uno de los integr
     </tbody>
 </table>
 
-<div style="page-break-after: always;"></div>
-
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
@@ -537,8 +525,6 @@ En sentido de lo expuesto, se evaluaron diversas unidades económicas consideran
 
 Se seleccionó el sector de restaurantes y servicios afines debido a su representatividad. De acuerdo con el INEI (2025), esta actividad aporta el 2.5% al PBI nacional, creció un 3.5% en 2024 y genera un millón de empleos directos. La muestra se concentra en Lima, región que agrupa el 34% de los establecimientos y el 41.6% del gasto total anual del sector a nivel nacional.
 
-
-<div style="page-break-after: always;"></div>
 
 ### 1.2.2. Lean UX Process
 
@@ -597,8 +583,6 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 
 <img src="./img/capitulo_1/solution/canvas.jpg">
 
-<div style="page-break-after: always;"></div>
-
 ## 1.3. Segmentos Objetivo
 
 **DUEÑOS DE RESTAURANTES**
@@ -613,8 +597,6 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 - Edad: Según el INEI (2026), el mercado laboral se compone principalmente de trabajadores de 24 a 44 años (46.9%), seguido del grupo de 45 a más años de edad (38.5%).
 - Género: De acuerdo con el INEI (2025), el 72.7% de los trabajadores del sector restaurantes son mujeres.
 
-
-<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -826,8 +808,6 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 - Táctica 3.2: Integración de herramientas de monitoreo automatizado con acceso multiplataforma, diseñadas para una supervisión remota fácil y eficiente.
 - Táctica 3.3: Inclusión de elementos de utilidad práctica que sirvan de hook principal en el posicionamiento del producto.
 
-<div style="page-break-after: always;"></div>
-
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
@@ -858,8 +838,6 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 - ¿Cree que si estos procesos de control fueran automáticos y/o digitalizados tendría un impacto positivo en su trabajo o en el negocio?
 
 
-
-<div style="page-break-after: always;"></div>
 
 ### 2.2.2. Registro de entrevistas
 
@@ -1014,8 +992,6 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
     </tbody>
 </table>
 
-<div style="page-break-after: always;"></div>
-
 ### 2.2.3. Análisis de entrevistas
 
 **DUEÑOS DE RESTAURANTES**
@@ -1165,8 +1141,6 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 | Milenio Huamán Hinostroza | Chrome |
 | **Moda** | **Chrome** |
 
-<div style="page-break-after: always;"></div>
-
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
@@ -1183,8 +1157,6 @@ A continuación, presentamos los arquetipos de usuario (perfiles ficticios) crea
 
 <img style="width: 80%;" src="./img/capitulo_2/needfinding/personas/jose_personas.png">
 
-
-<div style="page-break-after: always;"></div>
 
 ### 2.3.2. User Task Matrix
 
@@ -1213,8 +1185,6 @@ José depende completamente de sus sentidos y criterio personal para detectar, e
 
 <img src="./img/capitulo_2/needfinding/journey_mapping/jose_user_journey_mapping.png">
 
-<div style="page-break-after: always;"></div>
-
 ### 2.3.4. Empathy Mapping
 
 **DUEÑO DE RESTAURANTE / ROBERTO CORNEJO**
@@ -1229,8 +1199,6 @@ Se representan las necesidades, frustraciones y oportunidades del cocinero, así
 
 <img style="width: 90%;" src="./img/capitulo_2/needfinding/empathy_mapping/jose_empathy_mapping.png">
 
-
-<div style="page-break-after: always;"></div>
 
 ## 2.4. Big Picture EventStorming
 
@@ -1295,8 +1263,6 @@ Finalmente, agrupamos los agregados y sus eventos relacionados en fronteras ling
 
 <img src="./img/capitulo_2/eventstorming/eventstorming-9.jpg">
 
-<div style="page-break-after: always;"></div>
-
 ## 2.5. Ubiquitous Language
 
 - **Restaurante (Restaurant):** Negocio gastronómico que opera una cocina y ocupa realizar procesos de control y gestión de riesgos
@@ -1346,9 +1312,6 @@ Finalmente, agrupamos los agregados y sus eventos relacionados en fronteras ling
 - **Llamada de emergencia (Emergency call):** Flujo guiado de la aplicacion movil que inicia contacto con emergencias mostrando datos de ubicacion para reducir errores humanos.
 
 - **Incidente (Incident):** Evento confirmado o sospechoso de riesgo que requiere seguimiento operativo, posible activacion de actuadores y registro de evidencia.
-
-
-<div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification
 
@@ -2265,15 +2228,11 @@ Se presenta a continuación el conjunto de User Stories planificadas para el alc
     </tbody>
 </table>
 
-<div style="page-break-after: always;"></div>
-
 ## 3.2. Impact Mapping
 
 Se presenta a continuación el Impact Mapping del producto que relaciona los objetivos de negocio con el valor de los usuarios, traducidos a Epics y User Stories del Product Backlog.
 
 <img style="width: 70%;" src="./img/capitulo_3/impact_mapping.png">
-
-<div style="page-break-after: always;"></div>
 
 ## 3.3. Product Backlog
 
@@ -2612,8 +2571,6 @@ Se presenta a continuación una captura del Product Backlog en YouTrack, al cual
     </tbody>
 </table>
 
-<div style="page-break-after: always;"></div>
-
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
@@ -2628,8 +2585,6 @@ En base al conocimiento actual del equipo sobre el dominio se ha realizado la t�
 
 Para mayor documentación observar la sección 2.4. Big Picture EventStorming.
 
-<div style="page-break-after: always;"></div>
-
 #### 4.1.1.2 Domain Message Flows Modeling
 
 Para detallar el funcionamiento y conexión de los bounded context se ha determinado 2 escenarios que permitan comprender los procesos del negocio.
@@ -2639,8 +2594,6 @@ Se ha reflejado el escenario de un encargado de cocina completando un registro d
 
 Además, se ha representado el escenario de un administrador observando los indicadores recopilados por los sensores IoT en su cocina.
 <img src="./img/capitulo_4/design_eventstorming/proceso.png">
-
-<div style="page-break-after: always;"></div>
 
 #### 4.1.1.3 Bounded Context Canvases
 
@@ -2656,8 +2609,6 @@ El Restaurant Context actúa como el sistema de soporte administrativo y de iden
 
 <img src="./img/capitulo_4/context_canvases/restaurant.jpg">
 
-<div style="page-break-after: always;"></div>
-
 ### 4.1.2. Context Mapping
 
 Para formalizar la interacción entre los contextos identificados, se ha diseñado un Context Mapping que define los límites de consistencia y los contratos de comunicación del sistema. La arquitectura adopta un patrón de Upstream/Downstream, donde el Restaurant Context se comunica con los otros contextos a través de un ACL, que centraliza la autoridad sobre la identidad y la estructura organizacional.
@@ -2666,17 +2617,13 @@ Para formalizar la interacción entre los contextos identificados, se ha diseña
 
 Bajo este esquema, tanto el Intern Control como el Security Context se sitúan en una posición de Downstream, lo que garantiza una alta cohesión al consumir una fuente de verdad unificada para la gestión de permisos. Esto asegura que el sistema sea resiliente ante cambios internos y altamente escalable, permitiendo que la lógica de procesos y la seguridad evolucionen de forma independiente sin comprometer la integridad global del ecosistema.
 
-<div style="page-break-after: always;"></div>
-
 ### 4.1.3. Software Architecture
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-Representa el panorama global de la solución. En esta vista se identifican todas las personas y sistemas que existen en el ecosistema, independientemente de si forman parte o no del sistema principal.
+Representa el panorama global de la solución con respecto a los usuarios y la organización que lo utiliza. En esta vista se identifican todas las personas y el entorno de su contexto de trabajo tomando en cuenta la solución. Propio del segmento objetivo al que se encuentra dirigida la solución, el único software empresarial con el que interactuan los usuarios es Cocina360.
 
 <img src="./img/capitulo_4/architecture/landscape.png">
-
-<div style="page-break-after: always;"></div>
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
@@ -2684,23 +2631,17 @@ Este nivel se centra exclusivamente en Cocina360 y su interacción con el exteri
 
 <img src="./img/capitulo_4/architecture/context.png">
 
-<div style="page-break-after: always;"></div>
-
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
 Este nivel descompone Cocina360 en sus principales contenedores, es decir, en los bloques tecnológicos que lo conforman: aplicaciones, servicios, bases de datos y ejecutables.
 
 <img style="width: 80%;" src="./img/capitulo_4/architecture/container.png">
 
-<div style="page-break-after: always;"></div>
-
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
 Se representa el diagrama de despliegue relacionado con los servicios en la nube correspondientes.
 
 <img src="./img/capitulo_4/architecture/deploy.png">
-
-<div style="page-break-after: always;"></div>
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
@@ -2712,15 +2653,11 @@ En esta seccion se presenta la imagen de domain layer del contexto restaurant.
 <img src="./img/capitulo_4/tactical_ddd/restaurant/Domain_restaurant.png" alt="Domain layer restaurant">
 
 
-<div style="page-break-after: always;"></div>
-
 #### 4.2.1.2. Interface Layer
 
 En esta seccion se presenta la imagen de interface layer del contexto restaurant.
 <img src="./img/capitulo_4/tactical_ddd/restaurant/Interface_restaurant.png" alt="Interface layer restaurant">
 
-
-<div style="page-break-after: always;"></div>
 
 #### 4.2.1.3. Application Layer
 
@@ -2728,23 +2665,17 @@ En esta seccion se presenta la imagen de application layer del contexto restaura
 <img src="./img/capitulo_4/tactical_ddd/restaurant/Application_restaurant.png" alt="Application layer restaurant">
 
 
-<div style="page-break-after: always;"></div>
-
 #### 4.2.1.4. Infrastructure Layer
 
 En esta seccion se presenta la imagen de infrastructure layer del contexto restaurant.
 <img src="./img/capitulo_4/tactical_ddd/restaurant/Infrastructure_restaurant.png" alt="Infrastructure layer restaurant">
 
 
-<div style="page-break-after: always;"></div>
-
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 En esta seccion se presenta la imagen de component diagrams del contexto restaurant.
 <img style="width: 70%;" src="./img/capitulo_4/tactical_ddd/restaurant/c3_restaurant.png" alt="C3 restaurant">
 
-
-<div style="page-break-after: always;"></div>
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2754,15 +2685,11 @@ En esta seccion se presenta la imagen de domain layer del contexto restaurant.
 <img src="./img/capitulo_4/tactical_ddd/restaurant/Domain_restaurant.png" alt="Domain layer intern control">
 
 
-<div style="page-break-after: always;"></div>
-
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 
 En esta seccion se presenta la imagen de database diagram del contexto restaurant.
 <img src="./img/capitulo_4/tactical_ddd/restaurant/code_diagrams/database_diagram.png" alt="Database">
 
-
-<div style="page-break-after: always;"></div>
 
 ### 4.2.2. Bounded Context: Security
 
@@ -2772,15 +2699,11 @@ En esta seccion se presenta la imagen de domain layer del contexto security.
 <img src="./img/capitulo_4/tactical_ddd/Security/Domain_security.png" alt="Domain layer security">
 
 
-<div style="page-break-after: always;"></div>
-
 #### 4.2.2.2. Interface Layer
 
 En esta seccion se presenta la imagen de interface layer del contexto security.
 <img src="./img/capitulo_4/tactical_ddd/Security/Interface_security.png" alt="Interface layer security">
 
-
-<div style="page-break-after: always;"></div>
 
 #### 4.2.2.3. Application Layer
 
@@ -2788,23 +2711,17 @@ En esta seccion se presenta la imagen de application layer del contexto security
 <img src="./img/capitulo_4/tactical_ddd/Security/Application_security.png" alt="Application layer security">
 
 
-<div style="page-break-after: always;"></div>
-
 #### 4.2.2.4. Infrastructure Layer
 
 En esta seccion se presenta la imagen de infrastructure layer del contexto security.
 <img src="./img/capitulo_4/tactical_ddd/Security/Infrastructure_security.png" alt="Infrastructure layer security">
 
 
-<div style="page-break-after: always;"></div>
-
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
 En esta seccion se presenta la imagen de component diagrams del contexto security.
 <img style="width: 70%;" src="./img/capitulo_4/tactical_ddd/Security/c3_security.png" alt="C3 security">
 
-
-<div style="page-break-after: always;"></div>
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2813,15 +2730,11 @@ En esta seccion se presenta la imagen de component diagrams del contexto securit
 En esta seccion se presenta la imagen de domain class diagrams del contexto security.
 <img src="./img/capitulo_4/tactical_ddd/Security/Domain_security.png" alt="Domain layer intern control">
 
-<div style="page-break-after: always;"></div>
-
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
 
 En esta seccion se presenta la imagen de database diagram del contexto security.
 <img src="./img/capitulo_4/tactical_ddd/Security/code_diagrams/database_diagram.png" alt="Database">
 
-
-<div style="page-break-after: always;"></div>
 
 ### 4.2.3. Bounded Context: Intern Control
 
@@ -2831,15 +2744,11 @@ En esta seccion se presenta la imagen de domain layer del contexto intern_contro
 <img src="./img/capitulo_4/tactical_ddd/intern_control/Domain_intern_control.png" alt="Domain layer intern control">
 
 
-<div style="page-break-after: always;"></div>
-
 #### 4.2.3.2. Interface Layer
 
 En esta seccion se presenta la imagen de interface layer del contexto intern_control.
 <img src="./img/capitulo_4/tactical_ddd/intern_control/Interface_intern_control.png" alt="Interface layer intern control">
 
-
-<div style="page-break-after: always;"></div>
 
 #### 4.2.3.3. Application Layer
 
@@ -2847,23 +2756,17 @@ En esta seccion se presenta la imagen de application layer del contexto intern_c
 <img src="./img/capitulo_4/tactical_ddd/intern_control/Domain_intern_control.png" alt="Application layer intern control">
 
 
-<div style="page-break-after: always;"></div>
-
 #### 4.2.3.4. Infrastructure Layer
 
 En esta seccion se presenta la imagen de infrastructure layer del contexto intern_control.
 <img src="./img/capitulo_4/tactical_ddd/intern_control/Infrastructure_intern_control.png" alt="Infrastructure layer intern control">
 
 
-<div style="page-break-after: always;"></div>
-
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 En esta seccion se presenta la imagen de component diagrams del contexto intern_control.
 <img style="width: 70%;"  src="./img/capitulo_4/tactical_ddd/intern_control/c3_intern_control.png" alt="C3 intern control">
 
-
-<div style="page-break-after: always;"></div>
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2873,15 +2776,11 @@ En esta seccion se presenta la imagen de domain layer del contexto intern_contro
 <img src="./img/capitulo_4/tactical_ddd/intern_control/Domain_intern_control.png" alt="Domain layer intern control">
 
 
-<div style="page-break-after: always;"></div>
-
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
 
 En esta seccion se presenta la imagen de database diagram del contexto restaurant.
 <img src="./img/capitulo_4/tactical_ddd/intern_control/database_diagram.png" alt="Database">
 
-
-<div style="page-break-after: always;"></div>
 
 # Capítulo V: Solution UI/UX Design
 
@@ -2924,8 +2823,6 @@ El lenguaje de Cocina360 se define bajo las siguientes dimensiones:
 - **Sereno:** Evita el alarmismo innecesario; informa con precisión y calma.
 
 
-<div style="page-break-after: always;"></div>
-
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
 En esta sección se detallan los estándares de interacción que aseguran una experiencia coherente entre el hardware y las múltiples interfaces de software del ecosistema Cocina360.
@@ -2946,8 +2843,6 @@ El dispositivo físico Cocina360 está diseñado para ser un objeto "silencioso"
 - **Interfaz Física:** Los botones físicos tienen una respuesta táctil clara (clic perceptible) para que el operario pueda interactuar con el dispositivo sin necesidad de contacto visual directo, permitiéndole mantener la atención en su tarea principal en la cocina.
 - **Feedback Auditivo:** Se establecen frecuencias de sonido no estridentes para confirmaciones de sistema (como el encendido o emparejamiento), reservando los tonos de alta frecuencia y repetición rápida solo para situaciones de peligro inminente.
 
-
-<div style="page-break-after: always;"></div>
 
 ## 5.2. Information Architecture
 
@@ -2982,8 +2877,6 @@ Dentro de cada bloque operativo, la información se organiza mediante **listas v
 Para procesos críticos que requieren una captura de datos precisa, como la vinculación de dispositivos o la creación de políticas, se utiliza una **organización secuencial**. Este modelo guía al usuario a través de pasos lógicos, reduciendo la posibilidad de errores durante la configuración inicial.
 
 
-<div style="page-break-after: always;"></div>
-
 ### 5.2.2. Labeling Systems
 
 El sistema de etiquetado (Labeling System) de Cocina360 ha sido diseñado priorizando la claridad operativa y evitando la sobrecarga cognitiva en un entorno de alto estrés, como lo es una cocina comercial. Las etiquetas se basan directamente en el lenguaje ubicuo (Ubiquitous Language) definido para el negocio, asegurando que todos los usuarios comprendan inmediatamente la funcionalidad de cada elemento. 
@@ -3015,8 +2908,6 @@ Para los llamados a la acción (botones) se utilizan verbos directos, y para los
 El objetivo fundamental de estas decisiones de etiquetado es que los arquetipos de usuario no requieran capacitación extensa para entender qué hace cada botón o qué significa cada sección, minimizando la curva de aprendizaje al utilizar el vocabulario natural de su propio entorno laboral.
 
 
-<div style="page-break-after: always;"></div>
-
 ### 5.2.3. SEO Tags and Meta Tags
 
 Basándose en la estrategia de Soulware de enfocarse en negocios de pequeña escala y la automatización intuitiva, los sistemas de etiquetado para motores de búsqueda (SEO) y tiendas de aplicaciones (ASO) de Cocina360 están diseñados para resaltar la **seguridad operativa, la simplicidad y el cumplimiento normativo**.
@@ -3047,8 +2938,6 @@ El enfoque ASO prioriza la utilidad práctica y la respuesta rápida, pilares de
 Esta configuración de etiquetas garantiza que la solución sea fácilmente localizable por los segmentos objetivo identificados: dueños de nuevos emprendimientos y administradores de locales comerciales pequeños que buscan optimizar sus auditorías de riesgo.
 
 
-<div style="page-break-after: always;"></div>
-
 ### 5.2.4. Searching Systems
 
 El sistema de búsqueda de Cocina360 se define bajo un enfoque de **conveniencia y simplicidad**, priorizando soluciones técnicas de fácil implementación que aporten un valor inmediato al usuario. El objetivo principal es evitar que el personal se sienta abrumado ante el crecimiento del número de dispositivos o registros históricos.
@@ -3073,8 +2962,6 @@ Para mantener la consistencia en la arquitectura de información, los resultados
 
 Este diseño evita la complejidad de motores de búsqueda avanzados, optando por filtrados lógicos sobre la data en memoria, lo que asegura un rendimiento fluido incluso en aplicaciones móviles y una curva de implementación muy reducida para el equipo de desarrollo.
 
-
-<div style="page-break-after: always;"></div>
 
 ### 5.2.5. Navigation Systems
 
@@ -3108,8 +2995,6 @@ Para asegurar que los usuarios (como el *Assignee* o el *Lieutenant*) recorran e
 - **Confirmación Visual:** Micro-interacciones de estado (como iconos de pulso en tiempo real) confirman al usuario que la navegación ha sido exitosa y que el sistema está respondiendo correctamente.
 
 
-<div style="page-break-after: always;"></div>
-
 ## 5.3. Landing Page UI Design
 
 ### 5.3.1. Landing Page Wireframe
@@ -3139,8 +3024,6 @@ Se han definido dos variantes para asegurar una experiencia satisfactoria en cua
 
 <img src="./img/capitulo_5/landing/wireframe/mobile.png">
 
-
-<div style="page-break-after: always;"></div>
 
 ### 5.3.2. Landing Page Mock-up
 
@@ -3176,8 +3059,6 @@ El Mock-up detalla la transición del sistema entre diferentes contextos de uso:
 
 <img src="./img/capitulo_5/landing/mockup/mobile.png">
 
-
-<div style="page-break-after: always;"></div>
 
 ## 5.4. Applications UX/UI Design
 
@@ -3249,13 +3130,9 @@ Estructura para la administración de la identidad del restaurante y el control 
 <img src="./img/capitulo_5/applications/wireframe/edit_organization_mobile.png">
 
 
-<div style="page-break-after: always;"></div>
-
 ### 5.4.2. Applications Wireflow Diagrams
 
 
-
-<div style="page-break-after: always;"></div>
 
 ### 5.4.3. Applications Mock-ups
 
@@ -3319,19 +3196,13 @@ Los paneles de organización y gestión de miembros reflejan la solidez de la ma
 <img src="./img/capitulo_5/applications/mockup/edit_organization_mobile.png">
 
 
-<div style="page-break-after: always;"></div>
-
 ### 5.4.4. Applications User Flow Diagrams
 
 
 
-<div style="page-break-after: always;"></div>
-
 ## 5.5. Applications Prototyping
 
 No se han desarrollado prototipos para este avance.
-
-<div style="page-break-after: always;"></div>
 
 ## 5.6. IoT Device Design
 
@@ -3363,35 +3234,231 @@ El dispositivo opera como un nodo inteligente dentro del ecosistema Cocina360:
 3.  **Sincronización:** El estado se actualiza en tiempo real en los Dashboards de las aplicaciones móviles y web, permitiendo al *Assignee* supervisar la situación desde su dispositivo personal.
 
 
-<div style="page-break-after: always;"></div>
-
 # Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management
 
 ### 6.1.1. Software Development Environment Configuration
 
+En esta sección se especifican los productos de software y herramientas utilizados por los miembros del equipo para colaborar en el ciclo de vida del producto digital Cocina360.
 
-
-<div style="page-break-after: always;"></div>
+<table>
+    <thead>
+        <tr>
+            <th>Categoría</th>
+            <th>Producto</th>
+            <th>Propósito</th>
+            <th>Referencia / Descarga</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Project Management</td>
+            <td>Miro</td>
+            <td>Modelado de EventStorming y dinámicas colaborativas iniciales.</td>
+            <td><a href="https://miro.com" target="_blank">miro.com</a></td>
+        </tr>
+        <tr>
+            <td>Project Management</td>
+            <td>YouTrack</td>
+            <td>Gestión de tareas, seguimiento de errores (issue tracking) y planificación ágil.</td>
+            <td><a href="https://www.jetbrains.com/youtrack/" target="_blank">jetbrains.com/youtrack/</a></td>
+        </tr>
+        <tr>
+            <td>Requirements Management</td>
+            <td>GitHub</td>
+            <td>Gestión del Product Backlog, User Stories e hitos del proyecto.</td>
+            <td><a href="https://github.com" target="_blank">github.com</a></td>
+        </tr>
+        <tr>
+            <td>Product UX/UI Design</td>
+            <td>Figma</td>
+            <td>Diseño de Wireframes, Mockups y Prototipos interactivos de las aplicaciones Web y Móvil.</td>
+            <td><a href="https://figma.com" target="_blank">figma.com</a></td>
+        </tr>
+        <tr>
+            <td>Product UX/UI Design</td>
+            <td>UXPressia</td>
+            <td>Creación de Customer Journey Maps (CJM), Personas y Mapas de Impacto.</td>
+            <td><a href="https://uxpressia.com" target="_blank">uxpressia.com</a></td>
+        </tr>
+        <tr>
+            <td>Software Architecture</td>
+            <td>Structurizr</td>
+            <td>Modelado de arquitectura de software basado en el modelo C4 (Diagrams as Code).</td>
+            <td><a href="https://structurizr.com" target="_blank">structurizr.com</a></td>
+        </tr>
+        <tr>
+            <td>Software Development</td>
+            <td>IntelliJ IDEA</td>
+            <td>IDE principal para el desarrollo del Backend con Java y Spring Boot.</td>
+            <td><a href="https://jetbrains.com/idea/" target="_blank">jetbrains.com/idea/</a></td>
+        </tr>
+        <tr>
+            <td>Software Development</td>
+            <td>Visual Studio Code</td>
+            <td>IDE para el desarrollo de la Landing Page y componentes Frontend.</td>
+            <td><a href="https://code.visualstudio.com" target="_blank">code.visualstudio.com</a></td>
+        </tr>
+        <tr>
+            <td>Software Development</td>
+            <td>Android Studio</td>
+            <td>Entorno para el desarrollo y emulación de la aplicación móvil con Flutter.</td>
+            <td><a href="https://developer.android.com/studio" target="_blank">developer.android.com/studio</a></td>
+        </tr>
+        <tr>
+            <td>Software Development</td>
+            <td>Java JDK 21</td>
+            <td>Lenguaje de programación y entorno de ejecución para el Backend.</td>
+            <td><a href="https://oracle.com/java/" target="_blank">oracle.com/java/</a></td>
+        </tr>
+        <tr>
+            <td>Software Development</td>
+            <td>Flutter SDK</td>
+            <td>Framework para el desarrollo de la aplicación móvil multiplataforma.</td>
+            <td><a href="https://flutter.dev" target="_blank">flutter.dev</a></td>
+        </tr>
+        <tr>
+            <td>Software Testing</td>
+            <td>JUnit 5</td>
+            <td>Framework de pruebas unitarias y de integración para el Backend.</td>
+            <td><a href="https://junit.org" target="_blank">junit.org</a></td>
+        </tr>
+        <tr>
+            <td>Software Testing</td>
+            <td>Postman</td>
+            <td>Herramienta para pruebas y documentación de las APIs REST.</td>
+            <td><a href="https://postman.com" target="_blank">postman.com</a></td>
+        </tr>
+        <tr>
+            <td>Software Deployment</td>
+            <td>Microsoft Azure</td>
+            <td>Plataforma Cloud para el despliegue de servicios y bases de datos.</td>
+            <td><a href="https://azure.microsoft.com" target="_blank">azure.microsoft.com</a></td>
+        </tr>
+        <tr>
+            <td>Software Deployment</td>
+            <td>Docker</td>
+            <td>Contenerización de servicios para asegurar paridad entre entornos.</td>
+            <td><a href="https://docker.com" target="_blank">docker.com</a></td>
+        </tr>
+        <tr>
+            <td>Software Deployment</td>
+            <td>Vercel</td>
+            <td>Plataforma para el despliegue y hosting de la Landing Page y componentes Frontend.</td>
+            <td><a href="https://vercel.com" target="_blank">vercel.com</a></td>
+        </tr>
+        <tr>
+            <td>Software Documentation</td>
+            <td>GitHub (Markdown)</td>
+            <td>Documentación técnica y gestión del reporte final del proyecto.</td>
+            <td><a href="https://github.com" target="_blank">github.com</a></td>
+        </tr>
+    </tbody>
+</table>
 
 ### 6.1.2. Source Code Management
 
+Para el seguimiento de las modificaciones del código fuente y la documentación, el equipo utliza **GitHub** como plataforma principal.
+
+**Repositorios de Software**
+
+A continuación, se detallan las URLs de los repositorios para cada producto de la solución:
+
++ **Project Report:** [https://github.com/Soulware-IoT/report](https://github.com/Soulware-IoT/report)
++ **Landing Page:** [https://github.com/Soulware-IoT/landing](https://github.com/Soulware-IoT/landing)
+
+**Estrategias de Ramas (GitFlow)**
+
+El equipo implementa el flujo de trabajo GitFlow para la gestión de versiones. Se han definido las siguientes ramas principales y convenciones:
+
+*   **main branch:** Contiene el código en estado de producción, siempre estable y listo para despliegue.
+*   **develop branch:** Rama de integración donde se consolidan las funcionalidades terminadas antes de pasar a producción.
+*   **Feature branches:** Ramas temporales creadas para el desarrollo de nuevas características o capítulos del informe.
+    *   **Convención:** `feature/nombre-de-la-caracteristica` (Ej: `feature/chapter-I`, `feature/iam-context`).
+*   **Release branches:** Ramas de preparación para una nueva entrega o lanzamiento oficial.
+    *   **Convención:** `release/vX.Y.Z` aplicando **Semantic Versioning 2.0.0**. (Ej: `release/v1.0.0`).
+*   **Hotfix branches:** Ramas para correcciones críticas urgentes que deben aplicarse directamente sobre la rama `main`.
+    *   **Convención:** `hotfix/nombre-del-error` (Ej: `hotfix/urgent-fix`).
 
 
-<div style="page-break-after: always;"></div>
+**Estándares de Commits**
+
+Para mantener un historial de cambios legible y profesional, el equipo aplica la convención de **Conventional Commits**. Los mensajes de commit deben seguir la estructura: `<tipo>: <descripción breve>`.
+
+*   **feat:** Una nueva funcionalidad.
+*   **fix:** Corrección de un error.
+*   **docs:** Cambios en la documentación.
+*   **style:** Cambios que no afectan el significado del código (espacios, formato, etc.).
+*   **refactor:** Un cambio en el código que no corrige un error ni añade una funcionalidad.
+*   **test:** Añadir o corregir pruebas.
+*   **chore:** Cambios en el proceso de construcción o herramientas auxiliares.
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
+Con el objetivo de mantener un código ordenado, consistente y fácil de mantener entre todos los miembros del equipo, se han definido las siguientes convenciones. Todas las variables, funciones, clases, archivos y elementos estarán en inglés.
 
+- Se utilizará **inglés** como idioma único para nombres de variables, funciones, clases, comentarios y documentación.
+- Se evitarán abreviaciones innecesarias y nombres genéricos como `data1`, `temp`, `info`, etc.
 
-<div style="page-break-after: always;"></div>
+**HTML**
+Atributos en minúsculas y nombres de clase con **kebab-case** (`section-title`, `main-container`).
+- Estructura semántica clara: uso de etiquetas como `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
+- Sangría con 2 espacios.
+- Atributos ordenados de manera lógica: `id`, `class`, `type`, `name`, `placeholder`, `value`, `required`, etc.
+
+**CSS**
+
+- Para clases personalizadas: usar **kebab-case**.
+- Se agruparán clases de utilidad por orden lógico (layout -> spacing -> color -> typography).
+
+**Google TypeScript Style Guide**
+
+Basado en el [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html), se adoptan las siguientes reglas para mantener un código limpio y coherente:
+
+Nombres y sintaxis:
+- **camelCase** para variables, funciones y parámetros.
+- **PascalCase** para clases, interfaces, enums y tipos.
+- Constantes con `UPPER_CASE_WITH_UNDERSCORES` si son globales.
+
+Módulos y imports:
+- Preferir **imports explícitos y ordenados**: primero bibliotecas externas, luego internas.
+- Evitar `default exports`, usar siempre `export const` o `export class`.
+
+Tipado y declaraciones:
+- Siempre tipar explícitamente los parámetros y valores de retorno de funciones.
+- Evitar `any` excepto cuando sea estrictamente necesario.
+- Usar `readonly` para propiedades que no deben cambiarse.
+- Interfaces en lugar de `type` cuando sea posible.
+
+Buenas prácticas:
+- Preferir `const` sobre `let`, y evitar `var`.
+- Evitar usar `this` fuera de clases.
+- No mezclar funciones y lógica en componentes — delegar a servicios.
+
+**Vue.js**
+
+- Seguir la [Vue 3 Style Guide (Oficial)](https://vuejs.org/style-guide/), especialmente las reglas **“Essentials”** y **“Strongly Recommended”**.
+- Componentes deben nombrarse en **PascalCase** (`UserCard.vue`, `HeroSection.vue`).
+- Archivos `.vue` deben tener una única raíz (`<template>`, `<script>`, `<style>`).
+- Uso claro de `v-bind`, `v-model`, `v-if`.
+- Eventos deben seguir `kebab-case` en los templates (`@form-submitted`).
+- Evitar lógica compleja dentro de los templates.
+- Separar componentes base (`BaseButton`, `BaseInput`) de componentes de dominio.
 
 ### 6.1.4. Software Deployment Configuration
 
+La estrategia de despliegue se divide en dos entornos diferenciados para optimizar la entrega de contenido estático y la ejecución de servicios de lógica de negocio.
 
+* **Frontend (Landing Page):** Se utiliza **Vercel** para el alojamiento de la landing page. Esta plataforma permite un despliegue continuo (*Continuous Deployment*) mediante la sincronización directa con el repositorio de GitHub. Ante cualquier cambio en la rama principal, Vercel ejecuta automáticamente los procesos de construcción y despliega la aplicación a través de su infraestructura global optimizada para aplicaciones web modernas.
 
-<div style="page-break-after: always;"></div>
+* **Backend:** Los servicios del lado del servidor se despliegan utilizando **Azure Container Instances (ACI)**. Este servicio permite ejecutar contenedores de Docker de forma *serverless* en la nube de Azure, eliminando la necesidad de gestionar máquinas virtuales y facilitando la escalabilidad de los servicios mediante una infraestructura bajo demanda.
+
+* **Flujos de CI/CD con GitHub Actions:** Se implementan flujos de trabajo automatizados mediante **GitHub Actions** para garantizar la integridad y entrega del software:
+
+  * **Integración Continua (CI):** Ante cada *push* o *pull request*, se ejecutan disparadores que realizan el *linting* del código y las pruebas unitarias con **NUnit** para validar la calidad del incremento.
+  * **Despliegue Continuo (CD):** Una vez superadas las pruebas, las *actions* se encargan de compilar los artefactos, construir las imágenes de contenedor, subirlas al registro correspondiente y actualizar automáticamente las instancias en Azure y Vercel.
+
 
 ## 6.2. Landing Page, Services & Applications Implementation
 
@@ -3399,57 +3466,817 @@ El dispositivo opera como un nodo inteligente dentro del ecosistema Cocina360:
 
 #### 6.2.1.1. Sprint Planning 1
 
-
-
-<div style="page-break-after: always;"></div>
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint Planning Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2026-04-30</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>04:40 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Orozco Torres, Álvaro Joaquín</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>
+                <ul style="padding-left: 20px; margin: 0;">
+                    <li>Chi Cruzatt, Kevin Jorge</li>
+                    <li>Guerrero Tomas, Nelson Fabrizio</li>
+                    <li>Orozco Torres, Álvaro Joaquín</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 0 Review Summary</td>
+            <td>
+                Se realizó la reunión inicial de investigación y definición del modelo de negocio para Cocina360, estableciendo los cimientos estratégicos del proyecto.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 0 Retrospective Summary</td>
+            <td>
+                El equipo validó la propuesta de valor y segmentación de clientes, acordando priorizar el desarrollo de la infraestructura base y la presencia digital.
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Goal</td>
+            <td>
+                <ul style="padding-left: 20px; margin: 0;">
+                    <li><b>Landing Page:</b> Nuestro enfoque está en desarrollar la landing page informativa y responsiva, excluyendo flujos que interactúan con la app (como suscripciones). Creemos que esto permitirá establecer nuestra presencia digital inicial. Esto se confirmará cuando la página sea accesible y comunique correctamente la propuesta de valor.</li>
+                    <li><b>Backend Services:</b> Nuestro enfoque está en completar el IAM (Identity and Access Management) y las funcionalidades core de procesos de control y formatos de registro (CRUD). Creemos que esto establecerá la lógica de negocio fundamental. Esto se confirmará cuando los servicios de gestión de procesos y formatos personalizados estén operativos y documentados.</li>
+                    <li><b>Web Application:</b> Nuestro enfoque está en desarrollar el módulo de IAM y las interfaces para la creación de procesos y formatos. Creemos que esto permitirá a los administradores configurar el sistema base. Esto se confirmará cuando un usuario administrativo pueda crear y gestionar la estructura de sus formatos desde la web.</li>
+                    <li><b>Mobile Application:</b> Nuestro enfoque está en el IAM y la implementación del llenado de formatos de registro mediante formularios dinámicos. Creemos que esto facilitará la captura de datos en campo. Esto se confirmará cuando los usuarios puedan autenticarse y completar formularios de registro desde el dispositivo móvil.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Velocity</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>37</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 6.2.1.2. Aspect Leaders and Collaborators
 
+En esta sección el equipo que incluye la elaboración de un artefacto Leadership-andCollaboration Matrix (LACX)
 
 
-<div style="page-break-after: always;"></div>
+|Team Members| Github Username| IoT Device Design | Landing Page | Backend Services | Web App | Report |
+|---|---|---|---|---|---|---|
+|Chi Cruzatt, Kevin Jorge |Krillsom | C | C | C | L | C |
+|Guerrero Tomas, Nelson Fabrizio | Nelsoondev | L | C | C| C | C |
+|Leon Vivas, Fabrizio Amir |CodyLionVivo| C | L | C | C | C |
+|Orozco Torres, Álvaro Joaquin | overGDev | C | C | L | C | C |
+|Reaño Delgadillo, Henry Paolo | PaoloHRRR | C | C | C | C | L |
 
 #### 6.2.1.3. Sprint Backlog 1
 
+En este sprint se desarrollará la Landing Page de Cocina360 y las funcionalidades core de la plataforma IoT. Se abordan secciones de la landing page (Hero, Features, About the Product, About the Team, Suscripciones) y funcionalidades de gestión de organizaciones y procesos de control interno.
 
-
-<div style="page-break-after: always;"></div>
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th><strong>Id</strong></th>
+            <th><strong>Title</strong></th>
+            <th><strong>Id</strong></th>
+            <th><strong>Title</strong></th>
+            <th><strong>Description</strong></th>
+            <th><strong>Estimation (Hours)</strong></th>
+            <th><strong>Assigned To</strong></th>
+            <th><strong>Status</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">US-39</td>
+            <td rowspan="2">Hero section</td>
+            <td>T01</td>
+            <td>Diseño del Hero section</td>
+            <td>Crear wireframe y mockup del hero con headline principal y botón de llamada a acción</td>
+            <td>3</td>
+            <td>Nelson Fabrizio</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Implementación del Hero section</td>
+            <td>Desarrollar el componente Hero con imagen de fondo, headline y CTA responsivo</td>
+            <td>5</td>
+            <td>Chi Cruzatt</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-40</td>
+            <td rowspan="2">Features</td>
+            <td>T03</td>
+            <td>Diseño de sección Features</td>
+            <td>Crear maqueta de la sección de características con iconos y descripciones del producto</td>
+            <td>3</td>
+            <td>Reaño Delgadillo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T04</td>
+            <td>Implementación de sección Features</td>
+            <td>Desarrollar la sección de características con tarjetas, iconos y efectos visuales</td>
+            <td>4</td>
+            <td>Orozco Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-5</td>
+            <td rowspan="2">Crear procesos de control interno</td>
+            <td>T05</td>
+            <td>Diseño de endpoint crear proceso</td>
+            <td>Definir estructura del API REST para la creación de procesos de control interno</td>
+            <td>3</td>
+            <td>Kevin Jorge</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T06</td>
+            <td>Implementación del formulario de creación</td>
+            <td>Desarrollar UI y lógica para registrar nuevos procesos de control interno en el sistema</td>
+            <td>6</td>
+            <td>Henry Paolo</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-30</td>
+            <td rowspan="2">Listar procesos de control interno</td>
+            <td>T07</td>
+            <td>API de listado de procesos</td>
+            <td>Implementar endpoint GET para recuperar y paginar procesos de control interno</td>
+            <td>4</td>
+            <td>León Vivas</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T08</td>
+            <td>Vista de listado de procesos</td>
+            <td>Desarrollar tabla con filtros y paginación para visualizar los procesos registrados</td>
+            <td>5</td>
+            <td>Guerrero Tomas</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US-22</td>
+            <td>Renombrar procesos de control interno</td>
+            <td>T09</td>
+            <td>Implementación de renombrado</td>
+            <td>Desarrollar funcionalidad inline para editar el nombre de un proceso de control interno</td>
+            <td>4</td>
+            <td>Fabrizio Amir</td>
+            <td>To-Review</td>
+        </tr>
+        <tr>
+            <td>US-20</td>
+            <td>Suspensión de procesos de control interno</td>
+            <td>T10</td>
+            <td>Implementación de suspensión</td>
+            <td>Desarrollar lógica para suspender y reactivar procesos de control interno con confirmación</td>
+            <td>5</td>
+            <td>Álvaro Joaquín</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-9</td>
+            <td rowspan="2">Crear organización</td>
+            <td>T11</td>
+            <td>Diseño del flujo de organización</td>
+            <td>Diseñar pantallas y flujo de navegación para la creación de una nueva organización</td>
+            <td>3</td>
+            <td>Chi Cruzatt</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T12</td>
+            <td>Implementación de creación de organización</td>
+            <td>Desarrollar formulario y API para registrar una nueva organización en el sistema</td>
+            <td>6</td>
+            <td>Guerrero Tomas</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-41</td>
+            <td rowspan="2">About the Product</td>
+            <td>T13</td>
+            <td>Diseño sección About the Product</td>
+            <td>Crear wireframe de la sección con descripción del producto e imágenes ilustrativas</td>
+            <td>3</td>
+            <td>Henry Paolo</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T14</td>
+            <td>Implementación sección About the Product</td>
+            <td>Desarrollar la sección informativa del producto con animaciones de scroll y gráficos</td>
+            <td>5</td>
+            <td>Reaño Delgadillo</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-42</td>
+            <td rowspan="2">About the Team</td>
+            <td>T15</td>
+            <td>Diseño sección About the Team</td>
+            <td>Crear diseño de la sección con fotos, nombres y roles de los integrantes del equipo</td>
+            <td>3</td>
+            <td>Nelson Fabrizio</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T16</td>
+            <td>Implementación sección About the Team</td>
+            <td>Desarrollar la sección del equipo con tarjetas de perfil y enlaces a redes sociales</td>
+            <td>4</td>
+            <td>Kevin Jorge</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-43</td>
+            <td rowspan="2">Suscripciones</td>
+            <td>T17</td>
+            <td>Diseño de sección Suscripciones</td>
+            <td>Crear wireframe de los planes de suscripción con precios, beneficios y comparación</td>
+            <td>4</td>
+            <td>Álvaro Joaquín</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T18</td>
+            <td>Implementación de sección Suscripciones</td>
+            <td>Desarrollar las tarjetas de planes de suscripción con estilos destacados y botones CTA</td>
+            <td>5</td>
+            <td>León Vivas</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-37</td>
+            <td rowspan="2">Registrarme con mi cuenta de Google</td>
+            <td>T21</td>
+            <td>Integración OAuth Google (registro)</td>
+            <td>Configurar flujo OAuth 2.0 con Google para la creación de cuentas nuevas en el sistema</td>
+            <td>5</td>
+            <td>Kevin Jorge</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T22</td>
+            <td>UI de registro con Google</td>
+            <td>Implementar botón "Registrarse con Google" con manejo de errores y redirección post-registro</td>
+            <td>4</td>
+            <td>Reaño Delgadillo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-38</td>
+            <td rowspan="2">Iniciar sesión con mi cuenta de Google</td>
+            <td>T23</td>
+            <td>Integración OAuth Google (login)</td>
+            <td>Configurar flujo OAuth 2.0 con Google para autenticación de usuarios existentes</td>
+            <td>5</td>
+            <td>Nelson Fabrizio</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T24</td>
+            <td>UI de inicio de sesión con Google</td>
+            <td>Implementar botón "Iniciar sesión con Google" con gestión de sesión y token de acceso</td>
+            <td>3</td>
+            <td>Álvaro Joaquín</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-45</td>
+            <td rowspan="2">Visualizar suscripciones</td>
+            <td>T19</td>
+            <td>Diseño de vista de suscripciones activas</td>
+            <td>Crear mockup del panel de suscripciones activas con estado, fechas y opciones de gestión</td>
+            <td>3</td>
+            <td>Fabrizio Amir</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T20</td>
+            <td>Implementación de vista de suscripciones</td>
+            <td>Desarrollar pantalla para que el usuario visualice y gestione sus suscripciones activas</td>
+            <td>5</td>
+            <td>Orozco Torres</td>
+            <td>To-do</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 
+En la siguiente tabla se muestran los commits realizados en la organización Soulware-IoT en el sprint 1.
 
-
-<div style="page-break-after: always;"></div>
+| Repositorio                | Branch*   | Commit Id                                | Commit Message                                                                               | Commit Message Body                                             | Commitido en (Fecha)        |
+|----------------------------|-----------|-----------------------------------------|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------|
+| landing                    | main      | 4331c4572dee1d205624e708c6d02d6d45d9e834 | Merge branch 'develop'                                                                       |                                                                 | 2026-05-14                  |
+| landing                    | main      | 67da3972d88f1899efb674f230bc39f5b21e79e0 | fix: add padding for actuators section on mobile view                                        |                                                                 | 2026-05-14                  |
+| landing                    | main      | 93b4b3330ae2478a4fdac03208698c808a4f20b2 | Merge branch 'develop'                                                                       |                                                                 | 2026-05-14                  |
+| landing                    | main      | f3f6c996656ab719e0c1980971311684a6308c02 | fix: amend i18n button on nav being visible on mobile view                                   |                                                                 | 2026-05-14                  |
+| landing                    | main      | dede551cedeefb8f2c4e2b595fa26bf8971bc764 | chore: update icon                                                                           |                                                                 | 2026-05-14                  |
+| landing                    | main      | 9080d963edbfaafc80c18949ad2799e959817c2d | fix: amend i18n button on nav being visible on mobile view                                   |                                                                 | 2026-05-14                  |
+| landing                    | main      | e9ce926b1b2a89b9e586472aec72d80e8e239e8a | chore: update icon                                                                           |                                                                 | 2026-05-14                  |
+| landing                    | main      | 103a12261572a99f8cff6054131581525a923c13 | Merge branch 'feature/footer' into develop                                                   |                                                                 | 2026-05-08                  |
+| landing                    | main      | 9ca0a50b6173fbd7a2350c3f3bfc5879c805f1e2 | Merge branch 'feature/buy' into develop                                                      |                                                                 | 2026-05-08                  |
+| landing                    | main      | 5e66e4b41685408282e288c5592285e129cff150 | feat: add temp version of the buy section                                                    |                                                                 | 2026-05-08                  |
+| landing                    | main      | b80038aaa834a10fc1271ea51d43aead970e8eb8 | Merge branch 'feature/processes' into develop                                                |                                                                 | 2026-05-08                  |
+| landing                    | main      | 3d4685806db6ec80e4d2cf88cc0d0fd08898fbd8 | feat: add processes section                                                                  |                                                                 | 2026-05-08                  |
+| landing                    | main      | e6689f606a793f2d1ebc0b1c3ea240f38d6a1799 | Merge branch 'feature/actuators' into develop                                                |                                                                 | 2026-05-08                  |
+| landing                    | main      | c8b7fdfa321f661777c3bec3702906a275496203 | feat: add actuators section                                                                  |                                                                 | 2026-05-08                  |
+| landing                    | main      | 06f339dc6e3f5e6630a1b97d70928cc67077bf85 | Merge branch 'feature/sensors' into develop                                                  |                                                                 | 2026-05-08                  |
+| landing                    | main      | 048fc17848e1057ff04ec09aba519f06ce7e34a1 | feat: add sensors section                                                                    |                                                                 | 2026-05-08                  |
+| landing                    | main      | 7eb59f036dd2bd38a6facd033f7b80b3d9ee1d96 | Merge branch 'feature/nav' into develop                                                      |                                                                 | 2026-05-06                  |
+| landing                    | main      | 9471670288a68785edece847b44ee4d2679eb62a | fix: removed debug only text left into the commits                                           |                                                                 | 2026-05-05                  |
+| landing                    | main      | 62ae7baa178a35773e6c17bc0bed146e1bf5222c | refactor: upgrade and merge i18n toggle button into nav                                      |                                                                 | 2026-05-05                  |
+| landing                    | main      | e6e6ea41257959bab6b042dffd0d4ba82b1eabbd | fix: add missing translation for nav links                                                   |                                                                 | 2026-05-05                  |
+| landing                    | main      | a95b27e013b9843b9ac1a554b4af84f3ffe23500 | refactor: split i18n into dict and logic                                                     |                                                                 | 2026-05-05                  |
+| landing                    | main      | 79b88984151f69f95004ad72309ac3868eaff4f9 | refactor: move files into their own folders by section / feature                             |                                                                 | 2026-05-05                  |
+| landing                    | main      | 78450698aeef9955afd2a994a7ffc3f3112494e1 | feat: add responsive navbar                                                                  |                                                                 | 2026-05-05                  |
+| landing                    | main      | 8869b57466b8f5aa2ee05ac250784f71f04a9ca8 | Merge branch 'feature/hero-section' into develop                                             |                                                                 | 2026-05-05                  |
+| landing                    | main      | 129d3e2691251ef6a74a63a990c720ee0b7de3fd | feat: add i18n core and hero section translations                                            |                                                                 | 2026-05-04                  |
+| landing                    | main      | c143286f23f53a68fcab3a814607fccbf25b6084 | feat: add interactive decoration for hero section                                            |                                                                 | 2026-05-04                  |
+| landing                    | main      | 3238153794aaa600ba316060487ca053d97f5c1b | refactor: split css into another file                                                        |                                                                 | 2026-05-04                  |
+| landing                    | main      | eac4ee59b4f9249bb53fc1c55a55508a4a3e3904 | feat: add hero section layout                                                                |                                                                 | 2026-05-04                  |
+| landing                    | main      | 1e6edf0f980c479073d57e3fee1bda997ceac121 | chore: add media query for mobile responsiveness                                             |                                                                 | 2026-05-04                  |
+| landing                    | main      | 12f9f3cfa3776ff747313219a80cba5852fe82f3 | chore: add css and js setup                                                                  |                                                                 | 2026-05-04                  |
+| landing                    | main      | 8313e4cc319429ce43b2dac914ec7e065fd6fa74 | chore: initial commit                                                                        |                                                                 | 2026-05-04                  |
+| restaurant                 | develop   | 55896d739f55a82d4cb936c463d1d7f0013251c1 | feat: add get by uuid                                                                        |                                                                 | 2026-05-15                  |
+| restaurant                 | develop   | e6a75b8deff90db8bb461a08f368fee53e413f89 | fix: add admin control validation                                                            |                                                                 | 2026-05-15                  |
+| restaurant                 | develop   | 6b629040c8a43bf986af332d396de50194dff2e2 | feat: add uuid to user                               |                                                                 | 2026-05-15                  |
+| restaurant                 | develop   | 8c1cc29c7a5e19823b920b053e858ac0cfdfd439 | refactor: modify domain validations, logic and add exeptions                                 |                                                                 | 2026-05-14                  |
+| restaurant                 | develop   | 9a0a49fce9216095ef817ecb75a04ce7ca004843 | docs: add README.md                                                                          |                                                                 | 2026-05-14                  |
+| restaurant                 | develop   | 9c2f57dbfe4ae5651a02dd90b54ffbc492873745 | chore: add description to one endpoint                                                       |                                                                 | 2026-05-14                  |
+| restaurant                 | develop   | 6123772715e0a206afe316876d716321b47616aa | feat: add valdiations to edit permissions of users                                           |                                                                 | 2026-05-14                  |
+| restaurant                 | develop   | 9c06317ead4b0b4087a2d48a762c73624f1386f8 | Initial commit: contains api v1.0                                                            |                                                                 | 2026-05-14                  |
+| intern-control             | feature/rest | e9d3e701f0fdf830902a4d8018ea0efb80074b5a | fix: fix database relations and change put response                                          |                                                                 | 2026-05-15                  |
+| intern-control             | feature/rest | fcf4c5778e11e0fc47940fe7477cbdf0f0fd8d0e | fix: fix an error on the response code and add exeptions messages                            |                                                                 | 2026-05-07                  |
+| intern-control             | feature/rest | 72baaea31863888491682795ab1aedbecc8dcfa1 | feat: add rest methods and add validations to the aggregates                                 |                                                                 | 2026-05-06                  |
+| intern-control             | feature/rest | 0c32296539f4060af4ee570b62b72d56cdb9a4c1 | feat: add all domain entities                                                                |                                                                 | 2026-05-05                  |
+| intern-control             | feature/rest | 96020b092177ecfa4a207a8a955a49edf76d9c45 | feat: add open api and cors configuration                                                    |                                                                 | 2026-05-05                  |
+| intern-control             | feature/rest | 8029819e27210fbc0aab2564c9dc40a347545994 | feat: add application properties configuration                                               |                                                                 | 2026-05-05                  |
+| intern-control             | feature/rest | 86d0cadd7bf18443205292cd352d3a7bef769418 | initial commit                                                                               |                                                                 | 2026-05-05                  |
+| api-gw                     | main      | 0077a615ea8558ea3fc77a8479b95958bbb92b81 | feat: add login integration                                                                  |                                                                 | 2026-05-15                  |
+| api-gw                     | main      | 4d9489421e38c175e2b60d78b3ff996181172c5a | feat: add account in supabase and restaurant service when user register                      |                                                                 | 2026-05-15                  |
+| api-gw                     | main      | 274d19a                                  | apigateway & restaurant                                                                      |                                                                 | 2026-05-15                  |
+| api-gw | main | bb1ddce | feat: init api gateway and supabase auth | | 2026-05-14 |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
+Para la verificación de las funcionalidades desarrolladas en este sprint, el equipo adoptó el enfoque **Behavior-Driven Development (BDD)**, utilizando el lenguaje **Gherkin** para la especificación de escenarios ejecutables. Las pruebas se organizan en tres niveles: pruebas unitarias sobre servicios y componentes individuales, pruebas de integración sobre los endpoints del Backend, y acceptance tests vinculados directamente a cada User Story comprometida en el sprint. Este enfoque permite alinear las pruebas con los criterios de aceptación definidos desde el inicio, facilitando la comunicación entre el equipo técnico y los stakeholders.
 
+---
 
-<div style="page-break-after: always;"></div>
+**Autenticación con Google (US-37, US-38)**
+
+```gherkin
+Feature: Autenticación de usuarios mediante Google OAuth 2.0
+
+  Background:
+    Given el sistema tiene configurado el proveedor OAuth de Google
+    And la base de datos de usuarios está disponible
+
+  Scenario: Registro exitoso con cuenta de Google
+    Given un visitante no registrado accede a la pantalla de registro
+    When selecciona la opción "Registrarse con Google"
+    And autoriza el acceso desde la ventana de Google
+    Then el sistema crea una cuenta asociada al correo de Google
+    And el usuario es redirigido al dashboard principal
+    And se muestra el mensaje "Bienvenido a Cocina360"
+
+  Scenario: Registro con cuenta de Google ya registrada
+    Given un usuario con cuenta de Google ya existente intenta registrarse
+    When selecciona la opción "Registrarse con Google"
+    And autoriza el acceso desde la ventana de Google
+    Then el sistema detecta que el correo ya está registrado
+    And redirige al usuario al flujo de inicio de sesión
+    And se muestra el mensaje "Ya tienes una cuenta. Inicia sesión."
+
+  Scenario: Inicio de sesión exitoso con cuenta de Google
+    Given un usuario registrado accede a la pantalla de inicio de sesión
+    When selecciona la opción "Iniciar sesión con Google"
+    And autoriza el acceso desde la ventana de Google
+    Then el sistema valida el token OAuth recibido
+    And genera un token de sesión para el usuario
+    And el usuario es redirigido al dashboard principal
+
+  Scenario: Inicio de sesión con cuenta de Google no registrada
+    Given un visitante no registrado accede a la pantalla de inicio de sesión
+    When selecciona la opción "Iniciar sesión con Google"
+    And autoriza el acceso desde la ventana de Google
+    Then el sistema detecta que el correo no tiene cuenta asociada
+    And muestra el mensaje "No encontramos una cuenta con ese correo. ¿Deseas registrarte?"
+```
+
+---
+
+**Gestión de Organizaciones (US-9)**
+
+```gherkin
+Feature: Creación de organización por parte del dueño de restaurante
+
+  Background:
+    Given el usuario autenticado tiene rol "Dueño de restaurante"
+    And no tiene ninguna organización registrada
+
+  Scenario: Creación de organización con datos válidos
+    Given el usuario accede al formulario de creación de organización
+    When ingresa el nombre "Restaurante El Fogón"
+    And ingresa el RUC "20512345678"
+    And presiona el botón "Crear organización"
+    Then el sistema registra la organización exitosamente
+    And redirige al usuario al panel de su organización
+    And se muestra el mensaje "Organización creada correctamente"
+
+  Scenario: Intento de creación con nombre vacío
+    Given el usuario accede al formulario de creación de organización
+    When deja el campo nombre en blanco
+    And presiona el botón "Crear organización"
+    Then el sistema muestra el error "El nombre de la organización es requerido"
+    And no se registra ninguna organización
+
+  Scenario: Intento de creación con RUC inválido
+    Given el usuario accede al formulario de creación de organización
+    When ingresa el nombre "Restaurante El Fogón"
+    And ingresa el RUC "12345"
+    And presiona el botón "Crear organización"
+    Then el sistema muestra el error "El RUC debe tener 11 dígitos"
+    And no se registra ninguna organización
+```
+
+---
+
+**Procesos de Control Interno (US-5, US-30, US-22, US-20)**
+
+```gherkin
+Feature: Gestión de procesos de control interno
+
+  Background:
+    Given el usuario autenticado pertenece a una organización registrada
+    And accede al módulo de "Procesos de control interno"
+
+  Scenario: Creación de proceso con datos válidos
+    Given el usuario abre el formulario de nuevo proceso
+    When ingresa el nombre "Control de temperatura de cocina fría"
+    And selecciona la categoría "Temperatura"
+    And presiona "Guardar"
+    Then el sistema registra el proceso exitosamente
+    And el proceso aparece en el listado con estado "Activo"
+
+  Scenario: Listado de procesos existentes
+    Given la organización tiene 3 procesos registrados
+    When el usuario accede a la vista de listado
+    Then el sistema muestra los 3 procesos con nombre, categoría y estado
+    And los procesos están ordenados por fecha de creación descendente
+
+  Scenario: Listado sin procesos registrados
+    Given la organización no tiene procesos registrados
+    When el usuario accede a la vista de listado
+    Then el sistema muestra el mensaje "Aún no tienes procesos registrados"
+
+  Scenario: Renombrado exitoso de un proceso
+    Given existe el proceso "Control de temperatura cocina fría" en el listado
+    When el usuario selecciona la opción "Renombrar" sobre dicho proceso
+    And escribe el nuevo nombre "Control térmico cocina fría"
+    And confirma el cambio
+    Then el proceso se actualiza con el nuevo nombre en el listado
+    And se muestra el mensaje "Proceso renombrado correctamente"
+
+  Scenario: Suspensión de un proceso activo
+    Given existe el proceso "Control térmico cocina fría" con estado "Activo"
+    When el usuario selecciona la opción "Suspender" sobre dicho proceso
+    And confirma la acción en el modal de verificación
+    Then el proceso cambia su estado a "Suspendido"
+    And se muestra el mensaje "El proceso ha sido suspendido"
+
+  Scenario: Reactivación de un proceso suspendido
+    Given existe el proceso "Control térmico cocina fría" con estado "Suspendido"
+    When el usuario selecciona la opción "Reactivar" sobre dicho proceso
+    Then el proceso cambia su estado a "Activo"
+    And se muestra el mensaje "El proceso ha sido reactivado"
+```
+
+---
+
+**Visualización de Suscripciones (US-45)**
+
+```gherkin
+Feature: Visualización de suscripciones activas del usuario
+
+  Background:
+    Given el usuario autenticado tiene al menos una suscripción activa
+
+  Scenario: Visualización de suscripciones activas
+    Given el usuario navega a la sección "Suscripciones"
+    When la página carga correctamente
+    Then el sistema muestra las suscripciones con nombre del plan, fecha de inicio y fecha de vencimiento
+    And cada suscripción muestra su estado actual ("Activa" o "Vencida")
+
+  Scenario: Visualización sin suscripciones
+    Given el usuario no tiene suscripciones registradas
+    When navega a la sección "Suscripciones"
+    Then el sistema muestra el mensaje "No tienes suscripciones activas. Elige un plan para comenzar."
+```
+
+---
+
+**Pruebas Unitarias**
+
+A continuación se detallan las pruebas unitarias implementadas sobre los servicios del Backend y los componentes del SPA durante este sprint.
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>ID</strong></th>
+            <th><strong>Componente / Servicio</strong></th>
+            <th><strong>Descripción de la prueba</strong></th>
+            <th><strong>Resultado esperado</strong></th>
+            <th><strong>Estado</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>UT-01</td>
+            <td>AuthService</td>
+            <td>Validar que el token OAuth de Google es verificado correctamente</td>
+            <td>Retorna el payload del usuario si el token es válido</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-02</td>
+            <td>AuthService</td>
+            <td>Retornar error cuando el token OAuth es inválido o expirado</td>
+            <td>Lanza excepción UnauthorizedException</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-03</td>
+            <td>OrganizationService</td>
+            <td>Crear organización con datos válidos</td>
+            <td>Retorna el objeto organización creado con ID asignado</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-04</td>
+            <td>OrganizationService</td>
+            <td>Lanzar error al crear organización con RUC duplicado</td>
+            <td>Lanza excepción ConflictException</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-05</td>
+            <td>ProcessService</td>
+            <td>Crear proceso de control interno con campos completos</td>
+            <td>Retorna proceso con estado "Activo" y fecha de creación</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-06</td>
+            <td>ProcessService</td>
+            <td>Listar procesos filtrando por organización</td>
+            <td>Retorna únicamente los procesos pertenecientes a la organización indicada</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-07</td>
+            <td>ProcessService</td>
+            <td>Renombrar proceso existente</td>
+            <td>Retorna proceso actualizado con el nuevo nombre</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-08</td>
+            <td>ProcessService</td>
+            <td>Suspender proceso con estado "Activo"</td>
+            <td>Retorna proceso con estado "Suspendido"</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-09</td>
+            <td>ProcessService</td>
+            <td>Lanzar error al intentar suspender un proceso ya suspendido</td>
+            <td>Lanza excepción BadRequestException</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-10</td>
+            <td>SubscriptionService</td>
+            <td>Listar suscripciones activas del usuario autenticado</td>
+            <td>Retorna lista con suscripciones cuyo estado es "Activa"</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-11</td>
+            <td>HeroComponent (SPA)</td>
+            <td>Renderizar correctamente el título y el CTA del Hero</td>
+            <td>El componente muestra el headline y el botón de llamada a acción</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-12</td>
+            <td>FeaturesComponent (SPA)</td>
+            <td>Renderizar la lista de características con sus íconos</td>
+            <td>Se renderizan N tarjetas iguales al número de features configurados</td>
+            <td>Pass</td>
+        </tr>
+    </tbody>
+</table>
+
+---
+
+**Acceptance Tests**
+
+Los siguientes acceptance tests fueron validados contra los criterios de aceptación de cada User Story comprometida en el sprint.
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>US ID</strong></th>
+            <th><strong>Título</strong></th>
+            <th><strong>Criterio de aceptación verificado</strong></th>
+            <th><strong>Resultado</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>US-39</td>
+            <td>Hero section</td>
+            <td>La sección Hero es visible en la landing y contiene headline, subtítulo y CTA funcional</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>US-40</td>
+            <td>Features</td>
+            <td>La sección Features muestra al menos 3 características del producto con ícono y descripción</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>US-37</td>
+            <td>Registrarme con Google</td>
+            <td>Un nuevo usuario puede crear cuenta utilizando su identidad de Google sin formulario adicional</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>US-38</td>
+            <td>Iniciar sesión con Google</td>
+            <td>Un usuario registrado puede autenticarse con Google y acceder al dashboard en menos de 5 segundos</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>US-9</td>
+            <td>Crear organización</td>
+            <td>El dueño puede registrar su restaurante como organización y acceder a su panel de gestión</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>US-5</td>
+            <td>Crear procesos de control interno</td>
+            <td>El usuario puede registrar un proceso con nombre y categoría; el proceso aparece en el listado con estado "Activo"</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>US-30</td>
+            <td>Listar procesos de control interno</td>
+            <td>El usuario visualiza todos sus procesos con nombre, categoría, estado y fecha de creación</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>US-22</td>
+            <td>Renombrar procesos de control interno</td>
+            <td>El usuario puede cambiar el nombre de un proceso y el cambio se refleja inmediatamente en el listado</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>US-20</td>
+            <td>Suspensión de procesos de control interno</td>
+            <td>El usuario puede suspender un proceso activo; el estado cambia a "Suspendido" con confirmación visual</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>US-45</td>
+            <td>Visualizar suscripciones</td>
+            <td>El usuario puede ver sus suscripciones activas con plan, fechas y estado desde su perfil</td>
+            <td>In-Process</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
+En este Sprint 1, se han completado las bases fundamentales de la solución Cocina360, abarcando desde la presencia digital hasta la infraestructura de servicios y la primera interfaz de gestión.
+
+**Landing Page**
+
+Se implementó una página de valor profesional con interfaz amigable para los segmentos objetivos. La página incluye secciones estratégicas como los sensores IoT, beneficios, funcionalidades y compras.
+
++ **Evidencia:**
+
+<img src="./img/capitulo_6/execution_evidence/landing_1.png">
+<img src="./img/capitulo_6/execution_evidence/landing_2.png">
+<img src="./img/capitulo_6/execution_evidence/landing_3.png">
+<img src="./img/capitulo_6/execution_evidence/landing_4.png">
+<img src="./img/capitulo_6/execution_evidence/landing_5.png">
+
++ **Link de despliegue** [https://soulware-landing.vercel.app/](https://soulware-landing.vercel.app/)
+
+**Backend**
+
+Se desarrollaron los primeros endpoints de la API REST de Cocina360. Se implementó la autenticación mediante OAuth 2.0 con Google (registro e inicio de sesión), la creación de organizaciones y la gestión completa de procesos de control interno: creación, listado, renombrado y suspensión.
+
++ **Link de despliegue** [https://cocina360-api.azurewebsites.net](https://cocina360-api.azurewebsites.net)
 
 
-<div style="page-break-after: always;"></div>
+**SPA (Single Page Application)**
+
+Se desarrollaron las primeras vistas funcionales de la aplicación web. Se implementaron las pantallas de autenticación con Google, el flujo de creación de organización y el módulo de procesos de control interno con sus operaciones de listado, creación, renombrado y suspensión. Asimismo, se integró la vista de suscripciones activas del usuario.
+
++ **Link de despliegue** [https://cocina360-spa.azurestaticapps.net](https://cocina360-spa.azurestaticapps.net)
+
+
+**Azure**
+
+Para el despliegue de los servicios desarrollados en este sprint se utilizó Microsoft Azure como plataforma cloud. El Backend fue alojado mediante Azure App Service, mientras que la SPA fue publicada a través de Azure Static Web Apps. Ambos servicios se benefician de la infraestructura gestionada de Azure, garantizando disponibilidad, escalabilidad y un entorno seguro para las pruebas del sprint.
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
+En esta sección se presenta la documentación de los servicios RESTful desarrollados durante el sprint. La API sigue el estilo arquitectónico REST y utiliza JSON como formato de intercambio de datos. El backend ha sido implementado utilizando Spring Boot y sigue los principios de DDD.
 
+### Intern Control API
 
-<div style="page-break-after: always;"></div>
+Base URL: `http://localhost:8080/intern-control`
+
+| Método | Endpoint | Descripción |
+| ------ | -------- | ----------- |
+| GET | `/api/v1/control-processes` | Listar procesos de control interno por organización |
+| POST | `/api/v1/control-processes` | Crear proceso de control interno |
+| GET | `/api/v1/control-processes/{id}` | Obtener proceso de control interno por ID |
+| DELETE | `/api/v1/control-processes/{id}` | Eliminar proceso de control interno |
+| PATCH | `/api/v1/control-processes/{id}/rename` | Renombrar proceso de control interno |
+| PATCH | `/api/v1/control-processes/{id}/suspend` | Suspender proceso de control interno |
+| GET | `/api/v1/control-processes/{processId}/templates` | Listar formatos de registro de un proceso |
+| POST | `/api/v1/control-processes/{processId}/templates` | Crear formato de registro |
+| GET | `/api/v1/control-processes/{processId}/templates/{templateId}` | Obtener formato de registro por ID |
+| PUT | `/api/v1/control-processes/{processId}/templates/{templateId}` | Actualizar nombre y/o columnas del formato de registro |
+| PATCH | `/api/v1/control-processes/{processId}/templates/{templateId}/status` | Cambiar estado del formato de registro (ACTIVE o INACTIVE) |
+| PATCH | `/api/v1/control-processes/{processId}/templates/{templateId}/suspend` | Suspender formato de registro |
+
+### Restaurant API
+
+Base URL: `http://localhost:8080/restaurant`
+
+| Método | Endpoint | Descripción |
+| ------ | -------- | ----------- |
+| POST | `/api/v1/users` | Crear usuario y su organización automáticamente |
+| POST | `/api/v1/users/register` | Registrar usuario sin organización asociada |
+| GET | `/api/v1/users/{id}` | Obtener usuario por ID interno |
+| GET | `/api/v1/users/{id}/organizations` | Listar organizaciones del usuario |
+| GET | `/api/v1/users/by-auth/{authId}` | Obtener usuario por Auth ID (UUID) |
+| POST | `/api/v1/organizations` | Crear organización |
+| GET | `/api/v1/organizations/{id}` | Obtener organización por ID |
+| GET | `/api/v1/organizations/{organizationId}/members` | Listar miembros de la organización |
+| POST | `/api/v1/organizations/{organizationId}/members` | Agregar usuario a la organización |
+| PATCH | `/api/v1/organizations/{organizationId}/members/{userId}/permissions` | Configurar permisos de un miembro |
+| GET | `/api/v1/organizations/{organizationId}/members/{userId}/permissions/check` | Verificar permiso de un miembro en la organización |
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
 
 
-<div style="page-break-after: always;"></div>
-
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
 
-
-<div style="page-break-after: always;"></div>
 
 # Conclusiones
 
@@ -3460,8 +4287,6 @@ Se establecen, para este primer entregable, las siguientes conclusiones:
 - Se han planteado las características del producto que resuelven la problemática a través de las historias de usuario y product backlog.
 - Se ha realizado una primera iteración del diseño de la arquitectura de la solución, consistiendo en una arquitectura SoA RESTful, incluyendo las cuatro capas de C4.
 
-
-<div style="page-break-after: always;"></div>
 
 # Referencias Bibliográficas
 
@@ -3479,19 +4304,13 @@ Se establecen, para este primer entregable, las siguientes conclusiones:
 - Programa de las Naciones Unidas para el Desarrollo. (2025). Perú: Datos sobre desarrollo humano. Human Development Report Data Center. https://hdr.undp.org/data-center/specific-country-data#/countries/PER
 - World Bank. (2025). World Development Indicators: Interactive data portal. World Bank Open Data. https://datos.bancomundial.org/
 
-<div style="page-break-after: always;"></div>
-
 # Anexos
 
 ## Videos de Exposiciones
 
 - Video de exposición AV1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei)
 
-<div style="page-break-after: always;"></div>
-
 ## Otros videos
 
 - Vídeo de entrevistas de elicitación: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ)
-
-<div style="page-break-after: always;"></div>
 
