@@ -305,6 +305,20 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
 
 <div style="page-break-after: always;"></div>
 
+**TB1**
+
+Para esta entrega del TB1, la división fue principalmente según disponibilidad. Los compañeros ocupados con tasks de programción no documentaron en el informe.
+
+**COLABORACIÓN**
+
+<img style="width: 90%;" src="./img/insights/tb1/collaboration.png">
+
+**COMMITS**
+
+<img src="./img/insights/tb1/commits.png">
+
+<div style="page-break-after: always;"></div>
+
 # Contenido
 
 ## Tabla de contenidos
@@ -4525,6 +4539,30 @@ Base URL: `http://localhost:8080/restaurant`
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
+En esta sección se presentan los insights de colaboración y trabajo del equipo durante el Sprint 1, extraídos de las métricas de contribución en los diferentes repositorios de la organización Soulware-IoT.
+
+**API Gateway**
+<img style="width: 90%;" src="insights/apigw.png">
+
+<div style="page-break-after: always;"></div>
+
+**Front-end (SPA)**
+<img style="width: 90%;" src="insights/front.png">
+
+<div style="page-break-after: always;"></div>
+
+**Internal Control**
+<img style="width: 90%;" src="insights/internal-control.png">
+
+<div style="page-break-after: always;"></div>
+
+**Landing Page**
+<img style="width: 90%;" src="insights/landing.png">
+
+<div style="page-break-after: always;"></div>
+
+**Restaurant**
+<img style="width: 90%;" src="insights/restaurant.png">
 
 
 <div style="page-break-after: always;"></div>

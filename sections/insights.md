@@ -11,3 +11,17 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
 **COMMITS**
 
 <img src="../img/insights/av1/commits.png">
+
+<div style="page-break-after: always;"></div>
+
+**TB1**
+
+Para esta entrega del TB1, la división fue principalmente según disponibilidad. Los compañeros ocupados con tasks de programción no documentaron en el informe.
+
+**COLABORACIÓN**
+
+<img style="width: 90%;" src="../img/insights/tb1/collaboration.png">
+
+**COMMITS**
+
+<img src="../img/insights/tb1/commits.png">
