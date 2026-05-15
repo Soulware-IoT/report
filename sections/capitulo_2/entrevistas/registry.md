@@ -1,5 +1,7 @@
 **DUEÑOS DE RESTAURANTES**
 
+Enlace de entrevistas: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ)
+
 <table>
     <thead>
         <tr>
