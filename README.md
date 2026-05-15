@@ -309,7 +309,7 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
 
 ## Tabla de contenidos
 
- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)

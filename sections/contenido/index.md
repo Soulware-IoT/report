@@ -1,4 +1,4 @@
- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
