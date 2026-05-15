@@ -10,7 +10,7 @@
 
 - **Teniente (Lieutenant):** Usuario supervisor que puede tener permiso de administracion de usuarios o solo supervision de procesos, segun configuracion del dueño.
 
-- **Encargado / Chef (Manager / Chef):** Usuario responsable de ejecutar y registrar procesos y sus politicas.
+- **Encargado / Chef (Assignee / Chef):** Usuario responsable de ejecutar y registrar procesos y sus politicas.
 
 - **Rol (Role):** Categoria funcional asignada a un usuario que define los permisos que.
 

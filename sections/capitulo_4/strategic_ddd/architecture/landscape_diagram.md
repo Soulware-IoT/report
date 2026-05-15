@@ -1,3 +1,3 @@
-Representa el panorama global de la solución. En esta vista se identifican todas las personas y sistemas que existen en el ecosistema, independientemente de si forman parte o no del sistema principal.
+Representa el panorama global de la solución con respecto a los usuarios y la organización que lo utiliza. En esta vista se identifican todas las personas y el entorno de su contexto de trabajo tomando en cuenta la solución. Propio del segmento objetivo al que se encuentra dirigida la solución, el único software empresarial con el que interactuan los usuarios es Cocina360.
 
 <img src="../../../../img/capitulo_4/architecture/landscape.png">
