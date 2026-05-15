@@ -11,7 +11,7 @@ Se aplica el concepto de "Status Cards" dinámicas, donde el color verde y rojo 
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/applications/mockup/iot_devices_dashboard_mobile.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/applications/mockup/iot_devices_dashboard_mobile.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -19,7 +19,7 @@ Se aplica el concepto de "Status Cards" dinámicas, donde el color verde y rojo 
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/applications/mockup/iot_device_detail_mobile.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/applications/mockup/iot_device_detail_mobile.png">
 
 **SISTEMA DE PROCESOS Y CUMPLIMIENTO**
 
@@ -29,7 +29,7 @@ La interfaz de procesos utiliza una estética limpia que facilita la concentraci
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/applications/mockup/control_processes_mobile.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/applications/mockup/control_processes_mobile.png">
 
 **ADMINISTRACIÓN Y CONFIGURACIÓN**
 
@@ -39,7 +39,7 @@ Los paneles de organización y gestión de miembros reflejan la solidez de la ma
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/applications/mockup/organization_management_mobile.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/applications/mockup/organization_management_mobile.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -47,7 +47,7 @@ Los paneles de organización y gestión de miembros reflejan la solidez de la ma
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/applications/mockup/member_details_mobile.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/applications/mockup/member_details_mobile.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -55,4 +55,4 @@ Los paneles de organización y gestión de miembros reflejan la solidez de la ma
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/applications/mockup/edit_organization_mobile.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/applications/mockup/edit_organization_mobile.png">

@@ -15,11 +15,11 @@ El diseño se centra en la visualización de telemetría y el estado de salud de
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/applications/wireframe/iot_device_detail_mobile_1.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/applications/wireframe/iot_device_detail_mobile_1.png">
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/applications/wireframe/iot_device_detail_mobile_2.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/applications/wireframe/iot_device_detail_mobile_2.png">
 
 **PROCESOS DE CONTROL INTERNO**
 
@@ -32,7 +32,7 @@ Esta sección define la estructura para la creación y ejecución de formatos de
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/applications/wireframe/control_processes_mobile.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/applications/wireframe/control_processes_mobile.png">
 
 **GESTIÓN ORGANIZACIONAL Y RRHH**
 
@@ -45,7 +45,7 @@ Estructura para la administración de la identidad del restaurante y el control 
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/applications/wireframe/organization_management_mobile.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/applications/wireframe/organization_management_mobile.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -53,7 +53,7 @@ Estructura para la administración de la identidad del restaurante y el control 
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/applications/wireframe/member_details_mobile.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/applications/wireframe/member_details_mobile.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -61,4 +61,4 @@ Estructura para la administración de la identidad del restaurante y el control 
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/applications/wireframe/edit_organization_mobile.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/applications/wireframe/edit_organization_mobile.png">

@@ -28,4 +28,4 @@ El Mock-up detalla la transición del sistema entre diferentes contextos de uso:
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/landing/mockup/mobile.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/landing/mockup/mobile.png">
