@@ -452,10 +452,20 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
                 <strong>León Vivas, Fabrizio Amir:</strong> Fomenté el liderazgo conjunto mediante el análisis detallado de la experiencia de usuario y el alineamiento de los objetivos técnicos.<br><br>
                 <strong>Orozco Torres, Álvaro Joaquín:</strong> Ejercí la coordinación estratégica y la definición de la visión del producto, liderando la interacción con los interesados para guiar el desarrollo.<br><br>
                 <strong>Reaño Delgadillo, Henry Paolo:</strong> Aporté liderazgo en la definición de la arquitectura sistémica y la validación técnica de los procesos del equipo.
+                <br><br>
+                <strong>TP</strong><br><br>
+                <strong>Orozco Torres, Álvaro Joaquín:</strong> Lideré la investigación de campo y el diseño técnico del dispositivo IoT, asumiendo la responsabilidad de la especificación del hardware y su futura integración con el ecosistema digital.<br><br>
+                <strong>Chi Cruzatt, Kevin Jorge:</strong> Lideré el desarrollo de la lógica de negocio y los servicios core en el backend, asegurando la estabilidad de la arquitectura para la entrega parcial.<br><br>
+                <strong>Reaño Delgadillo, Henry Paolo:</strong> Coordiné la implementación de las APIs y la capa de servicios del backend, manteniendo el liderazgo técnico en la gestión de datos y persistencia.<br><br>
+                <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Lideré la integración técnica con sistemas externos de autenticación, encabezando la implementación de Open Auth mediante Supabase.<br><br>
+                <strong>León Vivas, Fabrizio Amir:</strong> Fomenté el liderazgo conjunto al coordinar la sincronización del backend con los servicios de identidad, asegurando la seguridad de los accesos al sistema.
             </td>
             <td style="padding: 10px; vertical-align: top; font-size: 14px; border: none;">
                 <strong>AV1</strong><br><br>
                 Logramos una integración efectiva de nuestras capacidades para liderar el proyecto, asegurando una visión unificada y la validación constante con los interesados.
+                <br><br>
+                <strong>TP</strong><br><br>
+                Consolidamos un liderazgo multidisciplinario que permitió integrar exitosamente hardware y software, cumpliendo con los estándares técnicos exigidos para el Trabajo Parcial.
             </td>
         </tr>
         <tr>
@@ -469,10 +479,20 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
                 <strong>León Vivas, Fabrizio Amir:</strong> Apoyé el cumplimiento de objetivos mediante la ejecución organizada de tareas de investigación y el soporte continuo al entorno colaborativo.<br><br>
                 <strong>Orozco Torres, Álvaro Joaquín:</strong> Gestioné la planificación de tareas y la especificación de requerimientos, garantizando que cumpliéramos las metas propuestas de manera inclusiva.<br><br>
                 <strong>Reaño Delgadillo, Henry Paolo:</strong> Alinié el diseño de arquitectura con los objetivos generales y cronogramas, manteniendo la productividad del entorno colaborativo.
+                <br><br>
+                <strong>TP</strong><br><br>
+                <strong>Orozco Torres, Álvaro Joaquín:</strong> Planifiqué la fase de diseño del prototipo IoT y cumplí con la entrega de las especificaciones técnicas del hardware, colaborando con el equipo de software para la definición de la telemetría.<br><br>
+                <strong>Chi Cruzatt, Kevin Jorge:</strong> Cumplí con los objetivos de desarrollo backend dentro del Sprint 1, colaborando inclusivamente para resolver bloqueos técnicos en la lógica de negocio.<br><br>
+                <strong>Reaño Delgadillo, Henry Paolo:</strong> Establecí metas claras para la implementación de las APIs y aseguré el cumplimiento de los hitos de desarrollo backend para el Trabajo Parcial.<br><br>
+                <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Colaboré activamente en el entorno de desarrollo integrando con éxito el sistema de autenticación de Supabase dentro de los plazos establecidos.<br><br>
+                <strong>León Vivas, Fabrizio Amir:</strong> Aseguré el cumplimiento de los objetivos de seguridad mediante una planificación detallada de la integración externa, manteniendo la cohesión del equipo.
             </td>
             <td style="padding: 10px; vertical-align: top; font-size: 14px; border: none;">
                 <strong>AV1</strong><br><br>
                 Establecimos un flujo de trabajo organizado que nos permitió cumplir todos los hitos del proyecto, manteniendo un ambiente inclusivo y orientado a resultados.
+                <br><br>
+                <strong>TP</strong><br><br>
+                Logramos ejecutar una planificación robusta para el Sprint 1, cumpliendo con la entrega de un producto funcional que integra hardware, backend y autenticación externa de manera colaborativa.
             </td>
         </tr>
     </tbody>
@@ -936,6 +956,8 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 ### 2.2.2. Registro de entrevistas
 
 **DUEÑOS DE RESTAURANTES**
+
+Enlace de entrevistas: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ)
 
 <table>
     <thead>
@@ -4511,10 +4533,18 @@ Base URL: `http://localhost:8080/restaurant`
 
 ## Conclusiones y recomendaciones
 
-Se establecen, para este primer entregable, las siguientes conclusiones:
-- Se ha logrado identificar y validar la problemática detectada en la investigación preliminar a través de las entrevistas, encontrando una respuesta por parte de los usuarios principalmente positiva.
-- Se han planteado las características del producto que resuelven la problemática a través de las historias de usuario y product backlog.
-- Se ha realizado una primera iteración del diseño de la arquitectura de la solución, consistiendo en una arquitectura SoA RESTful, incluyendo las cuatro capas de C4.
+Se establecen, para el cierre de esta etapa de Trabajo Parcial, las siguientes conclusiones:
+
+- **Madurez del Diseño UX/UI:** Se ha consolidado una identidad visual y arquitectura de información coherente, centrada en el minimalismo industrial y la legibilidad crítica, lo que garantiza una curva de aprendizaje mínima para los operarios de cocina.
+- **Arquitectura y Backend Funcional:** La implementación del núcleo del sistema y su integración exitosa con servicios de identidad externos (Supabase) valida la arquitectura SoA RESTful propuesta, asegurando un entorno seguro y escalable.
+- **Definición del Ecosistema IoT:** Se ha completado con éxito la fase de diseño y especificación técnica del hardware, logrando un alineamiento total entre la capacidad de monitorización de los sensores y los requerimientos operativos del negocio.
+- **Gestión Ágil:** La ejecución del Sprint 1 ha permitido validar la metodología de trabajo del equipo, logrando el cumplimiento de los hitos de desarrollo, documentación y despliegue dentro de los plazos establecidos.
+
+**Recomendaciones:**
+
+- **Fase de Construcción Física:** Se recomienda iniciar el ensamblaje del prototipo físico del dispositivo IoT basado en los esquemáticos desarrollados para validar la telemetría en condiciones reales de calor y humo.
+- **Validación de Usabilidad:** Es aconsejable realizar pruebas de usuario con los mockups de alta fidelidad para ajustar la densidad de información en las aplicaciones móviles antes de la codificación del frontend.
+- **Estandarización de Datos:** Se sugiere profundizar en la normalización de los logs de sensores para optimizar el almacenamiento y facilitar el análisis predictivo en futuras iteraciones de la solución.
 
 
 <div style="page-break-after: always;"></div>
@@ -4542,6 +4572,8 @@ Se establecen, para este primer entregable, las siguientes conclusiones:
 ## Videos de Exposiciones
 
 - Video de exposición AV1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei)
+- Video de exposición TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQDltWxRNpLlTpO8BwCbVBzJAYWVtVDo190SYdud3-ifSEs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LkzEk5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQDltWxRNpLlTpO8BwCbVBzJAYWVtVDo190SYdud3-ifSEs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LkzEk5)
+
 
 <div style="page-break-after: always;"></div>
 
