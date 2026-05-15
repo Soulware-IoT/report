@@ -3,8 +3,6 @@ En esta sección se presentan los insights de colaboración y trabajo del equipo
 **API Gateway**
 <img style="width: 90%;" src="../../../../img/capitulo_6/insights/apigw.png">
 
-<div style="page-break-after: always;"></div>
-
 **Front-end (SPA)**
 <img style="width: 90%;" src="../../../../img/capitulo_6/insights/front.png">
 
@@ -13,12 +11,11 @@ En esta sección se presentan los insights de colaboración y trabajo del equipo
 **Internal Control**
 <img style="width: 90%;" src="../../../../img/capitulo_6/insights/internal-control.png">
 
-<div style="page-break-after: always;"></div>
-
 **Landing Page**
 <img style="width: 90%;" src="../../../../img/capitulo_6/insights/landing.png">
 
 <div style="page-break-after: always;"></div>
 
 **Restaurant**
+<br>
 <img style="width: 90%;" src="../../../../img/capitulo_6/insights/restaurant.png">

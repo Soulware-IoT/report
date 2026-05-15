@@ -21,4 +21,4 @@ Se han definido dos variantes para asegurar una experiencia satisfactoria en cua
 
 <div style="page-break-after: always;"></div>
 
-<img src="../../../img/capitulo_5/landing/wireframe/mobile.png">
+<img style="width: 60%;" src="../../../img/capitulo_5/landing/wireframe/mobile.png">

@@ -3245,7 +3245,7 @@ Se han definido dos variantes para asegurar una experiencia satisfactoria en cua
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/landing/wireframe/mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/landing/wireframe/mobile.png">
 
 
 <div style="page-break-after: always;"></div>
@@ -3282,7 +3282,7 @@ El Mock-up detalla la transición del sistema entre diferentes contextos de uso:
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/landing/mockup/mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/landing/mockup/mobile.png">
 
 
 <div style="page-break-after: always;"></div>
@@ -3308,11 +3308,11 @@ El diseño se centra en la visualización de telemetría y el estado de salud de
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_1.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_1.png">
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_2.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_2.png">
 
 **PROCESOS DE CONTROL INTERNO**
 
@@ -3325,7 +3325,7 @@ Esta sección define la estructura para la creación y ejecución de formatos de
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/control_processes_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/control_processes_mobile.png">
 
 **GESTIÓN ORGANIZACIONAL Y RRHH**
 
@@ -3338,7 +3338,7 @@ Estructura para la administración de la identidad del restaurante y el control 
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/organization_management_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/organization_management_mobile.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -3346,7 +3346,7 @@ Estructura para la administración de la identidad del restaurante y el control 
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/member_details_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/member_details_mobile.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -3354,7 +3354,7 @@ Estructura para la administración de la identidad del restaurante y el control 
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/edit_organization_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/edit_organization_mobile.png">
 
 
 <div style="page-break-after: always;"></div>
@@ -3380,7 +3380,7 @@ Se aplica el concepto de "Status Cards" dinámicas, donde el color verde y rojo 
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/mockup/iot_devices_dashboard_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/mockup/iot_devices_dashboard_mobile.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -3388,7 +3388,7 @@ Se aplica el concepto de "Status Cards" dinámicas, donde el color verde y rojo 
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/mockup/iot_device_detail_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/mockup/iot_device_detail_mobile.png">
 
 **SISTEMA DE PROCESOS Y CUMPLIMIENTO**
 
@@ -3398,7 +3398,7 @@ La interfaz de procesos utiliza una estética limpia que facilita la concentraci
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/mockup/control_processes_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/mockup/control_processes_mobile.png">
 
 **ADMINISTRACIÓN Y CONFIGURACIÓN**
 
@@ -3408,7 +3408,7 @@ Los paneles de organización y gestión de miembros reflejan la solidez de la ma
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/mockup/organization_management_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/mockup/organization_management_mobile.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -3416,7 +3416,7 @@ Los paneles de organización y gestión de miembros reflejan la solidez de la ma
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/mockup/member_details_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/mockup/member_details_mobile.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -3424,7 +3424,7 @@ Los paneles de organización y gestión de miembros reflejan la solidez de la ma
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/mockup/edit_organization_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/mockup/edit_organization_mobile.png">
 
 
 <div style="page-break-after: always;"></div>
@@ -4533,8 +4533,6 @@ En esta sección se presentan los insights de colaboración y trabajo del equipo
 **API Gateway**
 <img style="width: 90%;" src="./img/capitulo_6/insights/apigw.png">
 
-<div style="page-break-after: always;"></div>
-
 **Front-end (SPA)**
 <img style="width: 90%;" src="./img/capitulo_6/insights/front.png">
 
@@ -4543,14 +4541,13 @@ En esta sección se presentan los insights de colaboración y trabajo del equipo
 **Internal Control**
 <img style="width: 90%;" src="./img/capitulo_6/insights/internal-control.png">
 
-<div style="page-break-after: always;"></div>
-
 **Landing Page**
 <img style="width: 90%;" src="./img/capitulo_6/insights/landing.png">
 
 <div style="page-break-after: always;"></div>
 
 **Restaurant**
+<br>
 <img style="width: 90%;" src="./img/capitulo_6/insights/restaurant.png">
 
 
