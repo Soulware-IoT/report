@@ -237,7 +237,7 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
 
 ## Tabla de contenidos
 
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+ [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -311,6 +311,43 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
       - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
         - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+  - [5.1. Style Guidelines](#51-style-guidelines)
+    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2. Information Architecture](#52-information-architecture)
+    - [5.2.1. Organization Systems](#521-organization-systems)
+    - [5.2.2. Labeling Systems](#522-labeling-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems](#524-searching-systems)
+    - [5.2.5. Navigation Systems](#525-navigation-systems)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+  - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+    - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+  - [5.5. Applications Prototyping](#55-applications-prototyping)
+  - [5.6. IoT Device Design](#56-iot-device-design)
+- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
+  - [6.1. Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Referencias Bibliográficas](#referencias-bibliográficas)
@@ -2842,6 +2879,192 @@ En esta seccion se presenta la imagen de domain layer del contexto intern_contro
 
 En esta seccion se presenta la imagen de database diagram del contexto restaurant.
 <img src="./img/capitulo_4/tactical_ddd/intern_control/database_diagram.png" alt="Database">
+
+
+<div style="page-break-after: always;"></div>
+
+# Capítulo V: Solution UI/UX Design
+
+## 5.1. Style Guidelines
+
+### 5.1.1. General Style Guidelines
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+
+
+<div style="page-break-after: always;"></div>
+
+## 5.2. Information Architecture
+
+### 5.2.1. Organization Systems
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 5.2.2. Labeling Systems
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 5.2.3. SEO Tags and Meta Tags
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 5.2.4. Searching Systems
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 5.2.5. Navigation Systems
+
+
+
+<div style="page-break-after: always;"></div>
+
+## 5.3. Landing Page UI Design
+
+### 5.3.1. Landing Page Wireframe
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 5.3.2. Landing Page Mock-up
+
+
+
+<div style="page-break-after: always;"></div>
+
+## 5.4. Applications UX/UI Design
+
+### 5.4.1. Applications Wireframes
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 5.4.2. Applications Wireflow Diagrams
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 5.4.3. Applications Mock-ups
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 5.4.4. Applications User Flow Diagrams
+
+
+
+<div style="page-break-after: always;"></div>
+
+## 5.5. Applications Prototyping
+
+
+
+<div style="page-break-after: always;"></div>
+
+## 5.6. IoT Device Design
+
+
+
+<div style="page-break-after: always;"></div>
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+
+### 6.1.1. Software Development Environment Configuration
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.1.2. Source Code Management
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.1.4. Software Deployment Configuration
+
+
+
+<div style="page-break-after: always;"></div>
+
+## 6.2. Landing Page, Services & Applications Implementation
+
+### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.1.2. Aspect Leaders and Collaborators
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.1.3. Sprint Backlog 1
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.1.4. Development Evidence for Sprint Review
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint
+
 
 
 <div style="page-break-after: always;"></div>

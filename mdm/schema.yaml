@@ -225,6 +225,44 @@
       alias: prototyping
     - title: "5.6. IoT Device Design"
       alias: iot design
+- title: "Capítulo VI: Product Implementation, Validation & Deployment"
+  alias: capitulo 6
+  children:
+    - title: "6.1. Software Configuration Management"
+      alias: configuration management
+      children:
+        - title: "6.1.1. Software Development Environment Configuration"
+          alias: env configuration
+        - title: "6.1.2. Source Code Management"
+          alias: source management
+        - title: "6.1.3. Source Code Style Guide & Conventions"
+          alias: style guide
+        - title: "6.1.4. Software Deployment Configuration"
+          alias: deployment configuration
+    - title: "6.2. Landing Page, Services & Applications Implementation"
+      alias: implementation
+      children:
+        - title: "6.2.1. Sprint 1"
+          alias: sprint 1
+          children:
+            - title: "6.2.1.1. Sprint Planning 1"
+              alias: sprint planning
+            - title: "6.2.1.2. Aspect Leaders and Collaborators"
+              alias: leaders collaborators
+            - title: "6.2.1.3. Sprint Backlog 1"
+              alias: sprint backlog
+            - title: "6.2.1.4. Development Evidence for Sprint Review"
+              alias: dev evidence
+            - title: "6.2.1.5. Testing Suite Evidence for Sprint Review"
+              alias: testing evidence
+            - title: "6.2.1.6. Execution Evidence for Sprint Review"
+              alias: execution evidence
+            - title: "6.2.1.7. Services Documentation Evidence for Sprint Review"
+              alias: docs evidence
+            - title: "6.2.1.8. Software Deployment Evidence for Sprint Review"
+              alias: deploy evidence
+            - title: "6.2.1.9. Team Collaboration Insights during Sprint"
+              alias: collaboration insights
 - title: Conclusiones
   children:
     - title: Conclusiones y recomendaciones
