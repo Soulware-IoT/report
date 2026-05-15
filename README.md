@@ -2859,18 +2859,6 @@ En esta seccion se presenta la imagen de database diagram del contexto restauran
 
 ### 6.1.1. Software Development Environment Configuration
 
-
-
-### 6.1.2. Source Code Management
-
-
-
-### 6.1.3. Source Code Style Guide & Conventions
-
-
-
-### 6.1.4. Software Deployment Configuration
-
 En esta sección se especifican los productos de software y herramientas utilizados por los miembros del equipo para colaborar en el ciclo de vida del producto digital Cocina360.
 
 <table>
@@ -2987,6 +2975,18 @@ En esta sección se especifican los productos de software y herramientas utiliza
         </tr>
     </tbody>
 </table>
+
+### 6.1.2. Source Code Management
+
+
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+
+
+### 6.1.4. Software Deployment Configuration
+
+
 
 ## 6.2. Landing Page, Services & Applications Implementation
 
