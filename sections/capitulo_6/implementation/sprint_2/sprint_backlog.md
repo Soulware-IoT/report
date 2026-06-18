@@ -19,9 +19,6 @@ En este sprint se desarrollan las funcionalidades de gestión de organizaciones,
     </thead>
     <tbody>
         <tr>
-            <td colspan="8"><b>Organizations</b></td>
-        </tr>
-        <tr>
             <td rowspan="2">US-24</td>
             <td rowspan="2">Configurar ubicación (dirección física y referencia)</td>
             <td>T01</td>
@@ -128,9 +125,6 @@ En este sprint se desarrollan las funcionalidades de gestión de organizaciones,
             <td>5</td>
             <td>Guerrero Tomas</td>
             <td>Done</td>
-        </tr>
-        <tr>
-            <td colspan="8"><b>Intern Control</b></td>
         </tr>
         <tr>
             <td rowspan="2">US-6</td>
@@ -257,9 +251,6 @@ En este sprint se desarrollan las funcionalidades de gestión de organizaciones,
             <td>6</td>
             <td>Álvaro Joaquín</td>
             <td>Done</td>
-        </tr>
-        <tr>
-            <td colspan="8"><b>IoT Platform</b></td>
         </tr>
         <tr>
             <td rowspan="2">US-14</td>
