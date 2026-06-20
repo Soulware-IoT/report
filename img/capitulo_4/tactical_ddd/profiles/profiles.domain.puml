@@ -1,0 +1,115 @@
+@startuml
+skinparam packageStyle rectangle
+
+title Profiles - Domain Structure
+
+package "Profiles" {
+    package "Domain" {
+        package "Model" {
+            package "Aggregates" {
+                class Profile <<AggregateRoot>> {
+                    -ProfileId id
+                    -String fullName
+                    -String preferredName
+                    -Email email
+                    -String avatarUrl
+                    -Instant createdAt
+                    -Instant updatedAt
+                    +{static} rehydrate(...): Profile
+                    +requireSelf(requesterId: ProfileId): void
+                    +updateDetails(fullName, preferredName, avatarUrl): void
+                }
+            }
+            package "ValueObjects" {
+                class ProfileId <<ValueObject>> {
+                    -UUID value
+                }
+                class Email <<ValueObject>> {
+                    -String value
+                }
+            }
+            package "Events" {
+                class ProfileDetailsUpdated <<DomainEvent>> {
+                    -UUID profileId
+                    -Instant occurredOn
+                }
+            }
+            package "Commands" {
+                class UpdateProfileDetailsCommand <<Command>> {
+                    -UUID profileId
+                    -UUID requesterId
+                    -String fullName
+                    -String preferredName
+                    -String avatarUrl
+                }
+            }
+            package "Queries" {
+                class GetProfileQuery <<Query>> {
+                    -UUID profileId
+                }
+                class GetProfileByEmailQuery <<Query>> {
+                    -String email
+                }
+                class ListProfilesByIdsQuery <<Query>> {
+                    -Collection<UUID> profileIds
+                }
+            }
+            package "Exceptions" {
+                class ProfileNotFoundException <<DomainException>>
+                class InvalidEmailException <<DomainException>>
+                class NotProfileOwnerException <<DomainException>>
+            }
+        }
+        package "Repository" {
+            interface ProfileRepository <<DomainRepository>> {
+                +save(profile: Profile): void
+                +findById(id: ProfileId): Optional<Profile>
+                +findByEmail(email: Email): Optional<Profile>
+                +existsById(id: ProfileId): boolean
+                +findAllById(ids: Collection<ProfileId>): List<Profile>
+                +delete(profile: Profile): void
+            }
+        }
+        package "Services" {
+            package "CommandServices" {
+                class ProfileCommandService <<ApplicationService>> {
+                    +handle(command: UpdateProfileDetailsCommand): void
+                }
+            }
+            package "QueryServices" {
+                class ProfileQueryService <<ApplicationService>> {
+                    +handle(query: GetProfileQuery): ProfileResult
+                    +handle(query: GetProfileByEmailQuery): ProfileResult
+                    +handle(query: ListProfilesByIdsQuery): List<ProfileResult>
+                }
+            }
+        }
+    }
+}
+
+' === RELACIONES DE DOMINIO: Profiles ===
+
+Profiles.Domain.Model.Aggregates.Profile ..> Profiles.Domain.Model.ValueObjects.ProfileId
+Profiles.Domain.Model.Aggregates.Profile ..> Profiles.Domain.Model.ValueObjects.Email
+Profiles.Domain.Model.Aggregates.Profile ..> Profiles.Domain.Model.Events.ProfileDetailsUpdated
+Profiles.Domain.Model.Aggregates.Profile ..> Profiles.Domain.Model.Exceptions.NotProfileOwnerException
+
+Profiles.Domain.Model.ValueObjects.Email ..> Profiles.Domain.Model.Exceptions.InvalidEmailException
+
+Profiles.Domain.Repository.ProfileRepository ..> Profiles.Domain.Model.Aggregates.Profile
+Profiles.Domain.Repository.ProfileRepository ..> Profiles.Domain.Model.ValueObjects.ProfileId
+Profiles.Domain.Repository.ProfileRepository ..> Profiles.Domain.Model.ValueObjects.Email
+
+Profiles.Domain.Services.CommandServices.ProfileCommandService ..> Profiles.Domain.Model.Commands.UpdateProfileDetailsCommand
+Profiles.Domain.Services.CommandServices.ProfileCommandService ..> Profiles.Domain.Model.Aggregates.Profile
+Profiles.Domain.Services.CommandServices.ProfileCommandService ..> Profiles.Domain.Repository.ProfileRepository
+Profiles.Domain.Services.CommandServices.ProfileCommandService ..> Profiles.Domain.Model.Exceptions.ProfileNotFoundException
+
+Profiles.Domain.Services.QueryServices.ProfileQueryService ..> Profiles.Domain.Model.Queries.GetProfileQuery
+Profiles.Domain.Services.QueryServices.ProfileQueryService ..> Profiles.Domain.Model.Queries.GetProfileByEmailQuery
+Profiles.Domain.Services.QueryServices.ProfileQueryService ..> Profiles.Domain.Model.Queries.ListProfilesByIdsQuery
+Profiles.Domain.Services.QueryServices.ProfileQueryService ..> Profiles.Domain.Model.Aggregates.Profile
+Profiles.Domain.Services.QueryServices.ProfileQueryService ..> Profiles.Domain.Repository.ProfileRepository
+Profiles.Domain.Services.QueryServices.ProfileQueryService ..> Profiles.Domain.Model.Exceptions.ProfileNotFoundException
+
+@enduml

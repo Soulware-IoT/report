@@ -180,6 +180,26 @@
                   alias: domain class diagrams
                 - title: "4.2.3.6.2. Bounded Context Database Design Diagram"
                   alias: database diagram
+        - title: "4.2.4. Bounded Context: Profiles"
+          alias: profiles
+          children:
+            - title: "4.2.4.1. Domain Layer"
+              alias: domain layer
+            - title: "4.2.4.2. Interface Layer"
+              alias: interface layer
+            - title: "4.2.4.3. Application Layer"
+              alias: application layer
+            - title: "4.2.4.4. Infrastructure Layer"
+              alias: infrastructure layer
+            - title: "4.2.4.5. Bounded Context Software Architecture Component Level Diagrams"
+              alias: component diagrams
+            - title: "4.2.4.6. Bounded Context Software Architecture Code Level Diagrams"
+              alias: code diagrams
+              children:
+                - title: "4.2.4.6.1. Bounded Context Domain Layer Class Diagrams"
+                  alias: domain class diagrams
+                - title: "4.2.4.6.2. Bounded Context Database Design Diagram"
+                  alias: database diagram
 - title: "Capítulo V: Solution UI/UX Design"
   alias: capitulo 5
   children:
