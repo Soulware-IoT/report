@@ -1,0 +1,52 @@
+@startuml
+skinparam packageStyle rectangle
+
+title Profiles - Infrastructure Layer Structure
+
+package "Profiles" {
+    package "Infrastructure.Persistence" {
+        package "JPA" {
+            package "Entities" {
+                class ProfileJpaEntity <<JpaEntity>> {
+                    -UUID id
+                    -String fullName
+                    -String preferredName
+                    -String email
+                    -String avatarUrl
+                    -Instant createdAt
+                    -Instant updatedAt
+                }
+            }
+            package "Repositories" {
+                class ProfileJpaRepository <<JpaRepository>> {
+                    +findByEmail(email: String): Optional<ProfileJpaEntity>
+                    +findById(id: UUID): Optional<ProfileJpaEntity>
+                    +findAllById(ids: List<UUID>): List<ProfileJpaEntity>
+                    +existsById(id: UUID): boolean
+                    +save(entity: ProfileJpaEntity): ProfileJpaEntity
+                    +deleteById(id: UUID): void
+                }
+            }
+            package "Adapters" {
+                class ProfileRepositoryAdapter <<RepositoryAdapter>> {
+                    +save(profile: Profile): Profile
+                    +findById(id: ProfileId): Optional<Profile>
+                    +findByEmail(email: Email): Optional<Profile>
+                    +existsById(id: ProfileId): boolean
+                    +findAllById(ids: Collection<ProfileId>): List<Profile>
+                    +delete(profile: Profile): void
+                    -toJpaEntity(profile: Profile): ProfileJpaEntity
+                    -toDomain(entity: ProfileJpaEntity): Profile
+                }
+            }
+        }
+    }
+}
+
+' === RELACIONES DE INFRASTRUCTURE: Profiles ===
+Profiles.Infrastructure.Persistence.JPA.Repositories.ProfileJpaRepository ..> Profiles.Infrastructure.Persistence.JPA.Entities.ProfileJpaEntity
+
+Profiles.Infrastructure.Persistence.JPA.Adapters.ProfileRepositoryAdapter ..> Profiles.Infrastructure.Persistence.JPA.Repositories.ProfileJpaRepository
+Profiles.Infrastructure.Persistence.JPA.Adapters.ProfileRepositoryAdapter ..> Profiles.Infrastructure.Persistence.JPA.Entities.ProfileJpaEntity
+
+@enduml
