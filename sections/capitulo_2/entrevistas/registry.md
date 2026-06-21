@@ -1,6 +1,6 @@
 **DUEÑOS DE RESTAURANTES**
 
-Enlace de vídeo de elicitación: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ"> https://upcedupe-my.sharepoint.com/:<span>v</span>:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ</a>
+Enlace de vídeo de elicitación: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ">https://upcedupe-my.sharepoint.com/&#58;v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ</a>
 
 <table>
     <thead>
