@@ -19,15 +19,3 @@ Se implementó una página de valor profesional con interfaz amigable para los s
 Se desarrollaron los primeros endpoints de la API REST de Cocina360. Se implementó la autenticación mediante OAuth 2.0 con Google (registro e inicio de sesión), la creación de organizaciones y la gestión completa de procesos de control interno: creación, listado, renombrado y suspensión.
 
 + **Link de despliegue** [https://cocina360-api.azurewebsites.net](https://cocina360-api.azurewebsites.net)
-
-
-**SPA (Single Page Application)**
-
-Se desarrollaron las primeras vistas funcionales de la aplicación web. Se implementaron las pantallas de autenticación con Google, el flujo de creación de organización y el módulo de procesos de control interno con sus operaciones de listado, creación, renombrado y suspensión. Asimismo, se integró la vista de suscripciones activas del usuario.
-
-+ **Link de despliegue** [https://cocina360-spa.azurestaticapps.net](https://cocina360-spa.azurestaticapps.net)
-
-
-**Azure**
-
-Para el despliegue de los servicios desarrollados en este sprint se utilizó Microsoft Azure como plataforma cloud. El Backend fue alojado mediante Azure App Service, mientras que la SPA fue publicada a través de Azure Static Web Apps. Ambos servicios se benefician de la infraestructura gestionada de Azure, garantizando disponibilidad, escalabilidad y un entorno seguro para las pruebas del sprint.
