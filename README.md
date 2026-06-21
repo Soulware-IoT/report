@@ -374,6 +374,20 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
 
 <div style="page-break-after: always;"></div>
 
+**TB1**
+
+Para esta entrega del TB1, la división fue principalmente según disponibilidad. Los compañeros ocupados con tasks de programación no documentaron en el informe.
+
+**COLABORACIÓN**
+
+<img style="width: 90%;" src="./img/insights/tb1/collaboration.png">
+
+**COMMITS**
+
+<img src="./img/insights/tb1/commits.png">
+
+<div style="page-break-after: always;"></div>
+
 # Contenido
 
 ## Tabla de contenidos
@@ -546,6 +560,7 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
                 <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Facilité la toma de decisiones basada en la investigación de usuarios y la validación de requerimientos externos mediante entrevistas.<br><br>
                 <strong>León Vivas, Fabrizio Amir:</strong> Fomenté el liderazgo conjunto mediante el análisis detallado de la experiencia de usuario y el alineamiento de los objetivos técnicos.<br><br>
                 <strong>Orozco Torres, Álvaro Joaquín:</strong> Ejercí la coordinación estratégica y la definición de la visión del producto, liderando la interacción con los interesados para guiar el desarrollo.<br><br>
+<<<<<<< HEAD
                 <strong>Reaño Delgadillo, Henry Paolo:</strong> Aporté liderazgo en la definición de la arquitectura sistémica y la validación técnica de los procesos del equipo.<br><br>
                 <strong>TP</strong><br><br>
                 <strong>Chi Cruzatt, Kevin Jorge:</strong> Asumí el liderazgo de la Web Application, coordinando el diseño de los endpoints de creación de procesos y el flujo de creación de organizaciones para guiar al equipo de frontend.<br><br>
@@ -567,6 +582,23 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
                 Consolidamos un liderazgo distribuido por componentes, donde cada integrante condujo un frente técnico del sistema manteniendo una visión conjunta del producto.<br><br>
                 <strong>AV2</strong><br><br>
                 Reforzamos el liderazgo compartido rotando las responsabilidades entre componentes, lo que fortaleció la autonomía técnica y la cohesión del equipo.
+=======
+                <strong>Reaño Delgadillo, Henry Paolo:</strong> Aporté liderazgo en la definición de la arquitectura sistémica y la validación técnica de los procesos del equipo.
+                <br><br>
+                <strong>TP</strong><br><br>
+                <strong>Orozco Torres, Álvaro Joaquín:</strong> Lideré la investigación de campo y el diseño técnico del dispositivo IoT, asumiendo la responsabilidad de la especificación del hardware y su futura integración con el ecosistema digital.<br><br>
+                <strong>Chi Cruzatt, Kevin Jorge:</strong> Lideré el desarrollo de la lógica de negocio y los servicios core en el backend, asegurando la estabilidad de la arquitectura para la entrega parcial.<br><br>
+                <strong>Reaño Delgadillo, Henry Paolo:</strong> Coordiné la implementación de las APIs y la capa de servicios del backend, manteniendo el liderazgo técnico en la gestión de datos y persistencia.<br><br>
+                <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Lideré la integración técnica con sistemas externos de autenticación, encabezando la implementación de Open Auth mediante Supabase.<br><br>
+                <strong>León Vivas, Fabrizio Amir:</strong> Fomenté el liderazgo conjunto al coordinar la sincronización del backend con los servicios de identidad, asegurando la seguridad de los accesos al sistema.
+            </td>
+            <td style="padding: 10px; vertical-align: top; font-size: 14px; border: none;">
+                <strong>AV1</strong><br><br>
+                Logramos una integración efectiva de nuestras capacidades para liderar el proyecto, asegurando una visión unificada y la validación constante con los interesados.
+                <br><br>
+                <strong>TP</strong><br><br>
+                Consolidamos un liderazgo multidisciplinario que permitió integrar exitosamente hardware y software, cumpliendo con los estándares técnicos exigidos para el Trabajo Parcial.
+>>>>>>> main
             </td>
         </tr>
         <tr>
@@ -579,6 +611,7 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
                 <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Participé activamente en el establecimiento de metas de investigación, promoviendo la inclusión de las necesidades del usuario en la planificación.<br><br>
                 <strong>León Vivas, Fabrizio Amir:</strong> Apoyé el cumplimiento de objetivos mediante la ejecución organizada de tareas de investigación y el soporte continuo al entorno colaborativo.<br><br>
                 <strong>Orozco Torres, Álvaro Joaquín:</strong> Gestioné la planificación de tareas y la especificación de requerimientos, garantizando que cumpliéramos las metas propuestas de manera inclusiva.<br><br>
+<<<<<<< HEAD
                 <strong>Reaño Delgadillo, Henry Paolo:</strong> Alinié el diseño de arquitectura con los objetivos generales y cronogramas, manteniendo la productividad del entorno colaborativo.<br><br>
                 <strong>TP</strong><br><br>
                 <strong>Chi Cruzatt, Kevin Jorge:</strong> Cumplí los objetivos asignados completando el diseño del flujo de organización y los endpoints de procesos dentro de los plazos planificados.<br><br>
@@ -1063,6 +1096,8 @@ Se presenta la primera iteración del Lean UX Canvas v2, utilizando las recomend
 ### 2.2.2. Registro de entrevistas
 
 **DUEÑOS DE RESTAURANTES**
+
+Enlace de vídeo de elicitación: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ"> https://upcedupe-my.sharepoint.com/:<span>v</span>:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ</a>
 
 <table>
     <thead>
@@ -3397,7 +3432,7 @@ Se han definido dos variantes para asegurar una experiencia satisfactoria en cua
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/landing/wireframe/mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/landing/wireframe/mobile.png">
 
 
 <div style="page-break-after: always;"></div>
@@ -3434,7 +3469,7 @@ El Mock-up detalla la transición del sistema entre diferentes contextos de uso:
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/landing/mockup/mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/landing/mockup/mobile.png">
 
 
 <div style="page-break-after: always;"></div>
@@ -3460,11 +3495,19 @@ El diseño se centra en la visualización de telemetría y el estado de salud de
 
 <div style="page-break-after: always;"></div>
 
+<<<<<<< HEAD
 <img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_1.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
 <img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_2.png" style="max-height: 400px;">
+=======
+<img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_1.png">
+
+<div style="page-break-after: always;"></div>
+
+<img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_2.png">
+>>>>>>> main
 
 **PROCESOS DE CONTROL INTERNO**
 
@@ -3477,7 +3520,11 @@ Esta sección define la estructura para la creación y ejecución de formatos de
 
 <div style="page-break-after: always;"></div>
 
+<<<<<<< HEAD
 <img src="./img/capitulo_5/applications/wireframe/control_processes_mobile.png" style="max-height: 400px;">
+=======
+<img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/control_processes_mobile.png">
+>>>>>>> main
 
 **GESTIÓN ORGANIZACIONAL Y RRHH**
 
@@ -3490,7 +3537,11 @@ Estructura para la administración de la identidad del restaurante y el control 
 
 <div style="page-break-after: always;"></div>
 
+<<<<<<< HEAD
 <img src="./img/capitulo_5/applications/wireframe/organization_management_mobile.png" style="max-height: 400px;">
+=======
+<img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/organization_management_mobile.png">
+>>>>>>> main
 
 <div style="page-break-after: always;"></div>
 
@@ -3498,7 +3549,11 @@ Estructura para la administración de la identidad del restaurante y el control 
 
 <div style="page-break-after: always;"></div>
 
+<<<<<<< HEAD
 <img src="./img/capitulo_5/applications/wireframe/member_details_mobile.png" style="max-height: 400px;">
+=======
+<img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/member_details_mobile.png">
+>>>>>>> main
 
 <div style="page-break-after: always;"></div>
 
@@ -3506,7 +3561,11 @@ Estructura para la administración de la identidad del restaurante y el control 
 
 <div style="page-break-after: always;"></div>
 
+<<<<<<< HEAD
 <img src="./img/capitulo_5/applications/wireframe/edit_organization_mobile.png" style="max-height: 400px;">
+=======
+<img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/edit_organization_mobile.png">
+>>>>>>> main
 
 
 <div style="page-break-after: always;"></div>
@@ -3532,7 +3591,7 @@ Se aplica el concepto de "Status Cards" dinámicas, donde el color verde y rojo 
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/mockup/iot_devices_dashboard_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/mockup/iot_devices_dashboard_mobile.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -3540,7 +3599,7 @@ Se aplica el concepto de "Status Cards" dinámicas, donde el color verde y rojo 
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/mockup/iot_device_detail_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/mockup/iot_device_detail_mobile.png">
 
 **SISTEMA DE PROCESOS Y CUMPLIMIENTO**
 
@@ -3550,7 +3609,7 @@ La interfaz de procesos utiliza una estética limpia que facilita la concentraci
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/mockup/control_processes_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/mockup/control_processes_mobile.png">
 
 **ADMINISTRACIÓN Y CONFIGURACIÓN**
 
@@ -3560,7 +3619,7 @@ Los paneles de organización y gestión de miembros reflejan la solidez de la ma
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/mockup/organization_management_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/mockup/organization_management_mobile.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -3568,7 +3627,7 @@ Los paneles de organización y gestión de miembros reflejan la solidez de la ma
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/mockup/member_details_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/mockup/member_details_mobile.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -3576,7 +3635,7 @@ Los paneles de organización y gestión de miembros reflejan la solidez de la ma
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/mockup/edit_organization_mobile.png">
+<img style="width: 60%;" src="./img/capitulo_5/applications/mockup/edit_organization_mobile.png">
 
 
 <div style="page-break-after: always;"></div>
@@ -4627,17 +4686,6 @@ Se desarrollaron los primeros endpoints de la API REST de Cocina360. Se implemen
 + **Link de despliegue** [https://cocina360-api.azurewebsites.net](https://cocina360-api.azurewebsites.net)
 
 
-**SPA (Single Page Application)**
-
-Se desarrollaron las primeras vistas funcionales de la aplicación web. Se implementaron las pantallas de autenticación con Google, el flujo de creación de organización y el módulo de procesos de control interno con sus operaciones de listado, creación, renombrado y suspensión. Asimismo, se integró la vista de suscripciones activas del usuario.
-
-+ **Link de despliegue** [https://cocina360-spa.azurestaticapps.net](https://cocina360-spa.azurestaticapps.net)
-
-
-**Azure**
-
-Para el despliegue de los servicios desarrollados en este sprint se utilizó Microsoft Azure como plataforma cloud. El Backend fue alojado mediante Azure App Service, mientras que la SPA fue publicada a través de Azure Static Web Apps. Ambos servicios se benefician de la infraestructura gestionada de Azure, garantizando disponibilidad, escalabilidad y un entorno seguro para las pruebas del sprint.
-
 <div style="page-break-after: always;"></div>
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
@@ -4699,13 +4747,27 @@ La landing page fue desplegada en Vercel, disponible en [https://soulware-landin
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
-En el Sprint 1, se dividieron las tareas según las funcionalidades del sistema y se asignaron a los integrantes del equipo considerando sus competencias y experiencia. Esta estrategia facilitó una distribución más eficiente del trabajo y contribuyó a un progreso más ágil en el desarrollo.
+En esta sección se presentan los insights de colaboración y trabajo del equipo durante el Sprint 1, extraídos de las métricas de contribución en los diferentes repositorios de la organización Soulware-IoT.
+
+**API Gateway**
+<img style="width: 90%;" src="./img/capitulo_6/sprint_1/insights/apigw.png">
+
+**Front-end (SPA)**
+<img style="width: 90%;" src="./img/capitulo_6/sprint_1/insights/front.png">
+
+<div style="page-break-after: always;"></div>
+
+**Internal Control**
+<img style="width: 90%;" src="./img/capitulo_6/sprint_1/insights/internal-control.png">
 
 **Landing Page**
+<img style="width: 90%;" src="./img/capitulo_6/sprint_1/insights/landing.png">
 
-<img src="./img/capitulo_6/sprint_1/collaboration/network_landing.png">
+<div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_6/sprint_1/collaboration/commits_landing.png">
+**Restaurant**
+<br>
+<img style="width: 90%;" src="./img/capitulo_6/sprint_1/insights/restaurant.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -5845,14 +5907,20 @@ Se presenta el enlace al video About The Product.
 
 ## Conclusiones y recomendaciones
 
-Se establecen, a lo largo del desarrollo del proyecto, las siguientes conclusiones:
-- Se ha logrado identificar y validar la problemática detectada en la investigación preliminar a través de las entrevistas, encontrando una respuesta por parte de los usuarios principalmente positiva.
-- Se han planteado las características del producto que resuelven la problemática a través de las historias de usuario y product backlog.
-- Se ha realizado una primera iteración del diseño de la arquitectura de la solución, consistiendo en una arquitectura SoA RESTful, incluyendo las cuatro capas de C4.
-- Se ha refinado el diseño táctico Domain-Driven Design, corrigiendo todos los bounded contexts mediante refactorización e incorporando el bounded context de Profiles para una mejor separación de responsabilidades.
-- Se ha definido el diseño UI/UX de la solución, estableciendo las style guidelines, la arquitectura de información y los wireframes, mock-ups y prototipos de la landing page y las aplicaciones web y móvil.
-- Se ha implementado el producto de forma incremental mediante dos sprints, desarrollando la landing page, los servicios backend, las aplicaciones web y móvil y el dispositivo IoT, junto con la evidencia de desarrollo, pruebas, ejecución, documentación y despliegue de cada sprint.
-- Se ha validado la solución implementada a través de entrevistas de validación y evaluaciones heurísticas, confirmando que el producto responde a las necesidades de los usuarios objetivo.
+Se establecen, para el cierre de esta etapa del proyecto, las siguientes conclusiones:
+
+- **Madurez del Diseño UX/UI:** Se ha consolidado una identidad visual y arquitectura de información coherente, centrada en el minimalismo industrial y la legibilidad crítica, lo que garantiza una curva de aprendizaje mínima para los operarios de cocina.
+- **Arquitectura y Backend Funcional:** La implementación del núcleo del sistema y su integración exitosa con servicios de identidad externos (Supabase) valida la arquitectura SoA RESTful propuesta, asegurando un entorno seguro y escalable.
+- **Refinamiento del Diseño Táctico DDD:** La refactorización de los bounded contexts y la incorporación del bounded context de Profiles han mejorado la separación de responsabilidades y la mantenibilidad del dominio de la solución.
+- **Definición del Ecosistema IoT:** Se ha completado con éxito la fase de diseño y especificación técnica del hardware, logrando un alineamiento total entre la capacidad de monitorización de los sensores y los requerimientos operativos del negocio.
+- **Gestión Ágil:** La ejecución de los Sprint 1 y 2 ha permitido validar la metodología de trabajo del equipo, logrando el cumplimiento de los hitos de desarrollo, documentación y despliegue dentro de los plazos establecidos.
+- **Validación con Usuarios:** Las entrevistas de validación y las evaluaciones heurísticas han confirmado que el producto responde a las necesidades de los usuarios objetivo, retroalimentando las siguientes iteraciones del diseño y la implementación.
+
+**Recomendaciones:**
+
+- **Fase de Construcción Física:** Se recomienda iniciar el ensamblaje del prototipo físico del dispositivo IoT basado en los esquemáticos desarrollados para validar la telemetría en condiciones reales de calor y humo.
+- **Validación de Usabilidad:** Es aconsejable realizar pruebas de usuario con los mockups de alta fidelidad para ajustar la densidad de información en las aplicaciones móviles antes de la codificación del frontend.
+- **Estandarización de Datos:** Se sugiere profundizar en la normalización de los logs de sensores para optimizar el almacenamiento y facilitar el análisis predictivo en futuras iteraciones de la solución.
 
 
 <div style="page-break-after: always;"></div>
@@ -5879,7 +5947,10 @@ Se establecen, a lo largo del desarrollo del proyecto, las siguientes conclusion
 
 ## Videos de Exposiciones
 
-- Video de exposición AV1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei)
+- Video de exposición AV1: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei"> https://upcedupe-my.sharepoint.com/:<span>v</span>:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei</a>
+
+- Video de exposición TB1:  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQDltWxRNpLlTpO8BwCbVBzJAYWVtVDo190SYdud3-ifSEs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LkzEk5"> https://upcedupe-my.sharepoint.com/:<span>v</span>:/g/personal/u202220783_upc_edu_pe/IQDltWxRNpLlTpO8BwCbVBzJAYWVtVDo190SYdud3-ifSEs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LkzEk5</a>
+
 
 <div style="page-break-after: always;"></div>
 
@@ -5887,6 +5958,7 @@ Se establecen, a lo largo del desarrollo del proyecto, las siguientes conclusion
 
 - Vídeo de entrevistas de elicitación: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ)
 - Video About The Product: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQBFiR8TXtsjRrn-Kkv93JhlAR2bEit0BQMSBzZjrc2ECnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4FMqHN](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQBFiR8TXtsjRrn-Kkv93JhlAR2bEit0BQMSBzZjrc2ECnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4FMqHN)
+
 
 <div style="page-break-after: always;"></div>
 
