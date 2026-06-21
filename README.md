@@ -5691,7 +5691,7 @@ En el Sprint 2, se dividieron las tareas según las funcionalidades del sistema 
 
 ## 6.4. Video About-the-Product
 
-
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQBFiR8TXtsjRrn-Kkv93JhlAR2bEit0BQMSBzZjrc2ECnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4FMqHN](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQBFiR8TXtsjRrn-Kkv93JhlAR2bEit0BQMSBzZjrc2ECnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4FMqHN)
 
 <div style="page-break-after: always;"></div>
 
