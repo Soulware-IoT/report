@@ -313,6 +313,15 @@ Para esta entrega del AV1, la división fue principalmente en torno a los grande
       - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
         - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+    - [4.2.4. Bounded Context: Profiles](#424-bounded-context-profiles)
+      - [4.2.4.1. Domain Layer](#4241-domain-layer)
+      - [4.2.4.2. Interface Layer](#4242-interface-layer)
+      - [4.2.4.3. Application Layer](#4243-application-layer)
+      - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+      - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
+        - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
 - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-ui-ux-design)
   - [5.1. Style Guidelines](#51-style-guidelines)
     - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
@@ -4503,6 +4512,14 @@ Base URL: `http://localhost:8080/restaurant`
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
+En esta sección se presenta la evidencia del despliegue de los servicios desarrollados durante el Sprint 1.
+
+**Landing Page**
+
+La landing page fue desplegada en Vercel, disponible en [https://soulware-landing.vercel.app/](https://soulware-landing.vercel.app/).
+
+<img src="./img/capitulo_6/sprint_1/deploy/landing1.png">
+<img src="./img/capitulo_6/sprint_1/deploy/landing2.png">
 
 
 <div style="page-break-after: always;"></div>
@@ -5546,6 +5563,35 @@ Endpoints de uso interno para el aprovisionamiento de dispositivos. No están ex
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
+En esta sección se presenta la evidencia del despliegue de los servicios desarrollados durante el Sprint 2.
+
+**API Gateway**
+
+El API Gateway fue desplegado como servicio en Railway, actuando como punto de entrada unificado para todos los bounded contexts del backend.
+
+<img src="./img/capitulo_6/sprint_2/deploy/api_gw1.png">
+<img src="./img/capitulo_6/sprint_2/deploy/api_gw2.png">
+<img src="./img/capitulo_6/sprint_2/deploy/api_gw3.png">
+<img src="./img/capitulo_6/sprint_2/deploy/api_gw4.png">
+
+**Backend**
+
+El backend fue desplegado en Railway, exponiendo los servicios RESTful de los bounded contexts desarrollados en el sprint.
+
+<img src="./img/capitulo_6/sprint_2/deploy/backend1.png">
+<img src="./img/capitulo_6/sprint_2/deploy/backend2.png">
+<img src="./img/capitulo_6/sprint_2/deploy/backend3.png">
+<img src="./img/capitulo_6/sprint_2/deploy/backend4.png">
+<img src="./img/capitulo_6/sprint_2/deploy/backend5.png">
+
+**Web Application**
+
+La aplicación web fue desplegada y validada en su entorno de producción durante este sprint.
+
+<img src="./img/capitulo_6/sprint_2/deploy/web_app1.png">
+<img src="./img/capitulo_6/sprint_2/deploy/web_app2.png">
+<img src="./img/capitulo_6/sprint_2/deploy/web_app3.png">
+<img src="./img/capitulo_6/sprint_2/deploy/web_app4.png">
 
 
 <div style="page-break-after: always;"></div>
