@@ -560,7 +560,6 @@ Para esta entrega del TB1, la división fue principalmente según disponibilidad
                 <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Facilité la toma de decisiones basada en la investigación de usuarios y la validación de requerimientos externos mediante entrevistas.<br><br>
                 <strong>León Vivas, Fabrizio Amir:</strong> Fomenté el liderazgo conjunto mediante el análisis detallado de la experiencia de usuario y el alineamiento de los objetivos técnicos.<br><br>
                 <strong>Orozco Torres, Álvaro Joaquín:</strong> Ejercí la coordinación estratégica y la definición de la visión del producto, liderando la interacción con los interesados para guiar el desarrollo.<br><br>
-<<<<<<< HEAD
                 <strong>Reaño Delgadillo, Henry Paolo:</strong> Aporté liderazgo en la definición de la arquitectura sistémica y la validación técnica de los procesos del equipo.<br><br>
                 <strong>TP</strong><br><br>
                 <strong>Chi Cruzatt, Kevin Jorge:</strong> Asumí el liderazgo de la Web Application, coordinando el diseño de los endpoints de creación de procesos y el flujo de creación de organizaciones para guiar al equipo de frontend.<br><br>
@@ -582,23 +581,6 @@ Para esta entrega del TB1, la división fue principalmente según disponibilidad
                 Consolidamos un liderazgo distribuido por componentes, donde cada integrante condujo un frente técnico del sistema manteniendo una visión conjunta del producto.<br><br>
                 <strong>AV2</strong><br><br>
                 Reforzamos el liderazgo compartido rotando las responsabilidades entre componentes, lo que fortaleció la autonomía técnica y la cohesión del equipo.
-=======
-                <strong>Reaño Delgadillo, Henry Paolo:</strong> Aporté liderazgo en la definición de la arquitectura sistémica y la validación técnica de los procesos del equipo.
-                <br><br>
-                <strong>TP</strong><br><br>
-                <strong>Orozco Torres, Álvaro Joaquín:</strong> Lideré la investigación de campo y el diseño técnico del dispositivo IoT, asumiendo la responsabilidad de la especificación del hardware y su futura integración con el ecosistema digital.<br><br>
-                <strong>Chi Cruzatt, Kevin Jorge:</strong> Lideré el desarrollo de la lógica de negocio y los servicios core en el backend, asegurando la estabilidad de la arquitectura para la entrega parcial.<br><br>
-                <strong>Reaño Delgadillo, Henry Paolo:</strong> Coordiné la implementación de las APIs y la capa de servicios del backend, manteniendo el liderazgo técnico en la gestión de datos y persistencia.<br><br>
-                <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Lideré la integración técnica con sistemas externos de autenticación, encabezando la implementación de Open Auth mediante Supabase.<br><br>
-                <strong>León Vivas, Fabrizio Amir:</strong> Fomenté el liderazgo conjunto al coordinar la sincronización del backend con los servicios de identidad, asegurando la seguridad de los accesos al sistema.
-            </td>
-            <td style="padding: 10px; vertical-align: top; font-size: 14px; border: none;">
-                <strong>AV1</strong><br><br>
-                Logramos una integración efectiva de nuestras capacidades para liderar el proyecto, asegurando una visión unificada y la validación constante con los interesados.
-                <br><br>
-                <strong>TP</strong><br><br>
-                Consolidamos un liderazgo multidisciplinario que permitió integrar exitosamente hardware y software, cumpliendo con los estándares técnicos exigidos para el Trabajo Parcial.
->>>>>>> main
             </td>
         </tr>
         <tr>
@@ -611,7 +593,6 @@ Para esta entrega del TB1, la división fue principalmente según disponibilidad
                 <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Participé activamente en el establecimiento de metas de investigación, promoviendo la inclusión de las necesidades del usuario en la planificación.<br><br>
                 <strong>León Vivas, Fabrizio Amir:</strong> Apoyé el cumplimiento de objetivos mediante la ejecución organizada de tareas de investigación y el soporte continuo al entorno colaborativo.<br><br>
                 <strong>Orozco Torres, Álvaro Joaquín:</strong> Gestioné la planificación de tareas y la especificación de requerimientos, garantizando que cumpliéramos las metas propuestas de manera inclusiva.<br><br>
-<<<<<<< HEAD
                 <strong>Reaño Delgadillo, Henry Paolo:</strong> Alinié el diseño de arquitectura con los objetivos generales y cronogramas, manteniendo la productividad del entorno colaborativo.<br><br>
                 <strong>TP</strong><br><br>
                 <strong>Chi Cruzatt, Kevin Jorge:</strong> Cumplí los objetivos asignados completando el diseño del flujo de organización y los endpoints de procesos dentro de los plazos planificados.<br><br>
@@ -3495,19 +3476,11 @@ El diseño se centra en la visualización de telemetría y el estado de salud de
 
 <div style="page-break-after: always;"></div>
 
-<<<<<<< HEAD
-<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_1.png" style="max-height: 400px;">
-
-<div style="page-break-after: always;"></div>
-
-<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_2.png" style="max-height: 400px;">
-=======
 <img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_1.png">
 
 <div style="page-break-after: always;"></div>
 
 <img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_2.png">
->>>>>>> main
 
 **PROCESOS DE CONTROL INTERNO**
 
@@ -3520,11 +3493,7 @@ Esta sección define la estructura para la creación y ejecución de formatos de
 
 <div style="page-break-after: always;"></div>
 
-<<<<<<< HEAD
-<img src="./img/capitulo_5/applications/wireframe/control_processes_mobile.png" style="max-height: 400px;">
-=======
 <img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/control_processes_mobile.png">
->>>>>>> main
 
 **GESTIÓN ORGANIZACIONAL Y RRHH**
 
@@ -3537,11 +3506,7 @@ Estructura para la administración de la identidad del restaurante y el control 
 
 <div style="page-break-after: always;"></div>
 
-<<<<<<< HEAD
-<img src="./img/capitulo_5/applications/wireframe/organization_management_mobile.png" style="max-height: 400px;">
-=======
 <img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/organization_management_mobile.png">
->>>>>>> main
 
 <div style="page-break-after: always;"></div>
 
@@ -3549,11 +3514,7 @@ Estructura para la administración de la identidad del restaurante y el control 
 
 <div style="page-break-after: always;"></div>
 
-<<<<<<< HEAD
-<img src="./img/capitulo_5/applications/wireframe/member_details_mobile.png" style="max-height: 400px;">
-=======
 <img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/member_details_mobile.png">
->>>>>>> main
 
 <div style="page-break-after: always;"></div>
 
@@ -3561,11 +3522,7 @@ Estructura para la administración de la identidad del restaurante y el control 
 
 <div style="page-break-after: always;"></div>
 
-<<<<<<< HEAD
-<img src="./img/capitulo_5/applications/wireframe/edit_organization_mobile.png" style="max-height: 400px;">
-=======
 <img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/edit_organization_mobile.png">
->>>>>>> main
 
 
 <div style="page-break-after: always;"></div>
@@ -5947,9 +5904,11 @@ Se establecen, para el cierre de esta etapa del proyecto, las siguientes conclus
 
 ## Videos de Exposiciones
 
-- Video de exposición AV1: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei"> https://upcedupe-my.sharepoint.com/:<span>v</span>:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei</a>
+- Video de exposición AV1: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei">https://upcedupe-my.sharepoint.com/&#58;v:/g/personal/u202220783_upc_edu_pe/IQCEwJfPMkNwRrk7NUCJFiBBASikhTOk6mZqfYYny3blV9I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLk4Ei</a>
 
-- Video de exposición TB1:  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQDltWxRNpLlTpO8BwCbVBzJAYWVtVDo190SYdud3-ifSEs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LkzEk5"> https://upcedupe-my.sharepoint.com/:<span>v</span>:/g/personal/u202220783_upc_edu_pe/IQDltWxRNpLlTpO8BwCbVBzJAYWVtVDo190SYdud3-ifSEs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LkzEk5</a>
+- Video de exposición TB1: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/IQDltWxRNpLlTpO8BwCbVBzJAYWVtVDo190SYdud3-ifSEs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LkzEk5">https://upcedupe-my.sharepoint.com/&#58;v:/g/personal/u202220783_upc_edu_pe/IQDltWxRNpLlTpO8BwCbVBzJAYWVtVDo190SYdud3-ifSEs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LkzEk5</a>
+
+- Video de exposición AV2: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQCxjyuARq6WSbzM8GzS_k31AWKtngF9Q-3JEEl6NtXUSaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MHuRDX">https://upcedupe-my.sharepoint.com/&#58;v:/g/personal/u202222745_upc_edu_pe/IQCxjyuARq6WSbzM8GzS_k31AWKtngF9Q-3JEEl6NtXUSaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MHuRDX</a>
 
 
 <div style="page-break-after: always;"></div>
