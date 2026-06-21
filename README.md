@@ -47,7 +47,7 @@
         </tbody>
     </table>
     <div style="margin-top: 50px;">
-        <p>Lima - abril 2026</p>
+        <p>Lima - Junio 2026</p>
     </div>
 </div>
 
@@ -3452,19 +3452,19 @@ El diseño se centra en la visualización de telemetría y el estado de salud de
 - **Dashboard de Dispositivos:** Presenta una vista agregada de todos los sensores vinculados, utilizando tarjetas estructurales para facilitar el escaneo rápido de estados.
 - **Detalle de Dispositivo:** Permite profundizar en los datos históricos y la configuración específica de un sensor o actuador.
 
-<img src="./img/capitulo_5/applications/wireframe/iot_devices_dashboard_desktop.png">
+<img src="./img/capitulo_5/applications/wireframe/iot_devices_dashboard_desktop.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_desktop.png">
+<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_desktop.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_1.png">
+<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_1.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_2.png">
+<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_2.png" style="max-height: 400px;">
 
 **PROCESOS DE CONTROL INTERNO**
 
@@ -3473,11 +3473,11 @@ Esta sección define la estructura para la creación y ejecución de formatos de
 - **Panel de Procesos:** Lista las tareas y auditorías pendientes.
 - **Formularios de Registro:** Optimizados para una navegación secuencial.
 
-<img src="./img/capitulo_5/applications/wireframe/control_processes_desktop.png">
+<img src="./img/capitulo_5/applications/wireframe/control_processes_desktop.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/control_processes_mobile.png">
+<img src="./img/capitulo_5/applications/wireframe/control_processes_mobile.png" style="max-height: 400px;">
 
 **GESTIÓN ORGANIZACIONAL Y RRHH**
 
@@ -3486,27 +3486,27 @@ Estructura para la administración de la identidad del restaurante y el control 
 - **Administración de Miembros:** Gestión de roles y permisos.
 - **Configuración de Organización:** Edición de datos maestros y ubicación.
 
-<img src="./img/capitulo_5/applications/wireframe/organization_management_desktop.png">
+<img src="./img/capitulo_5/applications/wireframe/organization_management_desktop.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/organization_management_mobile.png">
+<img src="./img/capitulo_5/applications/wireframe/organization_management_mobile.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/member_details_desktop.png">
+<img src="./img/capitulo_5/applications/wireframe/member_details_desktop.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/member_details_mobile.png">
+<img src="./img/capitulo_5/applications/wireframe/member_details_mobile.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/edit_organization_desktop.png">
+<img src="./img/capitulo_5/applications/wireframe/edit_organization_desktop.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/edit_organization_mobile.png">
+<img src="./img/capitulo_5/applications/wireframe/edit_organization_mobile.png" style="max-height: 400px;">
 
 
 <div style="page-break-after: always;"></div>
@@ -3603,7 +3603,7 @@ El hardware presenta una estética minimalista y funcional, diseñada para ser i
 - **Interfaz Luminosa:** Se implementa un indicador LED perimetral que espeja la paleta semántica del sistema (Verde: Óptimo / Rojo: Alerta), permitiendo una supervisión visual rápida a distancia.
 - **Resistencia Térmica:** El chasis está fabricado en materiales ignífugos de alta durabilidad, capaces de soportar las temperaturas y la humedad características de una cocina profesional.
 
-<img src="./img/capitulo_5/iot/fire_detector/device.png">
+<img src="./img/capitulo_5/iot/fire_detector/device.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
@@ -3613,7 +3613,7 @@ La arquitectura interna del dispositivo se basa en un microcontrolador de bajo c
 - **Subsistema de Sensores:** Integra transductores especializados para la detección de partículas de humo y cambios bruscos de temperatura ambiental.
 - **Control de Actuadores:** El circuito incluye salidas de potencia para la activación automática de alarmas locales y sistemas de ventilación (turbinas), garantizando una mitigación inmediata del riesgo incluso en caso de pérdida de conexión externa.
 
-<img src="./img/capitulo_5/iot/fire_detector/circuit.png">
+<img src="./img/capitulo_5/iot/fire_detector/circuit.png" style="max-height: 400px;">
 
 **FLUJO DE OPERACIÓN Y CONEXIÓN**
 
@@ -5832,15 +5832,11 @@ En el Sprint 2, se dividieron las tareas según las funcionalidades del sistema 
 
 ## 6.4. Video About-the-Product
 
-<<<<<<< HEAD
-[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQBFiR8TXtsjRrn-Kkv93JhlAR2bEit0BQMSBzZjrc2ECnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4FMqHN](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQBFiR8TXtsjRrn-Kkv93JhlAR2bEit0BQMSBzZjrc2ECnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4FMqHN)
-=======
 Se presenta el enlace al video About The Product.
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQBFiR8TXtsjRrn-Kkv93JhlAR2bEit0BQMSBzZjrc2ECnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4FMqHN](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQBFiR8TXtsjRrn-Kkv93JhlAR2bEit0BQMSBzZjrc2ECnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4FMqHN)
 
 <img src="./img/capitulo_6/about_the_product.png">
->>>>>>> 04da53e (update conclussions and versions.md)
 
 
 <div style="page-break-after: always;"></div>
