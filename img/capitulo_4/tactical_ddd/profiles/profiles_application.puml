@@ -1,0 +1,39 @@
+@startuml
+skinparam packageStyle rectangle
+
+title Profiles - Application Layer Structure
+
+package "Profiles" {
+    package "Application.Internal" {
+        package "CommandServices" {
+            class ProfileCommandService <<ApplicationService>> {
+                +handle(command: UpdateProfileDetailsCommand): void
+            }
+        }
+        package "QueryServices" {
+            class ProfileQueryService <<ApplicationService>> {
+                +handle(query: GetProfileQuery): ProfileResult
+                +handle(query: GetProfileByEmailQuery): ProfileResult
+                +handle(query: ListProfilesByIdsQuery): List<ProfileResult>
+            }
+        }
+        package "Results" {
+            class ProfileResult <<Result>> {
+                -UUID profileId
+                -String fullName
+                -String preferredName
+                -String email
+                -String avatarUrl
+                -Instant createdAt
+                -Instant updatedAt
+                +{static} from(profile: Profile): ProfileResult
+            }
+        }
+    }
+}
+
+' === RELACIONES DE APPLICATION: Profiles ===
+Profiles.Application.Internal.CommandServices.ProfileCommandService ..> Profiles.Application.Internal.QueryServices.ProfileQueryService
+Profiles.Application.Internal.QueryServices.ProfileQueryService ..> Profiles.Application.Internal.Results.ProfileResult
+
+@enduml

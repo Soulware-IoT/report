@@ -1,0 +1,58 @@
+@startuml
+
+hide circle
+skinparam linetype ortho
+skinparam defaultFontName Arial
+skinparam defaultFontSize 13
+
+skinparam class {
+  BackgroundColor #FFF9E6
+  BorderColor #D4A017
+  HeaderBackgroundColor #F5C842
+  HeaderFontColor #3D2B00
+  AttributeFontColor #3D2B00
+  BorderThickness 2
+  RoundCorner 8
+}
+
+skinparam note {
+  BackgroundColor #FFFDE7
+  BorderColor #D4A017
+}
+
+title Soulware IoT - Non-Relational Database (MongoDB)
+
+' ==========================================
+' Safety / IoT bounded context - MongoDB
+' ==========================================
+
+class "<<collection>>\nreadings" as readings {
+  + _id : UUID  <<PK>>
+  ..
+  # deviceId : UUID  <<indexed>>
+  --
+  temperatureC : int
+  gasPpm : double
+  severity : SafetySeverity
+  occurredAt : ISODate
+  recordedAt : ISODate
+}
+
+note right of readings
+  **SafetySeverity** (enum)
+  ─────────────────
+  · LOW
+  · MODERATE
+  · HIGH
+  · CRITICAL
+end note
+
+note bottom of readings
+  **Indexes**
+  ─────────────────────────────────
+  · _id           (unique, default)
+  · deviceId      (single-field)
+  · occurredAt    (TTL / range)
+end note
+
+@enduml

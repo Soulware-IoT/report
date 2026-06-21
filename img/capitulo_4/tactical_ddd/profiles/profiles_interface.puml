@@ -1,0 +1,67 @@
+@startuml
+skinparam packageStyle rectangle
+
+title Profiles - Interface Layer Structure
+
+package "Profiles" {
+    package "Interfaces.Rest" {
+        package "Controllers" {
+            class ProfileController <<Controller>> {
+                +getById(id: UUID): ResponseEntity<ProfileResponse>
+                +getByEmail(email: String): ResponseEntity<ProfileResponse>
+                +updateDetails(id, request, requesterId): ResponseEntity<ProfileResponse>
+            }
+        }
+        package "Resources" {
+            class UpdateProfileDetailsRequest <<Request>> {
+                -String fullName
+                -String preferredName
+                -String avatarUrl
+                +toCommand(profileId, requesterId): UpdateProfileDetailsCommand
+            }
+            class ProfileResponse <<Response>> {
+                -UUID profileId
+                -String fullName
+                -String preferredName
+                -String email
+                -String avatarUrl
+                -Instant createdAt
+                -Instant updatedAt
+                +{static} from(result: ProfileResult): ProfileResponse
+            }
+        }
+    }
+    package "Interfaces.ACL" {
+        interface ProfilesApi <<ACLPort>> {
+            +requireProfileId(profileId: UUID): ProfileId
+            +requireProfileIdByEmail(email: String): ProfileId
+            +requireEmailByProfileId(profileId: UUID): String
+            +findProfiles(profileIds: Collection<UUID>): Map<UUID, ProfileSummary>
+        }
+        class ProfileSummary <<PublishedView>> {
+            -UUID profileId
+            -String fullName
+            -String preferredName
+            -String email
+            -String avatarUrl
+        }
+        class ProfilesApiImpl <<ACLAdapter>> {
+            +requireProfileId(profileId: UUID): ProfileId
+            +requireProfileIdByEmail(email: String): ProfileId
+            +requireEmailByProfileId(profileId: UUID): String
+            +findProfiles(profileIds: Collection<UUID>): Map<UUID, ProfileSummary>
+        }
+    }
+}
+
+' === RELACIONES DE INTERFACE: Profiles ===
+Profiles.Interfaces.Rest.Controllers.ProfileController ..> Profiles.Interfaces.Rest.Resources.UpdateProfileDetailsRequest
+Profiles.Interfaces.Rest.Controllers.ProfileController ..> Profiles.Interfaces.Rest.Resources.ProfileResponse
+
+Profiles.Interfaces.Rest.Resources.ProfileResponse ..> Profiles.Interfaces.ACL.ProfileSummary
+
+Profiles.Interfaces.ACL.ProfilesApiImpl ..|> Profiles.Interfaces.ACL.ProfilesApi
+Profiles.Interfaces.ACL.ProfilesApi ..> Profiles.Interfaces.ACL.ProfileSummary
+Profiles.Interfaces.ACL.ProfilesApiImpl ..> Profiles.Interfaces.ACL.ProfileSummary
+
+@enduml

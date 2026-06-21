@@ -6,7 +6,7 @@ El hardware presenta una estética minimalista y funcional, diseñada para ser i
 - **Interfaz Luminosa:** Se implementa un indicador LED perimetral que espeja la paleta semántica del sistema (Verde: Óptimo / Rojo: Alerta), permitiendo una supervisión visual rápida a distancia.
 - **Resistencia Térmica:** El chasis está fabricado en materiales ignífugos de alta durabilidad, capaces de soportar las temperaturas y la humedad características de una cocina profesional.
 
-<img src="../../img/capitulo_5/iot/fire_detector/device.png">
+<img src="../../img/capitulo_5/iot/fire_detector/device.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
@@ -16,7 +16,7 @@ La arquitectura interna del dispositivo se basa en un microcontrolador de bajo c
 - **Subsistema de Sensores:** Integra transductores especializados para la detección de partículas de humo y cambios bruscos de temperatura ambiental.
 - **Control de Actuadores:** El circuito incluye salidas de potencia para la activación automática de alarmas locales y sistemas de ventilación (turbinas), garantizando una mitigación inmediata del riesgo incluso en caso de pérdida de conexión externa.
 
-<img src="../../img/capitulo_5/iot/fire_detector/circuit.png">
+<img src="../../img/capitulo_5/iot/fire_detector/circuit.png" style="max-height: 400px;">
 
 **FLUJO DE OPERACIÓN Y CONEXIÓN**
 

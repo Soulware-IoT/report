@@ -180,6 +180,26 @@
                   alias: domain class diagrams
                 - title: "4.2.3.6.2. Bounded Context Database Design Diagram"
                   alias: database diagram
+        - title: "4.2.4. Bounded Context: Profiles"
+          alias: profiles
+          children:
+            - title: "4.2.4.1. Domain Layer"
+              alias: domain layer
+            - title: "4.2.4.2. Interface Layer"
+              alias: interface layer
+            - title: "4.2.4.3. Application Layer"
+              alias: application layer
+            - title: "4.2.4.4. Infrastructure Layer"
+              alias: infrastructure layer
+            - title: "4.2.4.5. Bounded Context Software Architecture Component Level Diagrams"
+              alias: component diagrams
+            - title: "4.2.4.6. Bounded Context Software Architecture Code Level Diagrams"
+              alias: code diagrams
+              children:
+                - title: "4.2.4.6.1. Bounded Context Domain Layer Class Diagrams"
+                  alias: domain class diagrams
+                - title: "4.2.4.6.2. Bounded Context Database Design Diagram"
+                  alias: database diagram
 - title: "Capítulo V: Solution UI/UX Design"
   alias: capitulo 5
   children:
@@ -263,6 +283,38 @@
               alias: deploy evidence
             - title: "6.2.1.9. Team Collaboration Insights during Sprint"
               alias: collaboration insights
+        - title: "6.2.2. Sprint 2"
+          alias: sprint 2
+          children:
+            - title: "6.2.2.1. Sprint Planning 2"
+              alias: sprint planning
+            - title: "6.2.2.2. Aspect Leaders and Collaborators"
+              alias: leaders collaborators
+            - title: "6.2.2.3. Sprint Backlog 2"
+              alias: sprint backlog
+            - title: "6.2.2.4. Development Evidence for Sprint Review"
+              alias: dev evidence
+            - title: "6.2.2.5. Testing Suite Evidence for Sprint Review"
+              alias: testing evidence
+            - title: "6.2.2.6. Execution Evidence for Sprint Review"
+              alias: execution evidence
+            - title: "6.2.2.7. Services Documentation Evidence for Sprint Review"
+              alias: docs evidence
+            - title: "6.2.2.8. Software Deployment Evidence for Sprint Review"
+              alias: deploy evidence
+            - title: "6.2.2.9. Team Collaboration Insights during Sprint"
+              alias: collaboration insights
+    - title: "6.3. Validation Interviews"
+      alias: validation interviews
+      children:
+        - title: "6.3.1. Diseño de Entrevistas"
+          alias: validation design
+        - title: "6.3.2. Registro de Entrevistas"
+          alias: validation registry
+        - title: "6.3.3. Evaluaciones según heurísticas"
+          alias: heuristicas
+    - title: "6.4. Video About-the-Product"
+      alias: about the product
 - title: Conclusiones
   children:
     - title: Conclusiones y recomendaciones

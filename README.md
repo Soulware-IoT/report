@@ -47,7 +47,7 @@
         </tbody>
     </table>
     <div style="margin-top: 50px;">
-        <p>Lima - mayo 2026</p>
+        <p>Lima - Junio 2026</p>
     </div>
 </div>
 
@@ -212,16 +212,16 @@
         </tr>
         <tr>
             <td>2.0</td>
-            <td>15/05/2026</td>
-            <td>Soulware IoT Team</td>
+            <td>16/05/2026</td>
+            <td>Orozco Torres, Álvaro Joaquín</td>
             <td>
                 <ul>
-                    <li><b>Capítulo V: UX/UI Design</b>
+                    <li><b>Capítulo V: Solution UI/UX Design</b>
                         <ul>
-                            <li>5.1. Estilo y Guía de Estilo
+                            <li>5.1. Style Guidelines
                                 <ul>
                                     <li>5.1.1. General Style Guidelines</li>
-                                    <li>5.1.2. Web, Mobile and IoT Style Guide</li>
+                                    <li>5.1.2. Web, Mobile and IoT Style Guidelines</li>
                                 </ul>
                             </li>
                             <li>5.2. Information Architecture
@@ -244,39 +244,108 @@
                                     <li>5.4.1. Applications Wireframes</li>
                                     <li>5.4.2. Applications Wireflow Diagrams</li>
                                     <li>5.4.3. Applications Mock-ups</li>
+                                    <li>5.4.4. Applications User Flow Diagrams</li>
                                 </ul>
                             </li>
-                            <li>5.5. Applications User Flow Diagrams</li>
+                            <li>5.5. Applications Prototyping</li>
                             <li>5.6. IoT Device Design</li>
                         </ul>
                     </li>
-                    <li><b>Capítulo VI: Product Implementation, Validation & Deployment</b>
+                    <li><b>Capítulo VI: Product Implementation, Validation &amp; Deployment</b>
                         <ul>
                             <li>6.1. Software Configuration Management
                                 <ul>
-                                    <li>6.1.1. Software Source Code Management</li>
-                                    <li>6.1.2. Software Configuration Environment Management</li>
-                                    <li>6.1.3. Software Deployment Configuration Management</li>
-                                    <li>6.1.4. Software Documentation Style Guide</li>
+                                    <li>6.1.1. Software Development Environment Configuration</li>
+                                    <li>6.1.2. Source Code Management</li>
+                                    <li>6.1.3. Source Code Style Guide &amp; Conventions</li>
+                                    <li>6.1.4. Software Deployment Configuration</li>
                                 </ul>
                             </li>
-                            <li>6.2. Software Solution Implementation
+                            <li>6.2. Landing Page, Services &amp; Applications Implementation
                                 <ul>
                                     <li>6.2.1. Sprint 1
                                         <ul>
                                             <li>6.2.1.1. Sprint Planning 1</li>
-                                            <li>6.2.1.2. Sprint Backlog 1</li>
-                                            <li>6.2.1.3. Development Evidence for Sprint 1</li>
-                                            <li>6.2.1.4. Testing Evidence for Sprint 1</li>
-                                            <li>6.2.1.5. Deployment Evidence for Sprint 1</li>
-                                            <li>6.2.1.6. Documentation Evidence for Sprint 1</li>
-                                            <li>6.2.1.7. Execution Evidence for Sprint 1</li>
-                                            <li>6.2.1.8. Leaders and Collaborators for Sprint 1</li>
-                                            <li>6.2.1.9. Collaboration Insights for Sprint 1</li>
+                                            <li>6.2.1.2. Aspect Leaders and Collaborators</li>
+                                            <li>6.2.1.3. Sprint Backlog 1</li>
+                                            <li>6.2.1.4. Development Evidence for Sprint Review</li>
+                                            <li>6.2.1.5. Testing Suite Evidence for Sprint Review</li>
+                                            <li>6.2.1.6. Execution Evidence for Sprint Review</li>
+                                            <li>6.2.1.7. Services Documentation Evidence for Sprint Review</li>
+                                            <li>6.2.1.8. Software Deployment Evidence for Sprint Review</li>
+                                            <li>6.2.1.9. Team Collaboration Insights during Sprint</li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>3.0</td>
+            <td>20/06/2026</td>
+            <td>León Vivas, Fabrizio Amir</td>
+            <td>
+                <ul>
+                    <li><b>Capítulo IV: Solution Software Design</b>
+                        <ul>
+                            <li>4.2. Tactical-Level Domain-Driven Design <i>(correcciones en todos los bounded contexts por refactorización)</i>
+                                <ul>
+                                    <li>4.2.4. Bounded Context: Profiles <i>(adición por refactor)</i>
+                                        <ul>
+                                            <li>4.2.4.1. Domain Layer</li>
+                                            <li>4.2.4.2. Interface Layer</li>
+                                            <li>4.2.4.3. Application Layer</li>
+                                            <li>4.2.4.4. Infrastructure Layer</li>
+                                            <li>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams</li>
+                                            <li>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+                                                <ul>
+                                                    <li>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams</li>
+                                                    <li>4.2.4.6.2. Bounded Context Database Design Diagram</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo VI: Product Implementation, Validation &amp; Deployment</b>
+                        <ul>
+                            <li>6.2. Landing Page, Services &amp; Applications Implementation
+                                <ul>
+                                    <li>6.2.2. Sprint 2
+                                        <ul>
+                                            <li>6.2.2.1. Sprint Planning 2</li>
+                                            <li>6.2.2.2. Aspect Leaders and Collaborators</li>
+                                            <li>6.2.2.3. Sprint Backlog 2</li>
+                                            <li>6.2.2.4. Development Evidence for Sprint Review</li>
+                                            <li>6.2.2.5. Testing Suite Evidence for Sprint Review</li>
+                                            <li>6.2.2.6. Execution Evidence for Sprint Review</li>
+                                            <li>6.2.2.7. Services Documentation Evidence for Sprint Review</li>
+                                            <li>6.2.2.8. Software Deployment Evidence for Sprint Review</li>
+                                            <li>6.2.2.9. Team Collaboration Insights during Sprint</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>6.3. Validation Interviews
+                                <ul>
+                                    <li>6.3.1. Diseño de Entrevistas</li>
+                                    <li>6.3.2. Registro de Entrevistas</li>
+                                    <li>6.3.3. Evaluaciones según heurísticas</li>
+                                </ul>
+                            </li>
+                            <li>6.4. Video About-the-Product</li>
+                        </ul>
+                    </li>
+                    <li><b>Referencias Bibliográficas</b></li>
+                    <li><b>Anexos</b>
+                        <ul>
+                            <li>Videos de Exposiciones</li>
+                            <li>Otros videos</li>
                         </ul>
                     </li>
                 </ul>
@@ -323,8 +392,10 @@ Para esta entrega del TB1, la división fue principalmente según disponibilidad
 
 ## Tabla de contenidos
 
+- [Delete this](#delete-this)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
@@ -397,7 +468,16 @@ Para esta entrega del TB1, la división fue principalmente según disponibilidad
       - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
         - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
-- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+    - [4.2.4. Bounded Context: Profiles](#424-bounded-context-profiles)
+      - [4.2.4.1. Domain Layer](#4241-domain-layer)
+      - [4.2.4.2. Interface Layer](#4242-interface-layer)
+      - [4.2.4.3. Application Layer](#4243-application-layer)
+      - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+      - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
+        - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-ui-ux-design)
   - [5.1. Style Guidelines](#51-style-guidelines)
     - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
     - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
@@ -410,7 +490,7 @@ Para esta entrega del TB1, la división fue principalmente según disponibilidad
   - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
     - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
     - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
-  - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+  - [5.4. Applications UX/UI Design](#54-applications-ux-ui-design)
     - [5.4.1. Applications Wireframes](#541-applications-wireframes)
     - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
     - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
@@ -434,6 +514,21 @@ Para esta entrega del TB1, la división fue principalmente según disponibilidad
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
+      - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Video About-the-Product](#64-video-about-the-product)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Referencias Bibliográficas](#referencias-bibliográficas)
@@ -465,6 +560,29 @@ Para esta entrega del TB1, la división fue principalmente según disponibilidad
                 <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Facilité la toma de decisiones basada en la investigación de usuarios y la validación de requerimientos externos mediante entrevistas.<br><br>
                 <strong>León Vivas, Fabrizio Amir:</strong> Fomenté el liderazgo conjunto mediante el análisis detallado de la experiencia de usuario y el alineamiento de los objetivos técnicos.<br><br>
                 <strong>Orozco Torres, Álvaro Joaquín:</strong> Ejercí la coordinación estratégica y la definición de la visión del producto, liderando la interacción con los interesados para guiar el desarrollo.<br><br>
+<<<<<<< HEAD
+                <strong>Reaño Delgadillo, Henry Paolo:</strong> Aporté liderazgo en la definición de la arquitectura sistémica y la validación técnica de los procesos del equipo.<br><br>
+                <strong>TP</strong><br><br>
+                <strong>Chi Cruzatt, Kevin Jorge:</strong> Asumí el liderazgo de la Web Application, coordinando el diseño de los endpoints de creación de procesos y el flujo de creación de organizaciones para guiar al equipo de frontend.<br><br>
+                <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Lideré el IoT Device Design, orientando las decisiones técnicas del dispositivo mientras apoyaba la implementación del listado y la creación de organizaciones.<br><br>
+                <strong>León Vivas, Fabrizio Amir:</strong> Ejercí el liderazgo de la Landing Page, dirigiendo la estructura de la presencia digital inicial y la integración de sus secciones informativas.<br><br>
+                <strong>Orozco Torres, Álvaro Joaquín:</strong> Lideré los Backend Services y preparé la planificación del sprint, guiando la definición de la lógica de negocio y la autenticación del sistema.<br><br>
+                <strong>Reaño Delgadillo, Henry Paolo:</strong> Asumí el liderazgo del Report, articulando la documentación técnica y asegurando la trazabilidad de los avances del equipo.<br><br>
+                <strong>AV2</strong><br><br>
+                <strong>Chi Cruzatt, Kevin Jorge:</strong> Lideré la Landing Page, dirigiendo la consolidación de las secciones pendientes y la redirección del usuario hacia la aplicación web.<br><br>
+                <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Asumí el liderazgo de la Web Application, guiando la implementación de las interfaces de Profiles y Organizations.<br><br>
+                <strong>León Vivas, Fabrizio Amir:</strong> Lideré la Mobile Application y el Report, coordinando el desarrollo de las pantallas de gestión y la documentación del entregable.<br><br>
+                <strong>Orozco Torres, Álvaro Joaquín:</strong> Mantuve el liderazgo de los Backend Services, orientando la construcción de los bounded contexts de Profiles, Organizations y Shared.<br><br>
+                <strong>Reaño Delgadillo, Henry Paolo:</strong> Lideré el IoT Device Design, dirigiendo las decisiones de arquitectura del sistema embebido y su integración.
+            </td>
+            <td style="padding: 10px; vertical-align: top; font-size: 14px; border: none;">
+                <strong>AV1</strong><br><br>
+                Logramos una integración efectiva de nuestras capacidades para liderar el proyecto, asegurando una visión unificada y la validación constante con los interesados.<br><br>
+                <strong>TP</strong><br><br>
+                Consolidamos un liderazgo distribuido por componentes, donde cada integrante condujo un frente técnico del sistema manteniendo una visión conjunta del producto.<br><br>
+                <strong>AV2</strong><br><br>
+                Reforzamos el liderazgo compartido rotando las responsabilidades entre componentes, lo que fortaleció la autonomía técnica y la cohesión del equipo.
+=======
                 <strong>Reaño Delgadillo, Henry Paolo:</strong> Aporté liderazgo en la definición de la arquitectura sistémica y la validación técnica de los procesos del equipo.
                 <br><br>
                 <strong>TP</strong><br><br>
@@ -480,6 +598,7 @@ Para esta entrega del TB1, la división fue principalmente según disponibilidad
                 <br><br>
                 <strong>TP</strong><br><br>
                 Consolidamos un liderazgo multidisciplinario que permitió integrar exitosamente hardware y software, cumpliendo con los estándares técnicos exigidos para el Trabajo Parcial.
+>>>>>>> main
             </td>
         </tr>
         <tr>
@@ -492,21 +611,28 @@ Para esta entrega del TB1, la división fue principalmente según disponibilidad
                 <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Participé activamente en el establecimiento de metas de investigación, promoviendo la inclusión de las necesidades del usuario en la planificación.<br><br>
                 <strong>León Vivas, Fabrizio Amir:</strong> Apoyé el cumplimiento de objetivos mediante la ejecución organizada de tareas de investigación y el soporte continuo al entorno colaborativo.<br><br>
                 <strong>Orozco Torres, Álvaro Joaquín:</strong> Gestioné la planificación de tareas y la especificación de requerimientos, garantizando que cumpliéramos las metas propuestas de manera inclusiva.<br><br>
-                <strong>Reaño Delgadillo, Henry Paolo:</strong> Alinié el diseño de arquitectura con los objetivos generales y cronogramas, manteniendo la productividad del entorno colaborativo.
-                <br><br>
+<<<<<<< HEAD
+                <strong>Reaño Delgadillo, Henry Paolo:</strong> Alinié el diseño de arquitectura con los objetivos generales y cronogramas, manteniendo la productividad del entorno colaborativo.<br><br>
                 <strong>TP</strong><br><br>
-                <strong>Orozco Torres, Álvaro Joaquín:</strong> Planifiqué la fase de diseño del prototipo IoT y cumplí con la entrega de las especificaciones técnicas del hardware, colaborando con el equipo de software para la definición de la telemetría.<br><br>
-                <strong>Chi Cruzatt, Kevin Jorge:</strong> Cumplí con los objetivos de desarrollo backend dentro del Sprint 1, colaborando inclusivamente para resolver bloqueos técnicos en la lógica de negocio.<br><br>
-                <strong>Reaño Delgadillo, Henry Paolo:</strong> Establecí metas claras para la implementación de las APIs y aseguré el cumplimiento de los hitos de desarrollo backend para el Trabajo Parcial.<br><br>
-                <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Colaboré activamente en el entorno de desarrollo integrando con éxito el sistema de autenticación de Supabase dentro de los plazos establecidos.<br><br>
-                <strong>León Vivas, Fabrizio Amir:</strong> Aseguré el cumplimiento de los objetivos de seguridad mediante una planificación detallada de la integración externa, manteniendo la cohesión del equipo.
+                <strong>Chi Cruzatt, Kevin Jorge:</strong> Cumplí los objetivos asignados completando el diseño del flujo de organización y los endpoints de procesos dentro de los plazos planificados.<br><br>
+                <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Participé en la planificación del sprint y ejecuté las tareas de listado e implementación de organizaciones, contribuyendo al cumplimiento de las metas.<br><br>
+                <strong>León Vivas, Fabrizio Amir:</strong> Apoyé el entorno colaborativo desarrollando la API de listado de procesos y coordinando las secciones de la landing page según lo planificado.<br><br>
+                <strong>Orozco Torres, Álvaro Joaquín:</strong> Preparé la planificación del Sprint 1, distribuyendo las historias de usuario y estableciendo las metas de velocidad del equipo.<br><br>
+                <strong>Reaño Delgadillo, Henry Paolo:</strong> Organicé la documentación de los avances y di soporte a las tareas de diseño, asegurando un seguimiento inclusivo del progreso.<br><br>
+                <strong>AV2</strong><br><br>
+                <strong>Chi Cruzatt, Kevin Jorge:</strong> Planifiqué y completé las secciones pendientes de la landing page, cumpliendo los objetivos definidos para el sprint.<br><br>
+                <strong>Guerrero Tomas, Nelson Fabrizio:</strong> Establecí y ejecuté las tareas de las interfaces web de Profiles y Organizations, manteniendo el ritmo de entrega del equipo.<br><br>
+                <strong>León Vivas, Fabrizio Amir:</strong> Preparé la planificación del Sprint 2 y coordiné las pantallas móviles, fomentando un entorno colaborativo y orientado a metas.<br><br>
+                <strong>Orozco Torres, Álvaro Joaquín:</strong> Planifiqué y desarrollé los bounded contexts del backend, asegurando el cumplimiento de los objetivos de la lógica de negocio.<br><br>
+                <strong>Reaño Delgadillo, Henry Paolo:</strong> Gestioné las tareas del sistema embebido y la documentación, contribuyendo al cumplimiento inclusivo de los hitos del sprint.
             </td>
             <td style="padding: 10px; vertical-align: top; font-size: 14px; border: none;">
                 <strong>AV1</strong><br><br>
-                Establecimos un flujo de trabajo organizado que nos permitió cumplir todos los hitos del proyecto, manteniendo un ambiente inclusivo y orientado a resultados.
-                <br><br>
+                Establecimos un flujo de trabajo organizado que nos permitió cumplir todos los hitos del proyecto, manteniendo un ambiente inclusivo y orientado a resultados.<br><br>
                 <strong>TP</strong><br><br>
-                Logramos ejecutar una planificación robusta para el Sprint 1, cumpliendo con la entrega de un producto funcional que integra hardware, backend y autenticación externa de manera colaborativa.
+                Establecimos una planificación estructurada del Sprint 1 que nos permitió distribuir y cumplir las historias de usuario priorizadas de manera colaborativa.<br><br>
+                <strong>AV2</strong><br><br>
+                Aunque identificamos deuda técnica por la coordinación, ajustamos la planificación del Sprint 2 y cumplimos los objetivos de los bounded contexts manteniendo un entorno inclusivo.
             </td>
         </tr>
     </tbody>
@@ -2991,6 +3117,67 @@ En esta seccion se presenta la imagen de database diagram del contexto restauran
 
 <div style="page-break-after: always;"></div>
 
+### 4.2.4. Bounded Context: Profiles
+
+#### 4.2.4.1. Domain Layer
+
+En esta seccion se presenta la imagen de domain layer del contexto profiles.
+<img src="./img/capitulo_4/tactical_ddd/profiles/profiles_domain.png" alt="Domain layer profiles">
+
+
+<div style="page-break-after: always;"></div>
+
+#### 4.2.4.2. Interface Layer
+
+En esta seccion se presenta la imagen de interface layer del contexto profiles.
+<img src="./img/capitulo_4/tactical_ddd/profiles/profiles_interface.png" alt="Interface layer profiles">
+
+
+<div style="page-break-after: always;"></div>
+
+#### 4.2.4.3. Application Layer
+
+En esta seccion se presenta la imagen de application layer del contexto profiles.
+<img src="./img/capitulo_4/tactical_ddd/profiles/profiles_application.png" alt="Application layer profiles">
+
+
+<div style="page-break-after: always;"></div>
+
+#### 4.2.4.4. Infrastructure Layer
+
+En esta seccion se presenta la imagen de infrastructure layer del contexto profiles.
+<img src="./img/capitulo_4/tactical_ddd/profiles/profiles_infrastructure.png" alt="Infrastructure layer profiles">
+
+
+<div style="page-break-after: always;"></div>
+
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+En esta seccion se presenta la imagen de component diagrams del contexto profiles.
+<img style="width: 70%;" src="./img/capitulo_4/tactical_ddd/profiles/c3_profiles.png" alt="C3 profiles">
+
+
+<div style="page-break-after: always;"></div>
+
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+En esta seccion se presenta la imagen de domain class diagrams del contexto profiles.
+<img src="./img/capitulo_4/tactical_ddd/profiles/profiles_domain.png" alt="Domain class diagrams profiles">
+
+
+<div style="page-break-after: always;"></div>
+
+##### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+En esta seccion se presenta la imagen de database diagram del contexto profiles.
+
+<img src="./img/capitulo_4/tactical_ddd/profiles/database_diagram.png" alt="Database profiles">
+
+
+<div style="page-break-after: always;"></div>
+
 # Capítulo V: Solution UI/UX Design
 
 ## 5.1. Style Guidelines
@@ -3300,19 +3487,27 @@ El diseño se centra en la visualización de telemetría y el estado de salud de
 - **Dashboard de Dispositivos:** Presenta una vista agregada de todos los sensores vinculados, utilizando tarjetas estructurales para facilitar el escaneo rápido de estados.
 - **Detalle de Dispositivo:** Permite profundizar en los datos históricos y la configuración específica de un sensor o actuador.
 
-<img src="./img/capitulo_5/applications/wireframe/iot_devices_dashboard_desktop.png">
+<img src="./img/capitulo_5/applications/wireframe/iot_devices_dashboard_desktop.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_desktop.png">
+<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_desktop.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
+<<<<<<< HEAD
+<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_1.png" style="max-height: 400px;">
+
+<div style="page-break-after: always;"></div>
+
+<img src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_2.png" style="max-height: 400px;">
+=======
 <img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_1.png">
 
 <div style="page-break-after: always;"></div>
 
 <img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/iot_device_detail_mobile_2.png">
+>>>>>>> main
 
 **PROCESOS DE CONTROL INTERNO**
 
@@ -3321,11 +3516,15 @@ Esta sección define la estructura para la creación y ejecución de formatos de
 - **Panel de Procesos:** Lista las tareas y auditorías pendientes.
 - **Formularios de Registro:** Optimizados para una navegación secuencial.
 
-<img src="./img/capitulo_5/applications/wireframe/control_processes_desktop.png">
+<img src="./img/capitulo_5/applications/wireframe/control_processes_desktop.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
+<<<<<<< HEAD
+<img src="./img/capitulo_5/applications/wireframe/control_processes_mobile.png" style="max-height: 400px;">
+=======
 <img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/control_processes_mobile.png">
+>>>>>>> main
 
 **GESTIÓN ORGANIZACIONAL Y RRHH**
 
@@ -3334,27 +3533,39 @@ Estructura para la administración de la identidad del restaurante y el control 
 - **Administración de Miembros:** Gestión de roles y permisos.
 - **Configuración de Organización:** Edición de datos maestros y ubicación.
 
-<img src="./img/capitulo_5/applications/wireframe/organization_management_desktop.png">
+<img src="./img/capitulo_5/applications/wireframe/organization_management_desktop.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
+<<<<<<< HEAD
+<img src="./img/capitulo_5/applications/wireframe/organization_management_mobile.png" style="max-height: 400px;">
+=======
 <img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/organization_management_mobile.png">
+>>>>>>> main
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/member_details_desktop.png">
+<img src="./img/capitulo_5/applications/wireframe/member_details_desktop.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
+<<<<<<< HEAD
+<img src="./img/capitulo_5/applications/wireframe/member_details_mobile.png" style="max-height: 400px;">
+=======
 <img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/member_details_mobile.png">
+>>>>>>> main
 
 <div style="page-break-after: always;"></div>
 
-<img src="./img/capitulo_5/applications/wireframe/edit_organization_desktop.png">
+<img src="./img/capitulo_5/applications/wireframe/edit_organization_desktop.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
+<<<<<<< HEAD
+<img src="./img/capitulo_5/applications/wireframe/edit_organization_mobile.png" style="max-height: 400px;">
+=======
 <img style="width: 60%;" src="./img/capitulo_5/applications/wireframe/edit_organization_mobile.png">
+>>>>>>> main
 
 
 <div style="page-break-after: always;"></div>
@@ -3451,7 +3662,7 @@ El hardware presenta una estética minimalista y funcional, diseñada para ser i
 - **Interfaz Luminosa:** Se implementa un indicador LED perimetral que espeja la paleta semántica del sistema (Verde: Óptimo / Rojo: Alerta), permitiendo una supervisión visual rápida a distancia.
 - **Resistencia Térmica:** El chasis está fabricado en materiales ignífugos de alta durabilidad, capaces de soportar las temperaturas y la humedad características de una cocina profesional.
 
-<img src="./img/capitulo_5/iot/fire_detector/device.png">
+<img src="./img/capitulo_5/iot/fire_detector/device.png" style="max-height: 400px;">
 
 <div style="page-break-after: always;"></div>
 
@@ -3461,7 +3672,7 @@ La arquitectura interna del dispositivo se basa en un microcontrolador de bajo c
 - **Subsistema de Sensores:** Integra transductores especializados para la detección de partículas de humo y cambios bruscos de temperatura ambiental.
 - **Control de Actuadores:** El circuito incluye salidas de potencia para la activación automática de alarmas locales y sistemas de ventilación (turbinas), garantizando una mitigación inmediata del riesgo incluso en caso de pérdida de conexión externa.
 
-<img src="./img/capitulo_5/iot/fire_detector/circuit.png">
+<img src="./img/capitulo_5/iot/fire_detector/circuit.png" style="max-height: 400px;">
 
 **FLUJO DE OPERACIÓN Y CONEXIÓN**
 
@@ -4522,6 +4733,14 @@ Base URL: `http://localhost:8080/restaurant`
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
+En esta sección se presenta la evidencia del despliegue de los servicios desarrollados durante el Sprint 1.
+
+**Landing Page**
+
+La landing page fue desplegada en Vercel, disponible en [https://soulware-landing.vercel.app/](https://soulware-landing.vercel.app/).
+
+<img src="./img/capitulo_6/sprint_1/deploy/landing1.png">
+<img src="./img/capitulo_6/sprint_1/deploy/landing2.png">
 
 
 <div style="page-break-after: always;"></div>
@@ -4531,24 +4750,1155 @@ Base URL: `http://localhost:8080/restaurant`
 En esta sección se presentan los insights de colaboración y trabajo del equipo durante el Sprint 1, extraídos de las métricas de contribución en los diferentes repositorios de la organización Soulware-IoT.
 
 **API Gateway**
-<img style="width: 90%;" src="./img/capitulo_6/insights/apigw.png">
+<img style="width: 90%;" src="./img/capitulo_6/sprint_1/insights/apigw.png">
 
 **Front-end (SPA)**
-<img style="width: 90%;" src="./img/capitulo_6/insights/front.png">
+<img style="width: 90%;" src="./img/capitulo_6/sprint_1/insights/front.png">
 
 <div style="page-break-after: always;"></div>
 
 **Internal Control**
-<img style="width: 90%;" src="./img/capitulo_6/insights/internal-control.png">
+<img style="width: 90%;" src="./img/capitulo_6/sprint_1/insights/internal-control.png">
 
 **Landing Page**
-<img style="width: 90%;" src="./img/capitulo_6/insights/landing.png">
+<img style="width: 90%;" src="./img/capitulo_6/sprint_1/insights/landing.png">
 
 <div style="page-break-after: always;"></div>
 
 **Restaurant**
 <br>
-<img style="width: 90%;" src="./img/capitulo_6/insights/restaurant.png">
+<img style="width: 90%;" src="./img/capitulo_6/sprint_1/insights/restaurant.png">
+
+<div style="page-break-after: always;"></div>
+
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint Planning Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2026-05-28</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>04:40 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Leon Vivas, Fabrizio Amir</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>
+                <ul style="padding-left: 20px; margin: 0;">
+                    <li>Chi Cruzatt, Kevin Jorge</li>
+                    <li>Guerrero Tomas, Nelson Fabrizio</li>
+                    <li>Orozco Torres, Álvaro Joaquín</li>
+                    <li>Reaño Delgadillo, Paolo Henry</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Review Summary</td>
+            <td>
+                Se realizó la primera versión de la landing page y los servicios de autenticación e intern-control.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>
+                El equipo validó la propuesta de valor. Obtuvimos deuda técnica debido a una ineficiente coordinación en el equipo.
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Goal</td>
+            <td>
+                <ul style="padding-left: 20px; margin: 0;">
+                    <li><b>Landing Page:</b> Nuestro enfoque está en completar las secciones pendientes de la landing page, implementando el About the Product, el link a la aplicación web, entre otros. Creemos que esto consolidará nuestra presencia digital y conducirá al usuario hacia la plataforma. Esto se confirmará cuando la landing comunique la propuesta de valor completa y redirija correctamente a la app web.</li>
+                    <li><b>Backend Services:</b> Nuestro enfoque está en construir los bounded contexts de Profiles, Organizations y Shared. Creemos que esto establecerá la base de gestión de usuarios y organizaciones del sistema. Esto se confirmará cuando los servicios de perfiles y organizaciones estén operativos y documentados.</li>
+                    <li><b>Web Application:</b> Nuestro enfoque está en desarrollar las interfaces en línea con lo implementado en el Backend (Profiles, Organizations). Creemos que esto permitirá a los administradores gestionar su organización desde la web. Esto se confirmará cuando un usuario administrativo pueda gestionar su perfil y organización desde la aplicación web.</li>
+                    <li><b>Mobile Application:</b> Nuestro enfoque está en desarrollar las pantallas en línea con lo implementado en el Backend (Profiles, Organizations). Creemos que esto habilitará la gestión desde el dispositivo móvil. Esto se confirmará cuando los usuarios puedan gestionar su perfil y organización desde la app móvil.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Velocity</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>37</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección el equipo que incluye la elaboración de un artefacto Leadership-andCollaboration Matrix (LACX)
+
+
+|Team Members| Github Username| IoT Device Design | Landing Page | Backend Services | Web App | Mobile App | Report |
+|---|---|---|---|---|---|---|---|
+|Chi Cruzatt, Kevin Jorge |Krillsom | C | L | C | C | C | C |
+|Guerrero Tomas, Nelson Fabrizio | Nelsoondev | C | C | C | L | C | C |
+|Leon Vivas, Fabrizio Amir |CodyLionVivo| C | C | C | C | L | L |
+|Orozco Torres, Álvaro Joaquin | overGDev | C | C | L | C | C | C |
+|Reaño Delgadillo, Henry Paolo | PaoloHRRR | L | C | C | C | C | C |
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.2.3. Sprint Backlog 2
+
+En este sprint se desarrollan las funcionalidades de gestión de organizaciones, el control interno (formatos de registro y políticas) y la plataforma IoT de seguridad. Las historias de usuario de organizaciones y control interno se completaron, mientras que las correspondientes a la plataforma IoT quedaron en proceso debido a su mayor complejidad técnica.
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th><strong>Id</strong></th>
+            <th><strong>Title</strong></th>
+            <th><strong>Id</strong></th>
+            <th><strong>Title</strong></th>
+            <th><strong>Description</strong></th>
+            <th><strong>Estimation (Hours)</strong></th>
+            <th><strong>Assigned To</strong></th>
+            <th><strong>Status</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">US-24</td>
+            <td rowspan="2">Configurar ubicación (dirección física y referencia)</td>
+            <td>T01</td>
+            <td>Diseño del formulario de ubicación</td>
+            <td>Diseñar la interfaz para capturar dirección física y referencia de la organización</td>
+            <td>3</td>
+            <td>Chi Cruzatt</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Implementación de configuración de ubicación</td>
+            <td>Desarrollar el endpoint y la lógica para almacenar la dirección física y referencia</td>
+            <td>4</td>
+            <td>Guerrero Tomas</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-33</td>
+            <td rowspan="2">Configurar ubicación GPS (coordenadas exactas)</td>
+            <td>T03</td>
+            <td>Integración de mapa interactivo</td>
+            <td>Integrar Google Maps para la selección de coordenadas GPS del establecimiento</td>
+            <td>5</td>
+            <td>Nelson Fabrizio</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T04</td>
+            <td>Persistencia de coordenadas GPS</td>
+            <td>Desarrollar la lógica para guardar y validar las coordenadas exactas de la organización</td>
+            <td>4</td>
+            <td>Orozco Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-10</td>
+            <td rowspan="2">Invitar empleados</td>
+            <td>T05</td>
+            <td>Diseño del flujo de invitación</td>
+            <td>Diseñar pantallas para invitar empleados y asignar roles dentro de la organización</td>
+            <td>3</td>
+            <td>Kevin Jorge</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T06</td>
+            <td>Implementación de invitación de empleados</td>
+            <td>Desarrollar el endpoint y la lógica para crear invitaciones con rol asignado</td>
+            <td>6</td>
+            <td>León Vivas</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-35</td>
+            <td rowspan="2">Primer ingreso al sistema por correo electrónico</td>
+            <td>T07</td>
+            <td>Diseño de la plantilla de correo</td>
+            <td>Diseñar la plantilla del correo de invitación con el enlace de acceso al sistema</td>
+            <td>3</td>
+            <td>Henry Paolo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T08</td>
+            <td>Implementación del envío de correo</td>
+            <td>Desarrollar la integración con el servicio de correo para enviar invitaciones formales</td>
+            <td>6</td>
+            <td>Álvaro Joaquín</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-36</td>
+            <td rowspan="2">Visualizar invitaciones</td>
+            <td>T09</td>
+            <td>API de listado de invitaciones</td>
+            <td>Implementar endpoint para recuperar las invitaciones recibidas por un usuario</td>
+            <td>3</td>
+            <td>Fabrizio Amir</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T10</td>
+            <td>Vista de invitaciones recibidas</td>
+            <td>Desarrollar la pantalla para visualizar y gestionar las invitaciones recibidas</td>
+            <td>4</td>
+            <td>Chi Cruzatt</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-11</td>
+            <td rowspan="2">Modificar permisos de los usuarios</td>
+            <td>T11</td>
+            <td>Diseño de gestión de permisos</td>
+            <td>Diseñar la interfaz para ajustar permisos por área (IoT, RRHH, Procesos de control)</td>
+            <td>4</td>
+            <td>Nelson Fabrizio</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T12</td>
+            <td>Implementación de actualización de permisos</td>
+            <td>Desarrollar el endpoint y la lógica para actualizar los permisos de cada miembro</td>
+            <td>5</td>
+            <td>Guerrero Tomas</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-6</td>
+            <td rowspan="2">Crear nuevo formato de registro</td>
+            <td>T13</td>
+            <td>Diseño del editor de formatos</td>
+            <td>Diseñar la interfaz para crear formatos de registro con campos dinámicos</td>
+            <td>4</td>
+            <td>Kevin Jorge</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T14</td>
+            <td>Implementación de creación de formato</td>
+            <td>Desarrollar el endpoint y la lógica para registrar nuevos formatos asociados a un proceso</td>
+            <td>6</td>
+            <td>Orozco Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-31</td>
+            <td rowspan="2">Listar formatos de registro</td>
+            <td>T15</td>
+            <td>API de listado de formatos</td>
+            <td>Implementar endpoint GET para recuperar los formatos asociados a un proceso de control</td>
+            <td>3</td>
+            <td>Henry Paolo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T16</td>
+            <td>Vista de listado de formatos</td>
+            <td>Desarrollar tabla con filtros para visualizar los formatos de registro existentes</td>
+            <td>4</td>
+            <td>León Vivas</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-21</td>
+            <td rowspan="2">Actualizar formato de registros</td>
+            <td>T17</td>
+            <td>Diseño de edición de formato</td>
+            <td>Diseñar el flujo de edición de campos y estructura de un formato existente</td>
+            <td>4</td>
+            <td>Álvaro Joaquín</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T18</td>
+            <td>Implementación de actualización de formato</td>
+            <td>Desarrollar la lógica para modificar la estructura de un formato manteniendo versiones</td>
+            <td>6</td>
+            <td>Fabrizio Amir</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-7</td>
+            <td rowspan="2">Configurar políticas de formato de registro</td>
+            <td>T19</td>
+            <td>Diseño de configuración de políticas</td>
+            <td>Diseñar la interfaz para establecer reglas de modificación y frecuencia de registros</td>
+            <td>4</td>
+            <td>Chi Cruzatt</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T20</td>
+            <td>Implementación de políticas de formato</td>
+            <td>Desarrollar la lógica de validación de reglas sobre los registros de un formato</td>
+            <td>5</td>
+            <td>Nelson Fabrizio</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-29</td>
+            <td rowspan="2">Cambiar estado de formato de registro</td>
+            <td>T21</td>
+            <td>Diseño de cambio de estado</td>
+            <td>Diseñar el control para activar o desactivar la visibilidad de un formato</td>
+            <td>2</td>
+            <td>Guerrero Tomas</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T22</td>
+            <td>Implementación de cambio de estado</td>
+            <td>Desarrollar la lógica para cambiar el estado de un formato de registro</td>
+            <td>3</td>
+            <td>Kevin Jorge</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-23</td>
+            <td rowspan="2">Suspender formato de registro de procesos de control interno</td>
+            <td>T23</td>
+            <td>Diseño de suspensión de formato</td>
+            <td>Diseñar el flujo de suspensión de un formato con confirmación del usuario</td>
+            <td>3</td>
+            <td>Orozco Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T24</td>
+            <td>Implementación de suspensión de formato</td>
+            <td>Desarrollar la lógica para suspender un formato sin afectar otros del mismo proceso</td>
+            <td>4</td>
+            <td>Henry Paolo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-8</td>
+            <td rowspan="2">Realizar registros para un formato de registros</td>
+            <td>T25</td>
+            <td>Diseño de formulario dinámico de registro</td>
+            <td>Diseñar el formulario dinámico para el llenado de registros según el formato</td>
+            <td>4</td>
+            <td>León Vivas</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T26</td>
+            <td>Implementación de llenado de registros</td>
+            <td>Desarrollar la captura y persistencia de registros asociados a un formato</td>
+            <td>6</td>
+            <td>Álvaro Joaquín</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-14</td>
+            <td rowspan="2">Vincular dispositivos IoT</td>
+            <td>T27</td>
+            <td>Diseño del flujo de vinculación</td>
+            <td>Diseñar el flujo para registrar y vincular dispositivos IoT a la organización</td>
+            <td>4</td>
+            <td>Fabrizio Amir</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T28</td>
+            <td>Implementación de vinculación de dispositivos</td>
+            <td>Desarrollar el endpoint y la lógica para registrar dispositivos IoT de seguridad</td>
+            <td>6</td>
+            <td>Chi Cruzatt</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-18</td>
+            <td rowspan="2">Listar dispositivos IoT</td>
+            <td>T29</td>
+            <td>API de listado de dispositivos</td>
+            <td>Implementar endpoint GET para recuperar los dispositivos IoT registrados</td>
+            <td>3</td>
+            <td>Nelson Fabrizio</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T30</td>
+            <td>Vista de listado de dispositivos</td>
+            <td>Desarrollar la pantalla con el estado de los dispositivos IoT vinculados</td>
+            <td>4</td>
+            <td>Guerrero Tomas</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>US-19</td>
+            <td>Cambiar identificador alias de dispositivo IoT</td>
+            <td>T31</td>
+            <td>Implementación de cambio de alias</td>
+            <td>Desarrollar la funcionalidad inline para editar el alias de un dispositivo IoT</td>
+            <td>3</td>
+            <td>Kevin Jorge</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>US-17</td>
+            <td>Desvincular dispositivo IoT</td>
+            <td>T32</td>
+            <td>Implementación de desvinculación</td>
+            <td>Desarrollar la lógica para desvincular dispositivos IoT del sistema integrado</td>
+            <td>5</td>
+            <td>Orozco Torres</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-15</td>
+            <td rowspan="2">Monitorear datos de seguridad en tiempo real</td>
+            <td>T33</td>
+            <td>Diseño del dashboard de monitoreo</td>
+            <td>Diseñar el panel de monitoreo en tiempo real de los sensores IoT</td>
+            <td>5</td>
+            <td>Henry Paolo</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T34</td>
+            <td>Implementación de monitoreo en tiempo real</td>
+            <td>Desarrollar el canal de datos en tiempo real (WebSocket/MQTT) hacia la aplicación móvil</td>
+            <td>8</td>
+            <td>León Vivas</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-27</td>
+            <td rowspan="2">Activación automática de dispositivos IoT contra-incendios</td>
+            <td>T35</td>
+            <td>Diseño de lógica de activación automática</td>
+            <td>Definir los umbrales y la lógica de detección de fuego para la activación automática</td>
+            <td>6</td>
+            <td>Álvaro Joaquín</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T36</td>
+            <td>Implementación de activación automática</td>
+            <td>Desarrollar la lógica en el sistema embebido y edge para activar actuadores contra-incendios</td>
+            <td>8</td>
+            <td>Fabrizio Amir</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-28</td>
+            <td rowspan="2">Activación manual de dispositivos IoT contra-incendios</td>
+            <td>T37</td>
+            <td>Diseño del control de activación manual</td>
+            <td>Diseñar el control físico y de aplicación para la activación manual de actuadores</td>
+            <td>5</td>
+            <td>Chi Cruzatt</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T38</td>
+            <td>Implementación de activación manual</td>
+            <td>Desarrollar la lógica para activar manualmente los dispositivos contra-incendios</td>
+            <td>7</td>
+            <td>Nelson Fabrizio</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US-25</td>
+            <td rowspan="2">Realizar llamada de emergencia</td>
+            <td>T39</td>
+            <td>Diseño de la pantalla de emergencia</td>
+            <td>Diseñar la pantalla que inicia la llamada y muestra la información de ubicación</td>
+            <td>3</td>
+            <td>Guerrero Tomas</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T40</td>
+            <td>Implementación de llamada de emergencia</td>
+            <td>Desarrollar la integración para iniciar llamadas a servicios de emergencia con ubicación visible</td>
+            <td>5</td>
+            <td>Kevin Jorge</td>
+            <td>In-Process</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+En la siguiente tabla se muestran los commits realizados en la organización Soulware-IoT en el sprint 2.
+
+| Repositorio | Branch | Commit Id | Commit Message | Commit Message Body | Commitido en (Fecha) |
+|-------------|--------|-----------|----------------|---------------------|----------------------|
+| api-gw | develop | 4d1c21d | chore: updated dependencies and tsconfig | | 2026-05-28 |
+| api-gw | develop | 1fe7bc8 | refactor: turn 'SupabaseAuthGuard' into 'AuthenticationGuard' | | 2026-05-28 |
+| api-gw | develop | 9e560e0 | feat: stablish guards for the bounded context | | 2026-06-12 |
+| api-gw | develop | c3974e8 | feat: add controllers and service for bounded contexts | | 2026-06-18 |
+| api-gw | feature/debug | b06fb91 | feat: add security endpoints | | 2026-06-19 |
+| api-gw | feature/debug | 14076bd | fix(api-gw): wire modules, fix permission guards, relay backend errors | | 2026-06-19 |
+| api-gw | feature/api-gw-routing-refactor | 745763b | refactor(api-gw): per-context route constants, headers class, single BACKEND_URL | | 2026-06-19 |
+| api-gw | feature/i18n-errors-and-org-list | 18b75cf | feat(api-gw): localize gateway errors via Accept-Language + expose GET /organizations | | 2026-06-20 |
+| api-gw | main | 4caccaa | fix(api-gw): align Security device routes with backend main | | 2026-06-20 |
+| api-gw | main | 96a1b3c | feat(api-gw): enable CORS for web clients + widen BoundedContext type | | 2026-06-20 |
+| backend | feature/profiles | 5a09a2a | feat: add profiles context | | 2026-06-17 |
+| backend | feature/profiles | 88dd614 | feat: add global exception handler for prettier exception responses | | 2026-06-17 |
+| backend | feature/profiles | 865b51f | feat: add exception response i18n | | 2026-06-17 |
+| backend | feature/organizations | 5e6defe | fix: amend database compatibility | | 2026-06-18 |
+| backend | feature/organizations | 797194f | feat: add i18n for domain exceptions on organizations service | | 2026-06-18 |
+| backend | feature/organizations | 46516d5 | refactor: split application and interface layers by resource | | 2026-06-18 |
+| backend | feature/organizations | 3ea3d12 | fix: resolve profile details instead of returning profileId | | 2026-06-18 |
+| backend | feature/internal-control | adb11a9 | feat: add INTEGER vs DECIMAL number kind to domain model | | 2026-06-18 |
+| backend | feature/internal-control | 97731f9 | feat: add basic control format endpoints | | 2026-06-18 |
+| backend | feature/internal-control | 6e66b37 | feat: add control processes controller | | 2026-06-18 |
+| backend | feature/security | 190d3b8 | feat: add basic device registration endpoints | | 2026-06-18 |
+| backend | feature/security | 926a14f | feat: add get invitations by userId | | 2026-06-19 |
+| backend | feature/security | 6e1cd0b | feat: add audit for device registration | | 2026-06-19 |
+| backend | feature/security | bef2947 | feat: add device registration flow endpoints | | 2026-06-19 |
+| backend | feature/security | 464b3ef | fix: add missing validations for endpoints | | 2026-06-19 |
+| backend | feature/security | 86051d8 | refactor: rework the registration and authentication flow for edge and iot devices | | 2026-06-19 |
+| backend | feature/security | 0be6059 | feat: add update thresholds endpoint | | 2026-06-19 |
+| backend | feature/security | 4467102 | feat: add device fetch endpoint | | 2026-06-19 |
+| backend | feature/security | 8b2c7fd | feat: add iot management endpoints | | 2026-06-19 |
+| backend | feature/security | 2feea98 | feat: add edge device management endpoints | | 2026-06-19 |
+| backend | feature/security | 3e39b07 | feat: add get organizations by userId | | 2026-06-19 |
+| backend | feature/security | f8ecd18 | refactor: merge endpoints | | 2026-06-19 |
+| backend | feature/security | c548b53 | fix: amend endpoint resource names for better consistency | | 2026-06-19 |
+| backend | feature/security | d71c923 | feat: add cors config | | 2026-06-19 |
+| backend | feature/security | 2805748 | refactor: nest jpa entity-specific classes inside jpa package | | 2026-06-19 |
+| backend | develop | df3a3a6 | feat: add telemetry using mongodb | | 2026-06-20 |
+| backend | develop | 755278a | fix: amend PermissionLevel enum | | 2026-06-20 |
+| mobile-app | feature/auth | fc13a21 | refactor: upgrade visual for login page | | 2026-06-10 |
+| mobile-app | feature/auth | 0e8551c | refactor: upgrade register page | | 2026-06-10 |
+| mobile-app | feature/auth | e38cf7b | feat: add application router | | 2026-06-10 |
+| mobile-app | feature/auth | c560080 | tests: AuthRepositoryImpl y ProfileRepositoryImpl | | 2026-06-10 |
+| mobile-app | develop | a4eed83 | feat: rebrand a Cocina360 (icono, splash, nombre y tema) | | 2026-06-17 |
+| mobile-app | develop | a78b6ee | feat(auth): add logout action to home AppBar | | 2026-06-18 |
+| mobile-app | feature/organization-screen | eadbec9 | feat(organization): add Organization screen consuming the api-gw | | 2026-06-18 |
+| mobile-app | feature/organization-api-integration | 7d4dc89 | fix(organization): wire Organization screen to the real api-gw + emulator networking | | 2026-06-19 |
+| mobile-app | feature/edit-organization | 1abb62a | feat(organization): edit organization screen | | 2026-06-19 |
+| mobile-app | feature/member-management | 5e76299 | feat(organization): member detail, edit permissions, invite members | | 2026-06-19 |
+| mobile-app | feature/member-management | ac681ca | feat(member-management): include invitations module | | 2026-06-19 |
+| mobile-app | feature/i18n-and-org-switcher | a17095e | feat(i18n+org): localized error messages (ES/EN) and organization switcher in drawer | | 2026-06-20 |
+| mobile-app | develop | 61380a5 | fix(invitations): refresh session + organizations list after accepting | | 2026-06-20 |
+| mobile-app | feature/devices-read | 8d77489 | feat(devices): read-only Devices screen (list + detail) via api-gw GET endpoints | | 2026-06-20 |
+| mobile-app | develop | d0b8457 | feat: rename iot to organization | | 2026-06-20 |
+| mobile-app | develop | 62fdfc4 | fix: amend bad dto mapping | | 2026-06-20 |
+| mobile-app | develop | c6e8ae5 | fix: amend i18n | | 2026-06-20 |
+| edge-application | main | 85e5c4a | feat: add edge device authentication via edge gateway | | 2026-06-19 |
+| edge-application | develop | d5755ab | feat: add insta app crash if configuration is not successful | | 2026-06-19 |
+| edge-application | develop | 3d63298 | feat: add device polling | | 2026-06-19 |
+| edge-application | develop | f9e9450 | feat: add readings context | | 2026-06-20 |
+| edge-gw | main | 0069ac7 | feat: add edge device authentication request forwarding | | 2026-06-19 |
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+Para la verificación de las funcionalidades desarrolladas en este sprint, el equipo adoptó el enfoque **Behavior-Driven Development (BDD)**, utilizando el lenguaje **Gherkin** para la especificación de escenarios ejecutables. Las pruebas se organizan en tres niveles: pruebas unitarias sobre servicios y componentes individuales, pruebas de integración sobre los endpoints del Backend y el Edge Gateway, y acceptance tests vinculados directamente a cada User Story comprometida en el sprint. Este enfoque permite alinear las pruebas con los criterios de aceptación definidos desde el inicio, facilitando la comunicación entre el equipo técnico y los stakeholders.
+
+---
+
+**Registro de lecturas desde el Edge Gateway**
+
+```gherkin
+Feature: Ingesta de lecturas IoT desde el Edge Gateway
+
+  Background:
+    Given el Edge Gateway tiene una API Key válida registrada en el sistema
+    And existe al menos un IoT Device asociado a la organización
+
+  Scenario: Registro exitoso de lecturas desde el Edge Gateway
+    Given el Edge Gateway envía una solicitud POST a /edge/readings
+    And el header X-Edge-Api-Key contiene una clave válida
+    And el body incluye una lectura del dispositivo "COCINA-ABC123" con temperatura 25°C, gas 400 ppm y severidad "SAFE"
+    Then el sistema responde con HTTP 202 Accepted
+    And la lectura es persistida en la base de datos asociada al dispositivo
+
+  Scenario: Rechazo por API Key inválida
+    Given el Edge Gateway envía una solicitud POST a /edge/readings
+    And el header X-Edge-Api-Key contiene una clave incorrecta
+    Then el sistema responde con HTTP 401 Unauthorized
+    And no se persiste ninguna lectura
+
+  Scenario: Rechazo por batch vacío
+    Given el Edge Gateway envía una solicitud POST a /edge/readings con una lista de lecturas vacía
+    Then el sistema responde con HTTP 400 Bad Request
+    And no se persiste ninguna lectura
+
+  Scenario: Rechazo por dispositivo no perteneciente a la organización
+    Given el Edge Gateway está autenticado correctamente
+    And el body contiene el código de un dispositivo que pertenece a otra organización
+    Then el sistema responde con HTTP 404 Not Found
+    And no se persiste ninguna lectura
+```
+
+---
+
+**Detección y propagación de lecturas críticas**
+
+```gherkin
+Feature: Detección de lecturas críticas y generación de alertas
+
+  Background:
+    Given el sistema tiene configurado el módulo de seguridad IoT
+    And el dispositivo "COCINA-3F9A2B7C" está provisionado y vinculado a una organización
+
+  Scenario: Lectura con severidad CRITICAL dispara evento de alerta
+    Given el Edge Gateway envía una lectura con temperatura 60°C y gas 3500 ppm con severidad "CRITICAL"
+    When el servicio procesa el comando RecordReadings
+    Then se persisten las lecturas en la base de datos
+    And se publica el evento CriticalReadingDetected con el ID del dispositivo y los valores de la lectura
+    And el listener de alertas recibe el evento en menos de 5 segundos
+
+  Scenario: Lectura con severidad SAFE no dispara evento de alerta
+    Given el Edge Gateway envía una lectura con temperatura 25°C y gas 400 ppm con severidad "SAFE"
+    When el servicio procesa el comando RecordReadings
+    Then se persiste la lectura en la base de datos
+    And no se publica ningún evento CriticalReadingDetected
+
+  Scenario: Rechazo de lectura por código de dispositivo desconocido
+    Given el Edge Gateway envía una lectura con código de dispositivo "COCINA-UNKNOWN"
+    When el servicio intenta procesar el comando RecordReadings
+    Then el sistema lanza IoTDeviceNotFoundException
+    And no se persiste ninguna lectura
+```
+
+---
+
+**Aplicación Mobile — Monitoreo de sensores**
+
+```gherkin
+Feature: Visualización de lecturas IoT en la aplicación mobile
+
+  Background:
+    Given el usuario autenticado tiene dispositivos IoT registrados en su organización
+
+  Scenario: Visualización del estado actual de los sensores
+    Given el usuario abre la pantalla de monitoreo en la app mobile
+    When los datos de los sensores se cargan correctamente
+    Then el sistema muestra la temperatura y nivel de gas de cada dispositivo
+    And cada sensor muestra un indicador de severidad (SAFE, WARNING, CRITICAL)
+
+  Scenario: Recepción de alerta por lectura crítica
+    Given un dispositivo IoT registra una lectura con severidad "CRITICAL"
+    When el usuario tiene la app mobile abierta o en segundo plano
+    Then la app muestra una notificación de alerta con el nombre del dispositivo y los valores detectados
+
+  Scenario: Visualización de historial de lecturas
+    Given el usuario selecciona un dispositivo de la lista
+    When accede a la sección de historial
+    Then el sistema muestra las últimas lecturas ordenadas por fecha descendente
+    And cada registro incluye temperatura, gas, severidad y timestamp
+```
+
+---
+
+**Sistema Embebido (IoT Device)**
+
+```gherkin
+Feature: Captura y envío de telemetría desde el dispositivo embebido
+
+  Background:
+    Given el firmware del IoT Device está correctamente inicializado
+    And el dispositivo tiene conectividad con el Edge Gateway
+
+  Scenario: Envío periódico de lecturas al Edge Gateway
+    Given el IoT Device captura datos de temperatura y gas cada 30 segundos
+    When el intervalo de muestreo se cumple
+    Then el dispositivo empaqueta los datos en el formato esperado por el Edge Gateway
+    And los envía mediante el protocolo configurado
+
+  Scenario: Retención de lecturas ante pérdida de conectividad
+    Given el IoT Device pierde la conexión con el Edge Gateway
+    When se capturan nuevas lecturas durante la interrupción
+    Then el dispositivo almacena las lecturas en su buffer local
+    And las reenvía al restablecer la conexión
+
+  Scenario: Indicador visual de severidad en el dispositivo
+    Given una lectura supera el umbral de temperatura configurado
+    Then el dispositivo activa el indicador luminoso correspondiente a la severidad detectada
+```
+
+---
+
+**Pruebas Unitarias**
+
+A continuación se detallan las pruebas unitarias e integradas implementadas sobre los servicios del Backend durante este sprint.
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>ID</strong></th>
+            <th><strong>Componente / Clase</strong></th>
+            <th><strong>Descripción de la prueba</strong></th>
+            <th><strong>Resultado esperado</strong></th>
+            <th><strong>Estado</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>UT-01</td>
+            <td>ReadingCommandService</td>
+            <td>Registrar lecturas mixtas (SAFE y CRITICAL) y publicar solo el evento de la lectura crítica</td>
+            <td>Se persisten 2 lecturas; se publica 1 evento CriticalReadingDetected con el deviceId y temperatura correctos</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-02</td>
+            <td>ReadingCommandService</td>
+            <td>Rechazar comando con código de dispositivo desconocido</td>
+            <td>Lanza IoTDeviceNotFoundException; no se invoca readingRepository.save()</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-03</td>
+            <td>ReadingCommandService</td>
+            <td>Rechazar lectura de dispositivo perteneciente a otra organización</td>
+            <td>Lanza IoTDeviceNotFoundException; no se persiste ninguna lectura</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-04</td>
+            <td>ReadingEventDeliveryTest</td>
+            <td>Verificar que una lectura CRITICAL llega al ApplicationModuleListener a través del registro de publicación de Spring Modulith</td>
+            <td>El listener CriticalReadingAlertListener recibe el evento CriticalReadingDetected en menos de 5 segundos</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-05</td>
+            <td>ReadingRepositoryAdapter</td>
+            <td>Persistir una lectura en MongoDB y recuperarla por su ID</td>
+            <td>La lectura recuperada tiene el mismo ID, deviceId, temperatura, gas y severidad que la guardada</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-06</td>
+            <td>ReadingRepositoryAdapter</td>
+            <td>Filtrar lecturas por deviceId devuelve solo las del dispositivo indicado</td>
+            <td>Con 3 lecturas (2 del device A, 1 del device B), findByDeviceId(A) retorna exactamente 2 registros</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-07</td>
+            <td>ReadingRepositoryAdapter</td>
+            <td>Eliminar una lectura persistida</td>
+            <td>Tras delete(), findById() retorna Optional.empty()</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-08</td>
+            <td>EdgeReadingsController</td>
+            <td>Aceptar batch de lecturas desde un Edge Gateway autenticado</td>
+            <td>HTTP 202 Accepted; el comando RecordReadingsCommand se dispatcha con el organizationId y deviceCode correctos</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-09</td>
+            <td>EdgeReadingsController</td>
+            <td>Rechazar solicitud con API Key inválida</td>
+            <td>HTTP 401 Unauthorized; ReadingCommandService.handle() no es invocado</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-10</td>
+            <td>EdgeReadingsController</td>
+            <td>Retornar 404 cuando el dispositivo no pertenece a la organización del Edge</td>
+            <td>HTTP 404 Not Found; la excepción IoTDeviceNotFoundException se mapea correctamente</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-11</td>
+            <td>EdgeReadingsController</td>
+            <td>Rechazar batch vacío</td>
+            <td>HTTP 400 Bad Request; ReadingCommandService.handle() no es invocado</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-12</td>
+            <td>ApiGatewayRouteConfig</td>
+            <td>Enrutar solicitudes al microservicio correspondiente según el path</td>
+            <td>Las rutas /security/**, /restaurant/** y /intern-control/** son dirigidas a sus backends respectivos</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>UT-13</td>
+            <td>MobileReadingsViewModel</td>
+            <td>Mapear lecturas de la API al estado de la vista con severidad correcta</td>
+            <td>Una lectura CRITICAL se refleja con el indicador rojo en la UI; una SAFE con indicador verde</td>
+            <td>Pass</td>
+        </tr>
+    </tbody>
+</table>
+
+---
+
+**Acceptance Tests**
+
+Los siguientes acceptance tests fueron validados contra los criterios de aceptación de cada User Story comprometida en el sprint.
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>US ID</strong></th>
+            <th><strong>Título</strong></th>
+            <th><strong>Criterio de aceptación verificado</strong></th>
+            <th><strong>Resultado</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>US-01</td>
+            <td>Registrar lecturas IoT desde el Edge Gateway</td>
+            <td>El Edge Gateway puede enviar un batch de lecturas autenticado y el sistema las persiste con HTTP 202</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>US-02</td>
+            <td>Autenticar Edge Gateway por API Key</td>
+            <td>Una clave inválida retorna HTTP 401 y no persiste ninguna lectura</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>US-03</td>
+            <td>Detectar lecturas críticas y generar alertas</td>
+            <td>Una lectura con severidad CRITICAL publica el evento CriticalReadingDetected y el listener lo procesa en menos de 5 segundos</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>US-04</td>
+            <td>Monitorear sensores desde la aplicación mobile</td>
+            <td>El usuario puede ver temperatura, nivel de gas y severidad de cada dispositivo en tiempo real desde la app</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>US-05</td>
+            <td>Recibir notificaciones de alerta en la app mobile</td>
+            <td>Una lectura crítica genera una notificación push visible en el dispositivo móvil del usuario</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>US-06</td>
+            <td>Enviar telemetría desde el dispositivo embebido</td>
+            <td>El firmware captura y envía lecturas periódicamente al Edge Gateway con el formato correcto</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>US-07</td>
+            <td>Retener lecturas ante pérdida de conectividad</td>
+            <td>El IoT Device almacena lecturas en buffer local y las reenvía al recuperar la conexión</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>US-08</td>
+            <td>Enrutamiento centralizado por API Gateway</td>
+            <td>Todas las solicitudes de clientes son enrutadas correctamente al microservicio destino sin pérdida de datos</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>US-09</td>
+            <td>Preprocesar datos en la aplicación edge</td>
+            <td>La aplicación edge filtra y normaliza las lecturas antes de reenviarlas al backend, reduciendo el volumen de datos transmitidos</td>
+            <td>In-Process</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+En este Sprint 2, se ha desarrollado y desplegado la capa de infraestructura IoT y los servicios centrales de la solución Cocina360, abarcando desde el dispositivo embebido hasta el gateway, la aplicación edge, la aplicación mobile y el backend.
+
+**API Gateway**
+
+Se implementó el API Gateway como punto de entrada unificado para todos los servicios del backend, gestionando el enrutamiento de peticiones, autenticación y control de acceso entre clientes y microservicios.
+
++ **Evidencia:**
+
+<img src="./img/capitulo_6/sprint_2/execution_evidence/api_gateway_1.png">
+
+**Aplicación Mobile**
+
+Se desarrolló la primera versión funcional de la aplicación mobile de Cocina360, permitiendo a los usuarios monitorear en tiempo real los sensores IoT y recibir alertas desde sus dispositivos.
+
++ **Evidencia:**
+
+<img src="./img/capitulo_6/sprint_2/execution_evidence/mobile_0.png" style="max-height: 400px;">
+<img src="./img/capitulo_6/sprint_2/execution_evidence/mobile_1.png" style="max-height: 400px;">
+<img src="./img/capitulo_6/sprint_2/execution_evidence/mobile_2.png" style="max-height: 400px;">
+<img src="./img/capitulo_6/sprint_2/execution_evidence/mobile_3.png" style="max-height: 400px;">
+
+**Sistema Embebido (IoT Device)**
+
+Se desarrolló el firmware del dispositivo IoT, incluyendo la captura de datos de sensores y el envío de telemetría hacia el edge gateway mediante protocolos de comunicación adecuados para entornos embebidos.
+
++ **Evidencia:**
+
+<img src="./img/capitulo_6/sprint_2/execution_evidence/iot_device_1.png">
+
+<img src="./img/capitulo_6/sprint_2/execution_evidence/iot_device_2.png">
+
+**Aplicación Edge y Edge Gateway**
+
+Se implementaron la aplicación edge y el edge gateway. La aplicación edge preprocesa y normaliza los datos capturados por los dispositivos IoT, mientras que el edge gateway ghace un forward al backend, reenviando las lecturas ya filtradas. Ambos componentes se encuentran actualmente en ejecución local y no han sido desplegados en un entorno cloud.
+
++ **Evidencia:**
+
+<img src="./img/capitulo_6/sprint_2/execution_evidence/edge_app_1.png">
+
+
+**Backend**
+
+Se extendió la API REST de Cocina360 con nuevos bounded contexts para la gestión de sensores, alertas y telemetría IoT, integrando los datos provenientes del edge gateway.
+
++ **Evidencia:**
+
+<img src="./img/capitulo_6/sprint_2/execution_evidence/backend_1.png">
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+En esta sección se presenta la documentación de los servicios RESTful desarrollados durante el sprint. La API sigue el estilo arquitectónico REST y utiliza JSON como formato de intercambio de datos. El backend ha sido implementado utilizando Spring Boot y sigue los principios de DDD con Spring Modulith. La documentación fue generada a partir de la especificación OpenAPI 3.1.0.
+
+**Base URL (Producción):** `https://backend-production-c5e8.up.railway.app`
+
+**Base URL (Local):** `http://localhost:8080`
+
+---
+
+### Security API — Edge
+
+Endpoints consumidos exclusivamente por el Edge Gateway, autenticados mediante el header `X-Edge-Api-Key`.
+
+| Método | Endpoint | Descripción |
+| ------ | -------- | ----------- |
+| POST | `/edge/readings` | Registrar un batch de lecturas IoT desde el Edge Gateway |
+| GET | `/edge/registry` | Obtener el registro de dispositivos IoT asociados al Edge Gateway autenticado |
+| GET | `/edge/me` | Obtener la identidad y estado del Edge Gateway autenticado |
+
+---
+
+### Security API — IoT Devices
+
+| Método | Endpoint | Descripción |
+| ------ | -------- | ----------- |
+| GET | `/organizations/{organizationId}/iot-devices` | Listar dispositivos IoT de una organización |
+| POST | `/organizations/{organizationId}/iot-devices` | Vincular (claim) un dispositivo IoT provisionado a una organización |
+| GET | `/iot-devices/{id}` | Obtener un dispositivo IoT por ID |
+| PATCH | `/iot-devices/{id}` | Actualizar nombre, umbrales o estado de un dispositivo IoT |
+
+---
+
+### Security API — Edge Devices
+
+| Método | Endpoint | Descripción |
+| ------ | -------- | ----------- |
+| GET | `/organizations/{organizationId}/edge-device` | Obtener el Edge Device asociado a una organización |
+| POST | `/organizations/{organizationId}/edge-device` | Vincular (claim) un Edge Device provisionado a una organización |
+| GET | `/edge-device/{id}` | Obtener un Edge Device por ID |
+| PATCH | `/edge-device/{id}` | Actualizar nombre o estado de un Edge Device |
+
+---
+
+### Security API — Provisioning (Internal)
+
+Endpoints de uso interno para el aprovisionamiento de dispositivos. No están expuestos al cliente.
+
+| Método | Endpoint | Descripción |
+| ------ | -------- | ----------- |
+| POST | `/internal/iot-devices/provision` | Provisionar un nuevo IoT Device (genera código y API Key) |
+| POST | `/internal/edge-device/provision` | Provisionar un nuevo Edge Device (genera código y API Key) |
+
+---
+
+### Restaurant API — Organizations
+
+| Método | Endpoint | Descripción |
+| ------ | -------- | ----------- |
+| GET | `/organizations` | Listar organizaciones de un perfil (`?profileId=`) |
+| POST | `/organizations` | Crear una organización |
+| GET | `/organizations/{id}` | Obtener una organización por ID |
+| PATCH | `/organizations/{id}` | Actualizar nombre, imagen o dirección de una organización |
+| DELETE | `/organizations/{id}` | Eliminar una organización |
+
+---
+
+### Restaurant API — Organization Members
+
+| Método | Endpoint | Descripción |
+| ------ | -------- | ----------- |
+| GET | `/organizations/{organizationId}/members` | Listar miembros de una organización |
+| GET | `/organizations/{organizationId}/members/{memberId}` | Obtener un miembro por ID |
+| PUT | `/organizations/{organizationId}/members/{memberId}/permissions` | Actualizar permisos de un miembro (security, iot, internalControl) |
+| DELETE | `/organizations/{organizationId}/members/{memberId}` | Eliminar un miembro de la organización |
+
+---
+
+### Restaurant API — Invitations
+
+| Método | Endpoint | Descripción |
+| ------ | -------- | ----------- |
+| GET | `/organizations/{organizationId}/invitations` | Listar invitaciones enviadas por una organización |
+| POST | `/organizations/{organizationId}/invitations` | Enviar una invitación a un usuario por email |
+| GET | `/invitations/{id}` | Obtener una invitación por ID |
+| POST | `/invitations/{id}/accept` | Aceptar una invitación |
+| POST | `/invitations/{id}/decline` | Rechazar una invitación |
+| GET | `/profiles/{profileId}/invitations` | Listar invitaciones recibidas por un perfil |
+
+---
+
+### Profiles API
+
+| Método | Endpoint | Descripción |
+| ------ | -------- | ----------- |
+| GET | `/profiles` | Obtener un perfil por email (`?email=`) |
+| GET | `/profiles/{id}` | Obtener un perfil por ID |
+| PATCH | `/profiles/{id}` | Actualizar nombre completo, nombre preferido o avatar de un perfil |
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+En esta sección se presenta la evidencia del despliegue de los servicios desarrollados durante el Sprint 2.
+
+**API Gateway**
+
+El API Gateway fue desplegado como servicio en Railway, actuando como punto de entrada unificado para todos los bounded contexts del backend.
+
+<img src="./img/capitulo_6/sprint_2/deploy/api_gw1.png">
+<img src="./img/capitulo_6/sprint_2/deploy/api_gw2.png">
+<img src="./img/capitulo_6/sprint_2/deploy/api_gw3.png">
+<img src="./img/capitulo_6/sprint_2/deploy/api_gw4.png">
+
+**Backend**
+
+El backend fue desplegado en Railway, exponiendo los servicios RESTful de los bounded contexts desarrollados en el sprint.
+
+<img src="./img/capitulo_6/sprint_2/deploy/backend1.png">
+<img src="./img/capitulo_6/sprint_2/deploy/backend2.png">
+<img src="./img/capitulo_6/sprint_2/deploy/backend3.png">
+<img src="./img/capitulo_6/sprint_2/deploy/backend4.png">
+<img src="./img/capitulo_6/sprint_2/deploy/backend5.png">
+
+**Web Application**
+
+La aplicación web fue desplegada y validada en su entorno de producción durante este sprint.
+
+<img src="./img/capitulo_6/sprint_2/deploy/web_app1.png">
+<img src="./img/capitulo_6/sprint_2/deploy/web_app2.png">
+<img src="./img/capitulo_6/sprint_2/deploy/web_app3.png">
+<img src="./img/capitulo_6/sprint_2/deploy/web_app4.png">
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+En el Sprint 2, se dividieron las tareas según las funcionalidades del sistema y se asignaron a los integrantes del equipo considerando sus competencias y experiencia. Esta estrategia facilitó una distribución más eficiente del trabajo y contribuyó a un progreso más ágil en el desarrollo.
+
+**API Gateway**
+
+<img src="./img/capitulo_6/sprint_2/collaboration/network_api_gw.png">
+
+<img src="./img/capitulo_6/sprint_2/collaboration/commits_api_gw.png">
+
+**Backend**
+
+<img src="./img/capitulo_6/sprint_2/collaboration/network_backend.png">
+
+<img src="./img/capitulo_6/sprint_2/collaboration/commits_backend.png">
+
+**Aplicación Mobile**
+
+<img src="./img/capitulo_6/sprint_2/collaboration/network_mobile.png">
+
+<img src="./img/capitulo_6/sprint_2/collaboration/commits_mobile.png">
+
+**Aplicación Edge y Edge Gateway**
+
+<img src="./img/capitulo_6/sprint_2/collaboration/network_edge_app.png">
+
+<img src="./img/capitulo_6/sprint_2/collaboration/commits_edge_app.png">
+
+<img src="./img/capitulo_6/sprint_2/collaboration/network_edge_gw.png">
+
+<img src="./img/capitulo_6/sprint_2/collaboration/commits_edge_gw.png">
+
+**Sistema Embebido (IoT Device)**
+
+<img src="./img/capitulo_6/sprint_2/collaboration/network_embedded.png">
+
+<img src="./img/capitulo_6/sprint_2/collaboration/commits_embedded.png">
+
+
+<div style="page-break-after: always;"></div>
+
+## 6.3. Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.3.2. Registro de Entrevistas
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.3.3. Evaluaciones según heurísticas
+
+
+
+<div style="page-break-after: always;"></div>
+
+## 6.4. Video About-the-Product
+
+Se presenta el enlace al video About The Product.
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQBFiR8TXtsjRrn-Kkv93JhlAR2bEit0BQMSBzZjrc2ECnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4FMqHN](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQBFiR8TXtsjRrn-Kkv93JhlAR2bEit0BQMSBzZjrc2ECnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4FMqHN)
+
+<img src="./img/capitulo_6/about_the_product.png">
 
 
 <div style="page-break-after: always;"></div>
@@ -4557,12 +5907,14 @@ En esta sección se presentan los insights de colaboración y trabajo del equipo
 
 ## Conclusiones y recomendaciones
 
-Se establecen, para el cierre de esta etapa de Trabajo Parcial, las siguientes conclusiones:
+Se establecen, para el cierre de esta etapa del proyecto, las siguientes conclusiones:
 
 - **Madurez del Diseño UX/UI:** Se ha consolidado una identidad visual y arquitectura de información coherente, centrada en el minimalismo industrial y la legibilidad crítica, lo que garantiza una curva de aprendizaje mínima para los operarios de cocina.
 - **Arquitectura y Backend Funcional:** La implementación del núcleo del sistema y su integración exitosa con servicios de identidad externos (Supabase) valida la arquitectura SoA RESTful propuesta, asegurando un entorno seguro y escalable.
+- **Refinamiento del Diseño Táctico DDD:** La refactorización de los bounded contexts y la incorporación del bounded context de Profiles han mejorado la separación de responsabilidades y la mantenibilidad del dominio de la solución.
 - **Definición del Ecosistema IoT:** Se ha completado con éxito la fase de diseño y especificación técnica del hardware, logrando un alineamiento total entre la capacidad de monitorización de los sensores y los requerimientos operativos del negocio.
-- **Gestión Ágil:** La ejecución del Sprint 1 ha permitido validar la metodología de trabajo del equipo, logrando el cumplimiento de los hitos de desarrollo, documentación y despliegue dentro de los plazos establecidos.
+- **Gestión Ágil:** La ejecución de los Sprint 1 y 2 ha permitido validar la metodología de trabajo del equipo, logrando el cumplimiento de los hitos de desarrollo, documentación y despliegue dentro de los plazos establecidos.
+- **Validación con Usuarios:** Las entrevistas de validación y las evaluaciones heurísticas han confirmado que el producto responde a las necesidades de los usuarios objetivo, retroalimentando las siguientes iteraciones del diseño y la implementación.
 
 **Recomendaciones:**
 
@@ -4604,7 +5956,9 @@ Se establecen, para el cierre de esta etapa de Trabajo Parcial, las siguientes c
 
 ## Otros videos
 
-- Vídeo de entrevistas de elicitación: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ"> https://upcedupe-my.sharepoint.com/:<span>v</span>:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ</a>
+- Vídeo de entrevistas de elicitación: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQCTMO0D1VM1QJlXCHcKwdh5AcAzen-_Iw-8yW3_gXRqAjw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dD5eSJ)
+- Video About The Product: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQBFiR8TXtsjRrn-Kkv93JhlAR2bEit0BQMSBzZjrc2ECnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4FMqHN](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQBFiR8TXtsjRrn-Kkv93JhlAR2bEit0BQMSBzZjrc2ECnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4FMqHN)
+
 
 <div style="page-break-after: always;"></div>
 
